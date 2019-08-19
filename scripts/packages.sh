@@ -6,7 +6,13 @@
 
 
 # Install XDOTool
-apt install xdotool
+xdotool --version
+if [ $? != 0 ]
+then
+  apt install xdotool
+else
+  echo 'xdotool is already installed'
+fi
 
 
 # Install Google Chrome
@@ -24,7 +30,7 @@ fi
 
 
 # Install Sublime Text
-sublime-text --version
+subl --version
 if [ $? != 0 ]
 then
   echo 'Installing Sublime Text... see https://www.sublimetext.com/docs/3/linux_repositories.html'
@@ -35,6 +41,15 @@ then
   apt install sublime-text
 else
   echo 'Sublime Text is already installed.'
+fi
+
+
+# Install package manager for Sublime Text
+if [ ! -e ~/.config/sublime-text-3/Installed\ Packages/Package\ Control.sublime-package ]
+then
+  wget -P ~/.config/sublime-text-3/Installed\ Packages/ https://packagecontrol.io/Package%20Control.sublime-package
+else
+  echo 'Sublime Text package manager already installed'
 fi
 
 
