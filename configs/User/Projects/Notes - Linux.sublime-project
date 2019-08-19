@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/michael/Dropbox/Notes"
+		}
+	],
+	"settings":
+	{
+		"background": "#0C0C0C",
+		"ignored_packages":
+		[
+			"MarkdownEditing"
+		]
+	}
+}

@@ -1,0 +1,7 @@
+// These settings override both User and Default settings for the Python3 syntax
+{
+  // Layout
+  "word_wrap": true,
+  "wrap_width": 0,
+  "rulers": [],
+}

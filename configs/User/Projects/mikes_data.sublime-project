@@ -1,0 +1,9 @@
+{
+	"folders":
+	[
+		{
+			"path": "E:\\mikes_data",
+			"folder_exclude_patterns": [".dropbox.cache"]
+		}
+	]
+}

@@ -1,0 +1,1457 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"car_bonus_candida",
+				"car_bonus_candidate_icon"
+			],
+			[
+				"car_bonus_con",
+				"car_bonus_contributor_icon"
+			],
+			[
+				"EM",
+				"EMD_GQV"
+			],
+			[
+				"ch",
+				"children_data"
+			],
+			[
+				"totals",
+				"volume_totals_url2"
+			],
+			[
+				"pst_h",
+				"pst_headers"
+			],
+			[
+				"volume",
+				"volume_totals_url"
+			],
+			[
+				"vol",
+				"volume_totals_url"
+			],
+			[
+				"qua",
+				"qualifying_compressed_volume"
+			],
+			[
+				"view",
+				"view_state_generator"
+			],
+			[
+				"__",
+				"__VIEWSTATEGENERATOR"
+			],
+			[
+				"sub",
+				"subscriptions"
+			],
+			[
+				"children",
+				"children_compacted"
+			],
+			[
+				"customer",
+				"customer_plan_retrieval_string"
+			],
+			[
+				"actual",
+				"actual_secondliner_qvs"
+			],
+			[
+				"exp",
+				"expected_secondliner_qvs"
+			],
+			[
+				"expect",
+				"expected_secondliner_names"
+			],
+			[
+				"expected_",
+				"expected_secondliner_enrollers"
+			],
+			[
+				"expected_s",
+				"expected_secondliner_sponsors"
+			],
+			[
+				"actu",
+				"actual_secondliner_ranks"
+			],
+			[
+				"actual_sec",
+				"actual_secondliner_qvs"
+			],
+			[
+				"se",
+				"secondliners"
+			],
+			[
+				"expe",
+				"expected_top_six_account_data"
+			],
+			[
+				"pc",
+				"pcust_not_on_autoship"
+			],
+			[
+				"enroll",
+				"enroller_acct"
+			],
+			[
+				"user",
+				"user_payment_statistics"
+			],
+			[
+				"stripe",
+				"stripe_users"
+			],
+			[
+				"deli",
+				"delinquent_users"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"emp",
+				"empBox"
+			],
+			[
+				"cop",
+				"copyRightFooter"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/michael/software_projects/landing_pages/monat/landing.html",
+			"settings":
+			{
+				"buffer_size": 24160,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "view",
+		"selected_items":
+		[
+			[
+				"view",
+				"View In Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"add fol",
+				"Project: Add Folder"
+			],
+			[
+				"v",
+				"View In Browser"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"reveal",
+				"File: Reveal"
+			],
+			[
+				"add fold",
+				"Project: Add Folder"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
+			[
+				"project save",
+				"Project: Save As"
+			],
+			[
+				"close ",
+				"Project: Close"
+			],
+			[
+				"locate",
+				"File: Locate"
+			],
+			[
+				"loca",
+				"File: Locate"
+			],
+			[
+				"project",
+				"Project: Close"
+			],
+			[
+				"syntax ru",
+				"Set Syntax: Ruby"
+			],
+			[
+				"erb sy",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"edit proj",
+				"Project Manager: Edit Project"
+			],
+			[
+				"rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"erb",
+				"Set Syntax: ERB"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"syntax er",
+				"Set Syntax: ERB"
+			],
+			[
+				"close",
+				"Project: Close"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ad",
+				"Project: Add Folder"
+			],
+			[
+				"add ",
+				"Project: Add Folder"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"markdwo",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"open re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"synt",
+				"Set Syntax: Ruby"
+			],
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"preview ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"view in",
+				"View In Browser"
+			],
+			[
+				"package setting",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"syn mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"view ",
+				"View In Browser"
+			],
+			[
+				"markdow",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"brow",
+				"View In Browser"
+			],
+			[
+				"vew ",
+				"View In Browser"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"codeintel",
+				"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+			],
+			[
+				"syntax mar",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"markdown settings",
+				"Preferences: MarkdownEditing Settings – User"
+			],
+			[
+				"syntax markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown ",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"install packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: packages",
+				"Package Control: List Packages"
+			],
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"dired",
+				"dired: Goto Anywhere"
+			],
+			[
+				"previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"syntax rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"syntax javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"dire",
+				"dired: Goto Anywhere"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package control l",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"regreplace",
+				"Preferences: Reg Replace Commands – User"
+			],
+			[
+				"setting",
+				"Preferences: Reg Replace Settings – Default"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax",
+				"Set Syntax: ASP"
+			],
+			[
+				"syntax: vb",
+				"Set Syntax: Objective-C"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+			"view.settings().erase(\"color_scheme\")",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"Install"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/michael/software_projects/landing_pages",
+		"/home/michael/software_projects/landing_pages/javascripts",
+		"/home/michael/software_projects/landing_pages/ygy",
+		"/home/michael/Dropbox/Public"
+	],
+	"file_history":
+	[
+		"/home/michael/software_projects/landing_pages/ygy/arthritis.html",
+		"/home/michael/software_projects/landing_pages/ygy/arthritis_obfus.html",
+		"/home/michael/software_projects/landing_pages/javascripts/ygy_rotate.js",
+		"/home/michael/Dropbox/Public/stylesheets/arth.css",
+		"/home/michael/software_projects/landing_pages/ygy/arthritis-weeb.html",
+		"/home/michael/software_projects/landing_pages/ygy/arthritis_mia.html",
+		"/home/michael/software_projects/landing_pages/monat/landing.html",
+		"/home/michael/software_projects/landing_pages/monat/buy.html",
+		"/home/michael/Dropbox/Public/stylesheets/landing.css",
+		"/home/michael/Dropbox/Public/javascripts/tru90footer.js",
+		"/home/michael/software_projects/landing_pages/ygy/snippets.html",
+		"/home/michael/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/michael/.config/sublime-text-3/Packages/User/View In Browser.sublime-settings",
+		"/home/michael/software_projects/reginald/.git/config",
+		"/home/michael/software_projects/downlinetoolbox/Gemfile",
+		"/home/michael/software_projects/downlinetoolbox/.rbenv-vars",
+		"/home/michael/software_projects/downlinetoolbox/app/jobs/subscribe_user_to_list_job.rb",
+		"/home/michael/software_projects/downlinetoolbox/Gemfile.lock",
+		"/home/michael/software_projects/downlinetoolbox/app/admin/dashboard.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/ygy_positions/progression_report.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/controllers/ygy_positions_controller.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/ygy_positions/semd_report.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/spec/controllers/billing_controller_spec.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/models/ygy_position.rb",
+		"/home/michael/software_projects/downlinetoolbox/.rspec",
+		"/home/michael/software_projects/downlinetoolbox/app/views/application/_menu.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/assets/stylesheets/application.scss",
+		"/home/michael/software_projects/downlinetoolbox/app/views/application/_navigation.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/layouts/application.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/assets/javascripts/application.js",
+		"/home/michael/software_projects/downlinetoolbox/vendor/assets/components/metisMenu/dist/metisMenu.js",
+		"/home/michael/software_projects/downlinetoolbox/config/application.rb",
+		"/home/michael/software_projects/downlinetoolbox/config/environments/production.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/helpers/flash_helper.rb",
+		"/home/michael/software_projects/downlinetoolbox/config/deploy.rb",
+		"/home/michael/software_projects/downlinetoolbox/config/database.yml",
+		"/home/michael/software_projects/downlinetoolbox/config/deploy/production.rb",
+		"/home/michael/software_projects/downlinetoolbox/config/secrets.yml",
+		"/home/michael/software_projects/downlinetoolbox/Capfile",
+		"/home/michael/software_projects/downlinetoolbox/config/routes.rb",
+		"/home/michael/.ssh/config",
+		"/home/michael/software_projects/downlinetoolbox/.gitignore",
+		"/home/michael/software_projects/downlinetoolbox/.bowerrc",
+		"/home/michael/software_projects/downlinetoolbox/bower.json",
+		"/home/michael/software_projects/downlinetoolbox/config/initializers/assets.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/application/_header.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/config/locales/en.yml",
+		"/home/michael/software_projects/downlinetoolbox/app/controllers/home_controller.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/assets/stylesheets/variables.scss",
+		"/home/michael/software_projects/educate90/vendor/assets/components/bootstrap/css/bootstrap.css",
+		"/home/michael/software_projects/educate90/vendor/bootstrap/bootstrap-sass-3.3.6/templates/project/_bootstrap-variables.sass",
+		"/home/michael/software_projects/downlinetoolbox/app/views/layouts/theme.html.erb",
+		"/home/michael/.config/sublime-text-3/Packages/User/SCSS.sublime-settings",
+		"/home/michael/software_projects/downlinetoolbox/app/views/application/_footer.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/vendor/assets/components/startbootstrap-sb-admin-2/dist/css/timeline.css",
+		"/home/michael/software_projects/downlinetoolbox/config/environments/development.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/assets/stylesheets/reports.scss",
+		"/home/michael/software_projects/downlinetoolbox/app/assets/stylesheets/bootstrap-theme.scss",
+		"/home/michael/software_projects/downlinetoolbox/vendor/assets/components/startbootstrap-sb-admin-2/dist/css/sb-admin-2.css",
+		"/home/michael/software_projects/downlinetoolbox/vendor/assets/components/startbootstrap-sb-admin-2/less/sb-admin-2.less",
+		"/home/michael/software_projects/downlinetoolbox/app/assets/stylesheets/callouts.scss",
+		"/home/michael/software_projects/downlinetoolbox/app/assets/stylesheets/active_admin.scss",
+		"/home/michael/software_projects/downlinetoolbox/app/assets/javascripts/charges.js.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/reports/index.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/controllers/reports_controller.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/helpers/companies_helper.rb",
+		"/home/michael/software_projects/downlinetoolbox/vendor/assets/javascripts/turbolinks.js",
+		"/home/michael/software_projects/downlinetoolbox/public/assets/application-5252c3f980db2d68efbbf9ca5c3ffbe6d8f929a16b45d5101aa5e86c258cbefb.js",
+		"/home/michael/software_projects/downlinetoolbox/app/assets/stylesheets/scaffolds.scss",
+		"/home/michael/software_projects/downlinetoolbox/app/controllers/dashboard_controller.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/helpers/application_helper.rb",
+		"/home/michael/software_projects/downlinetoolbox/config/initializers/devise.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/home/index.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/models/position.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/controllers/positions_controller.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/assets/javascripts/reports.js",
+		"/home/michael/software_projects/downlinetoolbox/app/views/reports/_report.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/models/report.rb",
+		"/home/michael/software_projects/downlinetoolbox/db/sample.rb",
+		"/home/michael/.config/sublime-text-3/Packages/User/JavaScript.sublime-settings",
+		"/home/michael/software_projects/downlinetoolbox/app/models/user.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/models/ability.rb",
+		"/home/michael/software_projects/downlinetoolbox/spec/models/position_spec.rb",
+		"/home/michael/software_projects/downlinetoolbox/spec/models/user_spec.rb",
+		"/home/michael/software_projects/downlinetoolbox/.ruby-version",
+		"/home/michael/software_projects/downlinetoolbox/spec/factories.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/referrals/index.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/controllers/referrals_controller.rb",
+		"/home/michael/software_projects/downlinetoolbox/db/schema.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/mailer/report_generator_failure.text.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/jobs/general_job.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/positions/new.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/positions/_form.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/helpers/positions_helper.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/positions/_position.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/positions/prep.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/mailers/mailer.rb",
+		"/home/michael/software_projects/downlinetoolbox/config/initializers/active_admin.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/models/company.rb",
+		"/home/michael/software_projects/computer/.gitignore",
+		"/home/michael/software_projects/computer/Gemfile",
+		"/home/michael/software_projects/increaseproduction/.ruby-version",
+		"/home/michael/software_projects/increaseproduction/Gemfile",
+		"/home/michael/software_projects/downlinetoolbox/spec/models/ygy_position_spec.rb",
+		"/home/michael/software_projects/downlinetoolbox/vendor/bundle/ruby/2.1.0/gems/simplecov-html-0.10.0/views/layout.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/controllers/billing_controller.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/controllers/application_controller.rb",
+		"/home/michael/software_projects/downlinetoolbox/spec/rails_helper.rb",
+		"/home/michael/software_projects/downlinetoolbox/vendor/bundle/ruby/2.1.0/gems/stripe-1.31.0/test/test_helper.rb",
+		"/home/michael/software_projects/downlinetoolbox/vendor/bundle/ruby/2.1.0/gems/stripe-ruby-mock-2.2.1/lib/stripe_mock/client.rb",
+		"/home/michael/software_projects/downlinetoolbox/spec/support/controller_helpers.rb",
+		"/home/michael/software_projects/downlinetoolbox/mech2.log",
+		"/home/michael/software_projects/downlinetoolbox/tempsingle.rb",
+		"/home/michael/software_projects/downlinetoolbox/temp.rb",
+		"/home/michael/software_projects/downlinetoolbox/mech.log",
+		"/home/michael/software_projects/downlinetoolbox/my.log",
+		"/home/michael/software_projects/downlinetoolbox/log/development.log",
+		"/home/michael/software_projects/downlinetoolbox/log/RAILS_ENV=test.log",
+		"/home/michael/software_projects/downlinetoolbox/app/models/plan.rb",
+		"/home/michael/software_projects/downlinetoolbox/spec/models/report_spec.rb",
+		"/home/michael/software_projects/downlinetoolbox/spec/support/shared_db_connection.rb",
+		"/home/michael/.zshrc",
+		"/home/michael/software_projects/downlinetoolbox/vendor/bundle/ruby/2.1.0/gems/factory_girl-4.5.0/lib/factory_girl/factory.rb",
+		"/home/michael/software_projects/downlinetoolbox/test/test_helper.rb",
+		"/home/michael/software_projects/downlinetoolbox/spec/spec_helper.rb",
+		"/home/michael/software_projects/downlinetoolbox/spec/jobs/stripe_check_job_spec.rb",
+		"/home/michael/software_projects/downlinetoolbox/spec/support/database_cleaner.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/jobs/stripe_check_job.rb"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"<open folders>",
+			"E:\\OneDrive\\ygy",
+			"E:\\OneDrive"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"</pp",
+			"<pp",
+			"</pp",
+			"<pp",
+			"</p",
+			"<p",
+			"row",
+			"-xs",
+			"</div>",
+			"<div",
+			"md-4",
+			"https://googledrive.com/host/0B0qNmS_zipBhdkVxTnJzSlpzVDA",
+			"https://googledrive.com/host/0B0qNmS_zipBhalJ0ZEtod1pfcWM/stylesheets",
+			"https://googledrive.com/host/0B0qNmS_zipBhdkVxTnJzSlpzVDA/",
+			"https://googledrive.com/host/0B0qNmS_zipBhalJ0ZEtod1pfcWM/",
+			"18px",
+			"mailchimp",
+			"referrer",
+			"spring",
+			"metis",
+			"page-with-sidebar",
+			"wrapper",
+			"navbar-logged-in",
+			"wrapper",
+			"main",
+			"digest",
+			"adapter",
+			"establish_connection",
+			"Dir.glob",
+			"components",
+			"bootstrap",
+			"capistra",
+			"'data-turbolinks-track' => true",
+			"main",
+			"page-with-sidebar",
+			"theme",
+			"brand-primary",
+			"sprockets",
+			"<nav class=\"navbar navbar-default navbar-static-top\" role=\"navigation\" style=\"margin-bottom: 0\">",
+			"ActiveAdmin.register",
+			".REgister_page",
+			"admin",
+			"assets.compress",
+			"compass",
+			"brand-info",
+			"bs-mixin",
+			"$gray",
+			"boot",
+			"less",
+			"image_tag",
+			".turbolinks-progress-bar",
+			"turbolinks-progress-bar",
+			"javascript_include_tag",
+			"stylesheet_link_tag",
+			"require 'application.js'",
+			"require 'billing.js'",
+			"require 'reports.js'",
+			"load 'deploy/assets'",
+			"user_signed_in",
+			"=>",
+			"false",
+			"require => ",
+			" =>",
+			"require",
+			"Clear failed reports",
+			"favicon-branch",
+			"checkIfReportCompleted",
+			"checkPendingReports",
+			"on_click",
+			"def icon",
+			"capistrano",
+			"admin",
+			" =",
+			"success-intense",
+			"user.",
+			"}",
+			"#{",
+			"def to_s",
+			"to_s",
+			"We had trouble generating",
+			"Youngevity",
+			"company.name",
+			"company_image",
+			"selectable",
+			"Enabled",
+			"db",
+			"new",
+			"n2",
+			"req",
+			"car",
+			"root_gqv",
+			"emd?",
+			"gqv",
+			"sum_gqv",
+			".children.count",
+			"dist?",
+			"&nbsp;&nbsp;",
+			"html_safe",
+			"root",
+			"enroller_id",
+			"not_pcust?",
+			"pcust?",
+			"free_plan",
+			"user",
+			"generate_card",
+			"generate_card_token",
+			".save",
+			"authenticate_user",
+			"current_user",
+			"change_plan",
+			"stripe_customer_free",
+			"stripe_customer",
+			"volume_total",
+			"mechanize",
+			"=>",
+			":",
+			"sample?",
+			"Start",
+			"page",
+			"browser",
+			"mechanize",
+			"destroy",
+			"delete",
+			"batch_action",
+			"Delete",
+			"position",
+			"flash",
+			"volume_totals_url"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"position",
+			"\\t",
+			"",
+			"-web",
+			"\\r\\n<tr id=\"row-",
+			"<tr id=\"row-\\r\\n",
+			"<tr id=\"row-\\r"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/michael/software_projects/landing_pages/monat/landing.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1173,
+								1173
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "landing_pages_linux.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"monat",
+				"landing_pages/monat/landing.html"
+			],
+			[
+				"arth",
+				"landing_pages/ygy/arthritis.html"
+			],
+			[
+				"arthr",
+				"landing_pages/ygy/arthritis.html"
+			],
+			[
+				"arthritis",
+				"landing_pages/ygy/arthritis_obfus.html"
+			],
+			[
+				"arthrit",
+				"landing_pages/ygy/arthritis.html"
+			],
+			[
+				"ar",
+				"landing_pages/ygy/arthritis.html"
+			],
+			[
+				"ygy/",
+				"landing_pages/ygy/arthritis_obfus.html"
+			],
+			[
+				"landing",
+				"Public/stylesheets/landing.css"
+			],
+			[
+				"gemfile.loc",
+				"Gemfile.lock"
+			],
+			[
+				".rb",
+				".rbenv-vars"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"gibbonr",
+				"config/initializers/gibbon.rb"
+			],
+			[
+				"subscri",
+				"app/jobs/subscribe_user_to_list_job.rb"
+			],
+			[
+				"dashboard.rb",
+				"app/admin/dashboard.rb"
+			],
+			[
+				"progression",
+				"app/views/ygy_positions/progression_report.html.erb"
+			],
+			[
+				"ygypositioncon",
+				"app/controllers/ygy_positions_controller.rb"
+			],
+			[
+				"semd",
+				"app/views/ygy_positions/semd_report.html.erb"
+			],
+			[
+				"billin",
+				"spec/controllers/billing_controller_spec.rb"
+			],
+			[
+				"ygy",
+				"app/models/ygy_position.rb"
+			],
+			[
+				"ygycontro",
+				"app/controllers/ygy_positions_controller.rb"
+			],
+			[
+				"semdre",
+				"app/views/ygy_positions/semd_report.html.erb"
+			],
+			[
+				"met",
+				"vendor/assets/components/metisMenu/dist/metisMenu.js"
+			],
+			[
+				"apperb",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				".scss",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"naviga",
+				"app/views/application/_navigation.html.erb"
+			],
+			[
+				"menu",
+				"app/views/application/_menu.html.erb"
+			],
+			[
+				"",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"applicationhtml",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"navi",
+				"app/views/application/_navigation.html.erb"
+			],
+			[
+				"apphtml",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"applihtmerb",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"flash",
+				"app/helpers/flash_helper.rb"
+			],
+			[
+				"layout",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"production",
+				"config/environments/production.rb"
+			],
+			[
+				"app",
+				"config/application.rb"
+			],
+			[
+				"dep",
+				"config/deploy.rb"
+			],
+			[
+				"secrets.yml",
+				"config/secrets.yml"
+			],
+			[
+				"database",
+				"config/database.yml"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"capfile",
+				"Capfile"
+			],
+			[
+				"deploy",
+				"config/deploy.rb"
+			],
+			[
+				"deploy.rb",
+				"config/deploy.rb"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"application.js",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"bower",
+				".bowerrc"
+			],
+			[
+				"capfil",
+				"Capfile"
+			],
+			[
+				"appjs",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"application",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"nav",
+				"app/views/application/_navigation.html.erb"
+			],
+			[
+				"layapp",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"appcss",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"header",
+				"app/views/application/_header.html.erb"
+			],
+			[
+				"en.",
+				"config/locales/en.yml"
+			],
+			[
+				"homecontr",
+				"app/controllers/home_controller.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"appscs",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"application.scss",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"application.css",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"timelin",
+				"vendor/assets/components/startbootstrap-sb-admin-2/dist/css/timeline.css"
+			],
+			[
+				"devrb",
+				"config/environments/development.rb"
+			],
+			[
+				"adminda",
+				"app/admin/dashboard.rb"
+			],
+			[
+				"config",
+				"config/application.rb"
+			],
+			[
+				"js.erb",
+				"app/assets/javascripts/charges.js.erb"
+			],
+			[
+				"applicaionht",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"appli",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"scss",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"application.",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"ygypocon",
+				"app/controllers/ygy_positions_controller.rb"
+			],
+			[
+				"reportinde",
+				"app/views/reports/index.html.erb"
+			],
+			[
+				"reportscontr",
+				"app/controllers/reports_controller.rb"
+			],
+			[
+				"reports.scss",
+				"app/assets/stylesheets/reports.scss"
+			],
+			[
+				"semdrep",
+				"app/views/ygy_positions/semd_report.html.erb"
+			],
+			[
+				"ygycont",
+				"app/controllers/ygy_positions_controller.rb"
+			],
+			[
+				"reportcontr",
+				"app/controllers/reports_controller.rb"
+			],
+			[
+				"scaffol",
+				"app/assets/stylesheets/scaffolds.scss"
+			],
+			[
+				"theme",
+				"app/views/layouts/theme.html.erb"
+			],
+			[
+				"layouts",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"dashboardcon",
+				"app/controllers/dashboard_controller.rb"
+			],
+			[
+				"helper",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"devise",
+				"config/initializers/devise.rb"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"assets.r",
+				"config/initializers/assets.rb"
+			],
+			[
+				"reportsind",
+				"app/views/reports/index.html.erb"
+			],
+			[
+				"positioncont",
+				"app/controllers/positions_controller.rb"
+			],
+			[
+				"position.rb",
+				"app/models/position.rb"
+			],
+			[
+				"report",
+				"app/models/report.rb"
+			],
+			[
+				"report.rb",
+				"app/views/reports/_report.html.erb"
+			],
+			[
+				"sample",
+				"db/sample.rb"
+			],
+			[
+				"u",
+				"app/models/user.rb"
+			],
+			[
+				"user.rb",
+				"app/models/user.rb"
+			],
+			[
+				"ability",
+				"app/models/ability.rb"
+			],
+			[
+				"userspec",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"positionspec",
+				"spec/models/position_spec.rb"
+			],
+			[
+				"ability.rb",
+				"app/models/ability.rb"
+			],
+			[
+				"positioncontrol",
+				"app/controllers/positions_controller.rb"
+			],
+			[
+				"factories",
+				"spec/factories.rb"
+			],
+			[
+				"refer",
+				"app/controllers/referrals_controller.rb"
+			],
+			[
+				"sample.rb",
+				"db/sample.rb"
+			],
+			[
+				"helpers/app",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"schema",
+				"db/schema.rb"
+			],
+			[
+				"referra",
+				"app/controllers/referrals_controller.rb"
+			],
+			[
+				"semdreport",
+				"app/views/ygy_positions/semd_report.html.erb"
+			],
+			[
+				"referrals",
+				"app/views/referrals/index.html"
+			],
+			[
+				"job",
+				"app/jobs/general_job.rb"
+			],
+			[
+				"mail",
+				"app/mailers/mailer.rb"
+			],
+			[
+				"prep",
+				"app/views/positions/prep.html.erb"
+			],
+			[
+				"positioncontro",
+				"app/controllers/positions_controller.rb"
+			],
+			[
+				"positionerb",
+				"app/views/positions/_position.html.erb"
+			],
+			[
+				"positionhelp",
+				"app/helpers/positions_helper.rb"
+			],
+			[
+				"dashboard",
+				"app/admin/dashboard.rb"
+			],
+			[
+				"active",
+				"config/initializers/active_admin.rb"
+			],
+			[
+				"company.rb",
+				"app/models/company.rb"
+			],
+			[
+				"semdrepor",
+				"app/views/ygy_positions/semd_report.html.erb"
+			],
+			[
+				"_form",
+				"app/views/positions/_form.html.erb"
+			],
+			[
+				"newh",
+				"app/views/positions/new.html.erb"
+			],
+			[
+				"position",
+				"app/models/position.rb"
+			],
+			[
+				"ygycontr",
+				"app/controllers/ygy_positions_controller.rb"
+			],
+			[
+				"ygyspec",
+				"spec/models/ygy_position_spec.rb"
+			],
+			[
+				"ygycon",
+				"app/controllers/ygy_positions_controller.rb"
+			],
+			[
+				"_na",
+				"app/views/application/_navigation.html.erb"
+			],
+			[
+				"ygypos",
+				"app/models/ygy_position.rb"
+			],
+			[
+				"factori",
+				"spec/factories.rb"
+			],
+			[
+				"stripehelper",
+				"vendor/bundle/ruby/2.1.0/gems/stripe-1.31.0/test/test_helper.rb"
+			],
+			[
+				"railshelper",
+				"spec/rails_helper.rb"
+			],
+			[
+				"applicationcont",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"billingcontr",
+				"app/controllers/billing_controller.rb"
+			],
+			[
+				"applicationcontrol",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"applicationhelper",
+				"app/helpers/application_helper.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "regind",
+		"selected_items":
+		[
+			[
+				"regind",
+				"~/Dropbox/Sublime/User/Projects/reginald.sublime-project"
+			],
+			[
+				"notes",
+				"~/Dropbox/Notes/notes.sublime-project"
+			],
+			[
+				"",
+				"E:\\mikes_data\\Dropbox\\dropbox-sublime.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 289.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,2258 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"con",
+				"content_tag"
+			],
+			[
+				"secrt",
+				"secrets"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"emp",
+				"empBox"
+			],
+			[
+				"cop",
+				"copyRightFooter"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/michael/software_projects/educate90/vendor/assets/components/startbootstrap-sb-admin-2/dist/js/sb-admin-2.js",
+			"settings":
+			{
+				"buffer_size": 1157,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/michael/software_projects/educate90/app/views/application/_navigation.html.erb",
+			"settings":
+			{
+				"buffer_size": 467,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/michael/software_projects/educate90/app/views/application/_header.html.erb",
+			"settings":
+			{
+				"buffer_size": 6493,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/michael/software_projects/educate90/app/assets/stylesheets/application.scss",
+			"settings":
+			{
+				"buffer_size": 978,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/michael/software_projects/educate90/config/environments/production.rb",
+			"settings":
+			{
+				"buffer_size": 3302,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/michael/software_projects/educate90/app/assets/stylesheets/variables.scss",
+			"settings":
+			{
+				"buffer_size": 1737,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/michael/software_projects/educate90/app/assets/stylesheets/sb-admin-2-theme.scss",
+			"settings":
+			{
+				"buffer_size": 2758,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 19 files for \"metis\"\n\n/home/michael/software_projects/educate90/app/assets/stylesheets/application.scss:\n    2  @import \"bootstrap/css/bootstrap\";\n    3  @import \"startbootstrap-sb-admin-2/dist/css/sb-admin-2\";\n    4: @import \"metisMenu/dist/metisMenu\";\n    5  @import \"font-awesome/css/font-awesome.min.css\";\n    6  @import \"bootstrap-theme\";\n\n2 matches in 1 file\n\n\nSearching 2925 files for \"metis\"\n\n/home/michael/software_projects/educate90/app/assets/javascripts/application.js:\n   16  //= require turbolinks\n   17  //= require bootstrap/js/bootstrap\n   18: //= require metisMenu/dist/metisMenu\n   19  //= require startbootstrap-sb-admin-2/dist/js/sb-admin-2\n   20  \n\n/home/michael/software_projects/educate90/app/assets/stylesheets/application.scss:\n    2  @import \"bootstrap/css/bootstrap\";\n    3  @import \"startbootstrap-sb-admin-2/dist/css/sb-admin-2\";\n    4: @import \"metisMenu/dist/metisMenu\";\n    5  @import \"font-awesome/css/font-awesome.min.css\";\n    6  @import \"bootstrap-theme\";\n\n/home/michael/software_projects/educate90/log/development.log:\n    <binary>\n\n/home/michael/software_projects/educate90/public/assets/application-50c6cb98f51ed80180bcf07f4c8962b117d3f16c08b25132435e7335e5bd36e6.js:\n 14726  }(jQuery);\n 14727  /*\n 14728:  * metismenu - v1.1.3\n 14729   * Easy menu jQuery plugin for Twitter Bootstrap 3\n 14730:  * https://github.com/onokumus/metisMenu\n 14731   *\n 14732   * Made by Osman Nuri Okumus\n .....\n 14736  ;(function($, window, document, undefined) {\n 14737  \n 14738:     var pluginName = \"metisMenu\",\n 14739          defaults = {\n 14740              toggle: true,\n .....\n 14848  $(function() {\n 14849  \n 14850:     $('#side-menu').metisMenu();\n 14851  \n 14852  });\n\n/home/michael/software_projects/educate90/public/assets/application-5e47759c480d328bded4dfa666a3e68dc4c432ba7b22e2217a4ea2568a8b2533.css:\n 9979  \n 9980  /*\n 9981:  * metismenu - v1.1.3\n 9982   * Easy menu jQuery plugin for Twitter Bootstrap 3\n 9983:  * https://github.com/onokumus/metisMenu\n 9984   *\n 9985   * Made by Osman Nuri Okumus\n 9986   * Under MIT License\n 9987   */\n 9988: /* line 9, /home/michael/software_projects/educate90/vendor/assets/components/metisMenu/dist/metisMenu.css */\n 9989  .arrow {\n 9990    float: right;\n ....\n 9992  }\n 9993  \n 9994: /* line 14, /home/michael/software_projects/educate90/vendor/assets/components/metisMenu/dist/metisMenu.css */\n 9995  .glyphicon.arrow:before {\n 9996    content: \"\\e079\";\n 9997  }\n 9998  \n 9999: /* line 18, /home/michael/software_projects/educate90/vendor/assets/components/metisMenu/dist/metisMenu.css */\n 10000  .active > a > .glyphicon.arrow:before {\n 10001    content: \"\\e114\";\n .....\n 10006   * http://fortawesome.github.io/Font-Awesome/\n 10007  */\n 10008: /* line 29, /home/michael/software_projects/educate90/vendor/assets/components/metisMenu/dist/metisMenu.css */\n 10009  .fa.arrow:before {\n 10010    content: \"\\f104\";\n 10011  }\n 10012  \n 10013: /* line 33, /home/michael/software_projects/educate90/vendor/assets/components/metisMenu/dist/metisMenu.css */\n 10014  .active > a > .fa.arrow:before {\n 10015    content: \"\\f107\";\n 10016  }\n 10017  \n 10018: /* line 37, /home/michael/software_projects/educate90/vendor/assets/components/metisMenu/dist/metisMenu.css */\n 10019  .plus-times {\n 10020    float: right;\n 10021  }\n 10022  \n 10023: /* line 41, /home/michael/software_projects/educate90/vendor/assets/components/metisMenu/dist/metisMenu.css */\n 10024  .fa.plus-times:before {\n 10025    content: \"\\f067\";\n 10026  }\n 10027  \n 10028: /* line 45, /home/michael/software_projects/educate90/vendor/assets/components/metisMenu/dist/metisMenu.css */\n 10029  .active > a > .fa.plus-times {\n 10030    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);\n .....\n 10036  }\n 10037  \n 10038: /* line 54, /home/michael/software_projects/educate90/vendor/assets/components/metisMenu/dist/metisMenu.css */\n 10039  .plus-minus {\n 10040    float: right;\n 10041  }\n 10042  \n 10043: /* line 58, /home/michael/software_projects/educate90/vendor/assets/components/metisMenu/dist/metisMenu.css */\n 10044  .fa.plus-minus:before {\n 10045    content: \"\\f067\";\n 10046  }\n 10047  \n 10048: /* line 62, /home/michael/software_projects/educate90/vendor/assets/components/metisMenu/dist/metisMenu.css */\n 10049  .active > a > .fa.plus-minus:before {\n 10050    content: \"\\f068\";\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/0uhlOBKJ7mAgERs1Z-uU5AVDn3I1SxvgKlJyevQf2Rk.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/1LdAsbbv8Sp9d-b5q_28yCvPQwDAx46dlElaJJlhn5s.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/26nprQ89XN88ThGXFBMJRyrRg-rFz8QA5yjnZSAt4ao.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/2JkZXYmhRJDZQcSYwI9EjRiNaA3Mq82uyJ7VtgdoOOQ.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/3AQfn2rgSrG6Lln-KRB56ZU33Z2ts7rlvx7-DXDS8nU.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/4SL4EnsE2c23Um-j_ZTfdyAw_8tCib0oq8zIyIhruqA.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/4Ydu1Ixu4xnPuFHmDm6Ntdyz_fQpLkx-LhNWs0Vuce4.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/4_31XdmdiJT8w3Z576LEUFerScBouEPHLe6QsJgLT8M.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/5TIo8x_FKTy69KDbOcjSZedGiphnIYN9hHZ424QROCs.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/5e-RTrkBveQp3lwEwICCy07ns9-tld8FTnXvz0g5jzo.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/65jsM8L_iax1EsH0WzaRQ8n7lb0mjOAzCPoZg8e6r7Y.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/6V3tNqwndRJigeV6cfw7q0lwTKSbaibCyI2mBRXgWHU.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/72zmk5z3KnfKozXSRyV8WDxfydPsosukILSoZyXZoNE.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/73hdmfsPerW7s-64IVTg9abQkZWVS2ALw1VnAMWEBZE.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/7KJHx05Cm-UPuzd_3PxO3BqoqSbv8zneB2345AqctyI.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/7MxUs0nuInfXhmdnR-UA-OrmkRhl2WbiiUlrhNke248.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/7Vfmsdb4Y7dlVwMh_Ba4sm6rNRtVIJ1-F7V2VUdqe8U.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/7wA8KHrqstamEDUpczr_eeXJ5QnMc54NKF73tyExPXE.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/9lLCd2bzllfw9Ot2Ot34XBdhHEhGViatt9Dz_p2ve_w.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/9ukO-Zx9vA3wF_cRNfUxdXxQ3ut0NMjWutcn-NBapt8.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/ARwop8loX7dBV1CGfXikbki6GmbYITnCsQ7DoKiWIgI.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/AhvtArcNc0vKHyPBHi070bl21cNMhahgqInYLZb3UZQ.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/BHiD6Cd0RNSCjMqCmNgpIt6oQWxIfszk5gCSSAnGl8A.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/BIMkrX5R2AgVEdqRPgBnphZlu42WF7FlYXcUwimVRv8.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/Bhf3orlWsH9y22yU7zhY5et50U14evbbyc7EsrzoHSs.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/CO8KsD2b042c7pKcD1ubeOjXC0YYD_1uODBWo3u0vqg.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/ClvQdFVf7VVuRWvqk7eZGQ5bv8xMt9TRN78mibkzVCg.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/Cwyjnw-VZ6Vb6kicANLMEFJ0f3tCNWrsdpxovKJNwcM.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/DMi6AOgCPwvZV3_Vdrnb-1PizQe9voMU-VrE02BrqPg.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/DgOzJAmq97sDT4Hu6SQkZF4sIp-gPdD4oGhTqhkPH5Q.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/EKy7KZ_Znto5wV5YlzoKXNmpL0nfj_XH-KuDv_S6RiQ.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/F6HQVCzzLIOxN3f8k5dZERpmuTDn3TtwOWgHISQM7zQ.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/FM3OYqPrws5-Rk6TE5eAtTbkDkXbBaT8KDDNe0URzhQ.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/FV6cOQOz5AuOmcyB2c-2_D6mYPiKQqQpS1BVPIM_HO8.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/FgrQ08Yeq8AsPk7s8PeOCPbXoK7b2Hz1Vf1WnEoO3SI.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/GAHSm1vwnLsd9S3s47LqKxEPsOvmHmgAGyX_AtO3_yw.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/I0UQKGlFl6VHw8VOyoQCS2lAo0zSTmzzWIyvSxo5UFU.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/I0updS9k5zAC263ypwpbyc5mU6N1TZRaE_WOXXsJHTY.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/I2aYB5xKYfdv7QPaaBoTCFnxsiW3OD-Cg8FBJ11K5Zk.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/J2_yBc29Ro5uIusBXIudUinYzNTGakLxdg1PMaVGGsg.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/JDA5guuE2kN7ZWOSaN2fVGtaxOI9xyoqCpfjHtrRPaY.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/JWtqhGhfaP-p5OSQInP5w93TWLQiJktxJYMHuOVAjJc.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/JmldmT-bC8_GD5u84S3Y5k95PKFfhK000QtSBmvydGo.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/Jy5mKpYoyYSB_ECOrsll3ToG4c3QfJfcd5uUTIEOanE.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/Kce1Paq7lxAc3s9378UVRyv_ELMcm9Njk2Cej6cEoWw.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/Khv-auSRvujiQNPo3YtoLGER5tT3ujOjt_P8rChuMuc.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/L1CiBQqGS91zB5AHOgAhQXoT6jC2aj7LRuyG2_FFnEY.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/M3iaHtu5AbMNmR-VzmE_Xw6avXxWAUiavwgsfmzBf0w.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/NAze92px7aouqSApqoojNA2k53UIwkSEq2BZIWAUqqA.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/NJ-w4q6YA8R3gK7EJKaInrVj9FfEvXHYpHu0FqB6nwo.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/O5YZai5CYT-JL2ZWrOtOGetLn3kEbjqF2xHj9gmS9OM.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/OnVh9f3o9UtEa9bd0cOWNJ8ccCuXcSO-qe6lE-58L-M.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/Pl3ZOGeI8gXP4zNqDBgLAi1Oqho0CndhOPzJx4UTCD8.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/QTmxM7wfMGs_174QPUpvSnVBN2FXrdi75mToKnUwzAA.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/QZjMkg_xOJSCX9mL29j2XOWUJ8oHOrq-XIh9mHMxHq8.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/RLkBvYjETrx5SrRlj6RpEfLQlePfhDG2nBg2XK6me5s.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/RU_gyzUwlh_MPr9LZNS7TArIfzCaO7dWpQCVAm1BIHo.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/RjVRHt_wvyBiANc_6mxyhHxz6PY4W2qywddghDESTEg.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/RpgjRbPg8LAm38Iwn_rPR1ja8xiIkEnXAsq3kDwVP6o.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/RxwZCyvj-STiWrxgjuqNAnEK7kNSuOWUk0hegvKS0XY.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/SsQ0ivddlgE2ENfWr8HnLpi1P6MzgdMcZyVuhKBCyrE.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/T-0t2Z9vdkCPutoifpNKpojCj6k6m-aWhym9SoTXqzU.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/VU9O5L59h0D4XLwI10dSQocn8ERcGbQF6j2nHVL4dE4.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/WECQ7SisAiNA8OVbTPHN04cL0ULsVZctCqYGGj7YOHY.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/WU98eMs-PNUGfoNz3ALG1orflztqX7YxeoIAIXhlVEI.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/WdNy92L5U20bUEcXm46wJMjgLCOMJQK7Ct722FLPTSU.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/WyWXckb_youR1Kau6AOM3RRK0JZGSkVnHj0dfSH5_5c.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/X0DYAtG61pRqj-hBr_6MeyL11BQHsMnGjv0gPG4oCkw.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/XfQwRMm_CiDUoYLE-0ZihVuk0nvLSQfOjpEpV5flilk.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/XgDIUcLOUcJeKuoEGljrDp5bWONc7j1dMGXtS0l_m7k.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/XhLQN_1q3NBiPMdyh37-bi0uB6WruVlFWRusTuLsxuw.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/Y2z-fx0APJOdLzwh_ipYs32ckv_KKvM_TfEm7GcOnro.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/YVTxZhTlpYb3eoZsAuql1HipPtq4VWuod2anmpBBpQw.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/ZnqS8sI6FEppS5q0XruD5J9HEbQx6RL5yVe0mMiB4SY.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/b4q0AKeqN5PrWzHsYmr2qd8B698ZM1A6qERW_d1XAAU.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/b9EcRYynO7PwhQelt8VYA6Me7UwBVSrZO0CvqH0w_XI.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/cao4gd-ZMd9_8L7DTB9EWJE4RSCzZHsrCww1t3ka9D4.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/dep_bGu8ni5jSc3Wfd3SQ6pekHqrgDyN1WXlQLsPuFc.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/djd1Jg1kIWgFMu7ZeHo9zRPXm26KrEPLfS-Lr5dSAZo.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/dz0mvcKr2he3oRiw5_JWZZEBGImyz70rShg0aySEAtQ.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/e9VOhWB4iAg9pBx1tQGRPFtaBcONFxYbgkc3sxDQ8is.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/eFhmiqt7OLZYZfmInk7eafvFfZVgIJANiv3TqksQLr8.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/eOE_0VINiuiirvrDZDOI6o2k9gUpENNfgQxXJTuie2Q.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/ezqEV7FoRAIUQIcPniS3RDDYjD4Cml2Gh0vx2MXd7qY.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/f3vUvmKye6S1ssQqNh6OcNVLdXI9TdPATCv3-lGdwTk.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/gDdf-vln7gEfyl0u-Davy4Wai_lvAFFW9ElSsF_pU2E.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/gM-ERTbBP4ERkPUieTZyrJgphh1Y727YRRNV0Eso9mc.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/gU45kg41aWjtyefGqSLt8zGyI1pMwbT40yL_-_fIgjw.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/ggcb7D-JOV7HraI1EQ-ql-uVVV3LzCQlVuf9b4nkYQQ.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/hVG0JiOV7kMaM-DxkFgPRy_eH3FTe0s4DFdAAYjMOu4.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/hWLO04hy4BE983YXizCoquo9ggBLgdd0E0FALKYenKk.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/iaccrZiWlA4onxbDo-1HfSO0ywAv5s2R2DjEncifViU.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/jQTQ3kDTyRHYkFZjIPqzLZxlUVwyqa3H2L4SY45GvE8.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/j_dGwFVOhkQMtHQsfoqRmO3aHz7_a6D4hIHbEixTFMA.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/kHXz5BZruAMtMvjbg5aOej6YsnivCKpY0vOPMFTuuiA.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/lCdwWsooybCnWUo2mkyX4LpD9-i-Z2JFRW-CjR3Faz4.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/lEUjdnyyLigq-A2gRO8udeVCSf7Ll-d6HLsjksnC-hQ.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/oI-PMFrh2Zg7--l7JkHPHJJ7NcNOkt0a7wDrEfj83UM.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/oSt_gFNNpZC0mpa4xKzjbmq0Fd3p_dEu7YDV-fx0F94.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/o_um1wcGl0ONszxrJ4Eko4xUIrHeuvX1qQvMkw_Euyk.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/ognkd3nqFgoh0rzIvJlr0Ke12DjOK2ia4YiR2kezrfQ.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/orjkKBrLrbGHkq6gRc6MJPYwD_RD9KaSsBqqXL5a-tA.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/qBfBEDg1AYgVQCZNxo5z4jzBnSfYjQ7a5C3xh1-1W2Y.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/qlW97H_04Dgsd_1PCuqQQlwATjzQnmDHXpCmDzkPsvk.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/rCDkaodvetta81QrhS8_cRy5homn4qcmtY7kGeLbFMI.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/rj5aBn1I-dKLshsHAXiVEmKRi4cB2bz6hK2CCNzDJVY.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/sN3wz4PTAOjn2tIEhCpmWdiCkKXQGWelra_DPt_RGog.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/sO299CYmwq-QUdzQZe-nv7Z449u8FmyrD1TiaOMTVlg.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/tqY5c4eMiBgPSJpwb-sdFcMnXRIFltEAXvN76SbpVIc.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/uRFcKtuGGXJDyqTauMWzUBskd7FGGpgsufnazcNimcw.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/ueW7ZAaX4odjnE9KmJAFAnfPsmOVaPRelHvBrc7TKJs.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/uw0sH9N3ctXkVed9-rRS6--2eMQt60J0MlxC2tB3AMA.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/vIpRUnHw11mLYGl7IurJRS5G7pLz7jTjsqgkDPZjC0E.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/vKr6yb6-SDcGXRCvOAZwjsKURh55ZcFd5eTvVw25mCM.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/wGTN6lYfQrFjKit68rxWzrjpJNb-YjzM_eoAtdwXMKE.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/wZu7tkbtAifAeOZoz8NpxDjQ9K_aD1BebxGj4_PNAc8.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/w_Aw0Z_7bUa88S3_WTG27Nfv4BcyZXePo7saaLXX_oQ.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/xxHF-8eRDF48lr_QTBKyzgQmmobo-w1h6X0tnBFWPW0.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/yIaUHtLTLcZSixQWUIk0eFm6xRw7In9dPIPdtiHK4vM.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/z1olvuZ5sdI7EO2neG7RpSNklPHxjxQf_nIpsHjlyLI.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/zE92rGn76xIAASfb7SZjktxJlJqILnnJRjAR554P4Yg.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/zGqwdCd8sDwR2TO_uFj5o0roxEMonLFfpOXprTG21NE.cache:\n    <binary>\n\n/home/michael/software_projects/educate90/vendor/assets/components/metisMenu/.bower.json:\n    1  {\n    2:   \"name\": \"metisMenu\",\n    3    \"version\": \"1.1.3\",\n    4:   \"homepage\": \"https://github.com/onokumus/metisMenu\",\n    5    \"authors\": [\n    6      \"onokumus <onokumus@gmail.com>\"\n    .\n    8    \"description\": \"Easy menu jQuery plugin for Twitter Bootstrap 3\",\n    9    \"main\": [\n   10:     \"dist/metisMenu.js\",\n   11:     \"dist/metisMenu.css\"\n   12    ],\n   13    \"keywords\": [\n   ..\n   19      \"accordion\",\n   20      \"toggle\",\n   21:     \"metis\",\n   22:     \"metisMenu\"\n   23    ],\n   24    \"license\": \"MIT\",\n   ..\n   39      \"commit\": \"8e179d59f60a593203667c092119779dc36f5171\"\n   40    },\n   41:   \"_source\": \"git://github.com/onokumus/metisMenu.git\",\n   42    \"_target\": \"~1.1.3\",\n   43:   \"_originalSource\": \"metisMenu\",\n   44    \"_direct\": true\n   45  }\n\n/home/michael/software_projects/educate90/vendor/assets/components/metisMenu/Gruntfile.js:\n   20        all: [\n   21        \"Gruntfile.js\",\n   22:       \"src/metisMenu.js\"\n   23        ]\n   24      },\n   25      concat: {\n   26        plugin: {\n   27:         src: [\"src/metisMenu.js\"],\n   28:         dest: \"dist/metisMenu.js\"\n   29        },\n   30        css: {\n   31:         src: [\"src/metisMenu.css\"],\n   32:         dest: \"dist/metisMenu.css\"\n   33        },\n   34        options: {\n   ..\n   38      uglify: {\n   39        plugin: {\n   40:         src: [\"dist/metisMenu.js\"],\n   41:         dest: \"dist/metisMenu.min.js\"\n   42        },\n   43        options: {\n   ..\n   50        },\n   51        menucss: {\n   52:         src: [\"src/metisMenu.css\"],\n   53:         dest: \"dist/metisMenu.min.css\"\n   54        }\n   55      }\n\n/home/michael/software_projects/educate90/vendor/assets/components/metisMenu/README.md:\n    1: # metisMenu [![Build Status](https://secure.travis-ci.org/onokumus/metisMenu.png?branch=master)](https://travis-ci.org/onokumus/metisMenu)\n    2  \n    3  > Easy menu jQuery plugin for Twitter Bootstrap 3\n    .\n   11  \n   12  ```bash\n   13: npm install metismenu\n   14  ```\n   15  \n   ..\n   17  \n   18  ```bash\n   19: bower install metisMenu\n   20  ```\n   21  \n   22: * [Download](https://github.com/onokumus/metisMenu/archive/master.zip)\n   23  \n   24  ## Usage\n   ..\n   30      ```\n   31  \n   32: 2. Include metisMenu StyleSheet\n   33  \n   34      ```html\n   35:     <link rel=\"stylesheet\" href=\"//cdn.jsdelivr.net/bootstrap.metismenu/1.1.2/css/metismenu.min.css\">\n   36      ```\n   37  \n   ..\n   48      ```\n   49  \n   50: 5. Include metisMenu plugin's code\n   51  \n   52      ```html\n   53:     <script src=\"//cdn.jsdelivr.net/bootstrap.metismenu/1.1.2/js/metismenu.min.js\"></script>\n   54      ```\n   55  \n   ..\n   57  \n   58      ```javascript\n   59:     $(\"#menu\").metisMenu();\n   60      ```\n   61  \n   ..\n   69  \n   70  ```javascript\n   71:   $(\"#menu\").metisMenu({\n   72      toggle: false\n   73    });\n   ..\n   81  \n   82  ```javascript\n   83:   $(\"#menu\").metisMenu({\n   84      doubleTapToGo: true\n   85    });\n   ..\n   87  \n   88  \n   89: ### [DEMO](http://demo.onokumus.com/metisMenu/)\n   90  \n   91: Contains a simple HTML file to demonstrate metisMenu plugin.\n   92  \n   93  ### Release History\n   ..\n  102  ## Author\n  103  \n  104: metisMenu was made with love by these guys and a bunch of awesome [contributors](https://github.com/onokumus/metisMenu/graphs/contributors).\n  105  \n  106  [![Osman Nuri Okumuş](https://0.gravatar.com/avatar/4fa374411129d6f574c33e4753ec402e?s=70)](http://onokumus.com) |\n  ...\n  111  ## License\n  112  \n  113: [MIT License](https://github.com/onokumus/metisMenu/blob/master/LICENSE)\n  114  \n\n/home/michael/software_projects/educate90/vendor/assets/components/metisMenu/bower.json:\n    1  {\n    2:   \"name\": \"metisMenu\",\n    3    \"version\": \"1.1.3\",\n    4:   \"homepage\": \"https://github.com/onokumus/metisMenu\",\n    5    \"authors\": [\n    6      \"onokumus <onokumus@gmail.com>\"\n    .\n    8    \"description\": \"Easy menu jQuery plugin for Twitter Bootstrap 3\",\n    9    \"main\": [\n   10:     \"dist/metisMenu.js\",\n   11:     \"dist/metisMenu.css\"\n   12    ],\n   13    \"keywords\": [\n   ..\n   19      \"accordion\",\n   20      \"toggle\",\n   21:     \"metis\",\n   22:     \"metisMenu\"\n   23    ],\n   24    \"license\": \"MIT\",\n\n/home/michael/software_projects/educate90/vendor/assets/components/metisMenu/package.json:\n    1  {\n    2:   \"name\": \"metismenu\",\n    3    \"version\": \"1.1.3\",\n    4    \"description\": \"Easy menu jQuery plugin for Twitter Bootstrap 3\",\n    5:   \"main\": \"./dist/metisMenu.js\",\n    6    \"scripts\": {\n    7      \"test\": \"grunt travis --verbose\"\n    .\n    9    \"repository\": {\n   10      \"type\": \"git\",\n   11:     \"url\": \"https://github.com/onokumus/metisMenu.git\"\n   12    },\n   13    \"keywords\": [\n   ..\n   19      \"accordion\",\n   20      \"toggle\",\n   21:     \"metis\",\n   22:     \"metisMenu\"\n   23    ],\n   24    \"author\": {\n   ..\n   29    \"license\": \"MIT\",\n   30    \"bugs\": {\n   31:     \"url\": \"https://github.com/onokumus/metisMenu/issues\"\n   32    },\n   33:   \"homepage\": \"https://github.com/onokumus/metisMenu\",\n   34    \"devDependencies\": {\n   35      \"grunt\": \"^0.4.5\",\n\n/home/michael/software_projects/educate90/vendor/assets/components/metisMenu/dist/metisMenu.css:\n    1  /*\n    2:  * metismenu - v1.1.3\n    3   * Easy menu jQuery plugin for Twitter Bootstrap 3\n    4:  * https://github.com/onokumus/metisMenu\n    5   *\n    6   * Made by Osman Nuri Okumus\n\n/home/michael/software_projects/educate90/vendor/assets/components/metisMenu/dist/metisMenu.js:\n    1  /*\n    2:  * metismenu - v1.1.3\n    3   * Easy menu jQuery plugin for Twitter Bootstrap 3\n    4:  * https://github.com/onokumus/metisMenu\n    5   *\n    6   * Made by Osman Nuri Okumus\n    .\n    9  ;(function($, window, document, undefined) {\n   10  \n   11:     var pluginName = \"metisMenu\",\n   12          defaults = {\n   13              toggle: true,\n\n/home/michael/software_projects/educate90/vendor/assets/components/metisMenu/dist/metisMenu.min.css:\n    1  /*\n    2:  * metismenu - v1.1.3\n    3   * Easy menu jQuery plugin for Twitter Bootstrap 3\n    4:  * https://github.com/onokumus/metisMenu\n    5   *\n    6   * Made by Osman Nuri Okumus\n\n/home/michael/software_projects/educate90/vendor/assets/components/metisMenu/dist/metisMenu.min.js:\n    1  /*\n    2:  * metismenu - v1.1.3\n    3   * Easy menu jQuery plugin for Twitter Bootstrap 3\n    4:  * https://github.com/onokumus/metisMenu\n    5   *\n    6   * Made by Osman Nuri Okumus\n    7   * Under MIT License\n    8   */\n    9: !function(a,b,c){function d(b,c){this.element=a(b),this.settings=a.extend({},f,c),this._defaults=f,this._name=e,this.init()}var e=\"metisMenu\",f={toggle:!0,doubleTapToGo:!1};d.prototype={init:function(){var b=this.element,d=this.settings.toggle,f=this;this.isIE()<=9?(b.find(\"li.active\").has(\"ul\").children(\"ul\").collapse(\"show\"),b.find(\"li\").not(\".active\").has(\"ul\").children(\"ul\").collapse(\"hide\")):(b.find(\"li.active\").has(\"ul\").children(\"ul\").addClass(\"collapse in\"),b.find(\"li\").not(\".active\").has(\"ul\").children(\"ul\").addClass(\"collapse\")),f.settings.doubleTapToGo&&b.find(\"li.active\").has(\"ul\").children(\"a\").addClass(\"doubleTapToGo\"),b.find(\"li\").has(\"ul\").children(\"a\").on(\"click.\"+e,function(b){return b.preventDefault(),f.settings.doubleTapToGo&&f.doubleTapToGo(a(this))&&\"#\"!==a(this).attr(\"href\")&&\"\"!==a(this).attr(\"href\")?(b.stopPropagation(),void(c.location=a(this).attr(\"href\"))):(a(this).parent(\"li\").toggleClass(\"active\").children(\"ul\").collapse(\"toggle\"),void(d&&a(this).parent(\"li\").siblings().removeClass(\"active\").children(\"ul.in\").collapse(\"hide\")))})},isIE:function(){for(var a,b=3,d=c.createElement(\"div\"),e=d.getElementsByTagName(\"i\");d.innerHTML=\"<!--[if gt IE \"+ ++b+\"]><i></i><![endif]-->\",e[0];)return b>4?b:a},doubleTapToGo:function(a){var b=this.element;return a.hasClass(\"doubleTapToGo\")?(a.removeClass(\"doubleTapToGo\"),!0):a.parent().children(\"ul\").length?(b.find(\".doubleTapToGo\").removeClass(\"doubleTapToGo\"),a.addClass(\"doubleTapToGo\"),!1):void 0},remove:function(){this.element.off(\".\"+e),this.element.removeData(e)}},a.fn[e]=function(b){return this.each(function(){var c=a(this);c.data(e)&&c.data(e).remove(),c.data(e,new d(this,b))}),this}}(jQuery,window,document);\n\n/home/michael/software_projects/educate90/vendor/assets/components/metisMenu/src/metisMenu.js:\n    1  ;(function($, window, document, undefined) {\n    2  \n    3:     var pluginName = \"metisMenu\",\n    4          defaults = {\n    5              toggle: true,\n\n/home/michael/software_projects/educate90/vendor/assets/components/startbootstrap-sb-admin-2/dist/js/sb-admin-2.js:\n    1  $(function() {\n    2  \n    3:     // $('#side-menu').metisMenu();\n    4  \n    5  });\n\n2353 matches across 138 files\n\n\nSearching 10 files for \"metis\"\n\n/home/michael/software_projects/educate90/app/assets/javascripts/application.js:\n   16  //= require turbolinks\n   17  //= require bootstrap/js/bootstrap\n   18: //= require metisMenu/dist/metisMenu\n   19  //= require startbootstrap-sb-admin-2/dist/js/sb-admin-2\n   20  \n\n/home/michael/software_projects/educate90/public/assets/application-50c6cb98f51ed80180bcf07f4c8962b117d3f16c08b25132435e7335e5bd36e6.js:\n 14726  }(jQuery);\n 14727  /*\n 14728:  * metismenu - v1.1.3\n 14729   * Easy menu jQuery plugin for Twitter Bootstrap 3\n 14730:  * https://github.com/onokumus/metisMenu\n 14731   *\n 14732   * Made by Osman Nuri Okumus\n .....\n 14736  ;(function($, window, document, undefined) {\n 14737  \n 14738:     var pluginName = \"metisMenu\",\n 14739          defaults = {\n 14740              toggle: true,\n .....\n 14848  $(function() {\n 14849  \n 14850:     $('#side-menu').metisMenu();\n 14851  \n 14852  });\n\n/home/michael/software_projects/educate90/vendor/assets/components/metisMenu/Gruntfile.js:\n   20        all: [\n   21        \"Gruntfile.js\",\n   22:       \"src/metisMenu.js\"\n   23        ]\n   24      },\n   25      concat: {\n   26        plugin: {\n   27:         src: [\"src/metisMenu.js\"],\n   28:         dest: \"dist/metisMenu.js\"\n   29        },\n   30        css: {\n   31:         src: [\"src/metisMenu.css\"],\n   32:         dest: \"dist/metisMenu.css\"\n   33        },\n   34        options: {\n   ..\n   38      uglify: {\n   39        plugin: {\n   40:         src: [\"dist/metisMenu.js\"],\n   41:         dest: \"dist/metisMenu.min.js\"\n   42        },\n   43        options: {\n   ..\n   50        },\n   51        menucss: {\n   52:         src: [\"src/metisMenu.css\"],\n   53:         dest: \"dist/metisMenu.min.css\"\n   54        }\n   55      }\n\n/home/michael/software_projects/educate90/vendor/assets/components/metisMenu/dist/metisMenu.js:\n    1  /*\n    2:  * metismenu - v1.1.3\n    3   * Easy menu jQuery plugin for Twitter Bootstrap 3\n    4:  * https://github.com/onokumus/metisMenu\n    5   *\n    6   * Made by Osman Nuri Okumus\n    .\n    9  ;(function($, window, document, undefined) {\n   10  \n   11:     var pluginName = \"metisMenu\",\n   12          defaults = {\n   13              toggle: true,\n\n/home/michael/software_projects/educate90/vendor/assets/components/metisMenu/dist/metisMenu.min.js:\n    1  /*\n    2:  * metismenu - v1.1.3\n    3   * Easy menu jQuery plugin for Twitter Bootstrap 3\n    4:  * https://github.com/onokumus/metisMenu\n    5   *\n    6   * Made by Osman Nuri Okumus\n    7   * Under MIT License\n    8   */\n    9: !function(a,b,c){function d(b,c){this.element=a(b),this.settings=a.extend({},f,c),this._defaults=f,this._name=e,this.init()}var e=\"metisMenu\",f={toggle:!0,doubleTapToGo:!1};d.prototype={init:function(){var b=this.element,d=this.settings.toggle,f=this;this.isIE()<=9?(b.find(\"li.active\").has(\"ul\").children(\"ul\").collapse(\"show\"),b.find(\"li\").not(\".active\").has(\"ul\").children(\"ul\").collapse(\"hide\")):(b.find(\"li.active\").has(\"ul\").children(\"ul\").addClass(\"collapse in\"),b.find(\"li\").not(\".active\").has(\"ul\").children(\"ul\").addClass(\"collapse\")),f.settings.doubleTapToGo&&b.find(\"li.active\").has(\"ul\").children(\"a\").addClass(\"doubleTapToGo\"),b.find(\"li\").has(\"ul\").children(\"a\").on(\"click.\"+e,function(b){return b.preventDefault(),f.settings.doubleTapToGo&&f.doubleTapToGo(a(this))&&\"#\"!==a(this).attr(\"href\")&&\"\"!==a(this).attr(\"href\")?(b.stopPropagation(),void(c.location=a(this).attr(\"href\"))):(a(this).parent(\"li\").toggleClass(\"active\").children(\"ul\").collapse(\"toggle\"),void(d&&a(this).parent(\"li\").siblings().removeClass(\"active\").children(\"ul.in\").collapse(\"hide\")))})},isIE:function(){for(var a,b=3,d=c.createElement(\"div\"),e=d.getElementsByTagName(\"i\");d.innerHTML=\"<!--[if gt IE \"+ ++b+\"]><i></i><![endif]-->\",e[0];)return b>4?b:a},doubleTapToGo:function(a){var b=this.element;return a.hasClass(\"doubleTapToGo\")?(a.removeClass(\"doubleTapToGo\"),!0):a.parent().children(\"ul\").length?(b.find(\".doubleTapToGo\").removeClass(\"doubleTapToGo\"),a.addClass(\"doubleTapToGo\"),!1):void 0},remove:function(){this.element.off(\".\"+e),this.element.removeData(e)}},a.fn[e]=function(b){return this.each(function(){var c=a(this);c.data(e)&&c.data(e).remove(),c.data(e,new d(this,b))}),this}}(jQuery,window,document);\n\n/home/michael/software_projects/educate90/vendor/assets/components/metisMenu/src/metisMenu.js:\n    1  ;(function($, window, document, undefined) {\n    2  \n    3:     var pluginName = \"metisMenu\",\n    4          defaults = {\n    5              toggle: true,\n\n/home/michael/software_projects/educate90/vendor/assets/components/startbootstrap-sb-admin-2/dist/js/sb-admin-2.js:\n    1  $(function() {\n    2  \n    3:     // $('#side-menu').metisMenu();\n    4  \n    5  });\n\n23 matches across 7 files\n",
+			"settings":
+			{
+				"buffer_size": 34763,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 117.0,
+		"last_filter": "syntax css",
+		"selected_items":
+		[
+			[
+				"syntax css",
+				"Set Syntax: SCSS"
+			],
+			[
+				"lo",
+				"File: Locate"
+			],
+			[
+				"locate",
+				"File: Locate"
+			],
+			[
+				"locat",
+				"File: Locate"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"snip",
+				"Snippet: html"
+			],
+			[
+				"syntax ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"new folder",
+				"File: New Folder Relative to Current View"
+			],
+			[
+				"new",
+				"File: New Folder Relative to Current View"
+			],
+			[
+				"new fol",
+				"File: New File Relative to Current View"
+			],
+			[
+				"add folde",
+				"Project: Add Folder"
+			],
+			[
+				"Project clo",
+				"Project: Close"
+			],
+			[
+				"File ",
+				"File: Locate"
+			],
+			[
+				"rev",
+				"File: Reveal"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"Project cl",
+				"Project: Close"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"gfm",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"syntax mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ical",
+				"Set Syntax: iCalendar"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"syn lis",
+				"Set Syntax: Lisp"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"mo",
+				"File: Move"
+			],
+			[
+				"delet",
+				"File: Delete"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"lower ca",
+				"Convert Case: Lower Case"
+			],
+			[
+				"uper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"up",
+				"Convert Case: Upper Case"
+			],
+			[
+				"case lo",
+				"Convert Case: Lower Case"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"conver",
+				"Convert Case: Lower Case"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"set syntax y",
+				"Set Syntax: YAML"
+			],
+			[
+				"view",
+				"View In Browser"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"user ",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"syn mark",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"syntax g",
+				"Set Syntax: Go"
+			],
+			[
+				"case",
+				"Convert Case: Title Case"
+			],
+			[
+				"preivew",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"upcase",
+				"Convert Case: Upper Case"
+			],
+			[
+				"snippet",
+				"Snippet: Markdown_header_(mdh1)"
+			],
+			[
+				"Package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"priview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"inserdate",
+				"Preferences: InsertDate Keybindings - Default"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"preivw",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"syn js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"intsall",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"llint",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"ad",
+				"Project: Add Folder"
+			],
+			[
+				"Project ",
+				"Project: Close"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"synt",
+				"Set Syntax: Ruby"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"preview ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"view in",
+				"View In Browser"
+			],
+			[
+				"package setting",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"v",
+				"View In Browser"
+			],
+			[
+				"view ",
+				"View In Browser"
+			],
+			[
+				"markdow",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"brow",
+				"View In Browser"
+			],
+			[
+				"vew ",
+				"View In Browser"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"codeintel",
+				"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+			],
+			[
+				"syntax mar",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"markdown settings",
+				"Preferences: MarkdownEditing Settings – User"
+			],
+			[
+				"syntax markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown ",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"install packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: packages",
+				"Package Control: List Packages"
+			],
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"dired",
+				"dired: Goto Anywhere"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"syntax rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"syntax javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"dire",
+				"dired: Goto Anywhere"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"package control l",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"regreplace",
+				"Preferences: Reg Replace Commands – User"
+			],
+			[
+				"setting",
+				"Preferences: Reg Replace Settings – Default"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax",
+				"Set Syntax: ASP"
+			],
+			[
+				"syntax: vb",
+				"Set Syntax: Objective-C"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 652.0,
+		"history":
+		[
+			"Wordpress2",
+			"Wordpress 2",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"view.settings().erase(\"color_scheme\")",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"Install"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/michael/software_projects/educate90",
+		"/home/michael/software_projects/educate90/app",
+		"/home/michael/software_projects/educate90/app/views/layouts"
+	],
+	"file_history":
+	[
+		"/home/michael/software_projects/educate90/app/assets/stylesheets/variables.scss",
+		"/home/michael/software_projects/educate90/app/views/layouts/application.html.erb",
+		"/home/michael/software_projects/educate90/vendor/assets/components/startbootstrap-sb-admin-2/dist/css/sb-admin-2.css",
+		"/home/michael/software_projects/educate90/app/assets/stylesheets/application.scss",
+		"/home/michael/software_projects/educate90/app/views/application/_header.html.erb",
+		"/home/michael/software_projects/educate90/app/assets/stylesheets/sb-admin-2-theme.scss",
+		"/home/michael/software_projects/educate90/app/views/sections/compensation.html.erb",
+		"/home/michael/software_projects/educate90/app/views/application/_menu.html.erb",
+		"/home/michael/software_projects/educate90/app/assets/javascripts/application.js",
+		"/home/michael/software_projects/educate90/app/views/application/_navigation.html.erb",
+		"/home/michael/software_projects/educate90/app/assets/stylesheets/bootstrap-theme.scss",
+		"/home/michael/software_projects/educate90/app/views/application/_footer.html.erb",
+		"/home/michael/software_projects/educate90/vendor/assets/components/bootstrap/css/bootstrap.css",
+		"/home/michael/software_projects/educate90/app/views/sections/autoship.html.erb",
+		"/home/michael/software_projects/educate90/config/environments/production.rb",
+		"/home/michael/software_projects/educate90/config/application.rb",
+		"/home/michael/software_projects/educate90/config/deploy/production.rb",
+		"/home/michael/software_projects/educate90/config/deploy.rb",
+		"/home/michael/software_projects/educate90/Capfile",
+		"/home/michael/software_projects/educate90/vendor/assets/components/startbootstrap-sb-admin-2/dist/js/sb-admin-2.js",
+		"/home/michael/software_projects/educate90/vendor/assets/components/metisMenu/dist/metisMenu.js",
+		"/home/michael/software_projects/educate90/app/views/sections/welcome.html.erb",
+		"/home/michael/software_projects/educate90/config/routes.rb",
+		"/home/michael/software_projects/educate90/app/controllers/sections_controller.rb",
+		"/home/michael/software_projects/educate90/app/views/sections/index.html.erb",
+		"/home/michael/software_projects/educate90/app/views/sections/free_ygy_website.html.erb",
+		"/home/michael/software_projects/educate90/app/views/sections/enroll_new.html.erb",
+		"/home/michael/software_projects/educate90/app/views/sections/order.html.erb",
+		"/home/michael/software_projects/educate90/app/views/sections/help.html.erb",
+		"/home/michael/software_projects/educate90/app/views/sections/resources.html.erb",
+		"/home/michael/software_projects/educate90/app/views/sections/marketing_5x5.html.erb",
+		"/home/michael/software_projects/educate90/tmp/cache/assets/sprockets/v3.0/fWgLMNRauMJbOO6-ElUD5RhTe0PB3ClaSO9ILLXJe7E.cache",
+		"/home/michael/software_projects/educate90/app/views/sections/what_take.html.erb",
+		"/home/michael/software_projects/educate90/app/views/products/index.html.erb",
+		"/home/michael/software_projects/educate90/.gitignore",
+		"/home/michael/software_projects/educate90/Gemfile",
+		"/home/michael/software_projects/educate90/config/secrets.yml",
+		"/home/michael/software_projects/educate90/config/environment.rb",
+		"/home/michael/software_projects/educate90/config/database.yml",
+		"/home/michael/.zshrc",
+		"/home/michael/software_projects/educate90/.rbenv-vars",
+		"/home/michael/.ssh/config",
+		"/home/michael/software_projects/educate90/db/migrate/20160322054447_create_products.rb",
+		"/home/michael/software_projects/educate90/app/views/home/index.html.erb",
+		"/home/michael/software_projects/educate90/.ruby-version",
+		"/home/michael/software_projects/educate90/config/initializers/assets.rb",
+		"/home/michael/software_projects/educate90/app/views/sections/business_center.html.erb",
+		"/home/michael/software_projects/educate90/app/views/sections/product_tips.html.erb",
+		"/home/michael/software_projects/educate90/app/views/sections/core_products.html.erb",
+		"/home/michael/software_projects/educate90/app/views/sections/checklist.html.erb",
+		"/home/michael/software_projects/educate90/app/views/sections/conference.html.erb",
+		"/home/michael/software_projects/educate90/app/views/home/theme.html.erb",
+		"/home/michael/software_projects/educate90/app/views/layouts/theme.html.erb",
+		"/home/michael/software_projects/educate90/app/helpers/section_helper.rb",
+		"/home/michael/software_projects/educate90/test/controllers/section_controller_test.rb",
+		"/home/michael/software_projects/educate90/app/assets/stylesheets/theme.scss",
+		"/home/michael/software_projects/educate90/app/controllers/home_controller.rb",
+		"/home/michael/software_projects/educate90/vendor/assets/components/font-awesome/css/font-awesome.css",
+		"/home/michael/software_projects/educate90/config/locales/en.yml",
+		"/home/michael/software_projects/educate90/vendor/assets/components/font-awesome/fonts/fontawesome-webfont.svg",
+		"/home/michael/software_projects/educate90/vendor/assets/components/font-awesome/scss/_variables.scss",
+		"/home/michael/software_projects/educate90/app/assets/stylesheets/application.css.scss",
+		"/home/michael/.config/sublime-text-3/Packages/User/Ruby.sublime-settings",
+		"/home/michael/.config/sublime-text-3/Packages/User/JavaScript.sublime-settings",
+		"/home/michael/software_projects/educate90/vendor/assets/components/font-awesome/HELP-US-OUT.txt",
+		"/home/michael/software_projects/educate90/vendor/assets/components/bootstrap/assets/stylesheets/_bootstrap.scss",
+		"/home/michael/software_projects/themes/20160316_startbootstrap_sb_admin_2/pages/index.html",
+		"/home/michael/software_projects/themes/20160316_startbootstrap_sb_admin_2/bower_components/metisMenu/dist/metisMenu.css",
+		"/home/michael/software_projects/themes/20160316_startbootstrap_sb_admin_2/dist/css/sb-admin-2.css",
+		"/usr/share/applications/defaults.list",
+		"/home/michael/.config/sublime-text-3/Packages/User/HTML.sublime-settings",
+		"/home/michael/.config/sublime-text-3/Packages/User/CSS.sublime-settings",
+		"/home/michael/.config/sublime-text-3/Packages/User/JSON.sublime-settings",
+		"/home/michael/software_projects/educate90/application",
+		"/home/michael/software_projects/themes/20160316_startbootstrap_sb_admin_2/index.html",
+		"/home/michael/software_projects/educate90/app/controllers/application_controller.rb",
+		"/E/mikes_data/Dropbox/Notes/GTD/Recurring tasks.ics",
+		"/E/mikes_data/Dropbox/Notes/GTD/Projects.md",
+		"/E/mikes_data/Dropbox/Notes/SuperFlow/Modules/Text runway transcript.md",
+		"/E/mikes_data/Dropbox/Notes/SuperFlow/Modules/Text Runway.md",
+		"/E/mikes_data/Dropbox/Notes/SuperFlow/Modules/GTD.md",
+		"/E/mikes_data/Dropbox/Notes/GTD/Horizons.md",
+		"/E/mikes_data/Dropbox/Notes/Projects/Projects.md",
+		"/E/mikes_data/Dropbox/Notes/Projects/Home.md",
+		"/E/mikes_data/Dropbox/Notes/Projects/Errands.md",
+		"/E/mikes_data/Dropbox/Notes/Projects/DownlineToolbox.md",
+		"/E/mikes_data/Dropbox/Notes/Projects/Computer.md",
+		"/E/mikes_data/Dropbox/Notes/Projects/Blog.md",
+		"/E/mikes_data/Dropbox/Notes/Projects/Youngevity.md",
+		"/E/mikes_data/Dropbox/Notes/Projects/Inbox.md",
+		"/E/mikes_data/Dropbox/Notes/Projects/Archived/Tru90 Gqueues.md",
+		"/E/mikes_data/Dropbox/Notes/Projects/Archived/Youngevity archive.md",
+		"/E/mikes_data/Dropbox/Notes/Projects/Deferred/Monat.md",
+		"/E/mikes_data/Dropbox/Notes/Logs/Misc/Journal.md",
+		"/E/mikes_data/Dropbox/Notes/People/Michael.md",
+		"/E/mikes_data/Dropbox/Notes/Agendas/Mia.md",
+		"/E/mikes_data/Dropbox/Notes/Scripts/Recurring tasks.ics",
+		"/E/mikes_data/Google Drive/Joint/MiMi Worldwide/Blog posts/How Cleansing Slowed Down My Metabolism.mdown",
+		"/E/mikes_data/Google Drive/Joint/MiMi Worldwide/Blog posts/Tempreature.mdown",
+		"/E/mikes_data/Google Drive/Joint/MiMi Worldwide/Blog posts/Deer pellets.mdown",
+		"/E/mikes_data/Google Drive/Joint/MiMi Worldwide/Blog posts/Stop DIEting.mdown",
+		"/E/mikes_data/Google Drive/Joint/MiMi Worldwide/Blog posts/Carrot Coconut Oil.mdown",
+		"/E/mikes_data/Google Drive/Joint/MiMi Worldwide/Blog posts/Breakfast.mdown",
+		"/E/mikes_data/Google Drive/Joint/MiMi Worldwide/Blog posts/Asea Low Metabolic Rate.mdown",
+		"/E/mikes_data/Google Drive/Joint/MiMi Worldwide/Blog posts/Recipe for disaster.mdown",
+		"/E/mikes_data/Google Drive/Joint/MiMi Worldwide/Blog posts/Overhydrating.mdown",
+		"/E/mikes_data/Google Drive/Joint/MiMi Worldwide/Blog posts/Orange cream.mdown",
+		"/E/mikes_data/Google Drive/Joint/MiMi Worldwide/Blog posts/Eat Late at Night.mdown",
+		"/E/mikes_data/Google Drive/Joint/MiMi Worldwide/Blog posts/Thermometer.mdown",
+		"/E/mikes_data/Dropbox/Notes/Logs/Misc/Dave.md",
+		"/E/mikes_data/Dropbox/Notes/Agendas/Dave.md",
+		"/E/mikes_data/Dropbox/Notes/Legal/Fiscal.md",
+		"/E/mikes_data/Dropbox/Notes/Misc/Budget & taxes.md",
+		"/E/mikes_data/Dropbox/Notes/Legal/TaxAct.md",
+		"/E/mikes_data/Dropbox/Notes/Logs/Bills/Rocky Mountain Power.md",
+		"/E/mikes_data/Dropbox/Notes/Scripts/Recurring tasks2.ics",
+		"/E/mikes_data/Dropbox/Notes/Programming/Misc/Encoding.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Misc/iCalendar.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Misc/Notepad++.md",
+		"/E/E-Downloads/gqueues_Misc_Recur_export_2016_03_08 (1).csv",
+		"/E/mikes_data/Dropbox/Notes/Programming/Misc/iCal.md",
+		"/E/E-Downloads/michaelmagistro@gmail.com.ical/re_2grtan9tt2j2nh3c1vb2fr4cqg@group.calendar.google.com.ics",
+		"/E/E-Downloads/Michael Calendar.ics",
+		"/E/E-Downloads/gqueues_Misc_Recur_export_2016_03_08.csv",
+		"/E/mikes_data/Dropbox/Notes/Scripts/Recurring tasks.ical",
+		"/E/mikes_data/Dropbox/Notes/Misc/Stackoverflow questions.md",
+		"/E/mikes_data/Dropbox/Notes/Logs/Questar gas.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Spreadsheets/Spreadsheet formulas.md"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"<open folders>, *.js",
+			"<open folders>",
+			"<open folders>,*.scss,",
+			"<open folders>,*.scss",
+			"*.scss",
+			"/home/michael/software_projects/educate90/app",
+			"/home/michael/software_projects/educate90/app/assets",
+			"<open folders>",
+			"E:\\mikes_data\\Dropbox\\notes",
+			"E:\\OneDrive\\ygy",
+			"E:\\OneDrive"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"  ",
+			"header",
+			"margin-top",
+			"accent2",
+			"70px",
+			"black",
+			"metis",
+			"navbar-static-top",
+			"navbar-static-toop",
+			"header",
+			"navbar-header",
+			"grey",
+			"panel-head",
+			"#main",
+			";",
+			"sidebar ul li a.active",
+			"D4D4D4",
+			"header",
+			"#WRAPPER",
+			"PAGE-WITH",
+			"main",
+			"    ",
+			"bottom-border",
+			"	<%= content_tag :div, class: \"row\" do %>\n		<%= content_tag :div, class: \"col-xs-6\" do %>",
+			"<%= content_tag :div, class: \"row\" do %>\n		<%= content_tag :div, class: \"col-xs-6\" do %>",
+			"20px",
+			"h1",
+			"margin",
+			"m-t-0",
+			"20",
+			"px",
+			"0px",
+			"px",
+			"  ",
+			":p, do",
+			"<%= content_tag :div, class: \"row\" do %>",
+			"sidebar",
+			"page-with-sidebar",
+			"min-width",
+			"page-with-sidebar",
+			"black",
+			"role",
+			"role=",
+			"<%",
+			"container-fluid",
+			"wrapper",
+			"dashboard-menu",
+			"    ",
+			"                ",
+			"               ",
+			"              ",
+			"             ",
+			"            ",
+			"           ",
+			"          ",
+			"         ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"tail",
+			"hover",
+			"@media",
+			"href=#",
+			"</a>",
+			"<a href=\"#\">",
+			"</li>",
+			"<a href=\"#\"",
+			"header",
+			"color:",
+			"<%=",
+			"spring",
+			"database",
+			"web-con",
+			"database",
+			"darwin",
+			" tertiary-theme",
+			"Cropped\"",
+			"border-radius",
+			"primary",
+			"panel",
+			"main",
+			".nav",
+			"sidebar",
+			"panel",
+			"navbar-header",
+			"navbar",
+			"    ",
+			"  ",
+			"F8F8F8",
+			"fa-fw\">",
+			"fa-  fa-fw",
+			"fa-\">",
+			"<i>",
+			".",
+			"\"#\"",
+			"dashboard",
+			"href=\"\"",
+			"  ",
+			"\n        <nav",
+			"        <",
+			"  <",
+			" ",
+			"    ",
+			"   ",
+			"  ",
+			"\";",
+			"gedit",
+			"* {dt}",
+			"{dt}",
+			"{s}",
+			"{e}",
+			"{w}",
+			"{c}",
+			"* ",
+			"* {c}",
+			"[",
+			"* {",
+			"{",
+			"{y}",
+			"* {y}",
+			"{90}",
+			"(-p)",
+			" [ ]",
+			"* {h}",
+			"{h}",
+			":"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\t",
+			"",
+			"-web",
+			"\\r\\n<tr id=\"row-",
+			"<tr id=\"row-\\r\\n",
+			"<tr id=\"row-\\r"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/michael/software_projects/educate90/vendor/assets/components/startbootstrap-sb-admin-2/dist/js/sb-admin-2.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/michael/software_projects/educate90/app/views/application/_navigation.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/michael/software_projects/educate90/app/views/application/_header.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/michael/software_projects/educate90/app/assets/stylesheets/application.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 978,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								976,
+								976
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 379.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/michael/software_projects/educate90/config/environments/production.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								255,
+								255
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/michael/software_projects/educate90/app/assets/stylesheets/variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1241,
+								1241
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/michael/software_projects/educate90/app/assets/stylesheets/sb-admin-2-theme.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								759,
+								759
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34763,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										237,
+										242
+									],
+									[
+										252,
+										257
+									],
+									[
+										583,
+										588
+									],
+									[
+										598,
+										603
+									],
+									[
+										886,
+										891
+									],
+									[
+										901,
+										906
+									],
+									[
+										1259,
+										1264
+									],
+									[
+										1376,
+										1381
+									],
+									[
+										1533,
+										1538
+									],
+									[
+										1675,
+										1680
+									],
+									[
+										1876,
+										1881
+									],
+									[
+										1991,
+										1996
+									],
+									[
+										2171,
+										2176
+									],
+									[
+										2186,
+										2191
+									],
+									[
+										2351,
+										2356
+									],
+									[
+										2366,
+										2371
+									],
+									[
+										2546,
+										2551
+									],
+									[
+										2561,
+										2566
+									],
+									[
+										2813,
+										2818
+									],
+									[
+										2828,
+										2833
+									],
+									[
+										3006,
+										3011
+									],
+									[
+										3021,
+										3026
+									],
+									[
+										3213,
+										3218
+									],
+									[
+										3228,
+										3233
+									],
+									[
+										3397,
+										3402
+									],
+									[
+										3412,
+										3417
+									],
+									[
+										3595,
+										3600
+									],
+									[
+										3610,
+										3615
+									],
+									[
+										3855,
+										3860
+									],
+									[
+										3870,
+										3875
+									],
+									[
+										4039,
+										4044
+									],
+									[
+										4054,
+										4059
+									],
+									[
+										4237,
+										4242
+									],
+									[
+										4252,
+										4257
+									],
+									[
+										21419,
+										21424
+									],
+									[
+										21510,
+										21515
+									],
+									[
+										21704,
+										21709
+									],
+									[
+										21736,
+										21741
+									],
+									[
+										21849,
+										21854
+									],
+									[
+										21869,
+										21874
+									],
+									[
+										22048,
+										22053
+									],
+									[
+										22123,
+										22128
+									],
+									[
+										22328,
+										22333
+									],
+									[
+										22441,
+										22446
+									],
+									[
+										22484,
+										22489
+									],
+									[
+										22560,
+										22565
+									],
+									[
+										22604,
+										22609
+									],
+									[
+										22736,
+										22741
+									],
+									[
+										22779,
+										22784
+									],
+									[
+										22909,
+										22914
+									],
+									[
+										22953,
+										22958
+									],
+									[
+										23098,
+										23103
+									],
+									[
+										23163,
+										23168
+									],
+									[
+										23224,
+										23229
+									],
+									[
+										23348,
+										23353
+									],
+									[
+										23427,
+										23432
+									],
+									[
+										23504,
+										23509
+									],
+									[
+										23605,
+										23610
+									],
+									[
+										23722,
+										23727
+									],
+									[
+										23742,
+										23747
+									],
+									[
+										23832,
+										23837
+									],
+									[
+										23936,
+										23941
+									],
+									[
+										23955,
+										23960
+									],
+									[
+										24067,
+										24072
+									],
+									[
+										24158,
+										24163
+									],
+									[
+										24263,
+										24268
+									],
+									[
+										24384,
+										24389
+									],
+									[
+										24454,
+										24459
+									],
+									[
+										24545,
+										24550
+									],
+									[
+										24654,
+										24659
+									],
+									[
+										24897,
+										24902
+									],
+									[
+										25053,
+										25058
+									],
+									[
+										25144,
+										25149
+									],
+									[
+										25338,
+										25343
+									],
+									[
+										25370,
+										25375
+									],
+									[
+										25483,
+										25488
+									],
+									[
+										25503,
+										25508
+									],
+									[
+										25672,
+										25677
+									],
+									[
+										25813,
+										25818
+									],
+									[
+										25998,
+										26003
+									],
+									[
+										26111,
+										26116
+									],
+									[
+										26131,
+										26136
+									],
+									[
+										26274,
+										26279
+									],
+									[
+										26354,
+										26359
+									],
+									[
+										26544,
+										26549
+									],
+									[
+										26659,
+										26664
+									],
+									[
+										26832,
+										26837
+									],
+									[
+										26947,
+										26952
+									],
+									[
+										27098,
+										27103
+									],
+									[
+										27293,
+										27298
+									],
+									[
+										27408,
+										27413
+									],
+									[
+										27585,
+										27590
+									],
+									[
+										27700,
+										27705
+									],
+									[
+										27933,
+										27938
+									],
+									[
+										29693,
+										29698
+									],
+									[
+										29943,
+										29948
+									],
+									[
+										30212,
+										30217
+									],
+									[
+										30227,
+										30232
+									],
+									[
+										30488,
+										30493
+									],
+									[
+										30605,
+										30610
+									],
+									[
+										30762,
+										30767
+									],
+									[
+										30904,
+										30909
+									],
+									[
+										31097,
+										31102
+									],
+									[
+										31210,
+										31215
+									],
+									[
+										31253,
+										31258
+									],
+									[
+										31329,
+										31334
+									],
+									[
+										31373,
+										31378
+									],
+									[
+										31505,
+										31510
+									],
+									[
+										31548,
+										31553
+									],
+									[
+										31678,
+										31683
+									],
+									[
+										31722,
+										31727
+									],
+									[
+										31886,
+										31891
+									],
+									[
+										32001,
+										32006
+									],
+									[
+										32152,
+										32157
+									],
+									[
+										32346,
+										32351
+									],
+									[
+										32461,
+										32466
+									],
+									[
+										32694,
+										32699
+									],
+									[
+										34454,
+										34459
+									],
+									[
+										34704,
+										34709
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								34576,
+								34576
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/home/michael/software_projects/educate90",
+							"detect_indentation": false,
+							"incomplete_sync": null,
+							"line_numbers": false,
+							"output_tag": 3,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ 	].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 14580.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 142.0
+	},
+	"pinned_build_system": "",
+	"project": "educate90.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"enpro",
+				"config/environments/production.rb"
+			],
+			[
+				"variabl",
+				"app/assets/stylesheets/variables.scss"
+			],
+			[
+				"sbscss",
+				"app/assets/stylesheets/sb-admin-2-theme.scss"
+			],
+			[
+				"appcss",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"header",
+				"app/views/application/_header.html.erb"
+			],
+			[
+				"navigation",
+				"app/views/application/_navigation.html.erb"
+			],
+			[
+				"sbadmin",
+				"vendor/assets/components/startbootstrap-sb-admin-2/dist/js/sb-admin-2.js"
+			],
+			[
+				"footer",
+				"app/views/application/_footer.html.erb"
+			],
+			[
+				"applition.js",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"appjs",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"sbtheme",
+				"app/assets/stylesheets/sb-admin-2-theme.scss"
+			],
+			[
+				"navigr",
+				"app/views/application/_navigation.html.erb"
+			],
+			[
+				"menu",
+				"app/views/application/_menu.html.erb"
+			],
+			[
+				"sbcss",
+				"vendor/assets/components/startbootstrap-sb-admin-2/dist/css/sb-admin-2.css"
+			],
+			[
+				"apperb",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"bootstrap.css",
+				"vendor/assets/components/bootstrap/css/bootstrap.css"
+			],
+			[
+				"variables",
+				"app/assets/stylesheets/variables.scss"
+			],
+			[
+				"bootstraptheme",
+				"app/assets/stylesheets/bootstrap-theme.scss"
+			],
+			[
+				"compent",
+				"app/views/sections/compensation.html.erb"
+			],
+			[
+				"applicationhtml",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"theme.scss",
+				"app/assets/stylesheets/sb-admin-2-theme.scss"
+			],
+			[
+				"navig",
+				"app/views/application/_navigation.html.erb"
+			],
+			[
+				"sb-2.scss",
+				"vendor/assets/components/startbootstrap-sb-admin-2/dist/css/sb-admin-2.css"
+			],
+			[
+				"apphtml",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"shtheme",
+				"app/assets/stylesheets/sb-admin-2-theme.scss"
+			],
+			[
+				"appscss",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"autoship",
+				"app/views/sections/autoship.html.erb"
+			],
+			[
+				"environments/",
+				"config/environments/production.rb"
+			],
+			[
+				"navi",
+				"app/views/application/_navigation.html.erb"
+			],
+			[
+				"bootstrap",
+				"app/assets/stylesheets/bootstrap-theme.scss"
+			],
+			[
+				"application.html",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"men",
+				"app/views/application/_menu.html.erb"
+			],
+			[
+				"_menu",
+				"app/views/application/_menu.html.erb"
+			],
+			[
+				"application.html.erb",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"production.rb",
+				"config/environments/production.rb"
+			],
+			[
+				"applic",
+				"config/application.rb"
+			],
+			[
+				"deploy.rb",
+				"config/deploy.rb"
+			],
+			[
+				"capfile",
+				"Capfile"
+			],
+			[
+				"metis",
+				"vendor/assets/components/metisMenu/dist/metisMenu.js"
+			],
+			[
+				"sb2js",
+				"vendor/assets/components/startbootstrap-sb-admin-2/dist/js/sb-admin-2.js"
+			],
+			[
+				"sb",
+				"app/assets/stylesheets/sb-admin-2-theme.scss"
+			],
+			[
+				"routs",
+				"config/routes.rb"
+			],
+			[
+				"section",
+				"app/controllers/sections_controller.rb"
+			],
+			[
+				"compensat",
+				"app/views/sections/compensation.html.erb"
+			],
+			[
+				"sections/index",
+				"app/views/sections/index.html.erb"
+			],
+			[
+				"order",
+				"app/views/sections/order.html.erb"
+			],
+			[
+				"enroll",
+				"app/views/sections/enroll_new.html.erb"
+			],
+			[
+				"ygyweb",
+				"app/views/sections/free_ygy_website.html.erb"
+			],
+			[
+				"section/index",
+				"app/views/sections/index.html.erb"
+			],
+			[
+				"compensation",
+				"app/views/sections/compensation.html.erb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"sections",
+				"app/controllers/sections_controller.rb"
+			],
+			[
+				"sec",
+				"app/controllers/sections_controller.rb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"rourte",
+				"tmp/cache/assets/sprockets/v3.0/fWgLMNRauMJbOO6-ElUD5RhTe0PB3ClaSO9ILLXJe7E.cache"
+			],
+			[
+				"whattake",
+				"app/views/sections/what_take.html.erb"
+			],
+			[
+				"themescss",
+				"app/assets/stylesheets/bootstrap-theme.scss"
+			],
+			[
+				"views/sections/inde",
+				"app/views/sections/index.html.erb"
+			],
+			[
+				"index",
+				"app/views/products/index.html.erb"
+			],
+			[
+				"variable",
+				"app/assets/stylesheets/variables.scss"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				".rb",
+				".rbenv-vars"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"production",
+				"config/environments/production.rb"
+			],
+			[
+				"database.yml",
+				"config/database.yml"
+			],
+			[
+				"application",
+				"config/application.rb"
+			],
+			[
+				"sectioncon",
+				"app/controllers/sections_controller.rb"
+			],
+			[
+				"environments/prd",
+				"config/environments/production.rb"
+			],
+			[
+				"application.rb",
+				"config/application.rb"
+			],
+			[
+				"welcome",
+				"app/views/sections/welcome.html.erb"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"produc",
+				"config/deploy/production.rb"
+			],
+			[
+				"de",
+				"config/deploy.rb"
+			],
+			[
+				"deploy",
+				"config/deploy.rb"
+			],
+			[
+				"cap",
+				"Capfile"
+			],
+			[
+				"ruby",
+				".ruby-version"
+			],
+			[
+				"database",
+				"config/database.yml"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				".",
+				".gitignore"
+			],
+			[
+				"application.",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"en",
+				"config/environment.rb"
+			],
+			[
+				"application.js",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"assets.rb",
+				"config/initializers/assets.rb"
+			],
+			[
+				"capfil",
+				"Capfile"
+			],
+			[
+				"deploy.r",
+				"config/deploy.rb"
+			],
+			[
+				"applicationscss",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"gemfil",
+				"Gemfile"
+			],
+			[
+				"boottheme",
+				"app/assets/stylesheets/bootstrap-theme.scss"
+			],
+			[
+				"views/sections/",
+				"app/views/sections/welcome.html.erb"
+			],
+			[
+				"coreproduc",
+				"app/views/sections/core_products.html.erb"
+			],
+			[
+				"variab",
+				"app/assets/stylesheets/variables.scss"
+			],
+			[
+				"protips",
+				"app/views/sections/product_tips.html.erb"
+			],
+			[
+				"bootheme",
+				"app/assets/stylesheets/bootstrap-theme.scss"
+			],
+			[
+				"apphtmlerb",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"conferencehtml",
+				"app/views/sections/conference.html.erb"
+			],
+			[
+				"theme",
+				"app/views/layouts/theme.html.erb"
+			],
+			[
+				"nav",
+				"app/views/application/_navigation.html.erb"
+			],
+			[
+				"layapp",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"sectioncontr",
+				"app/controllers/sections_controller.rb"
+			],
+			[
+				"bootstrapcss",
+				"vendor/assets/components/bootstrap/css/bootstrap.css"
+			],
+			[
+				"applicaton.css",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"_meb",
+				"app/views/application/_menu.html.erb"
+			],
+			[
+				"font-awesome",
+				"vendor/assets/components/font-awesome/scss/_variables.scss"
+			],
+			[
+				"font",
+				"vendor/assets/components/font-awesome/fonts/fontawesome-webfont.svg"
+			],
+			[
+				"_header",
+				"app/views/application/_header.html.erb"
+			],
+			[
+				"homecon",
+				"app/controllers/home_controller.rb"
+			],
+			[
+				"application.css",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"routes.rb",
+				"config/routes.rb"
+			],
+			[
+				"configyml",
+				"config/database.yml"
+			],
+			[
+				"runway",
+				"Dropbox\\Notes\\SuperFlow\\Modules\\Text Runway.md"
+			],
+			[
+				"gtd",
+				"Dropbox\\Notes\\SuperFlow\\Modules\\GTD.md"
+			],
+			[
+				"superflow",
+				"Dropbox\\Notes\\SuperFlow\\Modules\\GTD.md"
+			],
+			[
+				"superflow/modules",
+				"Dropbox\\Notes\\SuperFlow\\Modules\\GTD.md"
+			],
+			[
+				"michael",
+				"Dropbox\\Notes\\People\\Michael.md"
+			],
+			[
+				"gtd/",
+				"Dropbox\\Notes\\GTD\\Recurring tasks.ics"
+			],
+			[
+				"journal",
+				"Dropbox\\Notes\\Logs\\Misc\\Journal.md"
+			],
+			[
+				"downlinetool",
+				"Dropbox\\Notes\\Projects\\DownlineToolbox.md"
+			],
+			[
+				"projects/",
+				"Dropbox\\Notes\\Projects\\Home.md"
+			],
+			[
+				"projects/youn",
+				"Dropbox\\Notes\\Projects\\Youngevity.md"
+			],
+			[
+				"agenda/mia",
+				"Dropbox\\Notes\\Agendas\\Mia.md"
+			],
+			[
+				"monat.md",
+				"Dropbox\\Notes\\Projects\\Deferred\\Monat.md"
+			],
+			[
+				"notes/projects",
+				"Dropbox\\Notes\\Projects\\Youngevity.md"
+			],
+			[
+				"inbox",
+				"Dropbox\\Notes\\Projects\\Inbox.md"
+			],
+			[
+				"recur",
+				"Dropbox\\Notes\\Scripts\\Recurring tasks.ics"
+			],
+			[
+				"agenda/dave",
+				"Dropbox\\Notes\\Agendas\\Dave.md"
+			],
+			[
+				"taxes",
+				"Dropbox\\Notes\\Misc\\Budget & taxes.md"
+			],
+			[
+				"utah",
+				"Dropbox\\Notes\\Legal\\Utah Gov Businesses & LLCs.md"
+			],
+			[
+				"logs/rock",
+				"Dropbox\\Notes\\Logs\\Bills\\Rocky Mountain Power.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"E:\\mikes_data\\Dropbox\\Notes\\notes.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

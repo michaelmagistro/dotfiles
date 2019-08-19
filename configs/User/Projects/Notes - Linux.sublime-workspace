@@ -1,0 +1,1684 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"emp",
+				"empBox"
+			],
+			[
+				"cop",
+				"copyRightFooter"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/michael/Dropbox/Notes/Programming/Rails/Tasks.md",
+			"settings":
+			{
+				"buffer_size": 405,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/michael/Dropbox/Notes/Programming/Ruby/File io.md",
+			"settings":
+			{
+				"buffer_size": 388,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/michael/Dropbox/Notes/Programming/Rails/Snippets/Upload Files.md",
+			"settings":
+			{
+				"buffer_size": 981,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/michael/Dropbox/Notes/Programming/Ruby gems/Rspec.md",
+			"settings":
+			{
+				"buffer_size": 2324,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/michael/Dropbox/Notes/Programming/Rails/Forms.md",
+			"settings":
+			{
+				"buffer_size": 328,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "* Tidbits"
+			}
+		},
+		{
+			"file": "/home/michael/Dropbox/Notes/Programming/Rails/Routing.md",
+			"settings":
+			{
+				"buffer_size": 815,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 96.0,
+		"last_filter": "syntax mark",
+		"selected_items":
+		[
+			[
+				"syntax mark",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"syntax text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"rails",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"synt",
+				"Set Syntax: nginx"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"yml",
+				"Set Syntax: YAML"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"package re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"browse page",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install page",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Settings user",
+				"Preferences: MarkdownEditing Settings – User"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"add fol",
+				"Project: Add Folder"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"Tit",
+				"Convert Case: Title Case"
+			],
+			[
+				"html rail",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"syntax ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"remove",
+				"Project Manager: Remove Project"
+			],
+			[
+				"remove proj",
+				"Project Manager: Remove Project"
+			],
+			[
+				"add pro",
+				"Project Manager: Add Project"
+			],
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"gfm",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ical",
+				"Set Syntax: iCalendar"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"syn lis",
+				"Set Syntax: Lisp"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"mo",
+				"File: Move"
+			],
+			[
+				"delet",
+				"File: Delete"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"lower ca",
+				"Convert Case: Lower Case"
+			],
+			[
+				"uper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"up",
+				"Convert Case: Upper Case"
+			],
+			[
+				"case lo",
+				"Convert Case: Lower Case"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"conver",
+				"Convert Case: Lower Case"
+			],
+			[
+				"set syntax y",
+				"Set Syntax: YAML"
+			],
+			[
+				"view",
+				"View In Browser"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"user ",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"syn mark",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"syntax g",
+				"Set Syntax: Go"
+			],
+			[
+				"case",
+				"Convert Case: Title Case"
+			],
+			[
+				"preivew",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"upcase",
+				"Convert Case: Upper Case"
+			],
+			[
+				"snippet",
+				"Snippet: Markdown_header_(mdh1)"
+			],
+			[
+				"Package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"priview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"inserdate",
+				"Preferences: InsertDate Keybindings - Default"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"preivw",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"syn js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"intsall",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"llint",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"ad",
+				"Project: Add Folder"
+			],
+			[
+				"Project ",
+				"Project: Close"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"preview ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"view in",
+				"View In Browser"
+			],
+			[
+				"package setting",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"v",
+				"View In Browser"
+			],
+			[
+				"view ",
+				"View In Browser"
+			],
+			[
+				"markdow",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"brow",
+				"View In Browser"
+			],
+			[
+				"vew ",
+				"View In Browser"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"codeintel",
+				"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+			],
+			[
+				"syntax mar",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"markdown settings",
+				"Preferences: MarkdownEditing Settings – User"
+			],
+			[
+				"syntax markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown ",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"install packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: packages",
+				"Package Control: List Packages"
+			],
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"dired",
+				"dired: Goto Anywhere"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"syntax rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"syntax javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"dire",
+				"dired: Goto Anywhere"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"package control l",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"regreplace",
+				"Preferences: Reg Replace Commands – User"
+			],
+			[
+				"setting",
+				"Preferences: Reg Replace Settings – Default"
+			],
+			[
+				"syntax",
+				"Set Syntax: ASP"
+			],
+			[
+				"syntax: vb",
+				"Set Syntax: Objective-C"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 652.0,
+		"history":
+		[
+			"Wordpress2",
+			"Wordpress 2",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"view.settings().erase(\"color_scheme\")",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"Install"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/michael/Dropbox/Notes",
+		"/home/michael/Dropbox/Notes/Programming"
+	],
+	"file_history":
+	[
+		"/home/michael/Dropbox/Notes/Programming/Rails/Routing.md",
+		"/home/michael/Dropbox/Notes/Programming/Rails/ActiveRecord.md",
+		"/home/michael/Dropbox/Notes/Programming/Rails/Rake.md",
+		"/home/michael/Dropbox/Notes/Programming/Rails/Commands.md",
+		"/home/michael/Dropbox/Notes/Programming/Rails/Helpers.md",
+		"/home/michael/Dropbox/Notes/Programming/Rails/Overview.md",
+		"/home/michael/Dropbox/Notes/Programming/Rails/Tasks.md",
+		"/home/michael/Dropbox/Notes/Programming/Ruby gems/Rspec.md",
+		"/home/michael/Dropbox/Notes/Programming/Rails/Snippets/process_csv.md",
+		"/home/michael/Dropbox/Notes/Logs/Misc/Journal.md",
+		"/home/michael/Dropbox/Notes/Programming/Ruby/Docs meta.md",
+		"/home/michael/Dropbox/Notes/Misc/Meta.md",
+		"/home/michael/Dropbox/Notes/Programming/Rails/Conventions.md",
+		"/home/michael/Dropbox/Notes/Programming/Ruby gems/FactoryGirl.md",
+		"/home/michael/Dropbox/Notes/Programming/Rails/Errors & logs.md",
+		"/home/michael/Dropbox/Notes/Programming/Rails/Controllers.md",
+		"/home/michael/Dropbox/Notes/Programming/Rails/Snippets/upload_files.md",
+		"/home/michael/Dropbox/Notes/Programming/Rails/Misc.md",
+		"/home/michael/Dropbox/Notes/Programming/Rails/Console.md",
+		"/home/michael/Dropbox/Notes/Programming/Sublime packages/Sublime.md",
+		"/home/michael/Dropbox/Notes/Programming/Linux/Shell commands.md",
+		"/home/michael/Dropbox/Notes/Programming/Misc/Git.md",
+		"/home/michael/Dropbox/Notes/Programming/Ruby gems/Devise.md",
+		"/home/michael/.ssh/known_hosts",
+		"/home/michael/Dropbox/Notes/Scripts/Linode Lish.md",
+		"/home/michael/Dropbox/Notes/Programming/Linux packages/Selenium-webdriver.md",
+		"/home/michael/Dropbox/Notes/Programming/Ruby gems/Capybara.md",
+		"/home/michael/Dropbox/Notes/Programming/Misc/Vmware.md",
+		"/home/michael/Dropbox/Notes/Programming/Ruby gems/ByeBug.md",
+		"/tmp/sublime-sftp-browse-1466122094/sftp_config.txt/opt/nginx/conf/sites-enabled/downlinetoolbox.com",
+		"/home/michael/.config/sublime-text-3/Packages/User/sftp_servers/sftp_config.txt",
+		"/home/michael/.ssh/config",
+		"/tmp/sublime-sftp-browse-1466118151/sftp_config.txt/opt/nginx/conf/sites-enabled/downlinetoolbox.com",
+		"/tmp/sublime-sftp-browse-1466115669/sftp_config.txt/opt/nginx/conf/sites-enabled/downlinetoolbox.com",
+		"/home/michael/.config/sublime-text-3/Packages/SFTP/SFTP.sublime-settings",
+		"/home/michael/Dropbox/Notes/GTD/Archived/DownlineToolbox.md",
+		"/home/michael/Dropbox/Notes/Programming/Linux packages/LetsEncrypt.md",
+		"/tmp/sublime-sftp-browse-1466115064/sftp_config.txt/opt/nginx/conf/sites-enabled/downlinetoolbox.com",
+		"/home/michael/Dropbox/Notes/Misc/Desk.md",
+		"/home/michael/Dropbox/Notes/Misc/Html.md",
+		"/home/michael/Dropbox/Notes/Programming/Ruby/Ruby.md",
+		"/home/michael/Dropbox/Notes/Misc/Bootstrap.md",
+		"/home/michael/Dropbox/Notes/Programming/Misc/CSS.md",
+		"/home/michael/Dropbox/Notes/Programming/Misc/Fontawesome.md",
+		"/home/michael/Dropbox/Notes/Programming/Ruby gems/Capistrano.md",
+		"/home/michael/Dropbox/Notes/Programming/Ruby gems/Bundler.md",
+		"/home/michael/Dropbox/Notes/Programming/Misc/-css.md",
+		"/home/michael/Dropbox/Notes/Programming/Linux packages/SSH.md",
+		"/home/michael/Dropbox/Notes/Programming/Misc/Tmux.md",
+		"/home/michael/Dropbox/Notes/Programming/Services/Linode.md",
+		"/home/michael/Dropbox/Notes/Programming/Rails/Directory structure.md",
+		"/home/michael/Dropbox/Notes/Programming/Rails/ActionView.md",
+		"/home/michael/Dropbox/Notes/Programming/Linux packages/Shell commands.md",
+		"/home/michael/Dropbox/Notes/Programming/Rails/Asset pipeline.md",
+		"/home/michael/Dropbox/Notes/Programming/Css/Sass.md",
+		"/home/michael/Dropbox/Notes/Misc/Markdown cheatsheet.md",
+		"/home/michael/Dropbox/Notes/GTD/Project tasks.md",
+		"/home/michael/Dropbox/Notes/Misc/Gdrive googledrive tru90 arthritis.md",
+		"/home/michael/Dropbox/Notes/YGY/Tru90FooterEmbed-tru90-googledrive.md",
+		"/home/michael/software_projects/educate90/vendor/assets/font-awesome/scss/font-awesome.scss",
+		"/home/michael/.config/sublime-text-3/Packages/User/Markdown.sublime-settings",
+		"/home/michael/Dropbox/Notes/Software/Ubuntu workspace.md",
+		"/home/michael/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/michael/.config/sublime-text-3/Packages/User/JSON.sublime-settings",
+		"/home/michael/.config/sublime-text-3/Packages/Monokai Extended/Monokai Extended.JSON-tmTheme",
+		"/home/michael/.config/sublime-text-3/Packages/Monokai Extended/Monokai Extended.tmTheme",
+		"/home/michael/Dropbox/Notes/Legal/Fiscal.md",
+		"/home/michael/Dropbox/Notes/Programming/Rails/Snippets/_footer.html.erb.md",
+		"/home/michael/.config/sublime-text-3/Packages/User/HTML (Rails).sublime-settings",
+		"/home/michael/.config/sublime-text-3/Packages/User/Projects/Notes - Linux.sublime-project",
+		"/home/michael/Dropbox/Notes/This is a test.txt",
+		"/home/michael/Dropbox/Notes/Programming/Ruby gems/Gem.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Ruby gems/Rbenv.md",
+		"/E/mikes_data/Dropbox/Notes/Scripts/ubuntu_workspace.sh",
+		"/E/mikes_data/Dropbox/Notes/Programming/Misc/Github.md",
+		"/E/mikes_data/Dropbox/Notes/Configs/Rails gitignore.gitignore",
+		"/E/mikes_data/Dropbox/Notes/Programming/Misc/Git.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Rails/Errors & logs.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Ruby gems/Guard.md",
+		"/E/mikes_data/Dropbox/Notes/GTD/Project tasks.md",
+		"/E/mikes_data/Music/(1)20160106(a)danny_pelfrey(b)dark_reign_expansion(t)01(-game-work).mp3",
+		"/E/E-Downloads/gqueues_anniversaries_export_2016_03_13.csv",
+		"/E/mikes_data/Dropbox/Notes/GTD/Recurring tasks.ics",
+		"/E/mikes_data/Dropbox/Notes/GTD/Birthdays & Anniversaries.ics",
+		"/E/mikes_data/Dropbox/Notes/Programming/Linux packages/Zshell.md",
+		"/E/mikes_data/Dropbox/Notes/Software/Ubuntu workspace.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Ruby gems/Bundler.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Ruby gems/Fzf.md",
+		"/E/mikes_data/Dropbox/Notes/Software/Office 365.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Linux packages/Shell functions.md",
+		"/E/mikes_data/Dropbox/Notes/Software/Microsoft Visio.md",
+		"/E/mikes_data/Dropbox/Notes/Logs/Chantel.md",
+		"/E/mikes_data/Dropbox/Notes/Misc/Gmail delay send.md",
+		"/E/mikes_data/Dropbox/Notes/Logs/Bills/Credit cards.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Ruby gems/Jekyll.md",
+		"/E/mikes_data/Dropbox/Notes/Misc/Music.md",
+		"/E/mikes_data/Dropbox/Notes/Misc/Html.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Misc/CSS.md",
+		"/E/mikes_data/Music/(1)20160106(a)gareth_coker(b)ori_and_the_blind_forest_ost(t)16(n)climbing_the_ginso_tree(-work).mp3",
+		"/E/mikes_data/Music/(1)20160106(a)gareth_coker(b)ori_and_the_blind_forest_ost(t)17(n)restoring_the_light_facing_the_dark(-work).mp3",
+		"/E/mikes_data/Music/(1)20160106(a)gareth_coker(b)ori_and_the_blind_forest_ost(t)01(n)ori_lost_in_the_storm(feat._aeralie_brighton).mp3",
+		"/E/mikes_data/Music/(1)20160302(a)thefatrat(n)monody(f)laura_brehm[].mp3",
+		"/E/mikes_data/Dropbox/Notes/GTD/Archived/Errands.md",
+		"/C/Users/Admin/AppData/Local/Temp/Temp1_members_export_74ec4a242b.zip/members_export_74ec4a242b.csv",
+		"/E/mikes_data/Dropbox/Notes/Programming/Gists/Show loading indicators in rails app.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Gists/Spinning indicator ruby rails javascript.md",
+		"/E/mikes_data/Dropbox/Notes/Misc/Chrome workspace.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Javascript/Javascript.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Javascript/Jquery.md",
+		"/E/mikes_data/Dropbox/Notes/Misc/Firefox workspace.md",
+		"/E/mikes_data/Dropbox/Notes/GTD/Projects & tasks.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Misc/Fontawesome.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Misc/Vmware.md",
+		"/E/mikes_data/Dropbox/Notes/GTD/Inbox.md",
+		"/E/mikes_data/Dropbox/Notes/Logs/Bills/Questar gas.md",
+		"/E/mikes_data/Dropbox/Notes/Logs/Misc/Questar gas.md",
+		"/E/mikes_data/Dropbox/Notes/GTD/Projects.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Misc/Tmux.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Ruby gems/ActiveAdmin.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Rails/ActionView.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Rails/Rake.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Ruby gems/Rspec.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Ruby gems/Capistrano.md",
+		"/E/mikes_data/Dropbox/Notes/Misc/ActionView.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Rails/Active record.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Linux packages/scp.md",
+		"/E/mikes_data/Dropbox/Notes/Programming/Rails/Action view.md",
+		"/E/mikes_data/Dropbox/Notes/SuperFlow/Modules/Text runway transcript.md"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"",
+			"E:\\mikes_data\\Dropbox\\notes",
+			"E:\\OneDrive\\ygy",
+			"E:\\OneDrive"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"* 201",
+			"titles",
+			"column",
+			"add column",
+			"lib tasks",
+			"tasks",
+			"**:",
+			"db:create ",
+			"`",
+			"setup",
+			"move",
+			"- ",
+			"\t     \t",
+			"     \t-",
+			"     -",
+			"**",
+			"* * *",
+			"* Solution",
+			"[Error](Solved)",
+			"**",
+			"  * ",
+			"\n  *",
+			"  ",
+			"bash_profile",
+			")",
+			"(",
+			"_",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"hotkey",
+			"`",
+			"dark_reign_ex",
+			":Birthday",
+			"DESCRIPTION:",
+			"BYDAY=",
+			"H00",
+			"DTSTART",
+			":./",
+			"/./",
+			"SUMMARY:",
+			"http://dan.carley.co/blog/2012/02/07/rbenv-and-bundler/",
+			"sudo ",
+			"fzf",
+			"chsh -s /bin/bash",
+			"DESCRIPTION:This is an event reminder\nSUMMARY:Alarm notification",
+			"FREQ=",
+			"personal",
+			"2015",
+			"2016",
+			",",
+			"minus",
+			"feat.",
+			"* [e]",
+			"\t",
+			"Switch",
+			".net",
+			".org",
+			".com",
+			".",
+			"+",
+			"email update",
+			"{dt}",
+			"_(thefatrat_remix)",
+			"_-_",
+			" ",
+			"_-_",
+			" ",
+			"(1)",
+			"TheFatRat Remix",
+			"* {dt}",
+			"{dt}",
+			"{s}",
+			"{e}",
+			"{w}",
+			"{c}",
+			"* ",
+			"* {c}",
+			"[",
+			"* {",
+			"{",
+			"{y}",
+			"* {y}",
+			"{90}",
+			"(-p)",
+			" [ ]",
+			"* {h}",
+			"{h}",
+			":",
+			"@",
+			",",
+			"DTSTART:",
+			"T000000",
+			"DESCRIPTION:",
+			"#",
+			"Monthly on day",
+			"RRULE:",
+			"DTEND:",
+			"DTSTART:",
+			"/",
+			"SUMMARY",
+			"RRULE:",
+			"END:VEVENT",
+			"END",
+			"End",
+			"END",
+			"End",
+			"END",
+			"End",
+			"END",
+			"End",
+			"END",
+			",",
+			"\",\"",
+			"x-grid-extension-dataIndex-name-icon",
+			"\t",
+			"indirect",
+			"x-grid-extension-dataIndex-name-icon",
+			"- ",
+			"\t",
+			"import",
+			"Export",
+			"@",
+			"**",
+			"\"",
+			"\",\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\t",
+			"",
+			"-web",
+			"\\r\\n<tr id=\"row-",
+			"<tr id=\"row-\\r\\n",
+			"<tr id=\"row-\\r"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/michael/Dropbox/Notes/Programming/Rails/Tasks.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78,
+								78
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/michael/Dropbox/Notes/Programming/Ruby/File io.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/michael/Dropbox/Notes/Programming/Rails/Snippets/Upload Files.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 981,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/michael/Dropbox/Notes/Programming/Ruby gems/Rspec.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/michael/Dropbox/Notes/Programming/Rails/Forms.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								328,
+								328
+							]
+						],
+						"settings":
+						{
+							"auto_name": "* Tidbits",
+							"incomplete_sync": null,
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/michael/Dropbox/Notes/Programming/Rails/Routing.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 815,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								815,
+								815
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 33.0
+	},
+	"pinned_build_system": "",
+	"project": "Notes - Linux.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rspec",
+				"Programming/Ruby gems/Rspec.md"
+			],
+			[
+				"rails/fil",
+				"Programming/Rails/Snippets/upload_files.md"
+			],
+			[
+				"form",
+				"Programming/Rails/Forms.md"
+			],
+			[
+				"rout",
+				"Programming/Rails/Routing.md"
+			],
+			[
+				"rails/file",
+				"Programming/Rails/Snippets/upload_files.md"
+			],
+			[
+				"ruby/fil",
+				"Programming/Ruby/File io.md"
+			],
+			[
+				"tasks",
+				"Programming/Rails/Tasks.md"
+			],
+			[
+				"process",
+				"Programming/Rails/Snippets/process_csv.md"
+			],
+			[
+				"active",
+				"Programming/Rails/ActiveRecord.md"
+			],
+			[
+				"rake",
+				"Programming/Rails/Rake.md"
+			],
+			[
+				"rails/",
+				"Programming/Rails/Commands.md"
+			],
+			[
+				"journal",
+				"Logs/Misc/Journal.md"
+			],
+			[
+				"meta",
+				"Programming/Ruby/Docs meta.md"
+			],
+			[
+				"rails/help",
+				"Programming/Rails/Helpers.md"
+			],
+			[
+				"rails/rake",
+				"Programming/Rails/Rake.md"
+			],
+			[
+				"rails/conven",
+				"Programming/Rails/Conventions.md"
+			],
+			[
+				"factory",
+				"Programming/Ruby gems/FactoryGirl.md"
+			],
+			[
+				"convent",
+				"Programming/Rails/Conventions.md"
+			],
+			[
+				"rails/error",
+				"Programming/Rails/Errors & logs.md"
+			],
+			[
+				"rails/commands",
+				"Programming/Rails/Commands.md"
+			],
+			[
+				"rails/snip",
+				"Programming/Rails/Snippets/upload.rb"
+			],
+			[
+				"rails/misc",
+				"Programming/Rails/Misc.md"
+			],
+			[
+				"sublime",
+				"Programming/Sublime packages/Sublime.md"
+			],
+			[
+				"gitmd",
+				"Programming/Misc/Git.md"
+			],
+			[
+				"linux/",
+				"Programming/Linux/Shell commands.md"
+			],
+			[
+				"git",
+				"Programming/Misc/Git.md"
+			],
+			[
+				"devise",
+				"Programming/Ruby gems/Devise.md"
+			],
+			[
+				"linode",
+				"Scripts/Linode Lish.md"
+			],
+			[
+				"capybara",
+				"Programming/Ruby gems/Capybara.md"
+			],
+			[
+				"selenium",
+				"Programming/Linux packages/Selenium-webdriver.md"
+			],
+			[
+				"vmware",
+				"Programming/Misc/Vmware.md"
+			],
+			[
+				"capy",
+				"Programming/Ruby gems/Capybara.md"
+			],
+			[
+				"lets",
+				"Programming/Linux packages/LetsEncrypt.md"
+			],
+			[
+				"downline",
+				"GTD/Archived/DownlineToolbox.md"
+			],
+			[
+				"deskmd",
+				"Misc/Desk.md"
+			],
+			[
+				"desk.md",
+				"Misc/Desk.md"
+			],
+			[
+				"html.md",
+				"Misc/Html.md"
+			],
+			[
+				"cap",
+				"Programming/Ruby gems/Capybara.md"
+			],
+			[
+				"rake.",
+				"Programming/Rails/Rake.md"
+			],
+			[
+				"ruby",
+				"Programming/Ruby/Ruby.md"
+			],
+			[
+				"bundler",
+				"Programming/Ruby gems/Bundler.md"
+			],
+			[
+				"capistran",
+				"Programming/Ruby gems/Capistrano.md"
+			],
+			[
+				"fonta",
+				"Programming/Misc/Fontawesome.md"
+			],
+			[
+				"helper",
+				"Programming/Rails/Helpers.md"
+			],
+			[
+				"css.md",
+				"Programming/Misc/CSS.md"
+			],
+			[
+				"bootstrap",
+				"Misc/Bootstrap.md"
+			],
+			[
+				"boostrap",
+				"Misc/Bootstrap.md"
+			],
+			[
+				"actionview",
+				"Programming/Rails/ActionView.md"
+			],
+			[
+				"rails/view",
+				"Programming/Rails/ActionView.md"
+			],
+			[
+				"capistrano",
+				"Programming/Ruby gems/Capistrano.md"
+			],
+			[
+				"tmux",
+				"Programming/Misc/Tmux.md"
+			],
+			[
+				"shell",
+				"Programming/Linux packages/Shell commands.md"
+			],
+			[
+				"sshmd",
+				"Programming/Linux packages/SSH.md"
+			],
+			[
+				"capistra",
+				"Programming/Ruby gems/Capistrano.md"
+			],
+			[
+				"directo",
+				"Programming/Rails/Directory structure.md"
+			],
+			[
+				"ssh.md",
+				"Programming/Linux packages/SSH.md"
+			],
+			[
+				"googledrive",
+				"YGY/Tru90FooterEmbed-tru90-googledrive.md"
+			],
+			[
+				"helpers",
+				"Programming/Rails/Helpers.md"
+			],
+			[
+				"boo",
+				"Misc/Bootstrap.md"
+			],
+			[
+				"bootstrap.md",
+				"Misc/Bootstrap.md"
+			],
+			[
+				"font",
+				"Programming/Misc/Fontawesome.md"
+			],
+			[
+				"assetpip",
+				"Programming/Rails/Asset pipeline.md"
+			],
+			[
+				"ubuntuwork",
+				"Software/Ubuntu workspace.md"
+			],
+			[
+				"pipline",
+				"Programming/Rails/Asset pipeline.md"
+			],
+			[
+				"markdown",
+				"Misc/Markdown instruct resource.md"
+			],
+			[
+				"sass",
+				"Programming/Css/Sass.md"
+			],
+			[
+				"pipe",
+				"Programming/Rails/Asset pipeline.md"
+			],
+			[
+				"directory",
+				"Programming/Rails/Directory structure.md"
+			],
+			[
+				"direct",
+				"Programming/Rails/Directory structure.md"
+			],
+			[
+				"sublime.md",
+				"Programming/Sublime packages/Sublime.md"
+			],
+			[
+				"pipelin",
+				"Programming/Rails/Asset pipeline.md"
+			],
+			[
+				"shellcomman",
+				"Programming/Linux packages/Shell commands.md"
+			],
+			[
+				"ruby.md",
+				"Programming/Ruby gems/Gem.md"
+			],
+			[
+				"ignore",
+				"Configs\\Rails gitignore.gitignore"
+			],
+			[
+				"git.md",
+				"Programming\\Misc\\Git.md"
+			],
+			[
+				"railsmd",
+				"Programming\\Rails\\Errors & logs.md"
+			],
+			[
+				"guard",
+				"Programming\\Ruby gems\\Guard.md"
+			],
+			[
+				"rbenv",
+				"Programming\\Ruby gems\\Rbenv.md"
+			],
+			[
+				"ubuntush",
+				"Scripts\\ubuntu_workspace.sh"
+			],
+			[
+				"project",
+				"GTD\\Project tasks.md"
+			],
+			[
+				"recur",
+				"GTD\\Recurring tasks.ics"
+			],
+			[
+				"bundlermd",
+				"Programming\\Ruby gems\\Bundler.md"
+			],
+			[
+				"fzf",
+				"Programming\\Ruby gems\\Fzf.md"
+			],
+			[
+				"zshell",
+				"Programming\\Linux packages\\Zshell.md"
+			],
+			[
+				"ubu",
+				"Software\\Ubuntu workspace.md"
+			],
+			[
+				"ubuntuwo",
+				"Scripts\\ubuntu_workspace.sh"
+			],
+			[
+				"shellcommands",
+				"Programming\\Linux packages\\Shell commands.md"
+			],
+			[
+				"shellfunction",
+				"Programming\\Linux packages\\Shell functions.md"
+			],
+			[
+				"ubutnuwo",
+				"Software\\Ubuntu workspace.md"
+			],
+			[
+				"visio",
+				"Software\\Microsoft Visio.md"
+			],
+			[
+				"gmail",
+				"Misc\\Gmail delay send.md"
+			],
+			[
+				"chantelm",
+				"Logs\\Chantel.md"
+			],
+			[
+				"logs/credit",
+				"Logs\\Bills\\Credit cards.md"
+			],
+			[
+				"jekyll.md",
+				"Programming\\Ruby gems\\Jekyll.md"
+			],
+			[
+				"jeky",
+				"Programming\\Ruby gems\\Jekyll.md"
+			],
+			[
+				"music",
+				"Misc\\Music.md"
+			],
+			[
+				"erran",
+				"GTD\\Archived\\Errands.md"
+			],
+			[
+				"javascrip",
+				"Programming\\Javascript\\Javascript.md"
+			],
+			[
+				"chromeworkspace",
+				"Misc\\Chrome workspace.md"
+			],
+			[
+				"workspace",
+				"Misc\\Firefox workspace.md"
+			],
+			[
+				"in",
+				"GTD\\Inbox.md"
+			],
+			[
+				"projects",
+				"GTD\\Projects.md"
+			],
+			[
+				"inbox",
+				"GTD\\Inbox.md"
+			],
+			[
+				"action",
+				"Programming\\Rails\\Action view.md"
+			],
+			[
+				"view",
+				"Misc\\Action view  rails.md"
+			],
+			[
+				"scp",
+				"Programming\\Linux packages\\scp.md"
+			],
+			[
+				"mming/rails/",
+				"Programming\\Rails\\Active record.md"
+			],
+			[
+				"runway",
+				"Dropbox\\Notes\\SuperFlow\\Modules\\Text Runway.md"
+			],
+			[
+				"gtd",
+				"Dropbox\\Notes\\SuperFlow\\Modules\\GTD.md"
+			],
+			[
+				"superflow",
+				"Dropbox\\Notes\\SuperFlow\\Modules\\GTD.md"
+			],
+			[
+				"superflow/modules",
+				"Dropbox\\Notes\\SuperFlow\\Modules\\GTD.md"
+			],
+			[
+				"michael",
+				"Dropbox\\Notes\\People\\Michael.md"
+			],
+			[
+				"gtd/",
+				"Dropbox\\Notes\\GTD\\Recurring tasks.ics"
+			],
+			[
+				"downlinetool",
+				"Dropbox\\Notes\\Projects\\DownlineToolbox.md"
+			],
+			[
+				"projects/",
+				"Dropbox\\Notes\\Projects\\Home.md"
+			],
+			[
+				"projects/youn",
+				"Dropbox\\Notes\\Projects\\Youngevity.md"
+			],
+			[
+				"agenda/mia",
+				"Dropbox\\Notes\\Agendas\\Mia.md"
+			],
+			[
+				"monat.md",
+				"Dropbox\\Notes\\Projects\\Deferred\\Monat.md"
+			],
+			[
+				"notes/projects",
+				"Dropbox\\Notes\\Projects\\Youngevity.md"
+			],
+			[
+				"agenda/dave",
+				"Dropbox\\Notes\\Agendas\\Dave.md"
+			],
+			[
+				"taxes",
+				"Dropbox\\Notes\\Misc\\Budget & taxes.md"
+			],
+			[
+				"utah",
+				"Dropbox\\Notes\\Legal\\Utah Gov Businesses & LLCs.md"
+			],
+			[
+				"logs/rock",
+				"Dropbox\\Notes\\Logs\\Bills\\Rocky Mountain Power.md"
+			],
+			[
+				"ical",
+				"Dropbox\\Notes\\Programming\\Misc\\iCal.md"
+			],
+			[
+				".ics",
+				"Dropbox\\Notes\\Scripts\\Recurring tasks.ics"
+			],
+			[
+				"questar",
+				"Dropbox\\Notes\\Logs\\Questar gas.md"
+			],
+			[
+				"googleshet",
+				"Dropbox\\Notes\\Software\\Google Sheets.md"
+			],
+			[
+				"spreadsheet",
+				"Dropbox\\Notes\\Programming\\Spreadsheets\\Spreadsheet formulas.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"E:\\mikes_data\\Dropbox\\Notes\\notes.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

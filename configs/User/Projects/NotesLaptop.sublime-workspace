@@ -1,0 +1,427 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "pay rate 14 starts\npotential to grow\nGenealogy Bank\ncustomer service technical assesment",
+			"settings":
+			{
+				"buffer_size": 88,
+				"line_ending": "Windows",
+				"name": "pay rate 14 starts"
+			}
+		},
+		{
+			"file": "/C/Users/singl/Dropbox/Notes/Programming/python/Installation.md",
+			"settings":
+			{
+				"buffer_size": 228,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/singl/Dropbox/Notes/Programming/python/UGUG Python Meetup Lucid Software.md",
+			"settings":
+			{
+				"buffer_size": 3420,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"remove package",
+				"Package Control: Remove Package"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"manage",
+				"Project Manager"
+			],
+			[
+				"project new",
+				"Project Manager: Add New Project"
+			],
+			[
+				"project c",
+				"Project Manager"
+			],
+			[
+				"packag control",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			],
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			],
+			[
+				"settings",
+				"Preferences: Settings – Syntax Specific"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/singl/Dropbox"
+	],
+	"file_history":
+	[
+		"/C/Users/singl/Dropbox/Sublime/User/Default (Windows).sublime-keymap",
+		"/C/Users/singl/Dropbox/Notes/Church/Gospel/Sunday School Lessons $log.md",
+		"/C/Users/singl/Dropbox/Notes/Church/Stake Sunday School/Sunday School Presidency Meeting.md",
+		"/C/Users/singl/Dropbox/Notes/Church/Gospel/Lessons/2018-12-09 Old Testament Lesson 45.md",
+		"/C/Users/singl/Dropbox/Legal/Quintana/Email Draft for Dave Todd.md",
+		"/C/Users/singl/Dropbox/Legal/Quintana/Text Draft For Morgan Bond.md",
+		"/C/Users/singl/Dropbox/Notes/Logs/Misc/Journal (Small Plates) #log.md",
+		"/C/Users/singl/Dropbox/Legal/Quintana/Quintana Summary For Morgan Bond.md",
+		"/C/Users/singl/Dropbox/Legal/Quintana/Quintana Timeline.md",
+		"/C/Users/singl/AppData/Roaming/Sublime Text 3/Packages/User/Projects/NotesLaptop.sublime-project",
+		"/C/Users/singl/AppData/Roaming/Sublime Text 3/Packages/User/Projects/Notes.sublime-project",
+		"/C/Users/singl/Dropbox/Legal/Quintana/Notes/Courthouse Notes.md",
+		"/C/Users/singl/Dropbox/Notes/Church/Teaching In The Saviors Way.md",
+		"/C/Users/singl/Dropbox/Notes/Misc/Finance.md",
+		"/C/Users/singl/Dropbox/Notes/Programming/Sublime packages/Sublime.md",
+		"/C/Users/singl/Dropbox/Scripts/Hotkeys & Shortcuts.ahk",
+		"/C/Users/singl/Dropbox/Notes/Logs/Bills/Rent.md"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"chantel"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 88,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								88,
+								88
+							]
+						],
+						"settings":
+						{
+							"SL.32.region_keys":
+							[
+							],
+							"auto_name": "pay rate 14 starts",
+							"default_dir": "C:\\Users\\singl\\Dropbox",
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/singl/Dropbox/Notes/Programming/python/Installation.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.38.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/singl/Dropbox/Notes/Programming/python/UGUG Python Meetup Lucid Software.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3396,
+								3396
+							]
+						],
+						"settings":
+						{
+							"SL.40.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1903.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "NotesLaptop.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"python.md",
+				"Notes\\Programming\\python\\Installation.md"
+			],
+			[
+				"keymap",
+				"Sublime\\User\\Default (Windows).sublime-keymap"
+			],
+			[
+				"sunday school",
+				"Notes\\Church\\Stake Sunday School\\Sunday School Presidency Meeting.md"
+			],
+			[
+				"sunday",
+				"Notes\\Church\\Gospel\\Sunday School Lessons $log.md"
+			],
+			[
+				"lesson 45",
+				"Notes\\Church\\Gospel\\Lessons\\2018-12-09 Old Testament Lesson 45.md"
+			],
+			[
+				"bond morgan",
+				"Legal\\Quintana\\Text Draft For Morgan Bond.md"
+			],
+			[
+				"draft",
+				"Legal\\Quintana\\Text Draft For Morgan Bond.md"
+			],
+			[
+				"jounrl",
+				"Notes\\Logs\\Misc\\Journal (Small Plates) #log.md"
+			],
+			[
+				"morgan",
+				"Legal\\Quintana\\Quintana Summary For Morgan Bond.md"
+			],
+			[
+				"timeline",
+				"Legal\\Quintana\\Quintana Timeline.md"
+			],
+			[
+				"morgan bond .md",
+				"Legal\\Quintana\\Quintana Summary For Morgan Bond.md"
+			],
+			[
+				"jou",
+				"Logs\\Misc\\Journal (Small Plates) #log.md"
+			],
+			[
+				"sublime .md",
+				"Programming\\Sublime packages\\Sublime.md"
+			],
+			[
+				"finance",
+				"Misc\\Finance.md"
+			],
+			[
+				"sublime",
+				"Programming\\Sublime packages\\Sublime.md"
+			],
+			[
+				"rent",
+				"Logs\\Bills\\Rent.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

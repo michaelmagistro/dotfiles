@@ -1,0 +1,56 @@
+// These settings override both User and Default settings for the Python syntax
+{
+  "mde.list_indent_auto_switch_bullet": false,
+  "line_numbers": true,
+  "auto_match_enabled": false,
+  "mde.lint":{
+    // disabled rules, e.g. "md001".
+    "disable": ["md013"],
+    "disable": ["md003"],
+    "disable": ["md004"],
+    "disable": ["md007"],
+    "disable": ["md026"],
+    "disable": ["md029"],
+    "disable": ["md013"],
+    "disable": ["md030"],
+    // Options:
+    //    atx,    ## title  only
+    //    atx_closed, ## title ## only
+    //    setext,   title   only
+    //            =====
+    //    any,    consistent within the document
+    "md003": "any",
+    // Options:
+    //      asterisk, * only
+    //      plus,     + only
+    //      dash,     - only
+    //      cyclic,   different symbols on different levels
+    //            and same symbol on same level
+    //      single,   same symbol on different levels
+    //      any,    same symbol on same level
+    "md004": "cyclic",
+    // Number of spaces per list indent. Set to 0 to use Sublime tab_size instead
+    "md007": 0,
+    // Maximum line length, Set to 0 to use Sublime wrap_width instead
+    "md013": 0,
+    // Disallowed trailing punctuation in headers
+    "md026": ".,;:!",
+    // Options:
+    //    one,    '1.' only
+    //    ordered,  ascending number
+    //    any,    consistent within one list
+    "md029": "any",
+    // (ordered vs unordered, single-line vs multi-line)
+    "md030": {
+      "ul_single": 1,
+      "ol_single": 1,
+      // optinally, 3
+      "ul_multi": 1,
+      // optionaly, 2
+      "ol_multi": 1
+    }
+  },
+  "translate_tabs_to_spaces": true,
+  "tab_size": 4,
+  "draw_white_space": "none"
+}

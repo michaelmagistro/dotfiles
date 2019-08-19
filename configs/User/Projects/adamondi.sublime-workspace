@@ -1,0 +1,1368 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"link",
+				"link-hover"
+			],
+			[
+				"sub",
+				"subscriptions"
+			],
+			[
+				"children",
+				"children_compacted"
+			],
+			[
+				"customer",
+				"customer_plan_retrieval_string"
+			],
+			[
+				"actual",
+				"actual_secondliner_qvs"
+			],
+			[
+				"exp",
+				"expected_secondliner_qvs"
+			],
+			[
+				"expect",
+				"expected_secondliner_names"
+			],
+			[
+				"expected_",
+				"expected_secondliner_enrollers"
+			],
+			[
+				"expected_s",
+				"expected_secondliner_sponsors"
+			],
+			[
+				"actu",
+				"actual_secondliner_ranks"
+			],
+			[
+				"actual_sec",
+				"actual_secondliner_qvs"
+			],
+			[
+				"se",
+				"secondliners"
+			],
+			[
+				"expe",
+				"expected_top_six_account_data"
+			],
+			[
+				"pc",
+				"pcust_not_on_autoship"
+			],
+			[
+				"enroll",
+				"enroller_acct"
+			],
+			[
+				"user",
+				"user_payment_statistics"
+			],
+			[
+				"stripe",
+				"stripe_users"
+			],
+			[
+				"deli",
+				"delinquent_users"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"emp",
+				"empBox"
+			],
+			[
+				"cop",
+				"copyRightFooter"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 180.0,
+		"last_filter": "lower",
+		"selected_items":
+		[
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"locate",
+				"File: Locate"
+			],
+			[
+				"reveal",
+				"File: Reveal"
+			],
+			[
+				"syntax mark",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"con",
+				"Convert Case: Upper Case"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"add ",
+				"Project: Add Folder"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"close",
+				"Project: Close"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"erb",
+				"Set Syntax: ERB"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"syntax er",
+				"Set Syntax: ERB"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ad",
+				"Project: Add Folder"
+			],
+			[
+				"close ",
+				"Project: Close"
+			],
+			[
+				"project",
+				"Project: Add Folder"
+			],
+			[
+				"markdwo",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"open re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"synt",
+				"Set Syntax: Ruby"
+			],
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"view",
+				"View In Browser"
+			],
+			[
+				"preview ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"view in",
+				"View In Browser"
+			],
+			[
+				"package setting",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"v",
+				"View In Browser"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"syn mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"view ",
+				"View In Browser"
+			],
+			[
+				"markdow",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"brow",
+				"View In Browser"
+			],
+			[
+				"vew ",
+				"View In Browser"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"codeintel",
+				"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+			],
+			[
+				"syntax mar",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"markdown settings",
+				"Preferences: MarkdownEditing Settings – User"
+			],
+			[
+				"syntax markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown ",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"install packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: packages",
+				"Package Control: List Packages"
+			],
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"dired",
+				"dired: Goto Anywhere"
+			],
+			[
+				"previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"syntax rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"syntax javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"dire",
+				"dired: Goto Anywhere"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package control l",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"regreplace",
+				"Preferences: Reg Replace Commands – User"
+			],
+			[
+				"setting",
+				"Preferences: Reg Replace Settings – Default"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax",
+				"Set Syntax: ASP"
+			],
+			[
+				"syntax: vb",
+				"Set Syntax: Objective-C"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+			"view.settings().erase(\"color_scheme\")",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"Install"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/michael/software_projects/adamondi",
+		"/home/michael/software_projects/adamondi/_posts",
+		"/home/michael/software_projects/adamondi/_site",
+		"/home/michael/software_projects/adamondi/_site/2017",
+		"/home/michael/software_projects/adamondi/thank-you"
+	],
+	"file_history":
+	[
+		"/home/michael/software_projects/adamondi/_includes/aside.html",
+		"/home/michael/software_projects/adamondi/_posts/2017-03-06-modern-gadianton-robbers.md",
+		"/home/michael/software_projects/adamondi/_includes/head.html",
+		"/home/michael/software_projects/adamondi/_posts/2017-03-09-king-men-shadow.md",
+		"/home/michael/software_projects/adamondi/_sass/_custom.scss",
+		"/home/michael/software_projects/adamondi/_posts/vault-7.md",
+		"/home/michael/software_projects/adamondi/_posts/link_between_wickedness_and_gadianton_secret_combinations.md",
+		"/home/michael/software_projects/adamondi/_posts/2017-02-21-conspiracies.md",
+		"/home/michael/software_projects/adamondi/_posts/2017-02-25-walls.md",
+		"/home/michael/software_projects/adamondi/_posts/2017-02-28-israel.md",
+		"/home/michael/software_projects/adamondi/_posts/2017-03-04-small-and-simple-things.md",
+		"/home/michael/software_projects/adamondi/_posts/mahan.md",
+		"/home/michael/software_projects/adamondi/_posts/types.md",
+		"/home/michael/software_projects/adamondi/_posts/shadow-government-king-men.md",
+		"/home/michael/software_projects/adamondi/_config.yml",
+		"/home/michael/software_projects/adamondi/_layouts/page.html",
+		"/home/michael/software_projects/adamondi/_layouts/post.html",
+		"/home/michael/software_projects/adamondi/_posts/2017-03-06-types.md",
+		"/home/michael/software_projects/adamondi/category/mormon-red-pill/index.html",
+		"/home/michael/software_projects/adamondi/tag/politics/index.html",
+		"/home/michael/software_projects/adamondi/tag/israel/index.html",
+		"/home/michael/software_projects/adamondi/tag/conspiracies/index.html",
+		"/home/michael/software_projects/adamondi/_includes/teaser_mini.html",
+		"/home/michael/software_projects/adamondi/_includes/teaser.html",
+		"/home/michael/software_projects/adamondi/_includes/footer.html",
+		"/home/michael/software_projects/adamondi/_includes/nav.html",
+		"/home/michael/software_projects/adamondi/_site/mormon-red-pill/2017/02/27/israel.html",
+		"/home/michael/software_projects/adamondi/_includes/logo.html",
+		"/home/michael/software_projects/adamondi/_includes/header.html",
+		"/home/michael/software_projects/adamondi/Gemfile.lock",
+		"/home/michael/software_projects/adamondi/Gemfile",
+		"/home/michael/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/jekyll-3.4.1/lib/jekyll/url.rb",
+		"/home/michael/software_projects/adamondi/_posts/2017-02-24-conspiracies.md",
+		"/home/michael/software_projects/adamondi/archives/index.html",
+		"/home/michael/software_projects/adamondi/_sass/site/_content.scss",
+		"/home/michael/software_projects/adamondi/css/main.scss",
+		"/home/michael/software_projects/adamondi/_site/css/main.css",
+		"/home/michael/software_projects/adamondi/_sass/bootstrap.css",
+		"/home/michael/software_projects/adamondi/_sass/site/_nav.scss",
+		"/home/michael/software_projects/adamondi/_layouts/default.html",
+		"/home/michael/software_projects/adamondi/_sass/base/_vars.scss",
+		"/home/michael/software_projects/adamondi/_layouts/categories_list.html",
+		"/home/michael/software_projects/adamondi/about.md",
+		"/home/michael/software_projects/adamondi/_sass/color_schemes/_gray.scss",
+		"/home/michael/software_projects/adamondi/_site/mormon-red-pill/2017/02/21/conspiracy.html",
+		"/home/michael/software_projects/adamondi/_posts/2017-02-24-conspiracy.md",
+		"/home/michael/software_projects/adamondi/.gitignore",
+		"/home/michael/software_projects/adamondi/_layouts/page_with_outer_heading.html",
+		"/home/michael/software_projects/adamondi/_sass/base/_notifications.scss",
+		"/home/michael/software_projects/adamondi/_includes/comments.html",
+		"/home/michael/software_projects/adamondi/_posts/2017-02-21-impetus.md",
+		"/home/michael/software_projects/adamondi/index.html",
+		"/home/michael/software_projects/adamondi/_posts/2016-11-26-the-awakening-U.md",
+		"/home/michael/software_projects/adamondi/_posts/2016-12-02-opposition-U.md",
+		"/home/michael/software_projects/adamondi/_posts/2016-12-02-great-and-spacious-building.md",
+		"/home/michael/software_projects/adamondi/category/politics/index.html",
+		"/home/michael/software_projects/adamondi/_posts/2015-08-17-how-to-install-jekyll.md",
+		"/home/michael/software_projects/adamondi/_posts/2015-09-16-html5-defining-sections.md",
+		"/home/michael/software_projects/adamondi/_posts/2015-09-25-yellowblue-features.md",
+		"/home/michael/software_projects/adamondi/_posts/2015-08-10-comparing-css-preprocessors.md",
+		"/home/michael/software_projects/adamondi/_posts/2014-10-27-sample-post-2.md",
+		"/home/michael/software_projects/adamondi/_posts/2014-10-26-sample-post-1.md",
+		"/home/michael/software_projects/adamondi/_posts/2013-02-16-welcome-to-jekyll.md",
+		"/home/michael/software_projects/adamondi/_posts/2015-10-02-welcome-to-yellowblue.md",
+		"/home/michael/software_projects/adamondi/_posts/2016-11-22-the-awakening.markdown",
+		"/home/michael/software_projects/downlinetoolbox/config/routes.rb",
+		"/home/michael/software_projects/DevJournal/_posts/2016-11-22-the-awakening.markdown",
+		"/home/michael/software_projects/downlinetoolbox/app/controllers/positions_controller.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/reports/index.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/positions/index.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/positions/prep.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/controllers/reports_controller.rb",
+		"/home/michael/software_projects/downlinetoolbox/spec/rails_helper.rb",
+		"/home/michael/software_projects/downlinetoolbox/db/seeds.rb",
+		"/home/michael/software_projects/downlinetoolbox/Gemfile",
+		"/home/michael/software_projects/downlinetoolbox/spec/factories.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/controllers/ygy_positions_controller.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/models/user.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/application/_header.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/application/_navigation.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/application/_footer.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/home/index.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/dashboard/index.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/layouts/application.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/config/initializers/devise.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/users/new.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/devise/shared/_links.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/models/ygy_position.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/home/pricing.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/home/feedback.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/models/report.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/models/position.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/positions/_position.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/helpers/positions_helper.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/controllers/billing_controller.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/models/ability.rb",
+		"/home/michael/software_projects/downlinetoolbox/config/locales/devise.en.yml",
+		"/home/michael/software_projects/downlinetoolbox/db/schema.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/controllers/home_controller.rb",
+		"/home/michael/software_projects/downlinetoolbox/vendor/assets/components/bootstrap/js/alert.js",
+		"/home/michael/software_projects/downlinetoolbox/downlinetoolbox.sublime-project",
+		"/home/michael/software_projects/downlinetoolbox/app/controllers/registrations_controller.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/layouts/theme.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/.byebug_history",
+		"/home/michael/software_projects/downlinetoolbox/tmp/report-dumps/7/report-7-dump.txt",
+		"/home/michael/software_projects/downlinetoolbox/config/environments/production.rb",
+		"/home/michael/software_projects/downlinetoolbox/db/sample.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/billing/edit_payment_method.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/jobs/generate_ygy_report_job.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/mailers/mailer.rb",
+		"/home/michael/Downloads/production.log",
+		"/home/michael/software_projects/downlinetoolbox/config/application.rb",
+		"/home/michael/software_projects/downlinetoolbox/README.md",
+		"/home/michael/software_projects/downlinetoolbox/app/controllers/referrals_controller.rb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/billing/index.html.erb",
+		"/home/michael/software_projects/downlinetoolbox/app/views/referrals/index.html.erb",
+		"/home/michael/downlinetoolbox/spec/factories.rb",
+		"/etc/profile",
+		"/home/michael/.rbenv/shims/cap",
+		"/home/michael/.ssh/config",
+		"/home/michael/downlinetoolbox/app/models/user.rb",
+		"/home/michael/downlinetoolbox/spec/models/user_spec.rb",
+		"/home/michael/.zshrc",
+		"/home/michael/.profile",
+		"/home/michael/.bashrc",
+		"/home/michael/downlinetoolbox/config/initializers/stripe.rb",
+		"/home/michael/bin",
+		"/usr/bin/env"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"<open folders>",
+			"E:\\OneDrive\\ygy",
+			"E:\\OneDrive"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mormon-red-pill",
+			"cities",
+			"adam-ondi-ahman-clean-logo2.png",
+			"ogimage",
+			"og-image",
+			">>>",
+			"red",
+			"blue",
+			"red",
+			"$red",
+			"h2",
+			"scss",
+			".svg-container",
+			"require 'addre",
+			"require 'addressable/uri'",
+			"rouge",
+			"post-title",
+			"title",
+			"tag",
+			"h6",
+			"h2",
+			"c8c8c8",
+			"a {",
+			"    ",
+			"a {",
+			"color: black",
+			".btn",
+			".btn-warning",
+			"label",
+			"warning",
+			"label",
+			";;",
+			"data-sr",
+			"20px",
+			"10px",
+			"site-nav",
+			";\n",
+			"3em",
+			"> ",
+			" |",
+			"5",
+			". | ",
+			" |",
+			"destroy",
+			"h.\\t{",
+			"h3",
+			"og:image",
+			"\\n#### ",
+			"#### ",
+			"####",
+			"##### ",
+			"\n#####",
+			"####",
+			".archives-post-title",
+			"][",
+			"nav",
+			"nav-color",
+			"nav-item-underline-color",
+			"border1",
+			"site-title",
+			"Conspiracies",
+			"<br>",
+			"post-title",
+			" class=\"titanic\"",
+			"post-title",
+			"#FC4E2D",
+			"dark-red",
+			"post-title-link",
+			"data-sr",
+			"green",
+			".post-title-link {\n\tcolor: black;\n\th2 {\n\t\tbackground-color: skyblue !important;\n\t\tmargin: 0;\n\t\tfont-weight: normal;\n\t}\n\t&:hover {\n\t\tcolor: white !important;\n\t}\n}",
+			"-link",
+			"post-content",
+			"post-title-link",
+			"yellow",
+			"disqus",
+			"Yellow Blue",
+			"yellowblue",
+			"politics",
+			">>>>>>>",
+			"\n>>>>>>>",
+			"\n>>>>>>>\n",
+			">>>>>>>",
+			"blockquote",
+			"alert",
+			">>>>>>>",
+			";",
+			"\n>",
+			">",
+			"og:image:url",
+			".description",
+			"og:description",
+			"<%",
+			"site.des",
+			"Why",
+			"margin",
+			"16",
+			"site-title",
+			"  ",
+			"    ",
+			"   ",
+			"  ",
+			"YellowBlue - Responsive",
+			"yellowblue",
+			"a jekyll theme",
+			"fff",
+			"1px",
+			"000",
+			"10",
+			"blue pill",
+			"imp-",
+			"000",
+			";'>",
+			"generate_report",
+			"start_report",
+			"new",
+			"rspec.configure",
+			"rspec",
+			"<button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\">\n\t\t<span class=\"sr-only\">Toggle navigation</span>\n\t\t<span class=\"icon-bar\"></span>\n\t\t<span class=\"icon-bar\"></span>\n\t\t<span class=\"icon-bar\"></span>\n\t</button>",
+			"registration",
+			"  ",
+			"mechanize",
+			"Number of reports you can run in",
+			"ygy",
+			"sanity",
+			"mechanize",
+			"rescue your time",
+			"mechanize"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\t",
+			"/t",
+			"position",
+			"\\t",
+			"",
+			"-web",
+			"\\r\\n<tr id=\"row-",
+			"<tr id=\"row-\\r\\n",
+			"<tr id=\"row-\\r"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "adamondi.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"head",
+				"_includes/head.html"
+			],
+			[
+				"aside",
+				"_includes/aside.html"
+			],
+			[
+				"customcss",
+				"_sass/_custom.scss"
+			],
+			[
+				"post",
+				"_layouts/post.html"
+			],
+			[
+				"page",
+				"_layouts/page.html"
+			],
+			[
+				"conf",
+				"_config.yml"
+			],
+			[
+				"small",
+				"_posts/2017-03-04-small-and-simple-things.md"
+			],
+			[
+				"teaser",
+				"_includes/teaser.html"
+			],
+			[
+				"custom",
+				"_sass/_custom.scss"
+			],
+			[
+				"footer",
+				"_includes/footer.html"
+			],
+			[
+				"config",
+				"_config.yml"
+			],
+			[
+				"nav.h",
+				"_includes/nav.html"
+			],
+			[
+				"israelmd",
+				"_posts/2017-02-28-israel.md"
+			],
+			[
+				"israel",
+				"_site/mormon-red-pill/2017/02/27/israel.html"
+			],
+			[
+				"logo",
+				"_includes/logo.html"
+			],
+			[
+				"nav",
+				"_includes/nav.html"
+			],
+			[
+				"header",
+				"_includes/header.html"
+			],
+			[
+				"hader",
+				"_includes/header.html"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"gemil",
+				"Gemfile.lock"
+			],
+			[
+				"conspira",
+				"_posts/2017-02-24-conspiracies.md"
+			],
+			[
+				"archive",
+				"archives/index.html"
+			],
+			[
+				"content.scss",
+				"_sass/site/_content.scss"
+			],
+			[
+				"bootstrap.css",
+				"_sass/bootstrap.css"
+			],
+			[
+				"conspirac",
+				"_posts/2017-02-24-conspiracies.md"
+			],
+			[
+				"var",
+				"_sass/base/_vars.scss"
+			],
+			[
+				"",
+				"_sass/site/_nav.scss"
+			],
+			[
+				"defa",
+				"_layouts/default.html"
+			],
+			[
+				"wall",
+				"_posts/2017-02-25-walls.md"
+			],
+			[
+				"head.html",
+				"_includes/head.html"
+			],
+			[
+				"vars",
+				"_sass/base/_vars.scss"
+			],
+			[
+				"about",
+				"about.md"
+			],
+			[
+				"categor",
+				"_layouts/categories_list.html"
+			],
+			[
+				"grayscss",
+				"_sass/color_schemes/_gray.scss"
+			],
+			[
+				"navscss",
+				"_sass/site/_nav.scss"
+			],
+			[
+				"ignore",
+				".gitignore"
+			],
+			[
+				"conspiacy",
+				"_posts/2017-02-24-conspiracy.md"
+			],
+			[
+				"main",
+				"_site/css/main.css"
+			],
+			[
+				"pagewith",
+				"_layouts/page_with_outer_heading.html"
+			],
+			[
+				"default",
+				"_layouts/default.html"
+			],
+			[
+				"conspiramd",
+				"_posts/2017-02-24-conspiracy.md"
+			],
+			[
+				"routre",
+				"config/routes.rb"
+			],
+			[
+				"reportindex",
+				"app/views/reports/index.html.erb"
+			],
+			[
+				"positionindex",
+				"app/views/positions/index.html.erb"
+			],
+			[
+				"positioncontr",
+				"app/controllers/positions_controller.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"prep",
+				"app/views/positions/prep.html.erb"
+			],
+			[
+				"reportcontro",
+				"app/controllers/reports_controller.rb"
+			],
+			[
+				"railshelp",
+				"spec/rails_helper.rb"
+			],
+			[
+				"seeds",
+				"db/seeds.rb"
+			],
+			[
+				"factor",
+				"spec/factories.rb"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"facotr",
+				"spec/factories.rb"
+			],
+			[
+				"reportscontr",
+				"app/controllers/reports_controller.rb"
+			],
+			[
+				"ygycontro",
+				"app/controllers/ygy_positions_controller.rb"
+			],
+			[
+				"user.rb",
+				"app/models/user.rb"
+			],
+			[
+				"navi",
+				"app/views/application/_navigation.html.erb"
+			],
+			[
+				"homeinde",
+				"app/views/home/index.html.erb"
+			],
+			[
+				"homeindex",
+				"app/views/home/index.html.erb"
+			],
+			[
+				"dashb",
+				"app/views/dashboard/index.html.erb"
+			],
+			[
+				"dashboa",
+				"app/views/dashboard/index.html.erb"
+			],
+			[
+				"foot",
+				"app/views/application/_footer.html.erb"
+			],
+			[
+				"layout",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"devise",
+				"config/initializers/devise.rb"
+			],
+			[
+				"_links.html.erb",
+				"app/views/devise/shared/_links.html.erb"
+			],
+			[
+				"new.html.erb",
+				"app/views/users/new.html.erb"
+			],
+			[
+				"dashboard",
+				"app/views/dashboard/index.html.erb"
+			],
+			[
+				"_navigation",
+				"app/views/application/_navigation.html.erb"
+			],
+			[
+				"ygypo",
+				"app/models/ygy_position.rb"
+			],
+			[
+				"ygy",
+				"app/models/ygy_position.rb"
+			],
+			[
+				"ygyposition",
+				"app/models/ygy_position.rb"
+			],
+			[
+				"pricing",
+				"app/views/home/pricing.html.erb"
+			],
+			[
+				"home",
+				"app/views/home/index.html.erb"
+			],
+			[
+				"feedback",
+				"app/views/home/feedback.html.erb"
+			],
+			[
+				"report.rb",
+				"app/models/report.rb"
+			],
+			[
+				"ygypsotion",
+				"app/models/ygy_position.rb"
+			],
+			[
+				"position",
+				"app/models/position.rb"
+			],
+			[
+				"reports",
+				"app/views/reports/index.html.erb"
+			],
+			[
+				"report",
+				"app/models/report.rb"
+			],
+			[
+				"ygypos",
+				"app/models/ygy_position.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"billingcon",
+				"app/controllers/billing_controller.rb"
+			],
+			[
+				"positioncontrol",
+				"app/controllers/positions_controller.rb"
+			],
+			[
+				"positionscontroller",
+				"app/controllers/positions_controller.rb"
+			],
+			[
+				"ygycontr",
+				"app/controllers/ygy_positions_controller.rb"
+			],
+			[
+				"reportscontro",
+				"app/controllers/reports_controller.rb"
+			],
+			[
+				"positioncontroller",
+				"app/controllers/positions_controller.rb"
+			],
+			[
+				"abil",
+				"app/models/ability.rb"
+			],
+			[
+				"flash",
+				"app/helpers/flash_helper.rb"
+			],
+			[
+				"alert",
+				"vendor/assets/components/bootstrap/js/alert.js"
+			],
+			[
+				"ability",
+				"app/models/ability.rb"
+			],
+			[
+				"schema",
+				"db/schema.rb"
+			],
+			[
+				"layouts",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"homecontro",
+				"app/controllers/home_controller.rb"
+			],
+			[
+				"registrcont",
+				"app/controllers/registrations_controller.rb"
+			],
+			[
+				"register",
+				"app/controllers/registrations_controller.rb"
+			],
+			[
+				"downlin",
+				"downlinetoolbox.sublime-project"
+			],
+			[
+				"factories",
+				"spec/factories.rb"
+			],
+			[
+				"sample.",
+				"db/sample.rb"
+			],
+			[
+				"production",
+				"config/environments/production.rb"
+			],
+			[
+				"mailer",
+				"app/mailers/mailer.rb"
+			],
+			[
+				"generate",
+				"app/jobs/generate_ygy_report_job.rb"
+			],
+			[
+				"application",
+				"config/application.rb"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"referr",
+				"app/views/referrals/index.html.erb"
+			],
+			[
+				"billin",
+				"app/views/billing/index.html.erb"
+			],
+			[
+				"application.rb",
+				"config/application.rb"
+			],
+			[
+				"userspec",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"ygyjob",
+				"app/jobs/generate_ygy_report_job.rb"
+			],
+			[
+				"job",
+				"app/jobs/general_job.rb"
+			],
+			[
+				"ygy_position",
+				"app/models/ygy_position.rb"
+			],
+			[
+				"position.rb",
+				"app/models/position.rb"
+			],
+			[
+				"userrb",
+				"app/models/user.rb"
+			],
+			[
+				"fac",
+				"spec/factories.rb"
+			],
+			[
+				"generasp",
+				"spec/jobs/generate_ygy_report_job_spec.rb"
+			],
+			[
+				"sample",
+				"db/sample.rb"
+			],
+			[
+				"positionspec",
+				"spec/models/position_spec.rb"
+			],
+			[
+				"generatejo",
+				"app/jobs/generate_ygy_report_job.rb"
+			],
+			[
+				"jobspec",
+				"spec/jobs/generate_ygy_report_job_spec.rb"
+			],
+			[
+				"posconspe",
+				"spec/controllers/positions_controller_spec.rb"
+			],
+			[
+				"specygy",
+				"spec/models/ygy_position_spec.rb"
+			],
+			[
+				"ygycont",
+				"app/controllers/ygy_positions_controller.rb"
+			],
+			[
+				"semdreport",
+				"app/views/ygy_positions/semd_report.html.erb"
+			],
+			[
+				"ygy_",
+				"app/models/ygy_position.rb"
+			],
+			[
+				"progre",
+				"app/views/ygy_positions/progression_report.html.erb"
+			],
+			[
+				"ygypositionspec",
+				"spec/models/ygy_position_spec.rb"
+			],
+			[
+				"report.",
+				"app/models/report.rb"
+			],
+			[
+				"ygyposi",
+				"app/models/ygy_position.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"notes",
+				"~/Dropbox/Notes/notes.sublime-project"
+			],
+			[
+				"",
+				"E:\\mikes_data\\Dropbox\\dropbox-sublime.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 388.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

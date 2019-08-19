@@ -1,0 +1,46 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"3024 Color Scheme",
+		"Alignment",
+		"Anaconda",
+		"AutoHotkey",
+		"BeautifyRuby",
+		"Bracketeer",
+		"Emmet",
+		"ERB Snippets",
+		"FileBrowser",
+		"FindKeyConflicts",
+		"iCalendar",
+		"InsertDate",
+		"Markdown HTML Preview",
+		"MarkdownEditing",
+		"MarkdownPreview",
+		"MarkdownWriter",
+		"MaxPane",
+		"Monokai Blueberry Color Scheme",
+		"Monokai Extended",
+		"MoveTab",
+		"nginx",
+		"Package Control",
+		"PackageResourceViewer",
+		"ProjectManager",
+		"Python 3",
+		"Python Debugger",
+		"requirementstxt",
+		"SCSS",
+		"SFTP",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-pycodestyle",
+		"SublimeLinter-pyflakes",
+		"Text Pastry",
+		"Theme - Brogrammer",
+		"Theme - Minimist"
+	]
+}
