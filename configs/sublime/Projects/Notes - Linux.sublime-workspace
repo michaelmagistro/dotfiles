@@ -35,7 +35,7 @@
 			"file": "/home/michael/dotfiles/HOMELY.py",
 			"settings":
 			{
-				"buffer_size": 2043,
+				"buffer_size": 3055,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -52,6 +52,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"sort",
+				"Sort Lines"
+			],
 			[
 				"dup",
 				"File: Duplicate"
@@ -561,6 +565,11 @@
 	],
 	"file_history":
 	[
+		"/home/michael/Dropbox/Notes/Programming/Snippets/Python/Python Shell Commands.md",
+		"/home/michael/Dropbox/Notes/Programming/Snippets/Python/Python Code Snippets.md",
+		"/home/michael/dotfiles/HOMELY.py",
+		"/home/michael/Dropbox/Notes/Programming/Sublime packages/Sublime.md",
+		"/home/michael/Dropbox/Notes/Programming/Sublime packages/Homely.md",
 		"/home/michael/dotfiles/configs/.bashrc",
 		"/home/michael/.bashrc",
 		"/home/michael/Dropbox/Notes/Misc/Job Application Thank You For Your Consideration.md",
@@ -587,7 +596,6 @@
 		"/home/michael/Dropbox/Notes/Programming/Rails/Snippets/upload_files.md",
 		"/home/michael/Dropbox/Notes/Programming/Rails/Misc.md",
 		"/home/michael/Dropbox/Notes/Programming/Rails/Console.md",
-		"/home/michael/Dropbox/Notes/Programming/Sublime packages/Sublime.md",
 		"/home/michael/Dropbox/Notes/Programming/Linux/Shell commands.md",
 		"/home/michael/Dropbox/Notes/Programming/Misc/Git.md",
 		"/home/michael/Dropbox/Notes/Programming/Ruby gems/Devise.md",
@@ -684,15 +692,11 @@
 		"/E/mikes_data/Dropbox/Notes/GTD/Inbox.md",
 		"/E/mikes_data/Dropbox/Notes/Logs/Bills/Questar gas.md",
 		"/E/mikes_data/Dropbox/Notes/Logs/Misc/Questar gas.md",
-		"/E/mikes_data/Dropbox/Notes/GTD/Projects.md",
-		"/E/mikes_data/Dropbox/Notes/Programming/Misc/Tmux.md",
-		"/E/mikes_data/Dropbox/Notes/Programming/Ruby gems/ActiveAdmin.md",
-		"/E/mikes_data/Dropbox/Notes/Programming/Rails/ActionView.md",
-		"/E/mikes_data/Dropbox/Notes/Programming/Rails/Rake.md"
+		"/E/mikes_data/Dropbox/Notes/GTD/Projects.md"
 	],
 	"find":
 	{
-		"height": 45.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
@@ -870,27 +874,29 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2043,
+						"buffer_size": 3055,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1708,
-								1708
+								479,
+								479
 							]
 						],
 						"settings":
 						{
-							"SL.14.region_keys":
+							"SL.38.region_keys":
 							[
 							],
 							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 276.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -955,6 +961,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"PYTHON",
+				"Programming/Snippets/Python/Python Shell Commands.md"
+			],
+			[
+				"python",
+				"Programming/Snippets/Python/Python Code Snippets.md"
+			],
+			[
+				"sublim.md",
+				"Programming/Sublime packages/Sublime.md"
+			],
 			[
 				"resume",
 				"Misc/Application Log $career $resume.md"
@@ -1454,18 +1472,6 @@
 			[
 				"ical",
 				"Dropbox\\Notes\\Programming\\Misc\\iCal.md"
-			],
-			[
-				".ics",
-				"Dropbox\\Notes\\Scripts\\Recurring tasks.ics"
-			],
-			[
-				"questar",
-				"Dropbox\\Notes\\Logs\\Questar gas.md"
-			],
-			[
-				"googleshet",
-				"Dropbox\\Notes\\Software\\Google Sheets.md"
 			]
 		],
 		"width": 0.0

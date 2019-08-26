@@ -1,50 +1,20 @@
 # Michael's Dotfiles for Linux OS
 
+(This repo is a work in progress on the first machine, so the installation steps here might be wrong / insufficient)
+
+These dotfiles use the Python package [Homely](https://github.com/phodge/homely/).
+
 ## Installation
 
-### Stage 0: The Repository
+1. Install homely
+2. Clone this dotfiles repo
+3. Run homely update
 
-To get started (fill in)
+## Usage
 
-Before we begin, just some reminders. You need the following:
+### Symlinks & Config files
 
-* Your github login details
-* An ssh key generated for Github
-* Your password manager handy if you don't know them by heart.
-
-### Stage 1: The Shell
-
-* Install git `sudo apt install git`
-* Clone the dotfiles repo
-* Run shell.sh
-* Run the command `chsh -s $(which zsh)` then **logout** and log back in to access zsh shell.
-    * This command needs to run out side of stage1.sh because it needs to be run as the user to affect the user's shell.
-
-### Stage 2: The Apps
-
-
-
-### Stage 3: The Environment
-
-
-
-### Need to add these commands to the readme:
-
-new linux box
-
-need ~/projects/.dotfiles folder
-initialize the bare repo there
-
-git init --bare $HOME/projects/.dotfiles
-alias config='/usr/bin/git --git-dir=$HOME/projects/.dotfiles/ --work-tree=$HOME'
-config config --local status.showUntrackedFiles no
-echo "alias config='/usr/bin/git --git-dir=$HOME/projects/.dotfiles/ --work-tree=$HOME'" >> $HOME/.bashrc
-
-
-then, after ZSH is installed (after stage 1)
-
-
-echo "alias config='/usr/bin/git --git-dir=$HOME/projects/.dotfiles/ --work-tree=$HOME'" | sudo tee -a $HOME/.zshrc
-
-
-config ls-tree --full-tree -r HEAD
+- Make sure you have the desired config file in your dotfiles repo.
+- Create the necessary symlink line in HOMELY.py
+- Delete the unwanted config file from your machine
+- Run `homely update`
