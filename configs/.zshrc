@@ -98,3 +98,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias config='/usr/bin/git --git-dir=/home/michael/projects/.dotfiles/ --work-tree=/home/michael'
+export PATH=$PATH:/home/michael/.local/bin

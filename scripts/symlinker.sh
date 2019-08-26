@@ -21,22 +21,25 @@ function isdir () {
     echo "entering isdir function"
     echo "Variable in question: $1"
     if [[ -d $1 ]]; then
-        echo 'this is a directory'
+        echo "This is a directory: return code 2"
+        return 2
     elif [[ -f $1 ]]; then
-        echo 'this is -f'
+        echo "This is a file: return code 1"
+        return 1
     else
-        echo 'this is neither a directory or file'
+        echo "This is neither a directory nor file: return code 3"
+        return 3
     fi
 }
 
 for file in ${files[@]}; do
-    isdir ~/$file
+    isdir ~/$file ; echo $?
 done
 
 echo "stage1 complete"
 
 for file in ${files[@]}; do
-    isdir $configdir/$file
+    isdir $configdir/$file ; echo $?
 done
 
 # # Backup any existing configs and create a symlink in their place

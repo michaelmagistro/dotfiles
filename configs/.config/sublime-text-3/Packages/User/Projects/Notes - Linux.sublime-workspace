@@ -19,58 +19,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/home/michael/Dropbox/Notes/Programming/Rails/Tasks.md",
-			"settings":
-			{
-				"buffer_size": 405,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/michael/Dropbox/Notes/Programming/Ruby/File io.md",
-			"settings":
-			{
-				"buffer_size": 388,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/home/michael/Dropbox/Notes/Programming/Rails/Snippets/Upload Files.md",
-			"settings":
-			{
-				"buffer_size": 981,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/michael/Dropbox/Notes/Programming/Ruby gems/Rspec.md",
-			"settings":
-			{
-				"buffer_size": 2324,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/home/michael/Dropbox/Notes/Programming/Rails/Forms.md",
-			"settings":
-			{
-				"buffer_size": 328,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "* Tidbits"
-			}
-		},
-		{
-			"file": "/home/michael/Dropbox/Notes/Programming/Rails/Routing.md",
-			"settings":
-			{
-				"buffer_size": 815,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -80,9 +28,13 @@
 	"command_palette":
 	{
 		"height": 96.0,
-		"last_filter": "syntax mark",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"dup",
+				"File: Duplicate"
+			],
 			[
 				"syntax mark",
 				"Set Syntax: Markdown GFM"
@@ -588,14 +540,19 @@
 	],
 	"file_history":
 	[
+		"/home/michael/Dropbox/Notes/Misc/Job Application Thank You For Your Consideration.md",
+		"/home/michael/Dropbox/Notes/Misc/Application Log $career $resume.md",
 		"/home/michael/Dropbox/Notes/Programming/Rails/Routing.md",
+		"/home/michael/Dropbox/Notes/Programming/Rails/Forms.md",
+		"/home/michael/Dropbox/Notes/Programming/Rails/Tasks.md",
+		"/home/michael/Dropbox/Notes/Programming/Ruby/File io.md",
+		"/home/michael/Dropbox/Notes/Programming/Rails/Snippets/Upload Files.md",
+		"/home/michael/Dropbox/Notes/Programming/Ruby gems/Rspec.md",
 		"/home/michael/Dropbox/Notes/Programming/Rails/ActiveRecord.md",
 		"/home/michael/Dropbox/Notes/Programming/Rails/Rake.md",
 		"/home/michael/Dropbox/Notes/Programming/Rails/Commands.md",
 		"/home/michael/Dropbox/Notes/Programming/Rails/Helpers.md",
 		"/home/michael/Dropbox/Notes/Programming/Rails/Overview.md",
-		"/home/michael/Dropbox/Notes/Programming/Rails/Tasks.md",
-		"/home/michael/Dropbox/Notes/Programming/Ruby gems/Rspec.md",
 		"/home/michael/Dropbox/Notes/Programming/Rails/Snippets/process_csv.md",
 		"/home/michael/Dropbox/Notes/Logs/Misc/Journal.md",
 		"/home/michael/Dropbox/Notes/Programming/Ruby/Docs meta.md",
@@ -710,16 +667,11 @@
 		"/E/mikes_data/Dropbox/Notes/Programming/Rails/ActionView.md",
 		"/E/mikes_data/Dropbox/Notes/Programming/Rails/Rake.md",
 		"/E/mikes_data/Dropbox/Notes/Programming/Ruby gems/Rspec.md",
-		"/E/mikes_data/Dropbox/Notes/Programming/Ruby gems/Capistrano.md",
-		"/E/mikes_data/Dropbox/Notes/Misc/ActionView.md",
-		"/E/mikes_data/Dropbox/Notes/Programming/Rails/Active record.md",
-		"/E/mikes_data/Dropbox/Notes/Programming/Linux packages/scp.md",
-		"/E/mikes_data/Dropbox/Notes/Programming/Rails/Action view.md",
-		"/E/mikes_data/Dropbox/Notes/SuperFlow/Modules/Text runway transcript.md"
+		"/E/mikes_data/Dropbox/Notes/Programming/Ruby gems/Capistrano.md"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 45.0
 	},
 	"find_in_files":
 	{
@@ -888,204 +840,18 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/home/michael/Dropbox/Notes/Programming/Rails/Tasks.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 405,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								78,
-								78
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/michael/Dropbox/Notes/Programming/Ruby/File io.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 388,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								295,
-								295
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/michael/Dropbox/Notes/Programming/Rails/Snippets/Upload Files.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 981,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								41,
-								41
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/home/michael/Dropbox/Notes/Programming/Ruby gems/Rspec.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2324,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/home/michael/Dropbox/Notes/Programming/Rails/Forms.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 328,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								328,
-								328
-							]
-						],
-						"settings":
-						{
-							"auto_name": "* Tidbits",
-							"incomplete_sync": null,
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/home/michael/Dropbox/Notes/Programming/Rails/Routing.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 815,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								815,
-								815
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 32.0
 	},
 	"input":
 	{
-		"height": 38.0
+		"height": 45.0
 	},
 	"layout":
 	{
@@ -1110,6 +876,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -1122,7 +892,7 @@
 	"project": "Notes - Linux.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1131,6 +901,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"resume",
+				"Misc/Application Log $career $resume.md"
+			],
 			[
 				"rspec",
 				"Programming/Ruby gems/Rspec.md"
@@ -1638,10 +1412,6 @@
 			[
 				"googleshet",
 				"Dropbox\\Notes\\Software\\Google Sheets.md"
-			],
-			[
-				"spreadsheet",
-				"Dropbox\\Notes\\Programming\\Spreadsheets\\Spreadsheet formulas.md"
 			]
 		],
 		"width": 0.0
