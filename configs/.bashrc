@@ -116,3 +116,4 @@ if ! shopt -oq posix; then
   fi
 fi
 alias config='/usr/bin/git --git-dir=/home/michael/projects/.dotfiles/ --work-tree=/home/michael'
+export PATH=$PATH:/home/$USER/.local/bin
