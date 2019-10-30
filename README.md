@@ -12,9 +12,12 @@ These dotfiles use the Python package [Homely](https://github.com/phodge/homely/
 
 ## Usage
 
+`homely update` in terminal to run `HOMELY.py`, which is the central script which sets everything up.
+Edit the files in the "scripts" folder to customize shell setup and package installations.
+
 ### Symlinks & Config files
 
 - Make sure you have the desired config file in your dotfiles repo.
 - Create the necessary symlink line in HOMELY.py
 - Delete the unwanted config file from your machine
-- Run `homely update`
+- Run `homely update` in terminal.

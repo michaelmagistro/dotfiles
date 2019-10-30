@@ -8,6 +8,7 @@ from os.path import isfile
 import os
 import subprocess
 
+
 home = expanduser("~")
 
 ########## DIRECTORIES ##########
@@ -25,16 +26,16 @@ installpkg('xdotool', apt='xdotool')
 # execute(['rm', home + '/.zshrc'])
 symlink('configs/.zshrc', '~/.zshrc')
 symlink('configs/.bashrc', '~/.bashrc')
-symlink('configs/sublime', '~/.config/sublime-text-3/Packages/User')
+# symlink('configs/sublime', '~/.config/sublime-text-3/Packages/User')
 symlink('configs/anki', '~/.local/share/Anki2/addons21')
 
 
-########## COMPOSITE COMMANDS ######################################################
+########## MULTI-LINE COMMANDS ######################################################
 
 
 # Install Oh-My-Zsh
 if exists(home + '/.oh-my-zsh'):
-    print("Oh-My-Zsh is already installed.")
+    print("Already installed: Oh-My-Zsh")
 else:
     command = "sh -c \"$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)\""
     subprocess.call(command, shell=True)
@@ -48,7 +49,7 @@ else:
 
 # Install Google-Chrome
 if haveexecutable('google-chrome'):
-    print("Google Chrome is already installed.")
+    print("Already installed: Google Chrome")
 else:
     print("Installing Google Chrome")
     command = """
@@ -61,7 +62,7 @@ else:
 
 # Install Sublime-Text
 if haveexecutable('subl'):
-    print("Sublime-Text is already installed.")
+    print("Already installed: Sublime-Text")
 else:
     print("Installing Sublime-Text-3")
     command = """
@@ -75,18 +76,24 @@ else:
 
 # Install Sublime-Text package manager
 if exists(home + '/.config/sublime-text-3/Installed Packages/Package Control.sublime-package'):
-    print("Sublime-Text-3 Package Manager is already installed.")
+    print("Already installed: Sublime-Text-3 Package Manager")
 else:
     command = "wget -P ~/.config/sublime-text-3/Installed Packages/ https://packagecontrol.io/Package%20Control.sublime-package"
     subprocess.call(command, shell=True)
 
 # Install KeePass2
 if haveexecutable('keepass2'):
-    print('keepass2 is already installed')
+    print('Already installed: keepass2')
 else:
     command = """
     apt-add-repository ppa:jtaylor/keepass
     apt update
     apt install keepass2
     """
+    subprocess.call(command, shell=True)
+
+if haveexecutable('telegram-desktop'):
+    print('Already installed: Telegram')
+else:
+    command = "snap install telegram-desktop"
     subprocess.call(command, shell=True)

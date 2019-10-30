@@ -19,14 +19,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/home/michael/.dotfiles/tmuxinator.symlink/rails.yml",
-			"settings":
-			{
-				"buffer_size": 329,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -36,9 +28,13 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "ad",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"project",
+				"Project: Edit Project"
+			],
 			[
 				"ad",
 				"Project: Add Folder"
@@ -54,10 +50,6 @@
 			[
 				"close ",
 				"Project: Close"
-			],
-			[
-				"project",
-				"Project: Add Folder"
 			],
 			[
 				"folder",
@@ -320,11 +312,12 @@
 	},
 	"expanded_folders":
 	[
-		"/home/michael/.dotfiles",
-		"/home/michael/.dotfiles/ruby"
+		"/home/michael/dotfiles"
 	],
 	"file_history":
 	[
+		"/home/michael/dotfiles/README.md",
+		"/home/michael/.config/sublime-text-3/Packages/User/Projects/dotfiles.sublime-project",
 		"/home/michael/.dotfiles/tmuxinator.symlink/rails.yml",
 		"/home/michael/.dotfiles/ruby/aliases.zsh",
 		"/home/michael/.zshrc",
@@ -450,9 +443,7 @@
 		"/E/mikes_data/Dropbox/Notes/Automatic Lead Tools (-alt).md",
 		"/E/mikes_data/Dropbox/Notes/Lerosett.md",
 		"/E/mikes_data/Dropbox/Notes/Air Filters.md",
-		"/E/mikes_data/Dropbox/Notes/Weebly.md",
-		"/E/mikes_data/Google Drive/Joint/Mia & Michael/Notes/Ideas.md",
-		"/E/mikes_data/archive/2014/Arthritis_Txt/arthritis_txt_V6.html"
+		"/E/mikes_data/Dropbox/Notes/Weebly.md"
 	],
 	"find":
 	{
@@ -483,12 +474,12 @@
 			"**(Needs 50 qv)**",
 			"**(Needs 150 qv)**",
 			"**(Needs 50 qv)**",
-			"	",
+			"\t",
 			",",
 			"25514532",
 			"x-grid-extension-dataIndex-name-icon",
 			",",
-			"	",
+			"\t",
 			".\n",
 			"Youngevity",
 			"View",
@@ -532,7 +523,7 @@
 			"<h2",
 			"emphatic",
 			"<div>",
-			"\n					",
+			"\n\t\t\t\t\t",
 			"<div>",
 			"</h1",
 			"<h1",
@@ -624,46 +615,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/home/michael/.dotfiles/tmuxinator.symlink/rails.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 329,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								59,
-								59
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/YAML/YAML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -692,6 +651,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -704,7 +667,7 @@
 	"project": "dotfiles.sublime-project",
 	"replace":
 	{
-		"height": 58.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
