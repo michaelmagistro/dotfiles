@@ -103,3 +103,7 @@ export PATH=$PATH:/home/michael/.local/bin
 alias config='/usr/bin/git --git-dir=/home/michael/projects/.dotfiles/ --work-tree=/home/michael'
 alias gpom='git push origin master'
 alias gcm='git commit -m'
+alias gs='git status'
+alias p='cd ~/projects'
+alias p1='cd ~/projects/arduino/polarizer'
+alias dot='cd ~/dotfiles'
