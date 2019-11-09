@@ -97,12 +97,3 @@ if haveexecutable('telegram-desktop'):
 else:
     command = "snap install telegram-desktop"
     subprocess.call(command, shell=True)
-
-
-########## ALIASES #############
-
-command = "alias gpom='git push origin master'"
-subprocess.call(command, shell=True)
-
-# command = "alias ga ='git add -A'"
-# command = "alias gs ='git status'"
