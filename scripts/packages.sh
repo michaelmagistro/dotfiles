@@ -53,37 +53,37 @@ else
 fi
 
 
-# Install Anki for Linux
-echo 'If you want Anki, you need to download the tar file now and place it in your ~/Downloads folder.'
-echo 'The tar file can be downloaded from here: https://apps.ankiweb.net/'
-# Prompt for a keypress to continue. Customise prompt with $*
-function pause {
-  >/dev/tty printf '%s' "${*:-Press any key to continue... }"
-  [[ $ZSH_VERSION ]] && read -krs  # Use -u0 to read from STDIN
-  [[ $BASH_VERSION ]] && </dev/tty read -rsn1
-  printf '\n'
-}
-pause
-anki -h
-if [ $? != 0 ]
-then
-  echo 'Installing Anki for Linux... see https://apps.ankiweb.net/'
-  tar xjf ~/Downloads/anki-2.1.14-linux-amd64.tar.bz2
-  mkdir ~/Programs
-  cd ~/Programs
-  cd anki-2.1.14-linux-amd64
-  make install
-else
-  echo 'Anki for Linux is already installed'
-fi
+# # Install Anki for Linux
+# echo 'If you want Anki, you need to download the tar file now and place it in your ~/Downloads folder.'
+# echo 'The tar file can be downloaded from here: https://apps.ankiweb.net/'
+# # Prompt for a keypress to continue. Customise prompt with $*
+# function pause {
+#   >/dev/tty printf '%s' "${*:-Press any key to continue... }"
+#   [[ $ZSH_VERSION ]] && read -krs  # Use -u0 to read from STDIN
+#   [[ $BASH_VERSION ]] && </dev/tty read -rsn1
+#   printf '\n'
+# }
+# pause
+# anki -h
+# if [ $? != 0 ]
+# then
+#   echo 'Installing Anki for Linux... see https://apps.ankiweb.net/'
+#   tar xjf ~/Downloads/anki-2.1.14-linux-amd64.tar.bz2
+#   mkdir ~/Programs
+#   cd ~/Programs
+#   cd anki-2.1.14-linux-amd64
+#   make install
+# else
+#   echo 'Anki for Linux is already installed'
+# fi
 
 
 # Install KeePass2
-if [ ! -d keepass2 ]
-then
-  echo 'KeePass2 is already installed.'
-else
-  apt-add-repository ppa:jtaylor/keepass
-  apt update
-  apt install keepass2
-fi
+# if [ ! -d keepass2 ]
+# then
+#   echo 'KeePass2 is already installed.'
+# else
+#   apt-add-repository ppa:jtaylor/keepass
+#   apt update
+#   apt install keepass2
+# fi

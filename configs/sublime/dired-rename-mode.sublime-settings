@@ -1,9 +1,0 @@
-{
-		"color_scheme": "Packages/Color Scheme - Default/Amy.tmTheme",
-		"keys": ["R"],
-		"command": "dired_rename",
-		"context": [
-			{ "key": "selector", "operator": "equal", "operand": "text.dired" },
-			{ "key": "setting.dired_rename_mode", "operand": false }
-		]
-}

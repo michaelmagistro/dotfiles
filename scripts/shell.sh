@@ -35,4 +35,5 @@ echo 'Installing oh-my-zsh...'
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 echo "Now, run the command 'chsh -s \$(which zsh)' and then logout & log back in and start the shell"
+chsh -s \$(which zsh)
 
