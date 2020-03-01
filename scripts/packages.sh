@@ -44,13 +44,13 @@ else
 fi
 
 
-# Install package manager for Sublime Text
-if [ ! -e ~/.config/sublime-text-3/Installed\ Packages/Package\ Control.sublime-package ]
-then
-  wget -P ~/.config/sublime-text-3/Installed\ Packages/ https://packagecontrol.io/Package%20Control.sublime-package
-else
-  echo 'Sublime Text package manager already installed'
-fi
+# Install package manager for Sublime Text --I think this is an old version of package manager, instead use command pallette to install package manager
+# if [ ! -e ~/.config/sublime-text-3/Installed\ Packages/Package\ Control.sublime-package ]
+# then
+#   wget -P ~/.config/sublime-text-3/Installed\ Packages/ https://packagecontrol.io/Package%20Control.sublime-package
+# else
+#   echo 'Sublime Text package manager already installed'
+# fi
 
 
 # # Install Anki for Linux
