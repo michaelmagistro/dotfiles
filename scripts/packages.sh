@@ -35,7 +35,7 @@ if [ $? != 0 ]
 then
   echo 'Installing Sublime Text... see https://www.sublimetext.com/docs/3/linux_repositories.html'
   wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-  sudo apt-get install apt-transport-https
+  apt-get install apt-transport-https
   echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
   apt update
   apt install sublime-text
@@ -43,6 +43,15 @@ else
   echo 'Sublime Text is already installed.'
 fi
 
+# Install Arduino
+if [ -f "/bin/arduino" ]
+then
+  echo 'Arduino IDE is already installed, probably.'
+else
+  echo 'Installing Arduino IDE'
+  apt update
+  apt install arduino
+fi
 
 # Install package manager for Sublime Text --I think this is an old version of package manager, instead use command pallette to install package manager
 # if [ ! -e ~/.config/sublime-text-3/Installed\ Packages/Package\ Control.sublime-package ]
