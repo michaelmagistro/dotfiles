@@ -2,7 +2,6 @@
 #
 # Repo: michaelmagistro/dotfiles
 # Stage 1 Installation: The Shell -- ZSH
-# S
 
 
 set -e
