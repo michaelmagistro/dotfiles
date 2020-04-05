@@ -10,4 +10,4 @@ ln -s ~/projects/dotfiles/configs/.zshrc ~/.zshrc
 
 # SYMLINKS ##################################
 
-gpom="git push origin master"
+alias gpom="git push origin master"
