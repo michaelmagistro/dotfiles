@@ -1,0 +1,1 @@
+source ~/p38/dotfiles_public/config/.bashrc
