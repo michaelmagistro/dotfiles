@@ -34,7 +34,7 @@ export PATH="$GITGIT:$PATH"
 # python aliases
 	alias jn="jupyter-notebook"
 	alias jl="jupyter-lab"
-	alias de="deactivate && unalias py" # deactivate python environment
+	alias de="deactivate && unalias py && unalias pys" # deactivate python environment
 
 # Device-specific configurations
 if [[ -f ~/prt_spec/laptop_lenovo.txt ]]; then
@@ -83,10 +83,6 @@ elif [ "$os" = "Darwin" ]; then
 elif [[ "$os" == "MINGW64_NT-10.0"* ]] || [[ "$os" == "MSYS_NT-10.0"* ]]; then    
     # Perform Windows-specific actions
     echo "Running on Windows"
-	# alias py="$PY/python.exe"
-	# alias pip="$PY/Scripts/pip3.11.exe"
-	# alias py64="$PY/py311x64/python.exe"
-	# Set Python paths etc..
 
     # set alias to activate python env & set py alias
     a() {
@@ -130,37 +126,10 @@ fi
 # example portable apps in prt_spec - greenshot, everything search
 # example portable apps in prt_gen - gitbash, xlwings
 
-alias prt="
-	echo '
-		-= Projects =-';
-	if [ -d $PROJECTS_HOME/ ]; then
-		echo '$PROJECTS_HOME/';
-		lsp $PROJECTS_HOME/;
-	fi;
-	echo '
-		-= Prts =-';
-	if [ -d $PRT_DROP/ ]; then
-		echo '$PRT_DROP/';
-		lsp $PRT_DROP/;
-	fi;
-	if [ -d $PRT_GEN/ ]; then
-		echo '
-$PRT_GEN/';
-		lsp $PRT_GEN/;
-	fi;
-	if [ -d $PRT_SPEC ]; then
-		echo '
-$PRT_SPEC
-		lsp $PRT_SPEC
-	fi;
-	echo '
-		-= Environments =-';
-	if [ -d $PY/ ]; then
-		echo '$PY/';
-		lsp $PY
-	fi;
-	if [ -d $PVENV ]; then
-		echo '
-$PVENV/';
-		lsp $PVENV
-	fi;"
+alias prt="echo '
+		-= Projects =-'; if [ -d $PROJECTS_HOME/ ]; then echo '$PROJECTS_HOME/'; lsp $PROJECTS_HOME/; fi; echo '
+		-= Prts =-'; if [ -d $PRT_DROP/ ]; then echo '$PRT_DROP/'; lsp $PRT_DROP/; fi; if [ -d $PRT_GEN/ ]; then echo '
+$PRT_GEN/'; lsp $PRT_GEN/; fi; if [ -d $PRT_SPEC ]; then echo '
+$PRT_SPEC'; lsp $PRT_SPEC; fi; echo '
+		-= Environments =-'; if [ -d $PY/ ]; then echo '$PY/'; lsp $PY; fi; if [ -d $PVENV ]; then echo '
+$PVENV/'; lsp $PVENV; fi;"
