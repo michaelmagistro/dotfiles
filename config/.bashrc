@@ -101,6 +101,8 @@ elif [[ -f ~/prt_spec/desktop_asc_mint_vm.txt ]]; then
     echo "Device: Desktop Asc Mint VM"
 elif [[ -f ~/prt_spec/laptop_work.txt ]]; then
     echo "Device: Laptop Work"
+elif [[ -f ~/prt_spec/laptop_lenovo_ubuntu_vm.txt ]]; then
+    echo "Device: Lenovo Laptop Ubuntu VM"
 else
     # Default configurations
     echo "Device: Unknown. Check ~/prt_spec/ for a file with the name of this"
