@@ -35,29 +35,29 @@ export PATH="$GITGIT:$PATH"
 
 # Device-specific configurations
 if [[ -f ~/prt_spec/laptop_lenovo.txt ]]; then
-    echo "Running on Lenovo Laptop"
+    echo "Device: Lenovo Laptop"
 
 elif [[ -f ~/prt_spec/laptop_lenovo_mint_vm.txt ]]; then
-    echo "Running on Lenovo Laptop Mint VM"
+    echo "Device: Lenovo Laptop Mint VM"
 
 elif [[ -f ~/prt_spec/desktop_asc.txt ]]; then
-    echo "Running on Desktop Asc"
+    echo "Device: Desktop Asc"
 
 elif [[ -f ~/prt_spec/desktop_asc_mint_vm.txt ]]; then
-    echo "Running on Desktop Asc Mint VM"
+    echo "Device: Desktop Asc Mint VM"
 
 elif [[ -f ~/prt_spec/laptop_work.txt ]]; then
-    echo "Running on Laptop Work"
+    echo "Device: Laptop Work"
 
 else
     # Default configurations
-    echo "Running on an unknown machine"
+    echo "Device: Unknown. Check ~/prt_spec/ for a file with the name of this"
 fi
 
 # Perform different actions based on the OS
 if [ "$os" = "Linux" ]; then
     # Perform Linux-specific actions
-    echo "Running on Linux"
+    echo "OS: Linux"
     a() {
         local current_folder=$(basename "$PWD")
         source "$PVENV/$current_folder/bin/activate"
@@ -75,11 +75,11 @@ if [ "$os" = "Linux" ]; then
     # fi
 elif [ "$os" = "Darwin" ]; then    
     # Perform macOS-specific actions
-    echo "Running on macOS"
+    echo "OS: macOS"
     
 elif [[ "$os" == "MINGW64_NT-10.0"* ]] || [[ "$os" == "MSYS_NT-10.0"* ]]; then    
     # Perform Windows-specific actions
-    echo "Running on Windows"
+    echo "OS: Windows"
 
     # set portable python variables
     export PY=~/py # python installation folder
@@ -103,7 +103,7 @@ elif [[ "$os" == "MINGW64_NT-10.0"* ]] || [[ "$os" == "MSYS_NT-10.0"* ]]; then
 
 else
     # Perform default actions
-    echo "Running on an unknown OS"
+    echo "OS: Unknown"
 fi
 
 # folder shortcuts
