@@ -34,6 +34,12 @@ export GITGIT=~/prt_gen/GitBash/bin/git.exe # git.exe location
 if [ "$os" = "Linux" ]; then
     # Perform Linux-specific actions
     echo "Running on Linux"
+    #!/bin/bash
+    if sudo -n true 2>/dev/null; then
+    echo "Sudo access is available."
+    else
+    echo "Sudo access is not available."
+    fi
 
 elif [ "$os" = "Darwin" ]; then    
     # Perform macOS-specific actions
