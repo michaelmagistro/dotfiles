@@ -6,13 +6,10 @@ export PROJECTS_HOME=~/p38 # project home path
 export PRT_SPEC=~/prt_spec # portable software folder with specific configurations to this device
 export PRT_GEN=~/prt_gen # portable software folder with general configurations
 export PRT_DROP=~/Dropbox/prt # portable software folder in dropbox
-export PY=~/py # python installation folder
 export PVENV=~/pvenv # python virtual environments folder
 export BASHBASH=~/prt_gen/GitBash/bin/bash.exe # git bash exe location
 export GITGIT=~/prt_gen/GitBash/bin/git.exe # git.exe location
 # export to path
-export PATH="$PY:$PATH"
-export PATH="$PY/Scripts:$PATH"
 export PATH="$BASHBASH:$PATH"
 export PATH="$GITGIT:$PATH"
 
@@ -83,6 +80,11 @@ elif [ "$os" = "Darwin" ]; then
 elif [[ "$os" == "MINGW64_NT-10.0"* ]] || [[ "$os" == "MSYS_NT-10.0"* ]]; then    
     # Perform Windows-specific actions
     echo "Running on Windows"
+
+    # set portable python variables
+    export PY=~/py # python installation folder
+    export PATH="$PY:$PATH"
+    export PATH="$PY/Scripts:$PATH"
 
     # set alias to activate python env & set py alias
     a() {
