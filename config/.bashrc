@@ -7,11 +7,6 @@ export PRT_SPEC=~/prt_spec # portable software folder with specific configuratio
 export PRT_GEN=~/prt_gen # portable software folder with general configurations
 export PRT_DROP=~/Dropbox/prt # portable software folder in dropbox
 export PVENV=~/pvenv # python virtual environments folder
-export BASHBASH=~/prt_gen/GitBash/bin/bash.exe # git bash exe location
-export GITGIT=~/prt_gen/GitBash/bin/git.exe # git.exe location
-# export to path
-export PATH="$BASHBASH:$PATH"
-export PATH="$GITGIT:$PATH"
 
 # Copy the current directory path to the Clipboard
 	alias cpwd="pwd | tr -d '\n' | pbcopy && echo 'pwd copied to clipboard'"
@@ -33,37 +28,19 @@ export PATH="$GITGIT:$PATH"
 	alias jl="jupyter-lab"
 	alias de="deactivate && unalias py && unalias pys" # deactivate python environment
 
-# Device-specific configurations
-if [[ -f ~/prt_spec/laptop_lenovo.txt ]]; then
-    echo "Device: Lenovo Laptop"
-
-elif [[ -f ~/prt_spec/laptop_lenovo_mint_vm.txt ]]; then
-    echo "Device: Lenovo Laptop Mint VM"
-
-elif [[ -f ~/prt_spec/desktop_asc.txt ]]; then
-    echo "Device: Desktop Asc"
-
-elif [[ -f ~/prt_spec/desktop_asc_mint_vm.txt ]]; then
-    echo "Device: Desktop Asc Mint VM"
-
-elif [[ -f ~/prt_spec/laptop_work.txt ]]; then
-    echo "Device: Laptop Work"
-
-else
-    # Default configurations
-    echo "Device: Unknown. Check ~/prt_spec/ for a file with the name of this"
-fi
-
-# Perform different actions based on the OS
+# OS-Specific configurations
 if [ "$os" = "Linux" ]; then
     # Perform Linux-specific actions
     echo "OS: Linux"
+    # set python venv activation aliases
     a() {
         local current_folder=$(basename "$PWD")
         source "$PVENV/$current_folder/bin/activate"
         alias py="$PVENV/$current_folder/bin/python"
         alias pys="scrapy runspider"
     }
+    export CODE=~/prt_spec/VSCode/Code.exe # git bash exe location
+    export PATH="$CODE:$PATH"
     #!/bin/bash
     # echo "Do you have sudo access? (y/n)"
     # read -r response
@@ -86,7 +63,14 @@ elif [[ "$os" == "MINGW64_NT-10.0"* ]] || [[ "$os" == "MSYS_NT-10.0"* ]]; then
     export PATH="$PY:$PATH"
     export PATH="$PY/Scripts:$PATH"
 
-    # set alias to activate python env & set py alias
+    # set portable software variables for executables
+    export BASHBASH=~/prt_gen/GitBash/bin/bash.exe # git bash exe location
+    export GITGIT=~/prt_gen/GitBash/bin/git.exe # git.exe location
+    # export executables to path
+    export PATH="$BASHBASH:$PATH"
+    export PATH="$GITGIT:$PATH"
+
+    # set python venv activation aliases
     a() {
         local current_folder=$(basename "$PWD")
         source "$PVENV/$current_folder/Scripts/activate"
@@ -94,7 +78,7 @@ elif [[ "$os" == "MINGW64_NT-10.0"* ]] || [[ "$os" == "MSYS_NT-10.0"* ]]; then
         alias pys="scrapy runspider"
     }
 	
-    # set sublime location in dropbox. if that doesn't exist, use
+    # set sublime location in dropbox. if that doesn't exist, use prt_spec
 	s() {
     if ! $PRT_DROP/SublimeText/sublime_text.exe "$@"; then
         $PRT_SPEC/sublime_text.exe "$@"
@@ -104,6 +88,22 @@ elif [[ "$os" == "MINGW64_NT-10.0"* ]] || [[ "$os" == "MSYS_NT-10.0"* ]]; then
 else
     # Perform default actions
     echo "OS: Unknown"
+fi
+
+# Device-specific configurations
+if [[ -f ~/prt_spec/laptop_lenovo.txt ]]; then
+    echo "Device: Lenovo Laptop"
+elif [[ -f ~/prt_spec/laptop_lenovo_mint_vm.txt ]]; then
+    echo "Device: Lenovo Laptop Mint VM"
+elif [[ -f ~/prt_spec/desktop_asc.txt ]]; then
+    echo "Device: Desktop Asc"
+elif [[ -f ~/prt_spec/desktop_asc_mint_vm.txt ]]; then
+    echo "Device: Desktop Asc Mint VM"
+elif [[ -f ~/prt_spec/laptop_work.txt ]]; then
+    echo "Device: Laptop Work"
+else
+    # Default configurations
+    echo "Device: Unknown. Check ~/prt_spec/ for a file with the name of this"
 fi
 
 # folder shortcuts
@@ -128,6 +128,8 @@ fi
 # example portable apps in prt_spec - greenshot, everything search
 # example portable apps in prt_gen - gitbash, xlwings
 
+
+# check contents & presence of notable directories
 alias prt="echo '
 		-= Projects =-'; if [ -d $PROJECTS_HOME/ ]; then echo '$PROJECTS_HOME/'; lsp $PROJECTS_HOME/; fi; echo '
 		-= Prts =-'; if [ -d $PRT_DROP/ ]; then echo '$PRT_DROP/'; lsp $PRT_DROP/; fi; if [ -d $PRT_GEN/ ]; then echo '
