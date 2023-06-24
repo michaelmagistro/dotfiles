@@ -1,6 +1,7 @@
 # Get the current OS
 os=$(uname)
 
+# export (set) variables
 export PROJECTS_HOME=~/p38 # project home path
 export PRT_SPEC=~/prt_spec # portable software folder with specific configurations to this device
 export PRT_GEN=~/prt_gen # portable software folder with general configurations
@@ -9,6 +10,11 @@ export PY=~/py # python installation folder
 export PVENV=~/pvenv # python virtual environments folder
 export BASHBASH=~/prt_gen/GitBash/bin/bash.exe # git bash exe location
 export GITGIT=~/prt_gen/GitBash/bin/git.exe # git.exe location
+# export to path
+export PATH="$PY:$PATH"
+export PATH="$PY/Scripts:$PATH"
+export PATH="$BASHBASH:$PATH"
+export PATH="$GITGIT:$PATH"
 
 # Copy the current directory path to the Clipboard
 	alias cpwd="pwd | tr -d '\n' | pbcopy && echo 'pwd copied to clipboard'"
@@ -35,12 +41,15 @@ if [ "$os" = "Linux" ]; then
     # Perform Linux-specific actions
     echo "Running on Linux"
     #!/bin/bash
-    if sudo -n true 2>/dev/null; then
-    echo "Sudo access is available."
-    else
-    echo "Sudo access is not available."
-    fi
 
+    echo "Do you have sudo access? (y/n)"
+    read -r response
+    if [[ $response == [yY] ]]; then
+        echo "You have sudo access."
+    else
+        echo "You do not have sudo access."
+        export PATH="$HOME/py/bin:$PATH" # export the python bin folder to path to make python and pip commands available
+    fi
 elif [ "$os" = "Darwin" ]; then    
     # Perform macOS-specific actions
     echo "Running on macOS"
@@ -52,10 +61,6 @@ elif [[ "$os" == "MINGW64_NT-10.0"* ]] || [[ "$os" == "MSYS_NT-10.0"* ]]; then
 	# alias pip="$PY/Scripts/pip3.11.exe"
 	# alias py64="$PY/py311x64/python.exe"
 	# Set Python paths etc..
-    export PATH="$PY:$PATH"
-    export PATH="$PY/Scripts:$PATH"
-    export PATH="$BASHBASH:$PATH"
-    export PATH="$GITGIT:$PATH"
 
     # set alias to activate python env & set py alias
     a() {
