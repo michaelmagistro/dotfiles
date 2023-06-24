@@ -39,8 +39,8 @@ if [ "$os" = "Linux" ]; then
         alias py="$PVENV/$current_folder/bin/python"
         alias pys="scrapy runspider"
     }
-    export CODE=~/prt_spec/VSCode/Code.exe # git bash exe location
-    export PATH="$CODE:$PATH"
+    alias code=~/prt_spec/VSCode/Code.exe # git bash exe location
+    # export PATH="$CODE:$PATH"
     #!/bin/bash
     # echo "Do you have sudo access? (y/n)"
     # read -r response
