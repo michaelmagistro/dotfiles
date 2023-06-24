@@ -61,6 +61,12 @@ fi
 if [ "$os" = "Linux" ]; then
     # Perform Linux-specific actions
     echo "Running on Linux"
+    a() {
+        local current_folder=$(basename "$PWD")
+        source "$PVENV/$current_folder/bin/activate"
+        alias py="$PVENV/$current_folder/bin/python"
+        alias pys="scrapy runspider"
+    }
     #!/bin/bash
     # echo "Do you have sudo access? (y/n)"
     # read -r response
