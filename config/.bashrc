@@ -36,20 +36,40 @@ export PATH="$GITGIT:$PATH"
 	alias jl="jupyter-lab"
 	alias de="deactivate && unalias py" # deactivate python environment
 
+# Device-specific configurations
+if [[ -f ~/prt_spec/laptop_lenovo.txt ]]; then
+    echo "Running on Lenovo Laptop"
+
+elif [[ -f ~/prt_spec/laptop_lenovo_mint_vm.txt ]]; then
+    echo "Running on Lenovo Laptop Mint VM"
+
+elif [[ -f ~/prt_spec/desktop_asc.txt ]]; then
+    echo "Running on Desktop Asc"
+
+elif [[ -f ~/prt_spec/desktop_asc_mint_vm.txt ]]; then
+    echo "Running on Desktop Asc Mint VM"
+
+elif [[ -f ~/prt_spec/laptop_work.txt ]]; then
+    echo "Running on Laptop Work"
+
+else
+    # Default configurations
+    echo "Running on an unknown machine"
+fi
+
 # Perform different actions based on the OS
 if [ "$os" = "Linux" ]; then
     # Perform Linux-specific actions
     echo "Running on Linux"
     #!/bin/bash
-
-    echo "Do you have sudo access? (y/n)"
-    read -r response
-    if [[ $response == [yY] ]]; then
-        echo "You have sudo access."
-    else
-        echo "You do not have sudo access."
-        export PATH="$HOME/py/bin:$PATH" # export the python bin folder to path to make python and pip commands available
-    fi
+    # echo "Do you have sudo access? (y/n)"
+    # read -r response
+    # if [[ $response == [yY] ]]; then
+    #     echo "You have sudo access."
+    # else
+    #     echo "You do not have sudo access."
+    #     export PATH="$HOME/py/bin:$PATH" # export the python bin folder to path to make python and pip commands available
+    # fi
 elif [ "$os" = "Darwin" ]; then    
     # Perform macOS-specific actions
     echo "Running on macOS"
