@@ -11,6 +11,15 @@ export PVENV=~/pvenv # python virtual environments folder
 # Copy the current directory path to the Clipboard
 	alias cpwd="pwd | tr -d '\n' | pbcopy && echo 'pwd copied to clipboard'"
 
+# Grep Aliases
+    alias gp="grep --color=auto"
+    alias gpi="grep -i --color=auto"
+    alias gpr="grep -r --color=auto"
+    alias gprn="grep -rn --color=auto"
+    alias gprni="grep -rni --color=auto"
+    alias gprv="grep -rv --color=auto"
+    alias gprnv="grep -rnv --color=auto"
+    alias gprnvi="grep -rnvi --color=auto"
 # Git aliases
 	alias gs="git status"
 	alias gpom="git push origin main"
