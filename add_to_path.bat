@@ -2,7 +2,7 @@
 
 setlocal
 
-set "path_to_add=%USERPROFILE%\prt_spec\VSCodeInsiders;%USERPROFILE%\prt_spec\VSCode"
+set "path_to_add=%USERPROFILE%\prt_spec\VSCodeInsiders\bin;%USERPROFILE%\prt_spec\VSCode\bin"
 
 REM Check if the directories are already in PATH
 echo %PATH% | findstr /C:"%path_to_add%" >nul

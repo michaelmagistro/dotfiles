@@ -39,17 +39,15 @@ if [ "$os" = "Linux" ]; then
         alias py="$PVENV/$current_folder/bin/python"
         alias pys="scrapy runspider"
     }
-    alias code=~/prt_spec/VSCode/Code.exe # git bash exe location
-    # export PATH="$CODE:$PATH"
-    #!/bin/bash
-    # echo "Do you have sudo access? (y/n)"
-    # read -r response
-    # if [[ $response == [yY] ]]; then
-    #     echo "You have sudo access."
-    # else
-    #     echo "You do not have sudo access."
-    #     export PATH="$HOME/py/bin:$PATH" # export the python bin folder to path to make python and pip commands available
-    # fi
+    # alias code=~/prt_spec/VSCode/Code.exe # git bash exe location
+
+    # Check if running on Windows Subsystem for Linux
+    if uname -a | grep -qi "microsoft"; then
+        echo "Running on Windows Subsystem for Linux."
+    else
+        echo "Not running on Windows Subsystem for Linux."
+    fi
+
 elif [ "$os" = "Darwin" ]; then    
     # Perform macOS-specific actions
     echo "OS: macOS"
