@@ -146,3 +146,11 @@ $PRT_GEN/'; lsp $PRT_GEN/; fi; if [ -d $PRT_SPEC ]; then echo '
 $PRT_SPEC'; lsp $PRT_SPEC; fi; echo '
 		-= Environments =-'; if [ -d $PY/ ]; then echo '$PY/'; lsp $PY; fi; if [ -d $PVENV ]; then echo '
 $PVENV/'; lsp $PVENV; fi;"
+
+
+# check for present of folders
+if [ -d "$PROJECTS_HOME" ]; then echo "$PROJECTS_HOME"; else echo "$PROJECTS_HOME is missing"; fi
+if [ -d $PRT_DROP ]; then echo "$PRT_DROP"; else echo "$PRT_DROP is missing"; fi
+if [ -d $PRT_SPEC ]; then echo "$PRT_SPEC"; else echo "$PRT_SPEC is missing"; fi
+if [ -d $PRT_GEN ]; then echo "$PRT_GEN"; else echo "$PRT_GEN is missing"; fi
+echo "Projects: " $(ls $PROJECTS_HOME)
