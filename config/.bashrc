@@ -36,6 +36,14 @@ export PVENV=~/pvenv # python virtual environments folder
 	alias jn="jupyter-notebook"
 	alias jl="jupyter-lab"
 	alias de="deactivate && unalias py && unalias pys" # deactivate python environment
+# flask aliases
+    alias fd="flask --app app.py --debug run" # fire up the flask debug server for app.py
+# xclip aliases
+    alias xclip="xclip -selection clipboard" # copy to clipboard
+    alias xclipin="xclip -selection clipboard -in" # copy to clipboard
+    alias xclipout="xclip -selection clipboard -out" # paste from clipboard
+# path aliases
+    alias path="echo -e \$PATH | tr : '\n'" # display all path vars on separate lines
 
 # OS-Specific configurations
 if [ "$os" = "Linux" ]; then
