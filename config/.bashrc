@@ -50,7 +50,7 @@ if [ "$os" = "Linux" ]; then
     # Perform Linux-specific actions
     echo "OS: Linux"
     # set python venv activation aliases
-    a() {
+    na() {
         local current_folder=$(basename "$PWD")
         source "$PVENV/$current_folder/bin/activate"
         alias py="$PVENV/$current_folder/bin/python"
