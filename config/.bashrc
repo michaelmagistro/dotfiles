@@ -1,5 +1,6 @@
 # Get the current OS
 os=$(uname)
+echo "Version 1.0"
 
 # export (set) variables
 export PROJECTS_HOME=~/p38 # project home path
@@ -86,7 +87,7 @@ elif [[ "$os" == "MINGW64_NT-10.0"* ]] || [[ "$os" == "MSYS_NT-10.0"* ]]; then
     export PATH="$GITGIT:$PATH"
 
     # set python venv activation aliases
-    a() {
+    na() {
         local current_folder=$(basename "$PWD")
         source "$PVENV/$current_folder/Scripts/activate"
         alias py="$PVENV/$current_folder/Scripts/python.exe"
