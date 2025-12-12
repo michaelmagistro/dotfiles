@@ -1,0 +1,145 @@
+{
+  "enable_table_editor": true,
+  "table_editor_intelligent_formatting":false,
+	// PROJECT MANAGER SETTINGS **************
+    "hot_exit": true,
+    "remember_workspace": "prompt",
+    "save_workspace_as_project": true,
+    "workspace_filename": "${project_path:${folder:${file_path}}}/.sublime-workspace}",
+	// PROJECT MANAGER SETTINGS END **********
+	// "binary_file_patterns": ["*.dds","*.eot", "*.gif", "*.ico", "*.jar", "*.jpeg", "*.jpg", "*.pdf", "*.png", "*.swf", "*.tga", "*.ttf", "*.zip", "*.xlsx", "*.xls"],
+	// "prevent_bin_preview": true,
+	// "open_files_in_new_window": true,
+	"open_externally_patterns": [
+			"*.xlsx",
+			"*.xls",
+	    "*.jpg",
+	    "*.jpeg",
+	    "*.png",
+	    "*.gif",
+	    "*.zip",
+	    "*.pdf"
+	],
+	"mde.keymap_disable.goto_next_heading": false,
+	"mde.keymap_disable.goto_previous_heading": false,
+	// "open_externally_on_enter": true,
+	"enable_hexadecimal_encoding": false, // prevent sublime from previewing binary files. actually, this didn't really help... just turned 0/1s to hexes.
+	"hardware_acceleration": "none",
+  "gutter": true,
+  "line_numbers": true,
+	"wrap_width": 0,
+	"word_wrap": true,
+	"draw_centered": false,
+	"auto_match_enabled": false,
+	"translate_tabs_to_spaces": false,
+	// test
+	"added_words":
+	[
+		"telomeres",
+		"cardiomyopathy",
+		"degenerative",
+		"mycoplasma",
+		"Wallach's",
+		"ambiguate",
+		"negational",
+		"biohazard",
+		"kefir",
+	],
+	"alignment_chars":
+	[
+		"=",
+		"|"
+	],
+	"alignment_space_chars":
+	[
+		"=",
+		"|"
+	],
+	"background": "#FFFFFF",
+	"caret_blink_interval": 0,
+	"caret_extra_width": 1,
+	"caret_style": "solid",
+	"close_windows_when_empty": false,
+	// "color_scheme": "Packages/3024 Color Scheme/3024 Night.tmTheme",
+	"color_scheme": "Packages/3024 Color Scheme/3024 Night.tmTheme",
+	"detect_indentation": false,
+	"draw_white_space": "none",
+	"font_size": 10,
+	"highlight_line": true,
+	/*"hot_exit": true,*/
+	"ignored_packages":
+	[
+		"ActionScript",
+		"ASP",
+		"Batch File",
+		"Binary",
+		"Markdown Extended",
+		"MarkdownWriter",
+		"Non Text Files",
+		"PowerShell",
+		"sublime-hippie-autocomplete-main",
+		"SublimeLinter",
+	],
+	"ignored_words":
+	[
+		"Celiac",
+		"Crohn's",
+		"Gison",
+		"Glidden",
+		"Hahaha",
+		"Korsakoff",
+		"Nexium",
+		"Ok",
+		"Pison",
+		"Tourette",
+		"Uhh",
+		"Wallach",
+		"apnea",
+		"coli",
+		"fibromyalgia",
+		"macular",
+		"myelin",
+		"naturopathic",
+		"ok",
+		"rosacea",
+		"there've"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"tab_size": 4,
+	"theme": "Adaptive.sublime-theme",
+	/*"translate_tabs_to_spaces": false,*/
+	"trim_trailing_white_space_on_save": false,
+	"wide_caret": true,
+	/*"word_wrap": true,*/
+	"auto_complete_delay": 0,
+	/*"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip"
+	],*/
+	"mde.auto_fold_link.enabled": false,
+	"update_check": false,
+	"dark_color_scheme": "Mariana.sublime-color-scheme",
+	"light_color_scheme": "Breakers.sublime-color-scheme",
+	"fold_style": "force_indentation",
+  "date_format":     "%YYYY-%m-%d",
+  "time_format":     "%H:%M:%S",
+  "datetime_format": "%YYYY-%m-%d %H:%M",
+  "stamp_format":    "%YYYY%m%d%H%M%S",
+	"index_files": true,
+}
