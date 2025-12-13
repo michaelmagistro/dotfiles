@@ -1,61 +1,15 @@
 {
-	"git_binary": "C:\\Users\\mikem\\prt_gen\\GitBash\\bin\\git.exe",
-	/*"git_binary": "C:\\Users\\singl\\prt_gen\\GitBash\\bin\\git.exe",*/
-	/*"git_binary": "C:\\Users\\mikem\\prt_gen\\GitBash\\bin\\git.exe",*/
-	// If packages should be automatically upgraded when ST starts
-	"auto_upgrade": false,
-	// "ignore_vcs_packages": ["PlainTasks","SideBarEnhancements"],
-	// Packages to not auto upgrade
-	"auto_upgrade_ignore": ["PlainTasks","MarkdownEditing"],
 	"bootstrapped": true,
-	"ignored_packages": ["Vintage"],
-	"in_process_packages":
-	[
-	],
 	"installed_packages":
 	[
 		"3024 Color Scheme",
-		"Alignment",
-		"Clickable URLs",
-		"Compare Side-By-Side",
-		"FileBrowser",
-		"FindKeyConflicts",
-		"ImagePaste",
-		"ImagePreview",
-		"Indent XML",
-		"Markdown Extended",
-		"Markdown HTML Preview",
-		"Markdown Table Creator",
-		"Markdown Table Formatter",
-		"MarkdownPreview",
-		"MarkdownTOC",
-		"MarkdownWriter",
-		"MaxPane",
-		"Monokai Blueberry Color Scheme",
-		"Monokai Extended",
-		"Move By Symbols",
+		"MarkdownEditing",
 		"MoveTab",
-		"Multi Select Alphabetizer",
-		"Non Text Files",
-		"Open in Default Application",
 		"Open URL",
 		"Package Control",
-		"PackageResourceViewer",
-		"PlainTasks",
-		"PowerShell",
-		"ProjectManager",
-		"rainbow_csv",
-		"Random Everything",
-		"ScopeHunter",
-		"Show Character Code",
-		"SortBy",
-		"SublimeLinter",
-		"Table Editor",
-		"Text Pastry",
-		"Theme - Brogrammer",
-		"Theme - Minimist",
 		"Timenow",
-		"TodoTxt Syntax",
 	],
-	"debug": false,
+	"in_process_packages":
+	[
+	],
 }

@@ -2,6 +2,20 @@
 	// Default *****************************************************
   { "keys": ["alt+z"], "command": "toggle_setting", "args": { "setting": "word_wrap" }
 	},
+	// expand selection v1
+	// {
+	//   "keys": ["ctrl+shift+space"],
+	//   "command": "expand_selection_to_backticks",
+	//   "context": [
+	//     {
+	//       "key": "selector",
+	//       "operator": "equal",
+	//       "operand": "text.html.markdown meta.paragraph.markdown markup.raw.inline.markdown, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown markup.raw.inline.markdown",
+	//       "match_all": true
+	//     },
+	//   ]
+	// },
+	// expand selection v2
 	{
 	  "keys": ["ctrl+shift+space"],
 	  "command": "expand_selection_to_backticks",
@@ -9,8 +23,13 @@
 	    {
 	      "key": "selector",
 	      "operator": "equal",
-	      "operand": "text.html.markdown meta.paragraph.markdown markup.raw.inline.markdown, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown markup.raw.inline.markdown",
+	      "operand": "text.html.markdown",
 	      "match_all": true
+	    },
+	    {
+	      "key": "selector",
+	      "operator": "not_equal",
+	      "operand": "meta.link",
 	    }
 	  ]
 	},
