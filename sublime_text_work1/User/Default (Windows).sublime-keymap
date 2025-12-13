@@ -30,6 +30,13 @@
 	      "key": "selector",
 	      "operator": "not_equal",
 	      "operand": "meta.link",
+	      "match_all": true
+	    },
+	    {
+	      "key": "selector",
+	      "operator": "not_equal",
+	      "operand": "meta.code-fence.body.markdown-gfm markup.raw.code-fence, text.html.markdown meta.paragraph.markdown meta.image.inline.metadata.markdown markup.underline.link.image.markdown",
+	      "match_all": true
 	    }
 	  ]
 	},

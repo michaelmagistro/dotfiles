@@ -1,209 +1,293 @@
+// Customized 3024 Night with Brighter Background (full editor, margins, gutter)
 // Documentation at https://www.sublimetext.com/docs/color_schemes.html
 {
-	"variables":
-	{
+	"variables": {},
+	"globals": {
+	  "background": "#2d2d2d",
+	  "foreground": "#ffffff",
+	  "caret": "#10b981",  // Brighter green cursor for better visibility
+	  "line_highlight": "#26472f"  // Subtle blue-gray for current line
 	},
-	"globals":
-	{
-	},
-	"rules":
-	[
+	"rules": [
 		{
-		  "name": "CurrentLine",
-		  "scope": "settings",
-		  "background": "#ffffff",
+			"name": "Gutter Background (Line Numbers)",
+			"scope": "gutter",
+			"background": "#2d2d2d"  // Matches full editor
 		},
 		{
-		  "name": "[Markdown] Fenced Code Block",
-		  "scope": "text.html.markdown markup.list.unnumbered.markdown markup.raw.code-fence",
-		  "background": "#222222",
+			"name": "Markdown Content Background",
+			"scope": "text.html.markdown",
+			"background": "#2d2d2d"  // Reinforces for Markdown files
+		},
+		// Comment out or remove this to avoid white flash on current line
+		/*
+		{
+			"name": "CurrentLine",
+			"scope": "settings",
+			"background": "#ffffff"
+		},
+		*/
+		{
+			"name": "[Markdown] Fenced Code Block",
+			"scope": "text.html.markdown markup.list.unnumbered.markdown markup.raw.code-fence",
+			"background": "#222222"
 		},
 		{
-		  "name": "[Markdown] Fenced Code Block",
-		  "scope": "text.html.markdown markup.list.unnumbered.markdown meta.code-fence.definition.begin.text.markdown-gfm punctuation.definition.raw.code-fence.begin.markdown",
-		  "foreground": "#00ff00",
+			"name": "[Markdown] Fenced Code Block",
+			"scope": "text.html.markdown markup.list.unnumbered.markdown meta.code-fence.definition.begin.text.markdown-gfm punctuation.definition.raw.code-fence.begin.markdown",
+			"foreground": "#00ff00"
 		},
 		{
-		  "name": "[Markdown] Fenced Code Block",
-		  "scope": "text.html.markdown markup.list.unnumbered.markdown",
-		  "foreground": "#bbbbbb",
+			"name": "[Markdown] Fenced Code Block",
+			"scope": "text.html.markdown markup.list.unnumbered.markdown",
+			"foreground": "#bbbbbb"
 		},
 		{
-		  "name": "Markdown List",
-		  "scope": "text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown",
-		  "foreground": "#ffffff",
+			"name": "Markdown List",
+			"scope": "text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown",
+			"foreground": "#ffffff"
 		},
 		{
-		  "name": "General Fence",
-		  "scope": "text.html.markdown markup.raw.code-fence",
-		  "background": "#222222",
+			"name": "General Fence",
+			"scope": "text.html.markdown markup.raw.code-fence",
+			"background": "#222222"
 		},
 		{
-		  "name": "Markdown",
-		  "scope": "text.html.markdown meta.paragraph.markdown meta.link.inline.metadata.markdown markup.underline.link.markdown",
-		  "foreground": "#59A551",
+			"name": "Markdown",
+			"scope": "text.html.markdown meta.paragraph.markdown meta.link.inline.metadata.markdown markup.underline.link.markdown",
+			"foreground": "#59A551"
 		},
 		{
-		  "name": "Markdown",
-		  "scope": "text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown markup.raw.inline.markdown, text.html.markdown meta.paragraph.markdown markup.raw.inline.markdown",
-		  "foreground": "#C00000",
+			"name": "Markdown",
+			"scope": "text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown markup.raw.inline.markdown, text.html.markdown meta.paragraph.markdown markup.raw.inline.markdown",
+			"foreground": "#C00000"
 		},
 		{
-		  "name": "Markdown",
-		  "scope": "text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown markup.raw.inline.markdown, text.html.markdown meta.paragraph.markdown markup.raw.inline.markdown, inline-code",
-		  "foreground": "#C00000",
-		},
-		// {
-		//   "name": "InlineCodeSnippet",
-		//   "scope": "text.html.markdown meta.paragraph.markdown markup.raw.inline.markdown",
-		//   "foreground": "#ff0000",
-		// },
-		{
-		  "name": "GeneralLink",
-		  "scope": "text.html.markdown meta.paragraph.markdown meta.link.inet.markdown markup.underline.link.markdown-gfm, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inet.markdown markup.underline.link.markdown-gfm",
-		  "foreground": "#00A4DE",
+			"name": "Markdown",
+			"scope": "text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown markup.raw.inline.markdown, text.html.markdown meta.paragraph.markdown markup.raw.inline.markdown, inline-code",
+			"foreground": "#C00000"
 		},
 		{
-		  "name": "Heading1Text",
+			"name": "GeneralLink",
+			"scope": "text.html.markdown meta.paragraph.markdown meta.link.inet.markdown markup.underline.link.markdown-gfm, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inet.markdown markup.underline.link.markdown-gfm",
+			"foreground": "#00A4DE"
+		},
+		{
+			"name": "Heading1Text",
+			"scope": "text.html.markdown markup.heading.1.markdown entity.name.section.markdown",
+			"foreground": "#FFC000",
+			"fontStyle": "italic",
+			"fontSize": "22"
+		},
+		{
+			"name": "Heading1EntireLineBackground",
+			"scope": "text.html.markdown markup.heading.1.markdown",
+			"background": "#2A2000",
+			"fontStyle": "italic",
+			"fontSize": "22"
+		},
+		{
+			"name": "Heading1Pound",
+			"scope": "text.html.markdown markup.heading.1.markdown punctuation.definition.heading.begin.markdown",
+			"foreground": "#01a0e4",
+			"font_weight": "bold",
+			"font_size": "22"
+		},
+		{
+			"name": "Heading2Pound",
+			"scope": "text.html.markdown markup.heading.2.markdown punctuation.definition.heading.begin.markdown",
+			"foreground": "#01a0e4",
+			"fontStyle": "italic",
+			"fontSize": "22"
+		},
+		{
+			"name": "Heading2Text",
+			"scope": "text.html.markdown markup.heading.2.markdown entity.name.section.markdown",
+			"foreground": "#FFC000",
+			"fontStyle": "italic",
+			"fontSize": "22"
+		},
+		{
+			"name": "Heading3Pound",
+			"scope": "text.html.markdown markup.heading.3.markdown punctuation.definition.heading.begin.markdown",
+			"foreground": "#01a0e4",
+			"fontStyle": "italic",
+			"fontSize": "22"
+		},
+		{
+			"name": "Completed Text",
+			"scope": "completedText",
+			"foreground": "#ff0000"
+		},
+		{
+			"name": "TestingMarkdown",
+			"scope": "text.html.markdown meta.paragraph.markdown completedText",
+			"foreground": "#ff0000"
+		},
+		{
+			"name": "RegexQuantifier",
+			"scope": "source.regexp meta.mode.basic.regexp keyword.operator.quantifier.regexp",
+			"foreground": "#ff0000"
+		},
+		{
+			"name": "RegexQuantifier",
+			"scope": "source.regexp meta.mode.basic.regexp meta.set.regexp punctuation.definition.set.begin.regexp",
+			"foreground": "#ffff00"
+		},
+		{
+			"name": "RegexQuantifier",
+			"scope": "source.regexp meta.mode.basic.regexp meta.set.regexp punctuation.definition.set.end.regexp",
+			"foreground": "#ffff00"
+		},
+		{
+			"name": "RegexQuantifier",
+			"scope": "source.regexp meta.group.regexp meta.mode.basic.regexp punctuation.section.group.begin.regexp",
+			"foreground": "#00ff00"
+		},
+		{
+			"name": "RegexQuantifier",
+			"scope": "source.regexp meta.group.regexp meta.mode.basic.regexp punctuation.section.group.end.regexp",
+			"foreground": "#00ff00"
+		},
+		{
+			"name": "RegexQuantifier",
+			"scope": "source.regexp meta.mode.basic.regexp meta.set.regexp keyword.operator.logical.regexp",
+			"foreground": "#00eeee"
+		},
+		{
+			"name": "RegexQuantifier",
+			"scope": "source.regexp meta.mode.basic.regexp keyword.control.anchor.regexp",
+			"foreground": "#00eeee"
+		},
+		{
+			"name": "RegexQuantifier",
+			"scope": "source.regexp meta.group.regexp meta.mode.basic.regexp keyword.other.any.regexp",
+			"foreground": "#ff0000"
+		},
+		{
+			"name": "RegexQuantifier",
+			"scope": "source.regexp meta.mode.basic.regexp keyword.other.any.regexp",
+			"foreground": "#ff0000"
+		},
+		{
+			"name": "RegexQuantifier",
+			"scope": "source.regexp meta.mode.basic.regexp keyword.operator.alternation.regexp",
+			"foreground": "#00eeee"
+		},
+		{
+			"name": "PlainTaskss",
+			"scope": "text.todo keyword.control.header.todo",
+			"background": "#ff0000"
+		},
+		{
+			"name": "PlainTasksss",
+			"scope": "text.todo meta.item.todo.pending todo.snippet",
+			"foreground": "#ff0000"
+		},
+		{
+			"name": "Markdown Numbered Bullets",
+			"scope": "text.html.markdown markup.list.numbered.markdown meta.paragraph.list.markdown",
+			"foreground": "#ffffff"
+		},
+		{
+			"name": "Markdown Italic",
+			"scope": "text.html.markdown meta.paragraph.markdown markup.italic.markdown,text.html.markdown meta.paragraph.markdown markup.italic.markdown punctuation.definition.italic.end.markdown,text.html.markdown meta.paragraph.markdown markup.italic.markdown punctuation.definition.italic.begin.markdown",
+			"foreground": "#00FFFF"
+		},
+		{
+			"name": "Image Alt Text (White)",
+			"scope": "markup.image.inline.markdown string, markup.image.inline.markdown string.other.link.title",
+			"foreground": "#FFFFFF"
+		},
+		{
+			"name": "Image Path (Pumpkin Orange)",
+			"scope": "markup.image.inline.markdown markup.underline.link, markup.underline.link.image",
+			"foreground": "#FF7518"
+		},
+		{
+			"name": "Image Marker (!)",
+			"scope": "markup.image.inline.markdown constant.character, markup.image.inline.markdown punctuation.definition.image",
+			"foreground": "#FF7518"
+		},
+		{
+			"name": "Markdown List",
+			"scope": "text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown",
+			"foreground": "#CCCCCC"
+		},
+		{
+		  "name": "Heading1Text (Muted Orange)",
 		  "scope": "text.html.markdown markup.heading.1.markdown entity.name.section.markdown",
-		  "foreground": "#FFC000",
-		  "fontStyle": "italic",
-		  "fontSize": "22",
+		  "foreground": "#ed8936"
 		},
 		{
-		  "name": "Heading1EntireLineBackground",
-		  "scope": "text.html.markdown markup.heading.1.markdown",
-		  "background": "#2A2000",
-		  "fontStyle": "italic",
-		  "fontSize": "22",
-		},
-		{
-		  "name": "Heading1Pound",
-		  "scope": "text.html.markdown markup.heading.1.markdown punctuation.definition.heading.begin.markdown",
-		  "foreground": "#01a0e4",
-		  "font_weight": "bold",
-		  "font_size": "22",
-		},
-		{
-		  "name": "Heading2Pound",
-		  "scope": "text.html.markdown markup.heading.2.markdown punctuation.definition.heading.begin.markdown",
-		  "foreground": "#01a0e4",
-		  "fontStyle": "italic",
-		  "fontSize": "22",
-		},
-		{
-		  "name": "Heading2Text",
+		  "name": "Heading2Text (Muted Orange)",
 		  "scope": "text.html.markdown markup.heading.2.markdown entity.name.section.markdown",
-		  "foreground": "#FFC000",
-		  "fontStyle": "italic",
-		  "fontSize": "22",
+		  "foreground": "#ed8936"
 		},
 		{
-		  "name": "Heading3Pound",
-		  "scope": "text.html.markdown markup.heading.3.markdown punctuation.definition.heading.begin.markdown",
-		  "foreground": "#01a0e4",
-		  "fontStyle": "italic",
-		  "fontSize": "22",
-		},
-		{
-		  "name": "Completed Text",
-		  "scope": "completedText",
-		  "foreground": "#ff0000",
-		},
-		{
-		  "name": "TestingMarkdown",
-		  "scope": "text.html.markdown meta.paragraph.markdown completedText",
-		  "foreground": "#ff0000",
-		},
-		{
-		  "name": "RegexQuantifier",
-		  "scope": "source.regexp meta.mode.basic.regexp keyword.operator.quantifier.regexp",
-		  "foreground": "#ff0000",
-		},
-		{
-		  "name": "RegexQuantifier",
-		  "scope": "source.regexp meta.mode.basic.regexp meta.set.regexp punctuation.definition.set.begin.regexp",
-		  "foreground": "#ffff00",
-		},
-		{
-		  "name": "RegexQuantifier",
-		  "scope": "source.regexp meta.mode.basic.regexp meta.set.regexp punctuation.definition.set.end.regexp",
-		  "foreground": "#ffff00",
-		},
-		{
-		  "name": "RegexQuantifier",
-		  "scope": "source.regexp meta.group.regexp meta.mode.basic.regexp punctuation.section.group.begin.regexp",
-		  "foreground": "#00ff00",
-		},
-		{
-		  "name": "RegexQuantifier",
-		  "scope": "source.regexp meta.group.regexp meta.mode.basic.regexp punctuation.section.group.end.regexp",
-		  "foreground": "#00ff00",
-		},
-		{
-		  "name": "RegexQuantifier",
-		  "scope": "source.regexp meta.mode.basic.regexp meta.set.regexp keyword.operator.logical.regexp",
-		  "foreground": "#00eeee",
-		},
-		{
-		  "name": "RegexQuantifier",
-		  "scope": "source.regexp meta.mode.basic.regexp keyword.control.anchor.regexp",
-		  "foreground": "#00eeee",
-		},
-		{
-		  "name": "RegexQuantifier",
-		  "scope": "source.regexp meta.group.regexp meta.mode.basic.regexp keyword.other.any.regexp",
-		  "foreground": "#ff0000",
-		},
-		{
-		  "name": "RegexQuantifier",
-		  "scope": "source.regexp meta.mode.basic.regexp keyword.other.any.regexp",
-		  "foreground": "#ff0000",
-		},
-		{
-		  "name": "RegexQuantifier",
-		  "scope": "source.regexp meta.mode.basic.regexp keyword.operator.alternation.regexp",
-		  "foreground": "#00eeee",
-		},
-		{
-		  "name": "PlainTaskss",
-		  "scope": "text.todo keyword.control.header.todo",
-		  "background": "#ff0000",
-		},
-		{
-		  "name": "PlainTasksss",
-		  "scope": "text.todo meta.item.todo.pending todo.snippet",
-		  "foreground": "#ff0000",
-		},
-		{
-		  "name": "Markdown Numbered Bullets",
-		  "scope": "text.html.markdown markup.list.numbered.markdown meta.paragraph.list.markdown",
-		  "foreground": "#ffffff",
-		},
-		{
-		  "name": "Markdown Italic",
-		  "scope": "text.html.markdown meta.paragraph.markdown markup.italic.markdown,text.html.markdown meta.paragraph.markdown markup.italic.markdown punctuation.definition.italic.end.markdown,text.html.markdown meta.paragraph.markdown markup.italic.markdown punctuation.definition.italic.begin.markdown",
-		  "foreground": "#00FFFF",
-		},
-		{
-		  "name": "Image Alt Text (White)",
-		  "scope": "markup.image.inline.markdown string, markup.image.inline.markdown string.other.link.title",
-		  "foreground": "#FFFFFF"
-		},
-		{
-		  "name": "Image Path (Pumpkin Orange)",
+		  "name": "Image Path (Muted Orange)",
 		  "scope": "markup.image.inline.markdown markup.underline.link, markup.underline.link.image",
-		  "foreground": "#FF7518"
+		  "foreground": "#ed8936"
 		},
 		{
-		  "name": "Image Marker (!)",
-		  "scope": "markup.image.inline.markdown constant.character, markup.image.inline.markdown punctuation.definition.image",
-		  "foreground": "#FF7518"
+		  "name": "[Markdown] Fenced Code Block Fence (Muted Green)",
+		  "scope": "text.html.markdown markup.list.unnumbered.markdown meta.code-fence.definition.begin.text.markdown-gfm punctuation.definition.raw.code-fence.begin.markdown",
+		  "foreground": "#48bb78"
 		},
 		{
-		  "name": "Markdown List",
-		  "scope": "text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown",
-		  "foreground": "#CCCCCC"
+		  "name": "Regex Group Punctuation (Muted Green)",
+		  "scope": "source.regexp meta.group.regexp meta.mode.basic.regexp punctuation.section.group.begin.regexp, source.regexp meta.group.regexp meta.mode.basic.regexp punctuation.section.group.end.regexp",
+		  "foreground": "#48bb78"
+		},
+		{
+		  "name": "Heading Pound (Softer Blue)",
+		  "scope": "text.html.markdown markup.heading punctuation.definition.heading.begin.markdown",
+		  "foreground": "#4299e1"
+		},
+		{
+		  "name": "GeneralLink (Softer Blue)",
+		  "scope": "text.html.markdown meta.paragraph.markdown meta.link.inet.markdown markup.underline.link.markdown-gfm, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inet.markdown markup.underline.link.markdown-gfm",
+		  "foreground": "#4299e1"
+		},
+		{
+		  "name": "Completed Text (Muted Red)",
+		  "scope": "completedText",
+		  "foreground": "#f56565"
+		},
+		{
+		  "name": "Markdown Inline Code (Muted Red)",
+		  "scope": "text.html.markdown markup.raw.inline.markdown, inline-code",
+		  "foreground": "#f56565"
+		},
+		{
+		  "name": "Image Alt Text (Off-White)",
+		  "scope": "markup.image.inline.markdown string, markup.image.inline.markdown string.other.link.title",
+		  "foreground": "#e2e8f0"
+		},
+		{
+		  "name": "Markdown List (Softer Gray)",
+		  "scope": "text.html.markdown markup.list meta.paragraph.list.markdown",
+		  "foreground": "#e2e8f0"
+		},
+		{
+		  "name": "Fenced Code Block Text (Softer Gray)",
+		  "scope": "text.html.markdown markup.list.unnumbered.markdown",
+		  "foreground": "#a0aec0"
+		},
+		{
+		  "name": "[Markdown] Fenced Code Block (Softer Bg)",
+		  "scope": "text.html.markdown markup.raw.code-fence",
+		  "background": "#363636"
+		},
+		{
+		  "name": "Caret (Visible Green)",
+		  "scope": "settings",
+		  "caret": "#38a169"
+		},
+		{
+		  "name": "Line Highlight (Subtle)",
+		  "scope": "line_highlight",
+		  "background": "#4a5568"
 		}
 
 

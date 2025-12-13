@@ -1,0 +1,54 @@
+// UI Brightening Overrides for Adaptive (add to end of rules array)
+{
+	"class": "sidebar_container",
+	"layer0.tint": "#2d2d2d",
+	"layer1.tint": "#2d2d2d"
+},
+{
+	"class": "sidebar_heading",
+	"layer0.tint": "#2d2d2d"
+},
+{
+	"class": "sidebar_tree_row",
+	"layer0.tint": "#2d2d2d",
+	"row_padding": [8, 4]
+},
+{
+	"class": "tab_control",
+	"layer0.tint": "#2d2d2d",
+	"layer1.tint": "#2d2d2d",
+	"layer2.tint": "#2d2d2d"
+},
+{
+	"class": "tab_control -active",
+	"layer0.tint": "#363636"  // Slightly brighter for active tab
+},
+{
+	"class": "status_bar",
+	"layer0.tint": "#2d2d2d",
+	"layer1.tint": "#2d2d2d"
+},
+{
+	"class": "menu",
+	"layer0.tint": "#2d2d2d"
+},
+{
+	"class": "menu_item",
+	"layer0.tint": "#2d2d2d"
+},
+{
+	"class": "overlay_control",
+	"layer0.tint": "#2d2d2d"
+},
+{
+	"class": "minimap",
+	"layer0.tint": "#2d2d2d"
+},
+{
+	"class": "find_replace_panel",
+	"layer0.tint": "#2d2d2d"
+},
+{
+	"class": "sheet_container",
+	"layer0.tint": "#2d2d2d"  // Editor frame/sheet bg
+}
