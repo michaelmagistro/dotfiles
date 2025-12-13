@@ -36,14 +36,6 @@
 	"added_words":
 	[
 		"telomeres",
-		"cardiomyopathy",
-		"degenerative",
-		"mycoplasma",
-		"Wallach's",
-		"ambiguate",
-		"negational",
-		"biohazard",
-		"kefir",
 	],
 	"alignment_chars":
 	[
@@ -64,7 +56,7 @@
 	"color_scheme": "Packages/3024 Color Scheme/3024 Night.tmTheme",
 	"detect_indentation": false,
 	"draw_white_space": "none",
-	"font_size": 10,
+	"font_size": 11,
 	"highlight_line": true,
 	/*"hot_exit": true,*/
 	"ignored_packages":
@@ -76,27 +68,7 @@
 	],
 	"ignored_words":
 	[
-		"Celiac",
-		"Crohn's",
-		"Gison",
-		"Glidden",
-		"Hahaha",
-		"Korsakoff",
-		"Nexium",
 		"Ok",
-		"Pison",
-		"Tourette",
-		"Uhh",
-		"Wallach",
-		"apnea",
-		"coli",
-		"fibromyalgia",
-		"macular",
-		"myelin",
-		"naturopathic",
-		"ok",
-		"rosacea",
-		"there've"
 	],
 	"indent_guide_options":
 	[
