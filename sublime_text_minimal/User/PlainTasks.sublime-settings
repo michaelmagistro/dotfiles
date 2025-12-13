@@ -1,0 +1,49 @@
+{
+	"open_tasks_bullet": "[ ]", // options: - | ❍ | ❑ | ■ | □ | ☐ | ▪ | ▫ | – | — | ≡ | → | › | [ ]
+	"done_tasks_bullet": "[x]", // options: + | ✓ | ✔ | √ | [x]
+	"cancelled_tasks_bullet": "[-]", // options: x | ✘ | [-]
+  "before_tasks_bullet_margin": -1,
+  "margin": 4,
+  "tab_size": 4,
+  "line_numbers": true,
+  "highlight_due_soon": 36,
+  "header_to_task": false,
+	// "color_scheme": "Packages/PlainTasks/tasks.hidden-tmTheme"
+	// "color_scheme": "Packages/PlainTasks/tasks-eighties-colored.hidden-tmTheme"
+	// "color_scheme": "Packages/PlainTasks/tasks-eighties-dark.hidden-tmTheme"
+	// "color_scheme": "Packages/PlainTasks/tasks-gray.hidden-tmTheme"
+	// "color_scheme": "Packages/PlainTasks/tasks-solarized-dark.hidden-tmTheme"
+	// "color_scheme": "Packages/PlainTasks/tasks-solarized-light.hidden-tmTheme"
+	// "color_scheme": "Packages/PlainTasks/tasks-monokai.hidden-tmTheme"
+	"color_scheme": "Packages/PlainTasks/tasks-dark.hidden-tmTheme",
+	// "color_scheme": "Packages/User/tasks-dark.hidden-tmTheme",
+	"extensions":
+	[
+	  "TODO",
+	  "todo",
+	  "todolist",
+	  "taskpaper",
+	  "tasks",
+	  "ds-todolist",
+	  "000-TODOLIST",
+	  "PER-TODO",
+	  "Todolist_archive",
+	  "todo.txt"
+	],
+	"indent_guide_options":
+    [
+        "draw_normal",
+        "draw_active"
+    ],
+    "draw_indent_guides": true,
+    "auto_complete_preserve_order": "none",
+    "auto_complete_triggers":
+    [
+    	{"selector": "text", "characters": "s"},
+    	{"selector": "text", "characters": "d"},
+    	{"selector": "text", "characters": "l"},
+    	{"selector": "text", "characters": "h"},
+    	{"selector": "text", "characters": "c"},
+    	{"selector": "text", "characters": "l"},
+    ],
+}

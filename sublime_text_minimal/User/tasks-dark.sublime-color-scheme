@@ -1,0 +1,121 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+	"variables":
+	{
+	},
+	"globals":
+	{
+	},
+	"rules":
+	[
+		{
+		  "name": "CurrentLine",
+		  "scope": "settings",
+		  "background": "#ffffff",
+		},
+		{
+		  "name": "Notes",
+		  "scope": "text.todo notes.todo",
+		  "foreground": "#6E7AA2",
+		},
+		{
+		  "name": "ToDoItem",
+		  "scope": "text.todo meta.item.todo.pending",
+		  "foreground": "#ffffff",
+		  "fontstyle": "bold",
+		},
+		{
+		  "name": "Bold",
+		  "scope": "text.todo notes.todo todo.bold, text.todo notes.todo todo.bold punctuation.definition.bold",
+		  "foreground": "#fded02",
+		},
+		{
+		  "name": "Italic",
+		  "scope": "text.todo notes.todo todo.italic, text.todo notes.todo todo.italic punctuation.definition.italic",
+		  "foreground": "#a16a94",
+		},
+		{
+		  "name": "[Markdown] Fenced Code Block",
+		  "scope": "text.html.markdown markup.list.unnumbered.markdown markup.raw.code-fence",
+		  // "foreground": "#ffffff",
+		  "background": "#151515",
+		},
+		{
+		  "name": "Markdown List",
+		  "scope": "text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown",
+		  // "foreground": "#ffffff",
+		  "foreground": "#ffffff",
+		},
+		{
+		  "name": "General Fence",
+		  "scope": "text.html.markdown markup.raw.code-fence",
+		  // "foreground": "#ffffff",
+		  "background": "#151515",
+		},
+		{
+		  "name": "ExplicitLink",
+		  "scope": "text.html.markdown meta.paragraph.markdown meta.link.inline.metadata.markdown markup.underline.link.markdown",
+		  "foreground": "#00ff00",
+		},
+		{
+		  "name": "InlineCodeSnippetInBulletedList",
+		  "scope": "text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown markup.raw.inline.markdown",
+		  "foreground": "#ff0000",
+		},
+		{
+		  "name": "InlineCodeSnippet",
+		  "scope": "text.html.markdown meta.paragraph.markdown markup.raw.inline.markdown",
+		  "foreground": "#ff0000",
+		},
+		{
+		  "name": "GeneralLink",
+		  "scope": "text.html.markdown meta.paragraph.markdown meta.link.inet.markdown markup.underline.link.markdown-gfm",
+		  "foreground": "#92D050",
+		},
+		{
+		  "name": "Heading1Text",
+		  "scope": "text.todo keyword.control.header.todo",
+		  "foreground": "#25F5FC",
+		  "fontStyle": "italic",
+		  "fontSize": "22",
+		},
+		{
+		  "name": "Heading1Pound",
+		  "scope": "text.html.markdown markup.heading.1.markdown punctuation.definition.heading.begin.markdown",
+		  "foreground": "#01a0e4",
+		  // "background": "#FFC000",
+		  "font_weight": "bold",
+		  "font_size": "22",
+		},
+		{
+		  "name": "Heading1EntireLineBackground",
+		  "scope": "text.html.markdown markup.heading.1.markdown",
+		  "background": "#2A2000",
+		  "fontStyle": "italic",
+		  "fontSize": "22",
+		},
+		{
+		  "name": "Heading2Pound",
+		  "scope": "text.html.markdown markup.heading.2.markdown punctuation.definition.heading.begin.markdown",
+		  "foreground": "#01a0e4",
+		  // "background": "#FFC000",
+		  "fontStyle": "italic",
+		  "fontSize": "22",
+		},
+		{
+		  "name": "Heading2Text",
+		  "scope": "text.html.markdown markup.heading.2.markdown entity.name.section.markdown",
+		  "foreground": "#FFC000",
+		  "fontStyle": "italic",
+		  "fontSize": "22",
+		},
+		{
+		  "name": "Heading3Pound",
+		  "scope": "text.html.markdown markup.heading.3.markdown punctuation.definition.heading.begin.markdown",
+		  "foreground": "#01a0e4",
+		  // "background": "#FFC000",
+		  "fontStyle": "italic",
+		  "fontSize": "22",
+		},
+	]
+}
