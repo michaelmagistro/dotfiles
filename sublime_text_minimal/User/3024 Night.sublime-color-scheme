@@ -185,5 +185,27 @@
 		  "scope": "text.html.markdown meta.paragraph.markdown markup.italic.markdown,text.html.markdown meta.paragraph.markdown markup.italic.markdown punctuation.definition.italic.end.markdown,text.html.markdown meta.paragraph.markdown markup.italic.markdown punctuation.definition.italic.begin.markdown",
 		  "foreground": "#00FFFF",
 		},
+		{
+		  "name": "Image Alt Text (White)",
+		  "scope": "markup.image.inline.markdown string, markup.image.inline.markdown string.other.link.title",
+		  "foreground": "#FFFFFF"
+		},
+		{
+		  "name": "Image Path (Pumpkin Orange)",
+		  "scope": "markup.image.inline.markdown markup.underline.link, markup.underline.link.image",
+		  "foreground": "#FF7518"
+		},
+		{
+		  "name": "Image Marker (!)",
+		  "scope": "markup.image.inline.markdown constant.character, markup.image.inline.markdown punctuation.definition.image",
+		  "foreground": "#FF7518"
+		},
+		{
+		  "name": "Markdown List",
+		  "scope": "text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown",
+		  "foreground": "#CCCCCC"
+		}
+
+
 	]
 }
