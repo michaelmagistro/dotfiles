@@ -341,5 +341,11 @@
 		  "scope": "markup.italic.markdown punctuation.definition.italic.begin.markdown, markup.italic.markdown punctuation.definition.italic.end.markdown",
 		  "foreground": "#ffd700"
 		},
+		// Inline code delimiters (`): Yellow, inner text green
+		{
+		  "name": "Markdown Inline Code Delimiters (Yellow)",
+		  "scope": "markup.raw.inline.markdown punctuation.definition.raw.begin.markdown, markup.raw.inline.markdown punctuation.definition.raw.end.markdown",
+		  "foreground": "#ffd700"
+		},
 	]
 }
