@@ -17,10 +17,18 @@ class ExpandSelectionToDelimiterCommand(sublime_plugin.TextCommand):
                 if self.expand_code_fence(sel):
                     continue
             
-            # Check if we're in a link - let default behavior handle it
-            if "meta.link" in scope or "markup.underline.link" in scope:
-                print("In link scope, skipping")
+            # Check if we're in a regular link (but NOT an image link)
+            # Images have "meta.image" in their scope, so exclude those
+            is_image = "meta.image" in scope
+            is_regular_link = ("meta.link" in scope or "markup.underline.link" in scope) and not is_image
+            
+            if is_regular_link:
+                print("In regular link scope (not image), skipping")
                 continue
+            
+            # If we're in an image scope, don't skip - let it fall through to image handling
+            if is_image:
+                print("In image scope, will process as image")
             
             # Try inline delimiters on current line
             line = view.line(sel)
@@ -41,6 +49,56 @@ class ExpandSelectionToDelimiterCommand(sublime_plugin.TextCommand):
                     continue
             
             matched = False
+
+            # Handle image alt text ![title](url)
+            print(f"Line: '{line_contents}'")
+            print(f"Cursor position: {rel_begin}")
+            
+            # Look for complete image pattern around cursor
+            img_pattern = r'!\[([^\]]*)\]\s*\([^\)]+\)'
+            matches = list(re.finditer(img_pattern, line_contents))
+            print(f"Found {len(matches)} image patterns")
+            
+            for match in matches:
+                # Parse the image components: ![alt](url)
+                full_match = match.group(0)
+                alt_text = match.group(1)
+                
+                # Find where ]( appears to separate alt from url
+                bracket_paren = full_match.find('](')
+                
+                alt_start = match.start() + 2  # After ![
+                alt_end = match.start() + 2 + len(alt_text)  # Before ]
+                url_start = match.start() + bracket_paren + 2  # After ](
+                url_end = match.end() - 1  # Before final )
+                
+                print(f"Image match: start={match.start()}, end={match.end()}")
+                print(f"Alt text: '{alt_text}' from {alt_start} to {alt_end}")
+                print(f"URL from {url_start} to {url_end}")
+                print(f"Cursor at {rel_begin}")
+                
+                # If cursor is anywhere in the ![...](...) construct
+                if match.start() <= rel_begin <= match.end():
+                    # Determine which part to select based on cursor position
+                    if alt_start <= rel_begin <= alt_end:
+                        # Cursor in alt text - select alt text
+                        view.sel().subtract(sel)
+                        view.sel().add(sublime.Region(line_start + alt_start, line_start + alt_end))
+                        print(f"Cursor in alt text, selected alt text")
+                    else:
+                        # Cursor elsewhere (in url or brackets) - select url
+                        view.sel().subtract(sel)
+                        view.sel().add(sublime.Region(line_start + url_start, line_start + url_end))
+                        print(f"Cursor in url area, selected url")
+                    matched = True
+                    break
+            
+            if matched:
+                print("Continuing after image match")
+                continue
+            
+            print("No image match, trying other delimiters")
+
             # Try delimiters in order
             for delim in ["`", "'", '"', "**", "*"]:
                 delim_len = len(delim)
@@ -115,8 +173,6 @@ class OpenDefaultCommand(sublime_plugin.TextCommand):
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++ EXTEND PLAINTASKS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
-# +++++++++++++++++++++++++++++++++++++++++++++++++++ EXTEND PLAINTASKS -- Create Bookmarks on Due Tasks +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ST3 = int(sublime.version()) >= 3000
 class PlainTasksDueBookmarks(sublime_plugin.EventListener):
     def on_activated(self, view):
