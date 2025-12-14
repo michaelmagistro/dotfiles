@@ -46,4 +46,18 @@
     	{"selector": "text", "characters": "c"},
     	{"selector": "text", "characters": "l"},
     ],
+	// Past/Current Due (override red)
+	"scope_past_due": "text.todo meta.item.todo.pending string.other.tag.todo.critical",           // e.g., gray (change to any scope like "keyword", "string")
+	"icon_past_due": "dot",                // icon: circle/dot/none (empty string)
+
+	// Soon Due
+	// "scope_due_soon": "string",            // e.g., yellow/blue
+	// "icon_due_soon": "dot",
+
+	// Invalid Dates (squiggly)
+	"scope_misformatted": "invalid",
+	"icon_misformatted": "",
+
+	// Threshold (hours)
+	"highlight_due_soon": 24               // soon = <48h (default 24)
 }

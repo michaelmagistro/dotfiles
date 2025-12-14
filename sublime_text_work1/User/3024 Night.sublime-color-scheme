@@ -7,12 +7,11 @@
 		// "line_highlight": "#26472f"
 		"line_highlight": "#203b27"
 	},
+	"gutterSettings": {
+	  "foreground": "#FFFF00",     // yellow icons
+	  "background": "#2d2d2d"      // gutter bg
+	},
 	"rules": [
-		{
-			"name": "Gutter Background",
-			"scope": "gutter",
-			"background": "#2d2d2d"
-		},
 		{
 			"name": "Markdown Content Background",
 			"scope": "text.html.markdown",
@@ -139,7 +138,27 @@
 		{
 			"name": "Image Paste Titles",
 			"scope": "text.html.markdown meta.paragraph.markdown meta.image.inline.description.markdown, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.image.inline.description.markdown",
-			"foreground": "#e8bbd0",
+			"foreground": "#e8bbd0"
 		},
+		{
+			"name": "Bookmarks",
+			"scope": "bookmarks",
+			"foreground": "#ffd700",
+			"background": "#ffd700"
+		},
+		{
+			"name": "Bookmarks",
+			"scope": "bookmark",
+			"foreground": "#ffd700"
+		},
+		{
+			"scope": "breakpoint.enabled",
+			"foreground": "#FF0000",  // red
+			"background": "#FF000030" // semi-trans
+		},
+		{
+			"scope": "meta.breakpoint",
+			"foreground": "#00FF00"   // green
+		}
 	]
 }

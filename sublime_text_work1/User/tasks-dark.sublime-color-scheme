@@ -1,121 +1,181 @@
-// Documentation at https://www.sublimetext.com/docs/color_schemes.html
 {
-	"variables":
-	{
+	// My active Work version of sublime text - FIXED
+	"variables": {},
+	"globals": {
+		"background": "#1e1e1e",
+		"foreground": "#e0e0e0",
+		"caret": "#73b3ff",
+		"line_highlight": "#2d2d3099",
+		// comment out the selection below otherwise you get this annoying changing of the color of the text
+		// "selection": "#404046",
+		// "selection_border": "#4c4c52",
+		// "inactive_selection": "#404046",
+		// "selection_foreground": "#e0e0e0",
+		"comment": "#858585",
+		"inactive_selection_border": "#4c4c52",
+		"active_guide": "#404046",
+		"stack_guide": "#404046",
+		"highlight": "#404046",
+		"bracket_contents": "#e0e0e0",
+		"brackets": "#e0e0e0",
+		"bracket_contents_foreground": "#e0e0e0",
+		"brackets_foreground": "#e0e0e0"
 	},
-	"globals":
-	{
+	"gutterSettings": {
+	  "foreground": "#FFFF00"  // yellow folds/dots fallback
 	},
-	"rules":
-	[
+	"rules": [
 		{
-		  "name": "CurrentLine",
-		  "scope": "settings",
-		  "background": "#ffffff",
+			"name": "PlainTasks Global Override",
+			"scope": "text.plaintasks",
+			"foreground": "#e0e0e0",
+			"background": "#1e1e1e"
 		},
 		{
-		  "name": "Notes",
-		  "scope": "text.todo notes.todo",
-		  "foreground": "#6E7AA2",
+			"name": "CurrentLine",
+			"scope": "settings",
+			"background": "#2d2d30"
 		},
 		{
-		  "name": "ToDoItem",
-		  "scope": "text.todo meta.item.todo.pending",
-		  "foreground": "#ffffff",
-		  "fontstyle": "bold",
+			"name": "Notes",
+			"scope": "text.plaintasks notes.plaintasks",
+			"foreground": "#858585"
 		},
 		{
-		  "name": "Bold",
-		  "scope": "text.todo notes.todo todo.bold, text.todo notes.todo todo.bold punctuation.definition.bold",
-		  "foreground": "#fded02",
+			"name": "ToDoItem",
+			"scope": "text.plaintasks meta.item.plaintasks.pending",
+			"foreground": "#e0e0e0"
 		},
 		{
-		  "name": "Italic",
-		  "scope": "text.todo notes.todo todo.italic, text.todo notes.todo todo.italic punctuation.definition.italic",
-		  "foreground": "#a16a94",
+			"name": "Bold",
+			"scope": "text.plaintasks bold",
+			"foreground": "#f0c080"
 		},
 		{
-		  "name": "[Markdown] Fenced Code Block",
-		  "scope": "text.html.markdown markup.list.unnumbered.markdown markup.raw.code-fence",
-		  // "foreground": "#ffffff",
-		  "background": "#151515",
+			"name": "Italic",
+			"scope": "text.plaintasks italic",
+			"foreground": "#b8a8d0"
 		},
 		{
-		  "name": "Markdown List",
-		  "scope": "text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown",
-		  // "foreground": "#ffffff",
-		  "foreground": "#ffffff",
+			"name": "Heading1Text",
+			"scope": "text.plaintasks keyword.control.header.plaintasks",
+			"foreground": "#73b3ff",
+			"font_style": "italic"
 		},
 		{
-		  "name": "General Fence",
-		  "scope": "text.html.markdown markup.raw.code-fence",
-		  // "foreground": "#ffffff",
-		  "background": "#151515",
+			"name": "PlainTasks Checkbox (Unchecked)",
+			"scope": "text.plaintasks meta.tag.checkbox.plaintasks punctuation.definition.tag",
+			"foreground": "#858585"
 		},
 		{
-		  "name": "ExplicitLink",
-		  "scope": "text.html.markdown meta.paragraph.markdown meta.link.inline.metadata.markdown markup.underline.link.markdown",
-		  "foreground": "#00ff00",
+			"name": "PlainTasks Checkbox (Checked)",
+			"scope": "text.plaintasks meta.tag.checkbox.plaintasks storage.type.checkbox.checked",
+			"foreground": "#8cc08c"
 		},
 		{
-		  "name": "InlineCodeSnippetInBulletedList",
-		  "scope": "text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown markup.raw.inline.markdown",
-		  "foreground": "#ff0000",
+			"name": "PlainTasks Priority",
+			"scope": "text.plaintasks constant.language.priority.plaintasks",
+			"foreground": "#f0a0a0",
+			"font_style": "bold"
 		},
 		{
-		  "name": "InlineCodeSnippet",
-		  "scope": "text.html.markdown meta.paragraph.markdown markup.raw.inline.markdown",
-		  "foreground": "#ff0000",
+			"name": "PlainTasks Project",
+			"scope": "text.plaintasks entity.name.function.plaintasks",
+			"foreground": "#73b3ff",
+			"font_style": "bold"
 		},
 		{
-		  "name": "GeneralLink",
-		  "scope": "text.html.markdown meta.paragraph.markdown meta.link.inet.markdown markup.underline.link.markdown-gfm",
-		  "foreground": "#92D050",
+			"name": "PlainTasks Context",
+			"scope": "text.plaintasks variable.parameter.plaintasks",
+			"foreground": "#f0c080",
+			"font_style": "italic"
 		},
 		{
-		  "name": "Heading1Text",
-		  "scope": "text.todo keyword.control.header.todo",
-		  "foreground": "#25F5FC",
-		  "fontStyle": "italic",
-		  "fontSize": "22",
+			"name": "PlainTasks Date/Due",
+			"scope": "text.plaintasks constant.other.date.plaintasks, text.plaintasks markup.inserted.plaintasks, text.plaintasks keyword.other.due.plaintasks",
+			"foreground": "#f0a0a0",
+			"background": "#b00038",
+			"font_style": "bold"
 		},
 		{
-		  "name": "Heading1Pound",
-		  "scope": "text.html.markdown markup.heading.1.markdown punctuation.definition.heading.begin.markdown",
-		  "foreground": "#01a0e4",
-		  // "background": "#FFC000",
-		  "font_weight": "bold",
-		  "font_size": "22",
+			"name": "PlainTasks Link",
+			"scope": "text.plaintasks markup.underline.link.plaintasks",
+			"foreground": "#6aa8e0",
+			"font_style": "underline"
 		},
 		{
-		  "name": "Heading1EntireLineBackground",
-		  "scope": "text.html.markdown markup.heading.1.markdown",
-		  "background": "#2A2000",
-		  "fontStyle": "italic",
-		  "fontSize": "22",
+			"name": "PlainTasks Completed",
+			"scope": "text.plaintasks comment.line.number-sign.plaintasks, text.plaintasks meta.item.plaintasks.completed",
+			"foreground": "#707070",
+			"font_style": "strikethrough"
 		},
 		{
-		  "name": "Heading2Pound",
-		  "scope": "text.html.markdown markup.heading.2.markdown punctuation.definition.heading.begin.markdown",
-		  "foreground": "#01a0e4",
-		  // "background": "#FFC000",
-		  "fontStyle": "italic",
-		  "fontSize": "22",
+			"name": "PlainTasks Tags/Keywords",
+			"scope": "text.plaintasks keyword.other.plaintasks",
+			"foreground": "#b8a8d0"
 		},
 		{
-		  "name": "Heading2Text",
-		  "scope": "text.html.markdown markup.heading.2.markdown entity.name.section.markdown",
-		  "foreground": "#FFC000",
-		  "fontStyle": "italic",
-		  "fontSize": "22",
+			"name": "PlainTasks Header",
+			"scope": "text.todo keyword.control.header.todo",
+			"foreground": "#d4d404"
 		},
 		{
-		  "name": "Heading3Pound",
-		  "scope": "text.html.markdown markup.heading.3.markdown punctuation.definition.heading.begin.markdown",
-		  "foreground": "#01a0e4",
-		  // "background": "#FFC000",
-		  "fontStyle": "italic",
-		  "fontSize": "22",
+			"name": "NormalText",
+			"scope": "text.todo notes.todo",
+			"foreground": "#0276eb"
 		},
+		{
+			"name": "Pending Items",
+			"scope": "text.todo meta.item.todo.pending",
+			// "foreground": "#bababa"
+			"foreground": "#e8e8e8"
+		},
+		{
+			"name": "Pending Items",
+			"scope": "text.todo meta.item.todo.completed comment.line.completed.todo",
+			"foreground": "#8f8f8f"
+		},
+		{
+			"name": "Tags",
+			"scope": "text.todo meta.item.todo.pending meta.tag.todo",
+			"foreground": "#8f8f8f"
+		},
+		{
+			"name": "@critical Tag (General)",
+			"scope": "text.todo meta.item.todo.pending string.other.tag.todo.critical",
+			"foreground": "#f0a0a0",
+			"background": "#b00038",
+			"font_style": "bold"
+		},
+		{
+			"name": "@high Tag (General)",
+			"scope": "text.todo meta.item.todo.pending string.other.tag.todo.high",
+			"foreground": "#f0a0a0",
+			"background": "#b05800",
+			"font_style": "bold"
+		},
+		{
+			"name": "@due Tag",
+			"scope": "text.todo meta.item.todo.pending string.other.tag.todo.due",
+			"foreground": "#f0a0a0",
+			"background": "#b00038",
+			"font_style": "bold"
+		},
+		{
+			"name": "Bookmarks",
+			"scope": "bookmarks",
+			"foreground": "#b00038"
+		},
+		{
+			"name": "Gutter Background",
+			"scope": "gutter",
+			"background": "#2d2d2d"
+		},
+		// Due soon gutter dot color
+		{
+		  "scope": "string.other.tag.todo.high",
+		  "foreground": "#FFFF00"  // due_soon dot yellow
+		},
+
 	]
 }

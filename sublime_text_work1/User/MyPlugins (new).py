@@ -2,6 +2,8 @@ import sublime
 import sublime_plugin
 import re
 
+# +++++++++++++++++++++++++++++++++++++++++++++++++++ EXPAND SELECTION TO TICKS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 class ExpandSelectionToDelimiterCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         view = self.view
@@ -110,3 +112,30 @@ class OpenDefaultCommand(sublime_plugin.TextCommand):
         file_name = self.view.file_name()
         if file_name.endswith(".xlsx") or file_name.endswith(".xls"):
             self.view.run_command("open_default_for_current_view")
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++ EXTEND PLAINTASKS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++ EXTEND PLAINTASKS -- Create Bookmarks on Due Tasks +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ST3 = int(sublime.version()) >= 3000
+class PlainTasksDueBookmarks(sublime_plugin.EventListener):
+    def on_activated(self, view):
+        self.update_bookmarks(view)
+
+    def on_post_save(self, view):
+        self.update_bookmarks(view)
+
+    def on_load(self, view):
+        self.update_bookmarks(view)
+
+    def update_bookmarks(self, view):
+        if view.score_selector(0, "text.todo") <= 0:
+            return
+        # Run vanilla toggle to ensure past_due regions are up-to-date
+        view.run_command('plain_tasks_toggle_highlight_past_due')
+        # Append current past_due regions to existing bookmarks
+        existing_bookmarks = view.get_regions("bookmarks")
+        past_due_regions = view.get_regions("past_due")
+        existing_bookmarks.extend(past_due_regions)
+        flags = (sublime.HIDDEN | sublime.PERSISTENT) if ST3 else 0
+        view.add_regions('bookmarks', existing_bookmarks, 'bookmarks', 'bookmark', flags)
