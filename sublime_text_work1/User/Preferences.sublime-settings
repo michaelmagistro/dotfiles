@@ -103,9 +103,9 @@
 	"dark_color_scheme": "Mariana.sublime-color-scheme",
 	"light_color_scheme": "Breakers.sublime-color-scheme",
 	"fold_style": "force_indentation",
-  "date_format":     "%YYYY-%m-%d",
-  "time_format":     "%H:%M:%S",
-  "datetime_format": "%YYYY-%m-%d %H:%M",
-  "stamp_format":    "%YYYY%m%d%H%M%S",
+	"date_format":     "%YYYY-%m-%d",
+	"time_format":     "%H:%M:%S",
+	"datetime_format": "%YYYY-%m-%d %H:%M",
+	"stamp_format":    "%YYYY%m%d%H%M%S",
 	"index_files": true,
 }

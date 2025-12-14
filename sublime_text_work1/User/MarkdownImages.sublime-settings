@@ -1,0 +1,6 @@
+{
+    "show_local_images": false,  // Default off
+    "image_base_path": "./imagepaste/",
+    "image_max_width": 300,
+    "hover_preview": true  // For quick tooltips
+}
