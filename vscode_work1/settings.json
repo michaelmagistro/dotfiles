@@ -1,0 +1,110 @@
+{
+    "files.associations": {
+        "*.md.txt": "markdown"
+    },
+    "[markdown]": {
+        "editor.insertSpaces": false,
+        "editor.tabSize": 4
+    },
+    "workbench.colorTheme": "Markdown Editor Dark",
+    "json.validate.enable": false,
+    "editor.quickSuggestionsDelay": 0,
+    "window.closeWhenEmpty": false,
+    "editor.detectIndentation": false,
+    "editor.renderWhitespace": "none",
+    "files.hotExit": "onExit",
+    "editor.lineNumbers": "on",
+    "editor.tabSize": 4,
+    "files.trimTrailingWhitespace": false,
+    "editor.wordWrap": "on",
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.cursorWidth": 3,
+    // "editor.cursorSurroundingLines": 20 // this makes the screen follow via scroll your cursor
+    "editor.cursorStyle": "line",
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#ffa500",
+        "terminalCursor.foreground": "#ffa500"
+    },
+    "editor.cursorBlinking": "solid",
+    "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${profileName}${separator}${appName}",
+    "[html]": {
+        "editor.defaultFormatter": "mohd-akram.vscode-html-format"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "terminal.integrated.profiles.windows": {
+        "Git Bash": {
+            "path": "C:\\GitBash\\bin\\bash.exe"
+        },
+        "default": "bash"
+    },
+    "workbench.editor.focusRecentEditorAfterClose": false,
+    "files.eol": "\n",
+    "git.openRepositoryInParentFolders": "always",
+    "window.zoomLevel": -2,
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "search.showLineNumbers": true,
+    "notebook.lineNumbers": "on",
+    "notebook.outline.showCodeCells": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "[csv]": {
+        "editor.wordWrap": "off"
+    },
+    "settingsSync.ignoredExtensions": [
+        "platformio.platformio-ide"
+    ],
+    "todo.file.include": [
+        "**/TODO",
+        "**/TODOS",
+        "**/*.TODO",
+        "**/*.TODOS",
+        "**/*.todo",
+        "**/*.todos",
+        "**/*.task",
+        "**/*.tasks",
+        "**/*.taskpaper",
+        "**/todolist.txt",
+        "**/Todo.txt"
+    ],
+    "todo.file.name": "Todo.txt",
+    "chat.editor.fontSize": 12,
+    "markdown-pdf.displayHeaderFooter": false,
+    "chat.tools.edits.autoApprove": {
+        "**/temp_context/**": false,
+        "**/context/**": false,
+        "**/working_resume/**": true,
+        "**.pdf": false
+    },
+    "kilo-code.allowedCommands": [
+        "git log",
+        "git diff",
+        "git show"
+    ],
+    "kilo-code.deniedCommands": [],
+    "workbench.editor.wrapTabs": true,
+    "kilo-code.maximumIndexedFilesForFileSearch": 100000,
+    "editor.fontSize": 18,
+    "files.exclude": {
+        "**/*.jpg": true,
+        "**/*.jpeg": true,
+        "**/*.png": true,
+        "**/*.gif": true,
+        "**/*.ttf": true,
+        "**/*.tga": true,
+        "**/*.dds": true,
+        "**/*.ico": true,
+        "**/*.eot": true,
+        "**/*.pdf": true,
+        "**/*.swf": true,
+        "**/*.jar": true,
+        "**/*.zip": true,
+        // "**/imagepaste/**": true // Optional: fully exclude folder,
+    },
+}
