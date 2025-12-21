@@ -6,7 +6,6 @@
         "editor.insertSpaces": false,
         "editor.tabSize": 4
     },
-    "workbench.colorTheme": "Markdown Editor Dark",
     "json.validate.enable": false,
     "editor.quickSuggestionsDelay": 0,
     "window.closeWhenEmpty": false,
@@ -107,4 +106,41 @@
         "**/*.zip": true,
         // "**/imagepaste/**": true // Optional: fully exclude folder,
     },
+    "todo-tree.general.tags": [
+        "TODO",
+        "FIXME",
+        "[ ]", // unchecked Markdown checkbox
+        "[x]", // checked Markdown checkbox
+        "CRITICAL"
+    ],
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "circle", // keep or change to "tasklist" / "alert" / "clock"
+            "iconColour": "yellow",
+            "background": "yellow",
+            "foreground": "black"
+        },
+        "[ ]": {
+            // "icon": "square", // empty box for open tasks
+            "iconColour": "yellow",
+            "background": "rgba(255,0,0,0.3)"
+        },
+        "[x]": {
+            "icon": "check", // or "square-fill" / "verified"
+            "iconColour": "green",
+            "background": "rgba(0,255,0,0.3)"
+        },
+        "FIXME": {
+            "iconColour": "orange",
+            "background": "rgba(0,255,0,0.3)"
+        }
+        ,
+        "CRITICAL": {
+            "icon": "flame",
+            "iconColour": "red",
+            "background": "rgba(0,255,0,0.3)"
+        }
+    },
+    "todo-tree.tree.showCountsInTree": true, // optional: shows badge counts
+    "todo-tree.tree.flat": false, // hierarchical by folder/file
 }
