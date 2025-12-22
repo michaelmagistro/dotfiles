@@ -108,4 +108,5 @@
 	"datetime_format": "%YYYY-%m-%d %H:%M",
 	"stamp_format":    "%YYYY%m%d%H%M%S",
 	"index_files": true,
+	"enable_tab_scrolling" : false
 }
