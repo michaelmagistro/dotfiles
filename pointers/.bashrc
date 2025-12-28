@@ -1,1 +1,1 @@
-source ~/p38/dotfiles/config/.bashrc
+source ~/p38/pub/dotfiles/config/.bashrc

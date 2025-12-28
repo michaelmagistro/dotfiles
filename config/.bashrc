@@ -52,9 +52,8 @@ if [ "$os" = "Linux" ]; then
     echo "OS: Linux"
     # set python venv activation aliases
     na() {
-        local current_folder=$(basename "$PWD")
-        source "$PVENV/$current_folder/bin/activate"
-        alias py="$PVENV/$current_folder/bin/python"
+        source "$PWD/.pvenv/bin/activate"
+        alias py="$PWD/.pvenv/bin/python"
         alias pys="scrapy runspider"
     }
     # alias code=~/prt_spec/VSCode/Code.exe # git bash exe location
@@ -88,9 +87,8 @@ elif [[ "$os" == "MINGW64_NT-10.0"* ]] || [[ "$os" == "MSYS_NT-10.0"* ]]; then
 
     # set python venv activation aliases
     na() {
-        local current_folder=$(basename "$PWD")
-        source "$PVENV/$current_folder/Scripts/activate"
-        alias py="$PVENV/$current_folder/Scripts/python.exe"
+        source "$PWD/.pvenv/Scripts/activate"
+        alias py="$PWD/.pvenv/Scripts/python.exe"
         alias pys="scrapy runspider"
     }
 	
@@ -149,12 +147,38 @@ fi
 
 # check contents & presence of notable directories
 alias prt="echo '
-		-= Projects =-'; if [ -d $PROJECTS_HOME/ ]; then echo '$PROJECTS_HOME/'; lsp $PROJECTS_HOME/; fi; echo '
-		-= Prts =-'; if [ -d $PRT_DROP/ ]; then echo '$PRT_DROP/'; lsp $PRT_DROP/; fi; if [ -d $PRT_GEN/ ]; then echo '
-$PRT_GEN/'; lsp $PRT_GEN/; fi; if [ -d $PRT_SPEC ]; then echo '
-$PRT_SPEC'; lsp $PRT_SPEC; fi; echo '
-		-= Environments =-'; if [ -d $PY/ ]; then echo '$PY/'; lsp $PY; fi; if [ -d $PVENV ]; then echo '
-$PVENV/'; lsp $PVENV; fi;"
+		-= Projects =-'
+if [ -d \$PROJECTS_HOME/ ]; then 
+    echo '\$PROJECTS_HOME/'
+    lsp \$PROJECTS_HOME/ 2>/dev/null || true
+    echo ''
+    echo 'Nested structure:'
+    # Find all level-2 folders, group by parent, print nested bullets
+    find \$PROJECTS_HOME/ -mindepth 2 -maxdepth 2 -type d 2>/dev/null | sort | awk -F'/' '
+    {
+        parent = \$(NF-1)
+        child = \$NF
+        if (parent != last_parent) {
+            if (NR > 1) print \"\"  # blank line between categories only if needed
+            print \"* \" parent
+            last_parent = parent
+        }
+        print \"    * \" child
+    }'
+    echo ''
+fi
+echo '
+		-= Prts =-'
+if [ -d \$PRT_DROP/ ]; then echo '\$PRT_DROP/'; lsp \$PRT_DROP/; fi
+if [ -d \$PRT_GEN/ ]; then echo '
+\$PRT_GEN/'; lsp \$PRT_GEN/; fi
+if [ -d \$PRT_SPEC ]; then echo '
+\$PRT_SPEC'; lsp \$PRT_SPEC; fi
+echo '
+		-= Environments =-'
+if [ -d \$PY/ ]; then echo '\$PY/'; lsp \$PY; fi
+if [ -d \$PVENV ]; then echo '
+\$PVENV/'; lsp \$PVENV; fi;"
 
 
 # check for present of folders
