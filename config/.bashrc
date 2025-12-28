@@ -196,11 +196,12 @@ gss() {
             if [ -d "$repo/.git" ]; then
                 local status=$(cd "$repo" && gs 2>/dev/null)
                 local folder="$base/$(basename "$repo")"
-                if echo "$status" | grep -qE "up to date with 'origin/(main|master)'"; then
+                if echo "$status" | grep -qE "up to date with 'origin/(main|master)'" && echo "$status" | grep -q "nothing to commit, working tree clean"; then
                     echo "$folder: OK"
                 else
-                    echo "$folder: Requires Attention"
+                    echo -e "\033[1;31m$folder: Requires Attention\033[0m"
                 fi
+
             fi
         done
     done
