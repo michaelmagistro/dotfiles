@@ -187,3 +187,21 @@ if [ -d $PRT_DROP ]; then echo "$PRT_DROP"; else echo "$PRT_DROP is missing"; fi
 if [ -d $PRT_SPEC ]; then echo "$PRT_SPEC"; else echo "$PRT_SPEC is missing"; fi
 if [ -d $PRT_GEN ]; then echo "$PRT_GEN"; else echo "$PRT_GEN is missing"; fi
 echo "Projects: " $(ls $PROJECTS_HOME)
+
+# gss() - Git Status Summary for repos in priv, pub, fork, zArch_priv, zArch_pub, zArch_fork
+gss() {
+    local bases=(priv pub fork zArch_priv zArch_pub zArch_fork)
+    for base in "${bases[@]}"; do
+        for repo in "$PROJECTS_HOME/$base"/*/; do
+            if [ -d "$repo/.git" ]; then
+                local status=$(cd "$repo" && gs 2>/dev/null)
+                local folder="$base/$(basename "$repo")"
+                if echo "$status" | grep -qE "up to date with 'origin/(main|master)'"; then
+                    echo "$folder: OK"
+                else
+                    echo "$folder: Requires Attention"
+                fi
+            fi
+        done
+    done
+}
