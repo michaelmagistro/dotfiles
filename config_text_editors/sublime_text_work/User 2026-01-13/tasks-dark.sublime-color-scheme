@@ -1,0 +1,181 @@
+{
+	// My active Work version of sublime text - FIXED
+	"variables": {},
+	"globals": {
+		"background": "#1e1e1e",
+		"foreground": "#e0e0e0",
+		"caret": "#73b3ff",
+		"line_highlight": "#2d2d3099",
+		// comment out the selection below otherwise you get this annoying changing of the color of the text
+		// "selection": "#404046",
+		// "selection_border": "#4c4c52",
+		// "inactive_selection": "#404046",
+		// "selection_foreground": "#e0e0e0",
+		"comment": "#858585",
+		"inactive_selection_border": "#4c4c52",
+		"active_guide": "#404046",
+		"stack_guide": "#404046",
+		"highlight": "#404046",
+		"bracket_contents": "#e0e0e0",
+		"brackets": "#e0e0e0",
+		"bracket_contents_foreground": "#e0e0e0",
+		"brackets_foreground": "#e0e0e0"
+	},
+	"gutterSettings": {
+	  "foreground": "#FFFF00"  // yellow folds/dots fallback
+	},
+	"rules": [
+		{
+			"name": "PlainTasks Global Override",
+			"scope": "text.plaintasks",
+			"foreground": "#e0e0e0",
+			"background": "#1e1e1e"
+		},
+		{
+			"name": "CurrentLine",
+			"scope": "settings",
+			"background": "#2d2d30"
+		},
+		{
+			"name": "Notes",
+			"scope": "text.plaintasks notes.plaintasks",
+			"foreground": "#858585"
+		},
+		{
+			"name": "ToDoItem",
+			"scope": "text.plaintasks meta.item.plaintasks.pending",
+			"foreground": "#e0e0e0"
+		},
+		{
+			"name": "Bold",
+			"scope": "text.plaintasks bold",
+			"foreground": "#f0c080"
+		},
+		{
+			"name": "Italic",
+			"scope": "text.plaintasks italic",
+			"foreground": "#b8a8d0"
+		},
+		{
+			"name": "Heading1Text",
+			"scope": "text.plaintasks keyword.control.header.plaintasks",
+			"foreground": "#73b3ff",
+			"font_style": "italic"
+		},
+		{
+			"name": "PlainTasks Checkbox (Unchecked)",
+			"scope": "text.plaintasks meta.tag.checkbox.plaintasks punctuation.definition.tag",
+			"foreground": "#858585"
+		},
+		{
+			"name": "PlainTasks Checkbox (Checked)",
+			"scope": "text.plaintasks meta.tag.checkbox.plaintasks storage.type.checkbox.checked",
+			"foreground": "#8cc08c"
+		},
+		{
+			"name": "PlainTasks Priority",
+			"scope": "text.plaintasks constant.language.priority.plaintasks",
+			"foreground": "#f0a0a0",
+			"font_style": "bold"
+		},
+		{
+			"name": "PlainTasks Project",
+			"scope": "text.plaintasks entity.name.function.plaintasks",
+			"foreground": "#73b3ff",
+			"font_style": "bold"
+		},
+		{
+			"name": "PlainTasks Context",
+			"scope": "text.plaintasks variable.parameter.plaintasks",
+			"foreground": "#f0c080",
+			"font_style": "italic"
+		},
+		{
+			"name": "PlainTasks Date/Due",
+			"scope": "text.plaintasks constant.other.date.plaintasks, text.plaintasks markup.inserted.plaintasks, text.plaintasks keyword.other.due.plaintasks",
+			"foreground": "#f0a0a0",
+			"background": "#b00038",
+			"font_style": "bold"
+		},
+		{
+			"name": "PlainTasks Link",
+			"scope": "text.plaintasks markup.underline.link.plaintasks",
+			"foreground": "#6aa8e0",
+			"font_style": "underline"
+		},
+		{
+			"name": "PlainTasks Completed",
+			"scope": "text.plaintasks comment.line.number-sign.plaintasks, text.plaintasks meta.item.plaintasks.completed",
+			"foreground": "#707070",
+			"font_style": "strikethrough"
+		},
+		{
+			"name": "PlainTasks Tags/Keywords",
+			"scope": "text.plaintasks keyword.other.plaintasks",
+			"foreground": "#b8a8d0"
+		},
+		{
+			"name": "PlainTasks Header",
+			"scope": "text.todo keyword.control.header.todo",
+			"foreground": "#d4d404"
+		},
+		{
+			"name": "NormalText",
+			"scope": "text.todo notes.todo",
+			"foreground": "#0276eb"
+		},
+		{
+			"name": "Pending Items",
+			"scope": "text.todo meta.item.todo.pending",
+			// "foreground": "#bababa"
+			"foreground": "#e8e8e8"
+		},
+		{
+			"name": "Pending Items",
+			"scope": "text.todo meta.item.todo.completed comment.line.completed.todo",
+			"foreground": "#8f8f8f"
+		},
+		{
+			"name": "Tags",
+			"scope": "text.todo meta.item.todo.pending meta.tag.todo",
+			"foreground": "#8f8f8f"
+		},
+		{
+			"name": "@critical Tag (General)",
+			"scope": "text.todo meta.item.todo.pending string.other.tag.todo.critical",
+			"foreground": "#f0a0a0",
+			"background": "#b00038",
+			"font_style": "bold"
+		},
+		{
+			"name": "@high Tag (General)",
+			"scope": "text.todo meta.item.todo.pending string.other.tag.todo.high",
+			"foreground": "#f0a0a0",
+			"background": "#b05800",
+			"font_style": "bold"
+		},
+		{
+			"name": "@due Tag",
+			"scope": "text.todo meta.item.todo.pending string.other.tag.todo.due",
+			"foreground": "#f0a0a0",
+			"background": "#b00038",
+			"font_style": "bold"
+		},
+		{
+			"name": "Bookmarks",
+			"scope": "bookmarks",
+			"foreground": "#b00038"
+		},
+		{
+			"name": "Gutter Background",
+			"scope": "gutter",
+			"background": "#2d2d2d"
+		},
+		// Due soon gutter dot color
+		{
+		  "scope": "string.other.tag.todo.high",
+		  "foreground": "#FFFF00"  // due_soon dot yellow
+		},
+
+	]
+}
