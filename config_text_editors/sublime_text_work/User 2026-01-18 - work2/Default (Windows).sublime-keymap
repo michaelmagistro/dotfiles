@@ -23,7 +23,7 @@
 	    {
 	      "key": "selector",
 	      "operator": "equal",
-	      "operand": "text.html.markdown",
+	      "operand": "text.html.markdown, text.todo",
 	      "match_all": true
 	    },
 	    {

@@ -23,6 +23,8 @@ contexts:
         - include: url
         - include: information
         - include: danger
+        - include: filepathwin
+        - include: label
         - include: snippet
         - include: quote
         - match: '</>'
@@ -57,6 +59,8 @@ contexts:
         - include: url
         - include: information
         - include: danger
+        - include: filepathwin
+        - include: label
         - include: snippet
         - include: quote
     - match: '^\s*(-|❍|❑|■|□|☐|▪|▫|–|—|≡|→|›|\[\s\])(?=(\s+(?:[^\@\n]|(?<![ \t])\@)*)(?!([^\n]*)?(\@done|\@cancelled)[\s\(]))'
@@ -73,6 +77,8 @@ contexts:
         - include: url
         - include: information
         - include: danger
+        - include: filepathwin
+        - include: label
         - include: snippet
         - include: quote
         - include: tag
@@ -80,7 +86,7 @@ contexts:
         - include: low
         - include: high
         - include: critical
-        - include: issue
+        - include: blocker
     - match: ^＿+$
       scope: meta.punctuation.archive.todo
     - match: '^\s*---.{3,5}---+$'
@@ -98,9 +104,9 @@ contexts:
   critical:
     - match: (?<=\s)\@critical|✭critical
       scope: string.other.tag.todo.critical
-  issue:
-    - match: (?<=\s)\@issue|✭issue
-      scope: string.other.tag.todo.issue
+  blocker:
+    - match: (?<=\s)\@blocker|✭blocker
+      scope: string.other.tag.todo.blocker
   high:
     - match: (?<=\s)\@high|✭high
       scope: string.other.tag.todo.high
@@ -134,6 +140,16 @@ contexts:
           captures:
             1: punctuation.definition.danger
           pop: true
+  label:
+    - match: '(?<=\s|^)(:)(?=\S)(?=(\1\1|(?!(?<=\S)\1).)++(?<=\S)\1)(?=[^\n]+(?<=\S)(\1)(?!\1|[\w\d]))'
+      captures:
+        1: punctuation.definition.label
+      push:
+        - meta_scope: todo.label
+        - match: '(?<=\S)(\1)(?!\1|[\w\d])'
+          captures:
+            1: punctuation.definition.label
+          pop: true
   snippet:
     - match: '(?<=\s|^)(`)(?=\S)(?=(\1\1|(?!(?<=\S)\1).)++(?<=\S)\1)(?=[^\n]+(?<=\S)(\1)(?!\1|[\w\d]))'
       captures:
@@ -154,11 +170,14 @@ contexts:
           captures:
             1: punctuation.definition.quote
           pop: true
+  filepathwin:
+    - match: '\b[a-zA-Z]:\\(?:[^\s\\]+\\)*[^\s\\]*\b?'
+      scope: todo.filepathwin
   low:
     - match: (?<=\s)\@low|✭low
       scope: string.other.tag.todo.low
   tag:
-    - match: '(?<=\s)\@(?!(high|today|critical|low|completed|done|issue)[\s\(])[\w\d\.\(\)\-!? :\+]+[ \t]*'
+    - match: '(?<=\s)\@(?!(high|today|critical|low|completed|done|blocker)[\s\(])[\w\d\.\(\)\-!? :\+]+[ \t]*'
       scope: meta.tag.todo
   today:
     - match: (?<=\s)\@today|✭ᴛᴏᴅᴀʏ

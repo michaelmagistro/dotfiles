@@ -1,0 +1,89 @@
+%YAML 1.2
+---
+name: MarkdownCustom
+scope: text.html.markdown
+version: 2
+extends: Packages/Markdown/Markdown.sublime-syntax
+contexts:
+  fenced-code-blocks:
+    - meta_prepend: true
+    - match: |-
+         (?x)
+          {{fenced_code_block_start}}
+          (?i:\s*(t-?sql|tsql))
+          {{fenced_code_block_trailing_infostring_characters}}
+      captures:
+        0: meta.code-fence.definition.begin.markdown-gfm
+        2: punctuation.definition.raw.code-fence.begin.markdown
+        5: constant.other.language-name.markdown
+        6: comment.line.infostring.markdown
+        7: meta.fold.code-fence.begin.markdown
+      embed: Packages/SQL/TSQL.sublime-syntax
+      embed_scope:
+        meta.code-fence.body.markdown-gfm
+        markup.raw.code-fence.tsql.markdown-gfm
+        source.sql
+      escape: '{{fenced_code_block_escape}}'
+      escape_captures:
+        0: meta.code-fence.definition.end.markdown-gfm
+        1: punctuation.definition.raw.code-fence.end.markdown
+        2: meta.fold.code-fence.end.markdown
+  # Custom inline rules (same as before)
+  quoted-strings:
+    - match: '(?<=\s|^)("|'')(?=\S)(?=(\1\1|(?!(?<=\S)\1).)++(?<=\S)\1)(?=[^\n]+(?<=\S)(\1)(?!\1|[\w\d]))'
+      captures:
+        1: punctuation.definition.quoted-string.begin.markdown
+      push:
+        - meta_scope: string.quoted.markdown
+        - match: '(?<=\S)(\1)(?!\1|[\w\d])'
+          captures:
+            1: punctuation.definition.quoted-string.end.markdown
+          pop: true
+  information:
+    - match: '(?<=\s|^)(~)(?=\S)(?=(\1\1|(?!(?<=\S)\1).)++(?<=\S)\1)(?=[^\n]+(?<=\S)(\1)(?!\1|[\w\d]))'
+      captures:
+        1: punctuation.definition.information
+      push:
+        - meta_scope: todo.information
+        - match: '(?<=\S)(\1)(?!\1|[\w\d])'
+          captures:
+            1: punctuation.definition.information
+          pop: true
+  danger:
+    - match: '(?<=\s|^)(!)(?=\S)(?=(\1\1|(?!(?<=\S)\1).)++(?<=\S)\1)(?=[^\n]+(?<=\S)(\1)(?!\1|[\w\d]))'
+      captures:
+        1: punctuation.definition.danger
+      push:
+        - meta_scope: todo.danger
+        - match: '(?<=\S)(\1)(?!\1|[\w\d])'
+          captures:
+            1: punctuation.definition.danger
+          pop: true
+  label:
+    - match: '(?<=\s|^)(:)(?=\S)(?=(\1\1|(?!(?<=\S)\1).)++(?<=\S)\1)(?=[^\n]+(?<=\S)(\1)(?!\1|[\w\d]))'
+      captures:
+        1: punctuation.definition.label
+      push:
+        - meta_scope: todo.label
+        - match: '(?<=\S)(\1)(?!\1|[\w\d])'
+          captures:
+            1: punctuation.definition.label
+          pop: true
+  filepathwin:
+    - match: '\b[a-zA-Z]:\\(?:[^\s\\]+\\)*[^\s\\]*\b?'
+      scope: todo.filepathwin
+  paragraph:
+    - meta_prepend: true
+    - include: quoted-strings
+    - include: danger
+    - include: label
+    - include: information
+    - include: filepathwin
+  # Critical fix: Inject into LIST ITEM paragraphs too
+  list-paragraph:
+    - meta_prepend: true
+    - include: quoted-strings
+    - include: danger
+    - include: label
+    - include: information
+    - include: filepathwin

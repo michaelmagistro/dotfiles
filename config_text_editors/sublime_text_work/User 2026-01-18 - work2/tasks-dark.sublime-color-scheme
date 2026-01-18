@@ -52,6 +52,11 @@
 			"foreground": "#b8a8d0"
 		},
 		{
+			"name": "Italic2",
+			"scope": "text.todo notes.todo todo.italic, text.todo notes.todo todo.italic punctuation.definition.italic",
+			"foreground": "#00cccc"
+		},
+		{
 			"name": "Heading1Text",
 			"scope": "text.plaintasks keyword.control.header.plaintasks",
 			"foreground": "#73b3ff",
@@ -112,7 +117,7 @@
 		{
 			"name": "PlainTasks Header",
 			"scope": "text.todo keyword.control.header.todo",
-			"foreground": "#d4d404"
+			"foreground": "#cece00"
 		},
 		{
 			"name": "Pending Items",
@@ -184,76 +189,90 @@
 			"name": "Bold",
 			"scope": "text.plaintasks bold, text.todo notes.todo todo.bold, punctuation.definition.bold",
 			// "foreground": "#3ce658" // really cool green color. but not what we're looking for.
-			"foreground": "#148a28"
+			"foreground": "#FF7518"
 		},
-		// ***********************************************************************
-		// Scope Enhancements from PlainTasks.sublime-syntax
-		// ***********************************************************************
+    // ***********************************************************************
+    // PLAINTASKS - CUSTOM SCOPES
+    // ***********************************************************************
     {
-        "name": "Todo Code Snippets",
-        "scope": "markup.raw.code.todo",
-        "foreground": "#F8F8F2",
-        "background": "#272822" // Gives it that "code block" look
+      "name": "Todo Code Snippets",
+      "scope": "markup.raw.code.todo",
+      "foreground": "#F8F8F2",
+      "background": "#272822" // Gives it that "code block" look
     },
     {
-        "name": "Snippet Punctuations",
-        "scope": "punctuation.definition.snippet",
-        "foreground": "#AE81FF"
+      "name": "Snippet Punctuations",
+      "scope": "punctuation.definition.snippet",
+      "foreground": "#AE81FF"
+    },
+    // these two entries are for code snippets in paragraphs and in todo items
+    {
+      "name": "Snippets in Paragraphs",
+      "scope": "text.todo todo.snippet, punctuation.definition.snippet",
+      "foreground": "#38d452"
     },
     {
-      "name": "Snippets",
+      "name": "Snippets in Todo Items",
       "scope": "text.todo meta.item.todo.pending todo.snippet",
-      "foreground": "#00ff00",
+      "foreground": "#38d452",
     },
     {
-        "name": "Snippet Text",
-        "scope": "text.todo todo.snippet, punctuation.definition.snippet",
-        "foreground": "#00ff00"
+      "name": "Information Text",
+      "scope": "text.todo todo.information, punctuation.definition.information",
+      "foreground": "#73b3ff"
     },
     {
-        "name": "Information Text",
-        "scope": "text.todo todo.information, punctuation.definition.information",
-        "foreground": "#73b3ff"
+      "name": "Danger Text",
+      "scope": "text.todo todo.danger, punctuation.definition.danger",
+      "foreground": "#ff4444",
+      "font_style": "bold"
+    },
+  	{
+      "name": "File Path Windows",
+      "scope": "text.todo notes.todo todo.filepathwin",
+      "foreground": "#3ba28a",
+      // "font_style": "bold"
     },
     {
-        "name": "Danger Text",
-        "scope": "text.todo todo.danger, punctuation.definition.danger",
-        "foreground": "#ff4444"
+      "name": "Label Text",
+      "scope": "text.todo notes.todo todo.label",
+      "foreground": "#e05de6",
+      "font_style": "bold"
     },
     {
-        "name": "Quote Text",
-        "scope": "text.todo todo.quote, punctuation.definition.quote",
-        "foreground": "#f0c080"
+      "name": "Quoted String",
+      "scope": "text.todo todo.quote, punctuation.definition.quote",
+      "foreground": "#f0c080"
     },
     {
-        "name": "Wait Scope",
-        "scope": "text.todo wait",
-        "foreground": "#f0a0a0",
-        "font_style": "italic"
+      "name": "Wait Scope",
+      "scope": "text.todo wait",
+      "foreground": "#f0a0a0",
+      "font_style": "italic"
     },
     {
-        "name": "Marker Comment",
-        "scope": "text.todo todo.markercomment",
-        "foreground": "#b8a8d0",
-        "background": "#2d2d30"
+      "name": "Marker Comment",
+      "scope": "text.todo todo.markercomment",
+      "foreground": "#b8a8d0",
+      "background": "#2d2d30"
     },
     {
-        "name": "Marker Keyword",
-        "scope": "text.todo keyword.marker",
-        "foreground": "#73b3ff",
-        "font_style": "bold"
+      "name": "Marker Keyword",
+      "scope": "text.todo keyword.marker",
+      "foreground": "#73b3ff",
+      "font_style": "bold"
     },
     {
-        "name": "Marker Detail",
-        "scope": "text.todo todo.markerdetail",
-        "foreground": "#e0e0e0"
+      "name": "Marker Detail",
+      "scope": "text.todo todo.markerdetail",
+      "foreground": "#e0e0e0"
     },
     {
-        "name": "@issue Tag",
-        "scope": "text.todo string.other.tag.todo.issue",
-        "foreground": "#f0a0a0",
-        "background": "#805800",
-        "font_style": "bold"
+      "name": "@blocker Tag",
+      "scope": "text.todo string.other.tag.todo.blocker",
+      "foreground": "#f0a0a0",
+      "background": "#805800",
+      "font_style": "bold"
     },
 	]
 }

@@ -5,7 +5,8 @@
 		// "foreground": "#ffffff",
 		"caret": "#00FF00",
 		// "line_highlight": "#26472f"
-		"line_highlight": "#203b27"
+		"line_highlight": "#ffffff18",
+		"selection": "#ffffff30"
 	},
 	"gutterSettings": {
 	  "foreground": "#FFFF00",     // yellow icons
@@ -54,36 +55,36 @@
 		},
 		{
 			"name": "Markdown Inline Code",
-			"scope": "text.html.markdown markup.raw.inline.markdown, inline-code",
-			"foreground": "#04b332"
+			"scope": "text.html.markdown markup.raw.inline.markdown, inline-code, markup.raw.inline.markdown punctuation.definition.raw.begin.markdown, markup.raw.inline.markdown punctuation.definition.raw.end.markdown",
+			"foreground": "#38d452"
 		},
-		{
-			"name": "Markdown Inline Code Delimiters",
-			"scope": "markup.raw.inline.markdown punctuation.definition.raw.begin.markdown, markup.raw.inline.markdown punctuation.definition.raw.end.markdown",
-			"foreground": "#ffd700"
-		},
+		// {
+		// 	"name": "Markdown Inline Code Delimiters",
+		// 	"scope": "markup.raw.inline.markdown punctuation.definition.raw.begin.markdown, markup.raw.inline.markdown punctuation.definition.raw.end.markdown",
+		// 	"foreground": "#ffd700"
+		// },
 		{
 			"name": "Markdown Bold",
-			"scope": "markup.bold.markdown",
-			"foreground": "#bf3939",
+			"scope": "markup.bold.markdown, punctuation.definition.bold.begin.markdown, markup.bold.markdown punctuation.definition.bold.end.markdown",
+			"foreground": "#FF7518",
 			"font_style": "bold"
 		},
-		{
-			"name": "Markdown Bold Delimiters",
-			"scope": "markup.bold.markdown punctuation.definition.bold.begin.markdown, markup.bold.markdown punctuation.definition.bold.end.markdown",
-			"foreground": "#ffd700"
-		},
+		// {
+		// 	"name": "Markdown Bold Delimiters",
+		// 	"scope": "markup.bold.markdown punctuation.definition.bold.begin.markdown, markup.bold.markdown punctuation.definition.bold.end.markdown",
+		// 	"foreground": "#ffd700"
+		// },
 		{
 			"name": "Markdown Italic",
-			"scope": "markup.italic.markdown",
+			"scope": "markup.italic.markdown, punctuation.definition.italic.begin.markdown, markup.italic.markdown punctuation.definition.italic.end.markdown",
 			"foreground": "#00dbdb",
 			"font_style": "italic"
 		},
-		{
-			"name": "Markdown Italic Delimiters",
-			"scope": "markup.italic.markdown punctuation.definition.italic.begin.markdown, markup.italic.markdown punctuation.definition.italic.end.markdown",
-			"foreground": "#ffd700"
-		},
+		// {
+		// 	"name": "Markdown Italic Delimiters",
+		// 	"scope": "markup.italic.markdown punctuation.definition.italic.begin.markdown, markup.italic.markdown punctuation.definition.italic.end.markdown",
+		// 	"foreground": "#ffd700"
+		// },
 		{
 			"name": "Markdown Links",
 			"scope": "text.html.markdown meta.paragraph.markdown meta.link.inet.markdown markup.underline.link.protocol.markdown-gfm, text.html.markdown meta.paragraph.markdown meta.link.inet.markdown markup.underline.link.www.markdown-gfm, text.html.markdown meta.paragraph.markdown meta.link.inet.markdown markup.underline.link.markdown-gfm, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inet.markdown markup.underline.link.markdown-gfm, markup.underline.link.markdown",
@@ -107,7 +108,7 @@
 		{
 			"name": "Markdown Images",
 			"scope": "markup.image.inline.markdown string, markup.image.inline.markdown string.other.link.title, markup.image.inline.markdown constant.character, markup.image.inline.markdown punctuation.definition.image, markup.underline.link.image",
-			"foreground": "#ed8936"
+			"foreground": "#0074ab"
 		},
 		// image titles
 		{
@@ -115,6 +116,36 @@
 			"scope": "text.html.markdown meta.paragraph.markdown meta.image.inline.description.markdown, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.image.inline.description.markdown",
 			"foreground": "#e8bbd0"
 		},
+		// ***********************************************************************
+		// MARKDOWN - CUSTOM SCOPES
+		// ***********************************************************************
+		{
+	      "name": "Quoted Strings",
+	      "scope": "string.quoted.markdown, punctuation.definition.quoted-string.begin.markdown, punctuation.definition.quoted-string.end.markdown",
+	      "foreground": "#f0c080",
+	  },
+  	{
+        "name": "Information",
+        "scope": "text.html.markdown meta.paragraph.markdown todo.information, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown todo.information",
+        "foreground": "#73b3ff",
+    },
+  	{
+        "name": "Danger",
+        "scope": "text.html.markdown meta.paragraph.markdown todo.danger, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown todo.danger",
+        "foreground": "#ff4444",
+        "font_style": "bold"
+    },
+  	{
+        "name": "Label",
+        "scope": "text.html.markdown meta.paragraph.markdown todo.label, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown todo.label",
+        "foreground": "#e05de6",
+        "font_style": "bold"
+    },
+  	{
+        "name": "File Path Windows",
+        "scope": "text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown todo.filepathwin",
+        "foreground": "#3ba28a",
+    },
 		// ***********************************************************************
 		// PLAINTASKS
 		// ***********************************************************************
