@@ -43,9 +43,9 @@
 	// ***********************************************************************
 	{
 	    "class": "title_bar", // work-specific theme modification
-	    "fg": "#82a2e3",      // Title bar text
+	    "fg": "#99bbff",      // Title bar text old: 82a8f3
 	    "bg": "#222222",
-	    "font.size": 14
+	    "font.size": 16
 	    // "bg": "#281E1E",
 	    // "style": "dark"
 	},
@@ -79,7 +79,7 @@
 	},
 	{
 		"class": "tab_control -active",
-		"layer0.tint": "#82a2e3"  // Slightly brighter background for active tab
+		"layer0.tint": "#99bbff"  // Slightly brighter background for active tab
 	},
 
 	// ── Proper text/foreground colors for labels ──
@@ -92,14 +92,14 @@
 	{
 		"class": "tab_label",
 		"attributes": ["selected"],
-		"fg": "#82a2e3", // Active/selected tab text – green!
+		"fg": "#99bbff", // Active/selected tab text – green!
 		"font.size": 13
 	},
 	// Stronger override for active tab text (usually fixes stubborn cases)
 	{
 		"class": "tab_label",
 		"parents": [{"class": "tab_control", "attributes": ["selected"]}],
-		"fg": "#82a2e3",
+		"fg": "#99bbff",
 		"font.size": 13
 	},
 
@@ -125,7 +125,8 @@
 	// ***********************************************************************
 	{
 		"class": "sidebar_label",
-		"fg": "#82a2e3"              // Normal file/folder names
+		"fg": "#99bbff",              // Normal file/folder names
+        "font.size": 14
 	},
 	{
 		"class": "sidebar_label",
