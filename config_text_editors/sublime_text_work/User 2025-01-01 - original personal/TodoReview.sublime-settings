@@ -1,0 +1,8 @@
+{
+	"patterns": {
+		"TODO": "TODO[\\s]*?:[\\s]*(?P<todo>.*)$",
+		"todosimple": "todo[\\s]*?[\\s]*(?P<todosimple>.*)$",
+		"markdowntodo": "\\[ \\][\\s]*?[\\s]*(?P<markdowntodo>.*)$",
+		"TodoCritical": "TODO[\\s]*?![\\s]*(?P<TodoCritical>.*)$",
+	}
+}

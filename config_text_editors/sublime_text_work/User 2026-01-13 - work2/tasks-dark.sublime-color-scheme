@@ -47,11 +47,6 @@
 			"foreground": "#e0e0e0"
 		},
 		{
-			"name": "Bold",
-			"scope": "text.plaintasks bold",
-			"foreground": "#f0c080"
-		},
-		{
 			"name": "Italic",
 			"scope": "text.plaintasks italic",
 			"foreground": "#b8a8d0"
@@ -120,11 +115,6 @@
 			"foreground": "#d4d404"
 		},
 		{
-			"name": "NormalText",
-			"scope": "text.todo notes.todo",
-			"foreground": "#0276eb"
-		},
-		{
 			"name": "Pending Items",
 			"scope": "text.todo meta.item.todo.pending",
 			// "foreground": "#bababa"
@@ -176,6 +166,94 @@
 		  "scope": "string.other.tag.todo.high",
 		  "foreground": "#FFFF00"  // due_soon dot yellow
 		},
-
+		// {
+		// 	"name": "Completed Text",
+		// 	"scope": "completedText, text.html.markdown meta.paragraph.markdown completedText, text.todo keyword.control.header.todo, text.todo meta.item.todo.pending todo.snippet",
+		// 	"foreground": "#f56565"
+		// },
+		// ***********************************************************************
+		// PARAGRAPH
+		// ***********************************************************************
+		{
+			"name": "Paragraph",
+			"scope": "text.todo notes.todo",
+			// "foreground": "#0276eb"
+			"foreground": "#3b90e6"
+		},
+		{
+			"name": "Bold",
+			"scope": "text.plaintasks bold, text.todo notes.todo todo.bold, punctuation.definition.bold",
+			// "foreground": "#3ce658" // really cool green color. but not what we're looking for.
+			"foreground": "#148a28"
+		},
+		// ***********************************************************************
+		// Scope Enhancements from PlainTasks.sublime-syntax
+		// ***********************************************************************
+    {
+        "name": "Todo Code Snippets",
+        "scope": "markup.raw.code.todo",
+        "foreground": "#F8F8F2",
+        "background": "#272822" // Gives it that "code block" look
+    },
+    {
+        "name": "Snippet Punctuations",
+        "scope": "punctuation.definition.snippet",
+        "foreground": "#AE81FF"
+    },
+    {
+      "name": "Snippets",
+      "scope": "text.todo meta.item.todo.pending todo.snippet",
+      "foreground": "#00ff00",
+    },
+    {
+        "name": "Snippet Text",
+        "scope": "text.todo todo.snippet, punctuation.definition.snippet",
+        "foreground": "#00ff00"
+    },
+    {
+        "name": "Information Text",
+        "scope": "text.todo todo.information, punctuation.definition.information",
+        "foreground": "#73b3ff"
+    },
+    {
+        "name": "Danger Text",
+        "scope": "text.todo todo.danger, punctuation.definition.danger",
+        "foreground": "#ff4444"
+    },
+    {
+        "name": "Quote Text",
+        "scope": "text.todo todo.quote, punctuation.definition.quote",
+        "foreground": "#f0c080"
+    },
+    {
+        "name": "Wait Scope",
+        "scope": "text.todo wait",
+        "foreground": "#f0a0a0",
+        "font_style": "italic"
+    },
+    {
+        "name": "Marker Comment",
+        "scope": "text.todo todo.markercomment",
+        "foreground": "#b8a8d0",
+        "background": "#2d2d30"
+    },
+    {
+        "name": "Marker Keyword",
+        "scope": "text.todo keyword.marker",
+        "foreground": "#73b3ff",
+        "font_style": "bold"
+    },
+    {
+        "name": "Marker Detail",
+        "scope": "text.todo todo.markerdetail",
+        "foreground": "#e0e0e0"
+    },
+    {
+        "name": "@issue Tag",
+        "scope": "text.todo string.other.tag.todo.issue",
+        "foreground": "#f0a0a0",
+        "background": "#805800",
+        "font_style": "bold"
+    },
 	]
 }

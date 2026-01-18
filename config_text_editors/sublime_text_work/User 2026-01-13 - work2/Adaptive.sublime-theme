@@ -1,20 +1,6 @@
 [
 	// UI Brightening Overrides for Adaptive (add to end of rules array)
 	{
-		"class": "sidebar_container",
-		"layer0.tint": "#2d2d2d",
-		"layer1.tint": "#2d2d2d"
-	},
-	{
-		"class": "sidebar_heading",
-		"layer0.tint": "#2d2d2d"
-	},
-	{
-		"class": "sidebar_tree_row",
-		"layer0.tint": "#2d2d2d",
-		"row_padding": [8, 4]
-	},
-	{
 		"class": "tab_control",
 		"layer0.tint": "#2d2d2d",
 		"layer1.tint": "#2d2d2d",
@@ -54,13 +40,7 @@
 		"layer0.tint": "#2d2d2d"  // Editor frame/sheet bg
 	},
 	// modify the window bar color to indicate "work" theme. title_bar, tabset_control, tab_control and tab_control
-	{
-	    "class": "title_bar", // work-specific theme modification
-	    "fg": [220, 220, 220],
-	    "bg": [25, 69, 98],
-	    // "bg": [40, 30, 30],
-	    // "style": "dark"
-	},
+
 	{
 	    "class": "tabset_control", // work-specific theme modification
 	    "layer0.tint": [11, 33, 47],  // Slightly darker than tabs
@@ -75,5 +55,29 @@
 	    "class": "tab_control", // work-specific theme modification
 	    "attributes": ["selected"],
 	    "layer0.tint": [18, 51, 72]  // Active tab even brighter
-	}
+	},
+	// ***********************************************************************
+	// TITLE BAR and SIDEBAR
+	// ***********************************************************************
+	{
+		"class": "sidebar_container",
+		"layer0.tint": "#2d2d2d",
+		"layer1.tint": "#2d2d2d"
+	},
+	{
+		"class": "sidebar_heading",
+		"layer0.tint": "#2d2d2d"
+	},
+	{
+		"class": "sidebar_tree_row",
+		"layer0.tint": "#2d2d2d",
+		"row_padding": [8, 4]
+	},
+	{
+	    "class": "title_bar", // work-specific theme modification
+	    "fg": [220, 220, 220],
+	    "bg": [25, 69, 98],
+	    // "bg": [40, 30, 30],
+	    // "style": "dark"
+	},
 ]

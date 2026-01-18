@@ -1,8 +1,8 @@
 {
 	"variables": {},
 	"globals": {
-		"background": "#2d2d2d",
-		"foreground": "#ffffff",
+		"background": "#1c1c1c",
+		// "foreground": "#ffffff",
 		"caret": "#00FF00",
 		// "line_highlight": "#26472f"
 		"line_highlight": "#203b27"
@@ -12,10 +12,13 @@
 	  "background": "#2d2d2d"      // gutter bg
 	},
 	"rules": [
+		// ***********************************************************************
+		// MARKDOWN
+		// ***********************************************************************
 		{
 			"name": "Markdown Content Background",
 			"scope": "text.html.markdown",
-			"background": "#2d2d2d"
+			"background": "#1c1c1c"
 		},
 		{
 			"name": "Markdown Fenced Code Block",
@@ -83,8 +86,8 @@
 		},
 		{
 			"name": "Markdown Links",
-			"scope": "text.html.markdown meta.paragraph.markdown meta.link.inet.markdown markup.underline.link.markdown-gfm, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inet.markdown markup.underline.link.markdown-gfm, markup.underline.link.markdown",
-			"foreground": "#9ca3af",
+			"scope": "text.html.markdown meta.paragraph.markdown meta.link.inet.markdown markup.underline.link.protocol.markdown-gfm, text.html.markdown meta.paragraph.markdown meta.link.inet.markdown markup.underline.link.www.markdown-gfm, text.html.markdown meta.paragraph.markdown meta.link.inet.markdown markup.underline.link.markdown-gfm, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inet.markdown markup.underline.link.markdown-gfm, markup.underline.link.markdown",
+			"foreground": "#019ad0",
 			"font_style": "underline"
 		},
 		{
@@ -92,23 +95,56 @@
 			"scope": "text.html.markdown meta.paragraph.markdown - markup.list",
 			// "foreground": "#60a5fa",
 			// "foreground": "#7f85ad",
-			"foreground": "#9198c4"
+			// "foreground": "#9198c4"
+			"foreground": "#a5a2a2"
 		},
-		{
+		{ // color of the text in Bulleted lists in Markdown
 			"name": "Markdown Lists",
 			"scope": "text.html.markdown markup.list meta.paragraph.list.markdown",
 			"foreground": "#e2e8f0"
+			// "foreground": "#a5a2a2"
 		},
 		{
 			"name": "Markdown Images",
 			"scope": "markup.image.inline.markdown string, markup.image.inline.markdown string.other.link.title, markup.image.inline.markdown constant.character, markup.image.inline.markdown punctuation.definition.image, markup.underline.link.image",
 			"foreground": "#ed8936"
 		},
+		// image titles
 		{
-			"name": "Completed Text",
-			"scope": "completedText, text.html.markdown meta.paragraph.markdown completedText, text.todo keyword.control.header.todo, text.todo meta.item.todo.pending todo.snippet",
-			"foreground": "#f56565"
+			"name": "Image Paste Titles",
+			"scope": "text.html.markdown meta.paragraph.markdown meta.image.inline.description.markdown, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.image.inline.description.markdown",
+			"foreground": "#e8bbd0"
 		},
+		// ***********************************************************************
+		// PLAINTASKS
+		// ***********************************************************************
+		// SEE THE DEDICATED tasks-dark.sublime-color-scheme FILE
+		// ***********************************************************************
+		// BOOKMARKS SYNTAX
+		// ***********************************************************************
+		{
+			"name": "Bookmarks",
+			"scope": "bookmarks",
+			"foreground": "#ffd700",
+			"background": "#ffd700"
+		},
+		{
+			"name": "Bookmarks",
+			"scope": "bookmark",
+			"foreground": "#ffd700"
+		},
+		{
+			"scope": "breakpoint.enabled",
+			"foreground": "#FF0000",  // red
+			"background": "#FF000030" // semi-trans
+		},
+		{
+			"scope": "meta.breakpoint",
+			"foreground": "#00FF00"   // green
+		},
+		// ***********************************************************************
+		// BOOKMARKS SYNTAX
+		// ***********************************************************************
 		{
 			"name": "Regex Quantifier",
 			"scope": "source.regexp meta.mode.basic.regexp keyword.operator.quantifier.regexp",
@@ -134,31 +170,5 @@
 			"scope": "source.regexp meta.mode.basic.regexp keyword.other.any.regexp, source.regexp meta.group.regexp meta.mode.basic.regexp keyword.other.any.regexp",
 			"foreground": "#ff0000"
 		},
-		// image titles
-		{
-			"name": "Image Paste Titles",
-			"scope": "text.html.markdown meta.paragraph.markdown meta.image.inline.description.markdown, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.image.inline.description.markdown",
-			"foreground": "#e8bbd0"
-		},
-		{
-			"name": "Bookmarks",
-			"scope": "bookmarks",
-			"foreground": "#ffd700",
-			"background": "#ffd700"
-		},
-		{
-			"name": "Bookmarks",
-			"scope": "bookmark",
-			"foreground": "#ffd700"
-		},
-		{
-			"scope": "breakpoint.enabled",
-			"foreground": "#FF0000",  // red
-			"background": "#FF000030" // semi-trans
-		},
-		{
-			"scope": "meta.breakpoint",
-			"foreground": "#00FF00"   // green
-		}
 	]
 }
