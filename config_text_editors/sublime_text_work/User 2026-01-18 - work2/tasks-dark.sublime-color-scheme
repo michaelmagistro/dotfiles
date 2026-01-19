@@ -47,16 +47,6 @@
 			"foreground": "#e0e0e0"
 		},
 		{
-			"name": "Italic",
-			"scope": "text.plaintasks italic",
-			"foreground": "#b8a8d0"
-		},
-		{
-			"name": "Italic2",
-			"scope": "text.todo notes.todo todo.italic, text.todo notes.todo todo.italic punctuation.definition.italic",
-			"foreground": "#00cccc"
-		},
-		{
 			"name": "Heading1Text",
 			"scope": "text.plaintasks keyword.control.header.plaintasks",
 			"foreground": "#73b3ff",
@@ -123,7 +113,8 @@
 			"name": "Pending Items",
 			"scope": "text.todo meta.item.todo.pending",
 			// "foreground": "#bababa"
-			"foreground": "#e8e8e8"
+			"foreground": "#e8e8e8",
+			"font_style": "normal"
 		},
 		{
 			"name": "Pending Items",
@@ -172,6 +163,25 @@
 		  "foreground": "#FFFF00"  // due_soon dot yellow
 		},
 		// {
+		// 	"name": "Italic",
+		// 	"scope": "text.plaintasks italic",
+		// 	"foreground": "#b8a8d0"
+		// },
+		// ***********************************************************************
+		// Applies to Tasks & Paragraph
+		// ***********************************************************************
+		{
+			"name": "Italic2",
+			"scope": "text.todo notes.todo todo.italic, text.todo notes.todo todo.italic punctuation.definition.italic, text.todo meta.item.todo.pending todo.italic, text.todo meta.item.todo.pending todo.italic punctuation.definition.italic",
+			"foreground": "#00cccc"
+		},
+		{
+			"name": "Bold",
+			"scope": "text.plaintasks bold, text.todo notes.todo todo.bold, punctuation.definition.bold, text.todo meta.item.todo.pending todo.bold",
+			// "foreground": "#3ce658" // really cool green color. but not what we're looking for.
+			"foreground": "#FF7518"
+		},
+		// {
 		// 	"name": "Completed Text",
 		// 	"scope": "completedText, text.html.markdown meta.paragraph.markdown completedText, text.todo keyword.control.header.todo, text.todo meta.item.todo.pending todo.snippet",
 		// 	"foreground": "#f56565"
@@ -184,12 +194,6 @@
 			"scope": "text.todo notes.todo",
 			// "foreground": "#0276eb"
 			"foreground": "#3b90e6"
-		},
-		{
-			"name": "Bold",
-			"scope": "text.plaintasks bold, text.todo notes.todo todo.bold, punctuation.definition.bold",
-			// "foreground": "#3ce658" // really cool green color. but not what we're looking for.
-			"foreground": "#FF7518"
 		},
     // ***********************************************************************
     // PLAINTASKS - CUSTOM SCOPES
@@ -235,20 +239,19 @@
     },
     {
       "name": "Label Text",
-      "scope": "text.todo notes.todo todo.label",
+      "scope": "text.todo notes.todo todo.label, text.todo meta.item.todo.pending todo.label",
       "foreground": "#e05de6",
       "font_style": "bold"
     },
     {
       "name": "Quoted String",
       "scope": "text.todo todo.quote, punctuation.definition.quote",
-      "foreground": "#f0c080"
+      "foreground": "#c59d68"
     },
     {
       "name": "Wait Scope",
       "scope": "text.todo wait",
-      "foreground": "#f0a0a0",
-      "font_style": "italic"
+      "foreground": "#deb600",
     },
     {
       "name": "Marker Comment",

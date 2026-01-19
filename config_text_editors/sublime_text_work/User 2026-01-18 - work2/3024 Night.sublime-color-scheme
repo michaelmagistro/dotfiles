@@ -122,7 +122,7 @@
 		{
 	      "name": "Quoted Strings",
 	      "scope": "string.quoted.markdown, punctuation.definition.quoted-string.begin.markdown, punctuation.definition.quoted-string.end.markdown",
-	      "foreground": "#f0c080",
+	      "foreground": "#c59d68",
 	  },
   	{
         "name": "Information",
