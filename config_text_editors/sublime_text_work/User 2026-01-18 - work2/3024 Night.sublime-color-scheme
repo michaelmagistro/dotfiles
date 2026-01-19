@@ -94,10 +94,7 @@
 		{
 			"name": "Paragraph Text",
 			"scope": "text.html.markdown meta.paragraph.markdown - markup.list",
-			// "foreground": "#60a5fa",
-			// "foreground": "#7f85ad",
-			// "foreground": "#9198c4"
-			"foreground": "#a5a2a2"
+			"foreground": "#bbbbbb"
 		},
 		{ // color of the text in Bulleted lists in Markdown
 			"name": "Markdown Lists",

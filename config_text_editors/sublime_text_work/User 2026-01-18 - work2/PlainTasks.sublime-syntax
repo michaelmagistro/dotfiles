@@ -114,6 +114,7 @@ contexts:
         1: punctuation.definition.bold
       push:
         - meta_scope: todo.bold
+        - include: inline-formatting
         - match: '(?<=\S)(\1)((?![\w\d\n])|(?=\s|$))'
           captures:
             1: punctuation.definition.bold
@@ -133,6 +134,7 @@ contexts:
         1: punctuation.definition.italic
       push:
         - meta_scope: todo.italic
+        - include: inline-formatting
         - match: '(?<=\S)(\1)(?!\1|[\w\d])'
           captures:
             1: punctuation.definition.italic
@@ -188,11 +190,20 @@ contexts:
             1: punctuation.definition.quote
           pop: true
   filepathwin:
-    - match: '\b[a-zA-Z]:\\(?:[^\s\\]+\\)*[^\s\\]*\b?'
-      scope: todo.filepathwin
+      # Captures the drive letter and the rest of the path in one go
+      - match: '\b([a-zA-Z]:\\)([^\s`''"()\[\]{}<>*]+)'
+        scope: todo.filepathwin
+        captures:
+          1: todo.filepathwin.drive
+          2: todo.filepathwin.rest
   filepathlinux:
-      - match: '(?:^|(?<=\s))~?/(?:[^\s/]*/)*[^\s/]*'
-        scope: todo.filepathlinux
+    # Uses a lookbehind to ensure it starts at a space or start of line
+    # Captures the root/tilde and the rest of the path
+    - match: '(?<=^|\s)(~?\/)([^\s`''"()\[\]{}<>*]+)'
+      scope: todo.filepathlinux
+      captures:
+        1: todo.filepathlinux.drive
+        2: todo.filepathlinux.rest
   low:
     - match: (?<=\s)\@low|✭low
       scope: string.other.tag.todo.low

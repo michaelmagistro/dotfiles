@@ -70,11 +70,20 @@ contexts:
             1: punctuation.definition.label
           pop: true
   filepathwin:
-    - match: '\b[a-zA-Z]:\\(?:[^\s\\]+\\)*[^\s\\]*\b?'
-      scope: todo.filepathwin
+      # Captures the drive letter and the rest of the path in one go
+      - match: '\b([a-zA-Z]:\\)([^\s`''"()\[\]{}<>*]+)'
+        scope: todo.filepathwin
+        captures:
+          1: todo.filepathwin.drive
+          2: todo.filepathwin.rest
   filepathlinux:
-      - match: '(?:^|(?<=\s))~?/(?:[^\s/]*/)*[^\s/]*'
-        scope: todo.filepathlinux
+    # Uses a lookbehind to ensure it starts at a space or start of line
+    # Captures the root/tilde and the rest of the path
+    - match: '(?<=^|\s)(~?\/)([^\s`''"()\[\]{}<>*]+)'
+      scope: todo.filepathlinux
+      captures:
+        1: todo.filepathlinux.drive
+        2: todo.filepathlinux.rest
   paragraph:
     - meta_prepend: true
     - include: quoted-strings
@@ -83,7 +92,7 @@ contexts:
     - include: information
     - include: filepathwin
     - include: filepathlinux
-  # Critical fix: Inject into LIST ITEM paragraphs too
+
   list-paragraph:
     - meta_prepend: true
     - include: quoted-strings
@@ -92,3 +101,24 @@ contexts:
     - include: information
     - include: filepathwin
     - include: filepathlinux
+
+  # ── NEW: Inject into bold / italic / inline code / links ──
+  bold:
+    - meta_prepend: true
+    - include: filepathwin
+    - include: filepathlinux
+
+  italic:
+    - meta_prepend: true
+    - include: filepathwin
+    - include: filepathlinux
+
+  # inline-code:   # or whatever your code span context is called in the base Markdown syntax
+  #   - meta_prepend: true
+  #   - include: filepathwin
+  #   - include: filepathlinux
+
+  # link-text:     # for paths inside [text](url) — optional but useful
+  #   - meta_prepend: true
+  #   - include: filepathwin
+  #   - include: filepathlinux
