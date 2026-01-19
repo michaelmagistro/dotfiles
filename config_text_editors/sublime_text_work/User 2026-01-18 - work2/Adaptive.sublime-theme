@@ -45,7 +45,7 @@
 	    "class": "title_bar", // work-specific theme modification
 	    "fg": "#99bbff",      // Title bar text old: 82a8f3
 	    "bg": "#222222",
-	    "font.size": 16
+	    // "font.size": 16
 	    // "bg": "#281E1E",
 	    // "style": "dark"
 	},
@@ -109,11 +109,7 @@
 	{
 		"class": "sidebar_container",
 		"layer0.tint": "#2d2d2d",
-		"layer1.tint": "#2d2d2d",
-	},
-	{
-		"class": "sidebar_heading",
-		"layer0.tint": "#2d2d2d"
+		// "layer1.tint": "#2d2d2d",
 	},
 	{
 		"class": "sidebar_tree_row",

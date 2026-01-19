@@ -232,6 +232,12 @@
       "foreground": "#87a23b",
       // "font_style": "bold"
     },
+  	{
+      "name": "URLs",
+      "scope": "text.todo meta.item.todo.pending todo.url markup.underline.link, text.todo notes.todo todo.url markup.underline.link",
+      "foreground": "#00afc9",
+      "font_style": "underline"
+    },
     {
       "name": "Label Text",
       "scope": "text.todo notes.todo todo.label, text.todo meta.item.todo.pending todo.label",

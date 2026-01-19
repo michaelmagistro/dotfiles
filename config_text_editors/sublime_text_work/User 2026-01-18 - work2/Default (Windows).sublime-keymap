@@ -26,12 +26,12 @@
 	      "operand": "text.html.markdown, text.todo",
 	      "match_all": true
 	    },
-	    {
-	      "key": "selector",
-	      "operator": "not_equal",
-	      "operand": "meta.link",
-	      "match_all": true
-	    },
+	    // {
+	    //   "key": "selector",
+	    //   "operator": "not_equal",
+	    //   "operand": "meta.link",
+	    //   "match_all": true
+	    // },
 	    {
 	      "key": "selector",
 	      "operator": "not_equal",

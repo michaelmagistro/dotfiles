@@ -203,7 +203,13 @@ contexts:
     - match: (?<=\s)\@today|✭ᴛᴏᴅᴀʏ
       scope: string.other.tag.todo.today
   url:
-    - match: '(?<!\S)(<)\w+?(?!\s)(\.|:)(?!\s)[^\n]+?(>)'
+    - match: '(?i)\b(https?|ftp|file)://[^\s`''"()\[\]{}<>]+'
       scope: todo.url
       captures:
-        1: punctuation.definition.url
+        0: markup.underline.link
+    - match: '(<)((?:https?|ftp|file)://[^\s>]+)(>)'
+      scope: todo.url
+      captures:
+        1: punctuation.definition.url.begin
+        2: markup.underline.link
+        3: punctuation.definition.url.end

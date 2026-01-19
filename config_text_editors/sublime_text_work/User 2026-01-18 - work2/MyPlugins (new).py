@@ -2,112 +2,119 @@ import sublime
 import sublime_plugin
 import re
 
+
 # ++++++++++++++++++ EXPAND TO DELIMITER +++++++++++++++++++++++++
 
 class ExpandSelectionToDelimiterCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         view = self.view
-        
+
         for sel in view.sel():
-            scope = view.scope_name(sel.begin())
-            is_todo_snippet = "todo.snippet" in scope
-            
-            # --- CODE BLOCK LOGIC ---
-            code_block_scopes = [
-                "markup.raw.code-fence", 
-                "markup.raw.block.fenced", 
-                "markup.raw.code.todo" 
-            ]
-            
-            if any(s in scope for s in code_block_scopes):
-                if self.expand_code_fence(sel):
-                    continue
-            
-            is_image = "meta.image" in scope
-            is_regular_link = ("meta.link" in scope or "markup.underline.link" in scope) and not is_image and not is_todo_snippet
-            
-            if is_regular_link:
-                continue
-            
+            # 1. SETUP VARIABLES (MUST BE FIRST)
             line = view.line(sel)
             line_contents = view.substr(line)
             line_start = line.begin()
             rel_begin = sel.begin() - line_start
-            
+            scope = view.scope_name(sel.begin())
             matched = False
 
-            # Check for inline backtick snippets
-            is_inline_code = any(s in scope for s in ["todo.snippet", "markup.raw.inline", "markup.inline.raw", "markup.raw.inline.markdown"])
+            # 2. URL DETECTION (PRIORITY #1)
+            url_pattern = r'(?:(?:https?|ftp|file)://|www\.)[^\s<>"\'){}]+(?:\?[^\s<>"\'){}]*)?'
+            for match in re.finditer(url_pattern, line_contents):
+                if match.start() <= rel_begin <= match.end():
+                    full_url = match.group(0)
+                    # Clean up trailing punctuation that Markdown sometimes adds
+                    while full_url and full_url[-1] in '.,;:!?)]}':
+                        full_url = full_url[:-1]
+                    view.sel().subtract(sel)
+                    view.sel().add(sublime.Region(
+                        line_start + match.start(),
+                        line_start + match.start() + len(full_url)
+                    ))
+                    matched = True
+                    break
+            if matched:
+                continue
+
+            # 3. CODE BLOCKS
+            code_block_scopes = ["markup.raw.code-fence", "markup.raw.block.fenced", "markup.raw.code.todo"]
+            if any(s in scope for s in code_block_scopes):
+                if self.expand_code_fence(sel):
+                    continue
+
+            # 4. LOGIC GATE
+            # Skip only if cursor is in image metadata or bracketed [Title]
+            if "meta.image" in scope or "string.other.link" in scope:
+                continue
+
+            # 5. INLINE BACKTICKS
+            is_inline_code = any(s in scope for s in [
+                "todo.snippet",
+                "markup.raw.inline",
+                "markup.inline.raw",
+                "markup.raw.inline.markdown"
+            ])
             if is_inline_code:
                 tick_pattern = r'`([^`]+)`'
-                matches = list(re.finditer(tick_pattern, line_contents))
-                for match in matches:
+                for match in re.finditer(tick_pattern, line_contents):
                     if match.start() <= rel_begin <= match.end():
                         view.sel().subtract(sel)
-                        view.sel().add(sublime.Region(line_start + match.start(1), line_start + match.end(1)))
+                        view.sel().add(sublime.Region(
+                            line_start + match.start(1),
+                            line_start + match.end(1)
+                        ))
                         matched = True
                         break
-                if matched: continue
+                if matched:
+                    continue
 
-            # --- PATH DETECTION (SEPARATE STEPS FOR STABILITY) ---
-
-            # --- URL DETECTION ---
-            # This captures common protocols and handles the full URL
-            url_pattern = r'\b(?:https?|ftp|file)://[^\s`\'"()\[\]{}]+'
-            url_matches = list(re.finditer(url_pattern, line_contents))
-            for match in url_matches:
+            # 6. WINDOWS & LINUX PATHS
+            # Windows paths (O:\...)
+            win_path_pattern = r'[a-zA-Z]:\\[^\s`\'"()\[\]{}<>]+'
+            for match in re.finditer(win_path_pattern, line_contents):
                 if match.start() <= rel_begin <= match.end():
                     view.sel().subtract(sel)
                     view.sel().add(sublime.Region(line_start + match.start(), line_start + match.end()))
                     matched = True
                     break
-            if matched: continue
+            if matched:
+                continue
 
-            # 1. WINDOWS PATHS (Starts with Drive Letter)
-            win_path_pattern = r'[a-zA-Z]:\\[^\s`\'"()\[\]{}]+'
-            win_matches = list(re.finditer(win_path_pattern, line_contents))
-            for match in win_matches:
+            # Linux paths (with lookbehind to avoid stealing URL slashes)
+            lin_path_pattern = r'(?<!:)~?\/[^\s`\'"()\[\]{}]+'
+            for match in re.finditer(lin_path_pattern, line_contents):
                 if match.start() <= rel_begin <= match.end():
                     view.sel().subtract(sel)
                     view.sel().add(sublime.Region(line_start + match.start(), line_start + match.end()))
                     matched = True
                     break
-            if matched: continue
+            if matched:
+                continue
 
-            # 2. LINUX PATHS (Starts with / or ~/)
-            lin_path_pattern = r'~?\/[^\s`\'"()\[\]{}]+'
-            lin_matches = list(re.finditer(lin_path_pattern, line_contents))
-            for match in lin_matches:
-                if match.start() <= rel_begin <= match.end():
-                    view.sel().subtract(sel)
-                    view.sel().add(sublime.Region(line_start + match.start(), line_start + match.end()))
-                    matched = True
-                    break
-            if matched: continue
-
-            # --- FALLBACK DELIMITERS ---
-            for delim in ["`", '"', "'", "~", ":", "**", "*", ("(", ")")]:
+            # 7. FALLBACK DELIMITERS
+            for delim in ["`", '"', "'", "~", ":", "**", "*", "!", ("(", ")")]:
                 is_pair = isinstance(delim, tuple)
                 d_start = delim[0] if is_pair else delim
-                d_end   = delim[1] if is_pair else delim
-                
-                delim_len_start = len(d_start)
+                d_end = delim[1] if is_pair else delim
                 start_idx = line_contents.rfind(d_start, 0, rel_begin + 1)
-                if start_idx == -1: continue
-                
-                search_from = rel_begin if rel_begin > start_idx + delim_len_start else start_idx + delim_len_start
+                if start_idx == -1:
+                    continue
+                search_from = rel_begin if rel_begin > start_idx + len(d_start) else start_idx + len(d_start)
                 end_idx = line_contents.find(d_end, search_from)
-                if end_idx == -1: continue
-                
-                if (start_idx + delim_len_start) <= rel_begin < end_idx:
+                if end_idx == -1:
+                    continue
+                if (start_idx + len(d_start)) <= rel_begin < end_idx:
                     view.sel().subtract(sel)
-                    view.sel().add(sublime.Region(line_start + start_idx + delim_len_start, line_start + end_idx))
+                    view.sel().add(sublime.Region(
+                        line_start + start_idx + len(d_start),
+                        line_start + end_idx
+                    ))
                     matched = True
                     break
-            
-            if matched: continue
-            
-            # --- FINAL FALLBACK ---
+            if matched:
+                continue
+
+            # 8. WORD/LINE FALLBACK
             word = view.word(sel.begin())
             if not sel.empty() and sel == word:
                 view.sel().add(line)
@@ -118,29 +125,27 @@ class ExpandSelectionToDelimiterCommand(sublime_plugin.TextCommand):
         view = self.view
         cursor_pos = sel.begin()
         cursor_line = view.rowcol(cursor_pos)[0]
-        
         opening_line_pt = None
         for line_num in range(cursor_line, -1, -1):
             line_region = view.line(view.text_point(line_num, 0))
-            line_str = view.substr(line_region).strip()
-            if re.match(r'^```|^~~~', line_str):
+            if re.match(r'^```|^~~~', view.substr(line_region).strip()):
                 opening_line_pt = line_region.end()
                 break
-        
-        if opening_line_pt is None: return False
-        
+        if opening_line_pt is None:
+            return False
+
         total_lines = view.rowcol(view.size())[0]
         for line_num in range(cursor_line, total_lines + 1):
             line_region = view.line(view.text_point(line_num, 0))
-            line_str = view.substr(line_region).strip()
-            if line_region.begin() >= opening_line_pt and re.match(r'^```|^~~~', line_str):
+            if line_region.begin() >= opening_line_pt and re.match(r'^```|^~~~', view.substr(line_region).strip()):
                 closing_line_pt = line_region.begin()
                 if opening_line_pt <= cursor_pos <= closing_line_pt:
                     view.sel().subtract(sel)
                     view.sel().add(sublime.Region(opening_line_pt + 1, closing_line_pt - 1))
                     return True
-                break 
+                break
         return False
+
 
 class ExpandSelectionToBackticksCommand(ExpandSelectionToDelimiterCommand):
     pass
