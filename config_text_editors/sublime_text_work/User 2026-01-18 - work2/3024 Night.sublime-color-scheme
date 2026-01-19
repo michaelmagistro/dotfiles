@@ -146,6 +146,11 @@
         "scope": "text.html.markdown meta.paragraph.markdown todo.filepathwin, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown todo.filepathwin",
         "foreground": "#3ba28a",
     },
+  	{
+        "name": "File Path Linux",
+        "scope": "text.html.markdown meta.paragraph.markdown todo.filepathlinux, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown todo.filepathlinux",
+        "foreground": "#87a23b",
+    },
 		// ***********************************************************************
 		// PLAINTASKS
 		// ***********************************************************************

@@ -72,6 +72,9 @@ contexts:
   filepathwin:
     - match: '\b[a-zA-Z]:\\(?:[^\s\\]+\\)*[^\s\\]*\b?'
       scope: todo.filepathwin
+  filepathlinux:
+      - match: '(?:^|(?<=\s))~?/(?:[^\s/]*/)*[^\s/]*'
+        scope: todo.filepathlinux
   paragraph:
     - meta_prepend: true
     - include: quoted-strings
@@ -79,6 +82,7 @@ contexts:
     - include: label
     - include: information
     - include: filepathwin
+    - include: filepathlinux
   # Critical fix: Inject into LIST ITEM paragraphs too
   list-paragraph:
     - meta_prepend: true
@@ -87,3 +91,4 @@ contexts:
     - include: label
     - include: information
     - include: filepathwin
+    - include: filepathlinux

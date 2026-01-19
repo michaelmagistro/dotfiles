@@ -8,29 +8,30 @@ file_extensions:
 scope: text.todo
 contexts:
   main:
+    # 1. THE DEAD ZONE: Match triple backticks before anything else
+    - match: '^\s*(`{3,})'
+      captures:
+        1: punctuation.definition.raw.code-fence.begin.todo
+      push: fenced-code-block
+
     - match: '^(?=.*w\[.*\]).*$'
       scope: wait
-    # - match: '^\s*[-\*\[ \] ]*\s*(?=\d\d-\d\d-\d\d)(?!.*\d\d:\d\d.?$).*|^\s*[-\*]*\s*\d\d-\d\d-\d\d \d\d:\d\d\s?$'
-    #   scope: date
+
     - match: '^\s*(<jj.*?>)(.*$)'
       captures:
         1: keyword.marker
         2: todo.markerdetail
       push:
         - meta_scope: todo.markercomment
-        - include: italic
-        - include: bold
-        - include: url
-        - include: information
-        - include: danger
-        - include: filepathwin
-        - include: label
-        - include: snippet
-        - include: quote
+        - include: inline-formatting
         - match: '</>'
           pop: true
+
+    # Project / Header rule (The one with the colon)
     - match: '^\s*(\#?\s?\w+.*?:\s*?(\@[^\s]+(\(.*?\))?\s*?)*$\n?)'
       scope: keyword.control.header.todo
+
+    # Completed items
     - match: '^\s*(?:(\+|✓|✔|☑|√|\[x\])(\s+(?:[^\@\n]|(?<!\s)\@|\@(?=\s))*)([^\n]*))|^\s*(?:(-)(\s+(?:[^\@]|(?<!\s)\@|\@(?=\s))*)(.*\@done(?=\s|\(|$)[^\n]*))'
       scope: meta.item.todo.completed
       captures:
@@ -40,6 +41,8 @@ contexts:
         4: punctuation.definition.bullet.completed.todo
         5: comment.line.completed.todo
         6: meta.tag.todo.completed
+
+    # Cancelled items
     - match: '^\s*(?:(✘|x|\[-\])(\s+(?:[^\@\n]|(?<!\s)\@|\@(?=\s))*)(.*))|^\s*(?:(-)(\s+(?:[^\@]|(?<!\s)\@|\@(?=\s))*)(.*\@cancelled(?=\s|\(|$)[^\n]*))'
       scope: meta.item.todo.cancelled
       captures:
@@ -49,20 +52,17 @@ contexts:
         4: punctuation.definition.bullet.cancelled.todo
         5: text.cancelled.todo
         6: meta.tag.todo.cancelled
-    - match: '^\s*(?!-|\+|✓|✔|√|❍|❑|■|□|☐|▪|▫|–|—|≡|→|›|\[[\sx-]\]|＿|✘|(x\s+))(?=\S)'
+
+    # Notes
+    # Added `{3,} to negative lookahead so notes don't trigger on code blocks
+    - match: '^\s*(?!-|\+|✓|✔|√|❍|❑|■|□|☐|▪|▫|–|—|≡|→|›|\[[\sx-]\]|＿|✘|(x\s+)|`{3,})(?=\S)'
       push:
         - meta_scope: notes.todo
         - match: $\n?
           pop: true
-        - include: italic
-        - include: bold
-        - include: url
-        - include: information
-        - include: danger
-        - include: filepathwin
-        - include: label
-        - include: snippet
-        - include: quote
+        - include: inline-formatting
+
+    # Pending items
     - match: '^\s*(-|❍|❑|■|□|☐|▪|▫|–|—|≡|→|›|\[\s\])(?=(\s+(?:[^\@\n]|(?<![ \t])\@)*)(?!([^\n]*)?(\@done|\@cancelled)[\s\(]))'
       captures:
         1: punctuation.definition.bullet.pending.todo
@@ -72,25 +72,42 @@ contexts:
           captures:
             1: punctuation.definition.bullet.pending.todo
           pop: true
-        - include: italic
-        - include: bold
-        - include: url
-        - include: information
-        - include: danger
-        - include: filepathwin
-        - include: label
-        - include: snippet
-        - include: quote
+        - include: inline-formatting
         - include: tag
         - include: today
         - include: low
         - include: high
         - include: critical
         - include: blocker
+
     - match: ^＿+$
       scope: meta.punctuation.archive.todo
     - match: '^\s*---.{3,5}---+$'
       scope: meta.punctuation.separator.todo
+
+  # --- THE CODE BLOCK CONTEXT ---
+  fenced-code-block:
+    - meta_scope: markup.raw.code.todo
+    # This context is empty! It contains no "includes", so it ignores all rules.
+    # It only looks for the closing backticks.
+    - match: '^\s*`{3,}\s*$'
+      captures:
+        0: punctuation.definition.raw.code-fence.end.todo
+      pop: true
+
+  # --- HELPER CONTEXTS ---
+  inline-formatting:
+    - include: italic
+    - include: bold
+    - include: url
+    - include: information
+    - include: danger
+    - include: filepathwin
+    - include: filepathlinux
+    - include: label
+    - include: snippet
+    - include: quote
+
   bold:
     - match: '(?<=\s|^)(\*\*|__)(?=\S)(?=(?!(?<=\S)\1)[^\n]+(?<=\S)\1)(?=[^\n]+(?<=\S)(\1)((?![\w\d\n])|(?=\s|$)))'
       captures:
@@ -173,6 +190,9 @@ contexts:
   filepathwin:
     - match: '\b[a-zA-Z]:\\(?:[^\s\\]+\\)*[^\s\\]*\b?'
       scope: todo.filepathwin
+  filepathlinux:
+      - match: '(?:^|(?<=\s))~?/(?:[^\s/]*/)*[^\s/]*'
+        scope: todo.filepathlinux
   low:
     - match: (?<=\s)\@low|✭low
       scope: string.other.tag.todo.low

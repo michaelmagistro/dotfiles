@@ -199,26 +199,15 @@
     // PLAINTASKS - CUSTOM SCOPES
     // ***********************************************************************
     {
-      "name": "Todo Code Snippets",
-      "scope": "markup.raw.code.todo",
-      "foreground": "#F8F8F2",
-      "background": "#272822" // Gives it that "code block" look
-    },
-    {
-      "name": "Snippet Punctuations",
-      "scope": "punctuation.definition.snippet",
-      "foreground": "#AE81FF"
-    },
-    // these two entries are for code snippets in paragraphs and in todo items
-    {
-      "name": "Snippets in Paragraphs",
-      "scope": "text.todo todo.snippet, punctuation.definition.snippet",
+      "name": "Inline Code Snippets",
+      "scope": "text.todo notes.todo todo.snippet, text.todo notes.todo todo.snippet punctuation.definition.snippet, text.todo meta.item.todo.pending todo.snippet, text.todo meta.item.todo.pending todo.snippet punctuation.definition.snippet",
       "foreground": "#38d452"
     },
     {
-      "name": "Snippets in Todo Items",
-      "scope": "text.todo meta.item.todo.pending todo.snippet",
+      "name": "Fenced Code Snippets",
+      "scope": "text.todo markup.raw.code.todo",
       "foreground": "#38d452",
+      "background": "#272822" // Gives it that "code block" look
     },
     {
       "name": "Information Text",
@@ -233,8 +222,14 @@
     },
   	{
       "name": "File Path Windows",
-      "scope": "text.todo notes.todo todo.filepathwin",
+      "scope": "text.todo notes.todo todo.filepathwin, text.todo meta.item.todo.pending todo.filepathwin",
       "foreground": "#3ba28a",
+      // "font_style": "bold"
+    },
+  	{
+      "name": "File Path Linux",
+      "scope": "text.todo notes.todo todo.filepathlinux, text.todo meta.item.todo.pending todo.filepathlinux",
+      "foreground": "#87a23b",
       // "font_style": "bold"
     },
     {
