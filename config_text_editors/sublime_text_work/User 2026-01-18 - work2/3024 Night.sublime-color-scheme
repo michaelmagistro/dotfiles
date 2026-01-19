@@ -143,7 +143,7 @@
     },
   	{
         "name": "File Path Windows",
-        "scope": "text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown todo.filepathwin",
+        "scope": "text.html.markdown meta.paragraph.markdown todo.filepathwin, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown todo.filepathwin",
         "foreground": "#3ba28a",
     },
 		// ***********************************************************************
