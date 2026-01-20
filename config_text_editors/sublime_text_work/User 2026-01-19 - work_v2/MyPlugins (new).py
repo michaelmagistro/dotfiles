@@ -159,7 +159,18 @@ class OpenDefaultCommand(sublime_plugin.TextCommand):
 # +++++++++++++++++++++++++++++++++++++++++++++++++++ EXTEND PLAINTASKS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ST3 = int(sublime.version()) >= 3000
+
 class PlainTasksDueBookmarks(sublime_plugin.EventListener):
+    # ========== BOOKMARK TOGGLES ==========
+    # Set to True to enable bookmarks for each category
+    BOOKMARK_PAST_DUE = True # Items past their due date
+    BOOKMARK_CRITICAL = True # Items tagged with @critical
+    BOOKMARK_BLOCKER = True  # Items tagged with @blocker
+    BOOKMARK_DUE_SOON = False # Items due soon
+    BOOKMARK_HIGH = False # Items tagged with @critical
+    BOOKMARK_TODAY = False # Items tagged with @today
+    # ======================================
+    
     def on_activated(self, view):
         self.update_bookmarks(view)
 
@@ -172,11 +183,54 @@ class PlainTasksDueBookmarks(sublime_plugin.EventListener):
     def update_bookmarks(self, view):
         if view.score_selector(0, "text.todo") <= 0:
             return
+        
         # Run vanilla toggle to ensure past_due regions are up-to-date
         view.run_command('plain_tasks_toggle_highlight_past_due')
-        # Append current past_due regions to existing bookmarks
-        existing_bookmarks = view.get_regions("bookmarks")
-        past_due_regions = view.get_regions("past_due")
-        existing_bookmarks.extend(past_due_regions)
+        
+        # Start with existing bookmarks
+        all_regions = list(view.get_regions("bookmarks"))
+        
+        # Add past due items
+        if self.BOOKMARK_PAST_DUE:
+            past_due_regions = view.get_regions("past_due")
+            all_regions.extend(past_due_regions)
+        
+        # Add due soon items - try both possible region names
+        if self.BOOKMARK_DUE_SOON:
+            due_soon_regions = view.get_regions("due_soon")
+            if not due_soon_regions:
+                # If no region exists, find by scope instead
+                due_soon_regions = view.find_by_selector("text.todo meta.item.todo.pending string.other.tag.todo.high")
+            all_regions.extend(due_soon_regions)
+        
+        # Add critical tagged items
+        if self.BOOKMARK_CRITICAL:
+            critical_regions = view.find_by_selector("text.todo meta.item.todo.pending string.other.tag.todo.critical")
+            all_regions.extend(critical_regions)
+
+        # Add critical tagged items
+        if self.BOOKMARK_HIGH:
+            high_regions = view.find_by_selector("text.todo meta.item.todo.pending string.other.tag.todo.high")
+            all_regions.extend(high_regions)
+        
+        # Add blocker tagged items
+        if self.BOOKMARK_BLOCKER:
+            blocker_regions = view.find_by_selector("text.todo meta.item.todo.pending string.other.tag.todo.blocker")
+            all_regions.extend(blocker_regions)
+        
+        # Add today tagged items
+        if self.BOOKMARK_TODAY:
+            today_regions = view.find_by_selector("text.todo meta.item.todo.pending string.other.tag.todo.today")
+            all_regions.extend(today_regions)
+        
+        # Remove duplicates
+        unique_regions = []
+        seen = set()
+        for region in all_regions:
+            key = (region.begin(), region.end())
+            if key not in seen:
+                seen.add(key)
+                unique_regions.append(region)
+        
         flags = (sublime.HIDDEN | sublime.PERSISTENT) if ST3 else 0
-        view.add_regions('bookmarks', existing_bookmarks, 'bookmarks', 'bookmark', flags)
+        view.add_regions('bookmarks', unique_regions, 'bookmarks', 'bookmark', flags)
