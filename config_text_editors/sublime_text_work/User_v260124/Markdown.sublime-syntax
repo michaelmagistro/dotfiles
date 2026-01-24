@@ -1,6 +1,9 @@
 %YAML 1.2
 ---
 name: MarkdownCustom
+file_extensions:
+  - md
+  - md.txt
 scope: text.html.markdown
 version: 2
 extends: Packages/Markdown/Markdown.sublime-syntax
