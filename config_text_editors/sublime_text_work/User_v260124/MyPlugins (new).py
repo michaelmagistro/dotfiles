@@ -92,7 +92,7 @@ class ExpandSelectionToDelimiterCommand(sublime_plugin.TextCommand):
                 continue
 
             # 7. FALLBACK DELIMITERS
-            for delim in ["`", '"', "'", "~", ":", "**", "*", "!", ("(", ")")]:
+            for delim in ["`", '"', "'", "~", ":", "**", "*", "!", ("(", ")"), ("[", "]")]:
                 is_pair = isinstance(delim, tuple)
                 d_start = delim[0] if is_pair else delim
                 d_end = delim[1] if is_pair else delim
@@ -166,9 +166,9 @@ class PlainTasksDueBookmarks(sublime_plugin.EventListener):
     BOOKMARK_PAST_DUE = True # Items past their due date
     BOOKMARK_CRITICAL = True # Items tagged with @critical
     BOOKMARK_BLOCKER = True  # Items tagged with @blocker
-    BOOKMARK_DUE_SOON = False # Items due soon
-    BOOKMARK_HIGH = False # Items tagged with @critical
-    BOOKMARK_TODAY = False # Items tagged with @today
+    BOOKMARK_DUE_SOON = True # Items due soon
+    BOOKMARK_HIGH = True # Items tagged with @critical
+    BOOKMARK_TODAY = True # Items tagged with @today
     # ======================================
     
     def on_activated(self, view):
