@@ -36,6 +36,18 @@
         "draw_active"
     ],
     "draw_indent_guides": true,
+
+    "translate_tabs_to_spaces": false,
+    // Disables the popup menu while typing
+    "auto_complete": false,
+
+    // // Optional: Also disables "word completions" 
+    // // (Sublime looking at other words in the file to suggest)
+    "copy_with_empty_selection": true,
+    
+    // // This ensures that if you REALLY need a suggestion, 
+    // // you can still trigger it manually with Ctrl+Space
+    "auto_complete_selector": "-",
     "auto_complete_preserve_order": "none",
     "auto_complete_triggers":
     [

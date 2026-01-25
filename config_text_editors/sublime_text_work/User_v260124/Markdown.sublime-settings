@@ -45,4 +45,15 @@
 	"auto_match_enabled": false,
 	"translate_tabs_to_spaces": false,
 	"fold_style": "force_indentation",
+
+	// Disables the popup menu while typing
+	"auto_complete": false,
+
+	// // Optional: Also disables "word completions" 
+	// // (Sublime looking at other words in the file to suggest)
+	"copy_with_empty_selection": true,
+	
+	// // This ensures that if you REALLY need a suggestion, 
+	// // you can still trigger it manually with Ctrl+Space
+	"auto_complete_selector": "-",
 }

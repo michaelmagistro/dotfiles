@@ -413,4 +413,47 @@
       ]
   },
 
+  /*********************************************************************
+  PLAIN TASKS - Bulleted lists
+  *********************************************************************/
+  	// insert new bullet when pressing enter
+	{
+	    "keys": ["enter"],
+	    "command": "insert_snippet",
+	    "args": { "contents": "\n${TM_LINE_INDENT}- $0" },
+	    "context": [
+	        { "key": "selector", "operator": "equal", "operand": "text.todo notes.todo" },
+	        { "key": "preceding_text", "operator": "regex_match", "operand": "^\\s*- .+$", "match_all": true }
+	    ]
+	},
+	{
+	    "keys": ["enter"],
+	    "command": "insert_snippet",
+	    "args": { "contents": "\n${TM_LINE_INDENT}* $0" },
+	    "context": [
+	        { "key": "selector", "operator": "equal", "operand": "text.todo notes.todo" },
+	        { "key": "preceding_text", "operator": "regex_match", "operand": "^\\s*\\* .+$", "match_all": true }
+	    ]
+	},
+
+	// Tab: Indent the bullet
+	{
+	    "keys": ["tab"],
+	    "command": "indent",
+	    "context": [
+	        { "key": "selector", "operator": "equal", "operand": "text.todo notes.todo" },
+	        { "key": "preceding_text", "operator": "regex_match", "operand": "^\\s*([-*]|(\\[ \\]))\\s*$", "match_all": true }
+	    ]
+	},
+
+	// Shift+Tab: Unindent the bullet
+	{
+	    "keys": ["shift+tab"],
+	    "command": "unindent",
+	    "context": [
+	        { "key": "selector", "operator": "equal", "operand": "text.todo notes.todo" },
+	        { "key": "preceding_text", "operator": "regex_match", "operand": "^\\s*([-*]|(\\[ \\]))\\s*$", "match_all": true }
+	    ]
+	}
+
 ]

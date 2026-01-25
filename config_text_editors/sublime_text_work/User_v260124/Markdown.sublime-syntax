@@ -72,6 +72,26 @@ contexts:
           captures:
             1: punctuation.definition.label
           pop: true
+  step:
+    - match: '(?<=\s|^)(@)(?=\S)(?=(\1\1|(?!(?<=\S)\1).)++(?<=\S)\1)(?=[^\n]+(?<=\S)(\1)(?!\1|[\w\d]))'
+      captures:
+        1: punctuation.definition.step
+      push:
+        - meta_scope: todo.step
+        - match: '(?<=\S)(\1)(?!\1|[\w\d])'
+          captures:
+            1: punctuation.definition.step
+          pop: true
+  miniheader:
+    - match: '(?<=\s|^)(#)(?=\S)(?=(\1\1|(?!(?<=\S)\1).)++(?<=\S)\1)(?=[^\n]+(?<=\S)(\1)(?!\1|[\w\d]))'
+      captures:
+        1: punctuation.definition.miniheader
+      push:
+        - meta_scope: todo.miniheader
+        - match: '(?<=\S)(\1)(?!\1|[\w\d])'
+          captures:
+            1: punctuation.definition.miniheader
+          pop: true
   filepathwin:
       # Captures the drive letter and the rest of the path in one go
       - match: '\b([a-zA-Z]:\\)([^\s`''"()\[\]{}<>*]+)'
@@ -92,6 +112,8 @@ contexts:
     - include: quoted-strings
     - include: danger
     - include: label
+    - include: step
+    - include: miniheader
     - include: information
     - include: filepathwin
     - include: filepathlinux
@@ -101,6 +123,8 @@ contexts:
     - include: quoted-strings
     - include: danger
     - include: label
+    - include: step
+    - include: miniheader
     - include: information
     - include: filepathwin
     - include: filepathlinux

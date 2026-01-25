@@ -242,10 +242,16 @@
       "font_style": "underline"
     },
     {
-      "name": "Label Text",
+      "name": "Label",
       "scope": "text.todo notes.todo todo.label, text.todo meta.item.todo.pending todo.label",
       "foreground": "#e05de6",
-      "font_style": "bold"
+      // "font_style": "bold"
+    },
+    {
+      "name": "Miniheader",
+      "scope": "text.todo notes.todo todo.miniheader",
+      "foreground": "#d9ff00",
+      // "font_style": "bold"
     },
     {
       "name": "Quoted String",

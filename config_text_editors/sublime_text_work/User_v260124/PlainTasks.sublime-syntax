@@ -55,7 +55,7 @@ contexts:
 
     # Notes
     # Added `{3,} to negative lookahead so notes don't trigger on code blocks
-    - match: '^\s*(?!-|\+|✓|✔|√|❍|❑|■|□|☐|▪|▫|–|—|≡|→|›|\[[\sx-]\]|＿|✘|(x\s+)|`{3,})(?=\S)'
+    - match: '^\s*(?!\+|✓|✔|√|❍|❑|■|□|☐|▪|▫|–|—|≡|→|›|\[[\sx-]\]|＿|✘|(x\s+)|`{3,})(?=\S)'
       push:
         - meta_scope: notes.todo
         - match: $\n?
@@ -63,7 +63,7 @@ contexts:
         - include: inline-formatting
 
     # Pending items
-    - match: '^\s*(-|❍|❑|■|□|☐|▪|▫|–|—|≡|→|›|\[\s\])(?=(\s+(?:[^\@\n]|(?<![ \t])\@)*)(?!([^\n]*)?(\@done|\@cancelled)[\s\(]))'
+    - match: '^\s*(❍|❑|■|□|☐|▪|▫|–|—|≡|→|›|\[\s\])(?=(\s+(?:[^\@\n]|(?<![ \t])\@)*)(?!([^\n]*)?(\@done|\@cancelled)[\s\(]))'
       captures:
         1: punctuation.definition.bullet.pending.todo
       push:
@@ -107,6 +107,7 @@ contexts:
     - include: label
     - include: snippet
     - include: quote
+    - include: miniheader
 
   bold:
     - match: '(?<=\s|^)(\*\*|__)(?=\S)(?=(?!(?<=\S)\1)[^\n]+(?<=\S)\1)(?=[^\n]+(?<=\S)(\1)((?![\w\d\n])|(?=\s|$)))'
@@ -188,6 +189,16 @@ contexts:
         - match: '(?<=\S)(\1)(?!\1|[\w\d])'
           captures:
             1: punctuation.definition.quote
+          pop: true
+  miniheader:
+    - match: '(?<=\s|^)(#)(?=\S)(?=(\1\1|(?!(?<=\S)\1).)++(?<=\S)\1)(?=[^\n]+(?<=\S)(\1)(?!\1|[\w\d]))'
+      captures:
+        1: punctuation.definition.miniheader
+      push:
+        - meta_scope: todo.miniheader
+        - match: '(?<=\S)(\1)(?!\1|[\w\d])'
+          captures:
+            1: punctuation.definition.miniheader
           pop: true
   filepathwin:
       # Captures the drive letter and the rest of the path in one go

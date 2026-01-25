@@ -136,7 +136,19 @@
         "name": "Label",
         "scope": "text.html.markdown meta.paragraph.markdown todo.label, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown todo.label",
         "foreground": "#e05de6",
-        "font_style": "bold"
+        // "font_style": "bold"
+    },
+  	{
+        "name": "Step",
+        "scope": "text.html.markdown meta.paragraph.markdown todo.step, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown todo.step",
+        "foreground": "#d9ff00",
+        // "font_style": "bold",
+    },
+  	{
+        "name": "Miniheader",
+        "scope": "text.html.markdown meta.paragraph.markdown todo.miniheader, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown todo.miniheader",
+        "foreground": "#ffff00",
+        // "font_style": "bold",
     },
   	{
         "name": "File Path Windows",
