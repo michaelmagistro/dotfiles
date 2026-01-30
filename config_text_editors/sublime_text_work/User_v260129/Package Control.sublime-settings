@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"3024 Color Scheme",
+		"Compare Side-By-Side",
+		"FileBrowser",
+		"ImagePaste",
+		"ImagePreview",
+		"Jump Along Indent",
+		"Markdown Images",
+		"MarkdownEditing",
+		"MoveTab",
+		"Open URL",
+		"Package Control",
+		"PlainTasks",
+		"ScopeHunter",
+		"SideBarEnhancements",
+		"Text Pastry",
+		"Timenow",
+		"TodoReview",
+	],
+	"in_process_packages":
+	[
+	],
+}
