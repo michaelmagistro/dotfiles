@@ -16,14 +16,7 @@
 	// "color_scheme": "Packages/PlainTasks/tasks-solarized-light.hidden-tmTheme"
 	// "color_scheme": "Packages/PlainTasks/tasks-monokai.hidden-tmTheme",
 	// "color_scheme": "Packages/PlainTasks/tasks-dark.hidden-tmTheme",
-	// "color_scheme": "Packages/User/tasks-dark.hidden-tmTheme",
-	// "color_scheme": "Packages/User/tasks-dark.sublime-color-scheme",
-	// "color_scheme": "Packages/User/tasks-dark2.sublime-color-scheme",
-	// "color_scheme": "Packages/User/tasks-dark-DECK2.sublime-color-scheme",
-	// "color_scheme": "auto",
-	// "dark_color_scheme": "Packages/User/text.sublime-color-scheme",
-	// "light_color_scheme": "Packages/User/text.sublime-color-scheme",
-	"dark_color_scheme": "Packages/User/tasks-dark1.sublime-color-scheme",
+	"color_scheme": "Packages/User/tasks-dark1.sublime-color-scheme",
 	"extensions":
 	[
 	  "TODO",
