@@ -20,7 +20,8 @@
 		"bracket_contents": "#e0e0e0",
 		"brackets": "#e0e0e0",
 		"bracket_contents_foreground": "#e0e0e0",
-		"brackets_foreground": "#e0e0e0"
+		"brackets_foreground": "#e0e0e0",
+		"selection": "#ffffff30"
 	},
 	"gutterSettings": {
 	  "foreground": "#FFFF00"  // yellow folds/dots fallback
