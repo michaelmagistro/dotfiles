@@ -1,0 +1,303 @@
+{
+	// PlainText Version
+	// My active Work version of sublime text - FIXED
+	"variables": {},
+	"globals": {
+		"background": "#1e1e1e",
+		"foreground": "#d0d0d0",
+		"caret": "#73b3ff",
+		"line_highlight": "#2d2d3099",
+		// comment out the selection below otherwise you get this annoying changing of the color of the text
+		// "selection": "#404046",
+		// "selection_border": "#4c4c52",
+		// "inactive_selection": "#404046",
+		// "selection_foreground": "#d0d0d0",
+		"comment": "#858585",
+		"inactive_selection_border": "#4c4c52",
+		"active_guide": "#404046",
+		"stack_guide": "#404046",
+		"highlight": "#404046",
+		"bracket_contents": "#d0d0d0",
+		"brackets": "#d0d0d0",
+		"bracket_contents_foreground": "#d0d0d0",
+		"brackets_foreground": "#d0d0d0"
+	},
+	"gutterSettings": {
+	  "foreground": "#d0d0d0"  // yellow folds/dots fallback
+	},
+	"rules": [
+		{
+			"name": "PlainTasks Global Override",
+			"scope": "text.plaintasks",
+			"foreground": "#d0d0d0",
+			"background": "#1e1e1e"
+		},
+		{
+			"name": "CurrentLine",
+			"scope": "settings",
+			"background": "#2d2d30"
+		},
+		{
+			"name": "Notes",
+			"scope": "text.plaintasks notes.plaintasks",
+			"foreground": "#d0d0d0"
+		},
+		{
+			"name": "ToDoItem",
+			"scope": "text.plaintasks meta.item.plaintasks.pending",
+			"foreground": "#d0d0d0"
+		},
+		{
+			"name": "Heading1Text",
+			"scope": "text.plaintasks keyword.control.header.plaintasks",
+			"foreground": "#d0d0d0",
+			"font_style": "normal"
+		},
+		{
+			"name": "Heading1Text",
+			"scope": "text.todo keyword.control.header.todo",
+			"foreground": "#d0d0d0",
+			"font_style": "normal"
+		},
+		{
+			"name": "PlainTasks Checkbox (Unchecked)",
+			"scope": "text.plaintasks meta.tag.checkbox.plaintasks punctuation.definition.tag",
+			"foreground": "#d0d0d0"
+		},
+		{
+			"name": "PlainTasks Checkbox (Checked)",
+			"scope": "text.plaintasks meta.tag.checkbox.plaintasks storage.type.checkbox.checked",
+			"foreground": "#d0d0d0"
+		},
+		{
+			"name": "PlainTasks Priority",
+			"scope": "text.plaintasks constant.language.priority.plaintasks",
+			"foreground": "#d0d0d0",
+			"font_style": "bold"
+		},
+		{
+			"name": "PlainTasks Project",
+			"scope": "text.plaintasks entity.name.function.plaintasks",
+			"foreground": "#d0d0d0",
+			"font_style": "bold"
+		},
+		{
+			"name": "PlainTasks Context",
+			"scope": "text.plaintasks variable.parameter.plaintasks",
+			"foreground": "#d0d0d0",
+			"font_style": "italic"
+		},
+		{
+			"name": "PlainTasks Date/Due",
+			"scope": "text.plaintasks constant.other.date.plaintasks, text.plaintasks markup.inserted.plaintasks, text.plaintasks keyword.other.due.plaintasks",
+			"foreground": "#d0d0d0",
+			"background": "#b00038",
+			"font_style": "bold"
+		},
+		{
+			"name": "PlainTasks Link",
+			"scope": "text.plaintasks markup.underline.link.plaintasks",
+			"foreground": "#d0d0d0",
+			"font_style": "underline"
+		},
+		{
+			"name": "PlainTasks Completed",
+			"scope": "text.plaintasks comment.line.number-sign.plaintasks, text.plaintasks meta.item.plaintasks.completed",
+			"foreground": "#d0d0d0",
+			"font_style": "strikethrough"
+		},
+		{
+			"name": "PlainTasks Tags/Keywords",
+			"scope": "text.plaintasks keyword.other.plaintasks",
+			"foreground": "#d0d0d0"
+		},
+		{
+			"name": "PlainTasks Header",
+			"scope": "text.todo keyword.control.header.todo",
+			"foreground": "#d0d0d0"
+		},
+		{
+			"name": "Pending Items",
+			"scope": "text.todo meta.item.todo.pending",
+			// "foreground": "#d0d0d0"
+			"foreground": "#d0d0d0",
+			"font_style": "normal"
+		},
+		{
+			"name": "Pending Items",
+			"scope": "text.todo meta.item.todo.completed comment.line.completed.todo",
+			"foreground": "#d0d0d0"
+		},
+		{
+			"name": "Tags",
+			"scope": "text.todo meta.item.todo.pending meta.tag.todo",
+			"foreground": "#d0d0d0"
+		},
+		{
+			"name": "@critical Tag (General)",
+			"scope": "text.todo meta.item.todo.pending string.other.tag.todo.critical",
+			"foreground": "#d0d0d0",
+			"background": "#1c1c1c",
+			"font_style": "normal"
+		},
+		{
+			"name": "@high Tag (General)",
+			"scope": "text.todo meta.item.todo.pending string.other.tag.todo.high",
+			"foreground": "#d0d0d0",
+			"background": "#1c1c1c",
+			"font_style": "normal"
+		},
+		{
+			"name": "@due Tag",
+			"scope": "text.todo meta.item.todo.pending string.other.tag.todo.due",
+			"foreground": "#d0d0d0",
+			"background": "#1c1c1c",
+		},
+		// ***********************************************************************
+		// Gutter & Bookmarks
+		// ***********************************************************************
+		{
+			"name": "Bookmarks",
+			"scope": "bookmarks",
+			"foreground": "#d0d0d0"
+		},
+		{
+			"name": "Gutter Background",
+			"scope": "gutter",
+			"background": "#2d2d2d"
+		},
+		// Due soon gutter dot color
+		{
+		  "scope": "string.other.tag.todo.high",
+		  "foreground": "#d0d0d0"  // due_soon dot yellow
+		},
+		// {
+		// 	"name": "Italic",
+		// 	"scope": "text.plaintasks italic",
+		// 	"foreground": "#d0d0d0"
+		// },
+		// ***********************************************************************
+		// Applies to Tasks & Paragraph
+		// ***********************************************************************
+		{
+			"name": "Italic2",
+			"scope": "text.todo notes.todo todo.italic, text.todo notes.todo todo.italic punctuation.definition.italic, text.todo meta.item.todo.pending todo.italic, text.todo meta.item.todo.pending todo.italic punctuation.definition.italic",
+			"foreground": "#d0d0d0"
+		},
+		{
+			"name": "Bold",
+			"scope": "text.plaintasks bold, text.todo notes.todo todo.bold, punctuation.definition.bold, text.todo meta.item.todo.pending todo.bold",
+			// "foreground": "#d0d0d0" // really cool green color. but not what we're looking for.
+			"foreground": "#d0d0d0",
+			"font_style": "normal"
+		},
+		// {
+		// 	"name": "Completed Text",
+		// 	"scope": "completedText, text.html.markdown meta.paragraph.markdown completedText, text.todo keyword.control.header.todo, text.todo meta.item.todo.pending todo.snippet",
+		// 	"foreground": "#d0d0d0"
+		// },
+		// ***********************************************************************
+		// PARAGRAPH
+		// ***********************************************************************
+		{
+			"name": "Paragraph",
+			"scope": "text.todo notes.todo",
+			// "foreground": "#d0d0d0"
+			"foreground": "#d0d0d0"
+		},
+    // ***********************************************************************
+    // PLAINTASKS - CUSTOM SCOPES
+    // ***********************************************************************
+    {
+      "name": "Inline Code Snippets",
+      "scope": "text.todo notes.todo todo.snippet, text.todo notes.todo todo.snippet punctuation.definition.snippet, text.todo meta.item.todo.pending todo.snippet, text.todo meta.item.todo.pending todo.snippet punctuation.definition.snippet",
+      "foreground": "#d0d0d0"
+    },
+    {
+      "name": "Fenced Code Snippets",
+      "scope": "text.todo markup.raw.code.todo",
+      "foreground": "#d0d0d0",
+      "background": "#272822" // Gives it that "code block" look
+    },
+    {
+      "name": "Information Text",
+      "scope": "text.todo todo.information, punctuation.definition.information",
+      "foreground": "#d0d0d0"
+    },
+    {
+      "name": "Danger Text",
+      "scope": "text.todo todo.danger, punctuation.definition.danger",
+      "foreground": "#d0d0d0",
+      "font_style": "bold"
+    },
+  	{
+      "name": "File Path Windows",
+      "scope": "text.todo notes.todo todo.filepathwin, text.todo meta.item.todo.pending todo.filepathwin",
+      "foreground": "#d0d0d0",
+      // "font_style": "bold"
+    },
+  	{
+      "name": "File Path Linux",
+      "scope": "text.todo notes.todo todo.filepathlinux, text.todo meta.item.todo.pending todo.filepathlinux",
+      "foreground": "#d0d0d0",
+      // "font_style": "bold"
+    },
+  	{
+      "name": "URLs",
+      "scope": "text.todo meta.item.todo.pending todo.url markup.underline.link, text.todo notes.todo todo.url markup.underline.link",
+      "foreground": "#d0d0d0",
+      "font_style": "underline"
+    },
+    {
+      "name": "Label",
+      "scope": "text.todo notes.todo todo.label, text.todo meta.item.todo.pending todo.label",
+      "foreground": "#d0d0d0",
+      // "font_style": "bold"
+    },
+    {
+      "name": "Miniheader",
+      "scope": "text.todo notes.todo todo.miniheader",
+      "foreground": "#d0d0d0",
+      // "font_style": "bold"
+    },
+    {
+      "name": "Quoted String",
+      "scope": "text.todo todo.quote, punctuation.definition.quote",
+      "foreground": "#d0d0d0"
+    },
+    {
+      "name": "Wait Scope",
+      "scope": "text.todo wait",
+      "foreground": "#d0d0d0",
+    },
+    {
+      "name": "Marker Comment",
+      "scope": "text.todo todo.markercomment",
+      "foreground": "#d0d0d0",
+      "background": "#2d2d30"
+    },
+    {
+      "name": "Marker Keyword",
+      "scope": "text.todo keyword.marker",
+      "foreground": "#d0d0d0",
+    },
+    {
+      "name": "Marker Detail",
+      "scope": "text.todo todo.markerdetail",
+      "foreground": "#d0d0d0"
+    },
+    {
+      "name": "@blocker Tag",
+      "scope": "text.todo string.other.tag.todo.blocker",
+      "foreground": "#d0d0d0",
+      "background": "#1c1c1c",
+    },
+    {
+      "name": "today Tag",
+      "scope": "text.todo meta.item.todo.pending string.other.tag.todo.today",
+      "foreground": "#d0d0d0",
+      "background": "#1c1c1c",
+      "font_style": "normal"
+    },
+	]
+}

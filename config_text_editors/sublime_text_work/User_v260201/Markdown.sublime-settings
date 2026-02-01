@@ -1,0 +1,59 @@
+{
+	// "color_scheme": "Packages/User/SublimeLinter/Monokai Extended (SL).tmTheme",
+	// "auto_complete": false,
+	// "tab_completion": false,
+	// "auto_close_tags":false,
+	// "color_scheme": "auto",
+	/*"color_scheme": "Packages/3024 Night.tmTheme",*/
+	"extensions":
+	[
+		"mdown",
+		"md",
+		"md.txt"
+	],
+	"mde.lint":
+	{
+		"disable":
+		[
+			"md030"
+		],
+		"md003": "any",
+		"md004": "cyclic",
+		"md007": 0,
+		"md013": 0,
+		"md026": ".,;:!",
+		"md029": "any",
+		"md030":
+		{
+			"ol_multi": 1,
+			"ol_single": 1,
+			"ul_multi": 1,
+			"ul_single": 1,
+		},
+	},
+	"mde.list_indent_auto_switch_bullet": false,
+	"mde.list_indent_bullets":
+	[
+		"-",
+		"*"
+	],
+	
+	"line_numbers": true,
+	"wrap_width": 0,
+	"word_wrap": true,
+	"draw_centered": false,
+	"auto_match_enabled": false,
+	"translate_tabs_to_spaces": false,
+	"fold_style": "force_indentation",
+
+	// Disables the popup menu while typing
+	"auto_complete": false,
+
+	// // Optional: Also disables "word completions" 
+	// // (Sublime looking at other words in the file to suggest)
+	"copy_with_empty_selection": true,
+	
+	// // This ensures that if you REALLY need a suggestion, 
+	// // you can still trigger it manually with Ctrl+Space
+	"auto_complete_selector": "-",
+}

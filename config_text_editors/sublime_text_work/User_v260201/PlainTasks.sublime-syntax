@@ -1,0 +1,237 @@
+%YAML 1.2
+---
+name: Tasks_
+file_extensions:
+  - todo
+  - tasks
+  - todolist.txt
+scope: text.todo
+contexts:
+  main:
+    # 1. THE DEAD ZONE: Match triple backticks before anything else
+    - match: '^\s*(`{3,})'
+      captures:
+        1: punctuation.definition.raw.code-fence.begin.todo
+      push: fenced-code-block
+
+    - match: '^(?=.*w\[.*\]).*$'
+      scope: wait
+
+    - match: '^\s*(<jj.*?>)(.*$)'
+      captures:
+        1: keyword.marker
+        2: todo.markerdetail
+      push:
+        - meta_scope: todo.markercomment
+        - include: inline-formatting
+        - match: '</>'
+          pop: true
+
+    # Project / Header rule (The one with the colon)
+    - match: '^\s*(\#?\s?\w+.*?:\s*?(\@[^\s]+(\(.*?\))?\s*?)*$\n?)'
+      scope: keyword.control.header.todo
+
+    # Completed items
+    - match: '^\s*(?:(\+|✓|✔|☑|√|\[x\])(\s+(?:[^\@\n]|(?<!\s)\@|\@(?=\s))*)([^\n]*))|^\s*(?:(-)(\s+(?:[^\@]|(?<!\s)\@|\@(?=\s))*)(.*\@done(?=\s|\(|$)[^\n]*))'
+      scope: meta.item.todo.completed
+      captures:
+        1: punctuation.definition.bullet.completed.todo
+        2: comment.line.completed.todo
+        3: meta.tag.todo.completed
+        4: punctuation.definition.bullet.completed.todo
+        5: comment.line.completed.todo
+        6: meta.tag.todo.completed
+
+    # Cancelled items
+    - match: '^\s*(?:(✘|x|\[-\])(\s+(?:[^\@\n]|(?<!\s)\@|\@(?=\s))*)(.*))|^\s*(?:(-)(\s+(?:[^\@]|(?<!\s)\@|\@(?=\s))*)(.*\@cancelled(?=\s|\(|$)[^\n]*))'
+      scope: meta.item.todo.cancelled
+      captures:
+        1: punctuation.definition.bullet.cancelled.todo
+        2: text.cancelled.todo
+        3: meta.tag.todo.cancelled
+        4: punctuation.definition.bullet.cancelled.todo
+        5: text.cancelled.todo
+        6: meta.tag.todo.cancelled
+
+    # Notes
+    # Added `{3,} to negative lookahead so notes don't trigger on code blocks
+    - match: '^\s*(?!\+|✓|✔|√|❍|❑|■|□|☐|▪|▫|–|—|≡|→|›|\[[\sx-]\]|＿|✘|(x\s+)|`{3,})(?=\S)'
+      push:
+        - meta_scope: notes.todo
+        - match: $\n?
+          pop: true
+        - include: inline-formatting
+
+    # Pending items
+    - match: '^\s*(❍|❑|■|□|☐|▪|▫|–|—|≡|→|›|\[\s\])(?=(\s+(?:[^\@\n]|(?<![ \t])\@)*)(?!([^\n]*)?(\@done|\@cancelled)[\s\(]))'
+      captures:
+        1: punctuation.definition.bullet.pending.todo
+      push:
+        - meta_scope: meta.item.todo.pending
+        - match: $
+          captures:
+            1: punctuation.definition.bullet.pending.todo
+          pop: true
+        - include: inline-formatting
+        - include: tag
+        - include: today
+        - include: low
+        - include: high
+        - include: critical
+        - include: blocker
+
+    - match: ^＿+$
+      scope: meta.punctuation.archive.todo
+    - match: '^\s*---.{3,5}---+$'
+      scope: meta.punctuation.separator.todo
+
+  # --- THE CODE BLOCK CONTEXT ---
+  fenced-code-block:
+    - meta_scope: markup.raw.code.todo
+    # This context is empty! It contains no "includes", so it ignores all rules.
+    # It only looks for the closing backticks.
+    - match: '^\s*`{3,}\s*$'
+      captures:
+        0: punctuation.definition.raw.code-fence.end.todo
+      pop: true
+
+  # --- HELPER CONTEXTS ---
+  inline-formatting:
+    - include: italic
+    - include: bold
+    - include: url
+    - include: information
+    - include: danger
+    - include: filepathwin
+    - include: filepathlinux
+    - include: label
+    - include: snippet
+    - include: quote
+    - include: miniheader
+
+  bold:
+    - match: '(?<=\s|^)(\*\*|__)(?=\S)(?=(?!(?<=\S)\1)[^\n]+(?<=\S)\1)(?=[^\n]+(?<=\S)(\1)((?![\w\d\n])|(?=\s|$)))'
+      captures:
+        1: punctuation.definition.bold
+      push:
+        - meta_scope: todo.bold
+        - include: inline-formatting
+        - match: '(?<=\S)(\1)((?![\w\d\n])|(?=\s|$))'
+          captures:
+            1: punctuation.definition.bold
+          pop: true
+  critical:
+    - match: (?<=\s)\@critical|✭critical
+      scope: string.other.tag.todo.critical
+  blocker:
+    - match: (?<=\s)\@blocker|✭blocker
+      scope: string.other.tag.todo.blocker
+  high:
+    - match: (?<=\s)\@high|✭high
+      scope: string.other.tag.todo.high
+  italic:
+    - match: '(?<=\s|^)(\*|_)(?=\S)(?=(\1\1|(?!(?<=\S)\1).)++(?<=\S)\1)(?=[^\n]+(?<=\S)(\1)(?!\1|[\w\d]))'
+      captures:
+        1: punctuation.definition.italic
+      push:
+        - meta_scope: todo.italic
+        - include: inline-formatting
+        - match: '(?<=\S)(\1)(?!\1|[\w\d])'
+          captures:
+            1: punctuation.definition.italic
+          pop: true
+  information:
+    - match: '(?<=\s|^)(~)(?=\S)(?=(\1\1|(?!(?<=\S)\1).)++(?<=\S)\1)(?=[^\n]+(?<=\S)(\1)(?!\1|[\w\d]))'
+      captures:
+        1: punctuation.definition.information
+      push:
+        - meta_scope: todo.information
+        - match: '(?<=\S)(\1)(?!\1|[\w\d])'
+          captures:
+            1: punctuation.definition.information
+          pop: true
+  danger:
+    - match: '(?<=\s|^)(!)(?!\[)(?=\S)(?=(\1\1|(?!(?<=\S)\1).)++(?<=\S)\1)(?=[^\n]+(?<=\S)(\1)(?!\1|[\w\d]))'
+      captures:
+        1: punctuation.definition.danger
+      push:
+        - meta_scope: todo.danger
+        - match: '(?<=\S)(\1)(?!\1|[\w\d])'
+          captures:
+            1: punctuation.definition.danger
+          pop: true
+  label:
+    - match: '(?<=\s|^)(:)(?=\S)(?=(\1\1|(?!(?<=\S)\1).)++(?<=\S)\1)(?=[^\n]+(?<=\S)(\1)(?!\1|[\w\d]))'
+      captures:
+        1: punctuation.definition.label
+      push:
+        - meta_scope: todo.label
+        - match: '(?<=\S)(\1)(?!\1|[\w\d])'
+          captures:
+            1: punctuation.definition.label
+          pop: true
+  snippet:
+    - match: '(?<=\s|^)(`)(?=\S)(?=(\1\1|(?!(?<=\S)\1).)++(?<=\S)\1)(?=[^\n]+(?<=\S)(\1)(?!\1|[\w\d]))'
+      captures:
+        1: punctuation.definition.snippet
+      push:
+        - meta_scope: todo.snippet
+        - match: '(?<=\S)(\1)(?!\1|[\w\d])'
+          captures:
+            1: punctuation.definition.snippet
+          pop: true
+  quote:
+    - match: '(?<=\s|^)("|'')(?=\S)(?=(\1\1|(?!(?<=\S)\1).)++(?<=\S)\1)(?=[^\n]+(?<=\S)(\1)(?!\1|[\w\d]))'
+      captures:
+        1: punctuation.definition.quote
+      push:
+        - meta_scope: todo.quote
+        - match: '(?<=\S)(\1)(?!\1|[\w\d])'
+          captures:
+            1: punctuation.definition.quote
+          pop: true
+  miniheader:
+    - match: '(?<=\s|^)(#)(?=\S)(?=(\1\1|(?!(?<=\S)\1).)++(?<=\S)\1)(?=[^\n]+(?<=\S)(\1)(?!\1|[\w\d]))'
+      captures:
+        1: punctuation.definition.miniheader
+      push:
+        - meta_scope: todo.miniheader
+        - match: '(?<=\S)(\1)(?!\1|[\w\d])'
+          captures:
+            1: punctuation.definition.miniheader
+          pop: true
+  filepathwin:
+      # Captures the drive letter and the rest of the path in one go
+      - match: '\b([a-zA-Z]:\\)([^\s`''"()\[\]{}<>*]+)'
+        scope: todo.filepathwin
+        captures:
+          1: todo.filepathwin.drive
+          2: todo.filepathwin.rest
+  filepathlinux:
+    # Uses a lookbehind to ensure it starts at a space or start of line
+    # Captures the root/tilde and the rest of the path
+    - match: '(?<=^|\s)(~?\/)([^\s`''"()\[\]{}<>*]+)'
+      scope: todo.filepathlinux
+      captures:
+        1: todo.filepathlinux.drive
+        2: todo.filepathlinux.rest
+  low:
+    - match: (?<=\s)\@low|✭low
+      scope: string.other.tag.todo.low
+  tag:
+    - match: '(?<=\s)\@(?!(high|today|critical|low|completed|done|blocker)[\s\(])[\w\d\.\(\)\-!? :\+]+[ \t]*'
+      scope: meta.tag.todo
+  today:
+    - match: (?<=\s)\@today|✭ᴛᴏᴅᴀʏ
+      scope: string.other.tag.todo.today
+  url:
+    - match: '(?i)\b(https?|ftp|file)://[^\s`''"()\[\]{}<>]+'
+      scope: todo.url
+      captures:
+        0: markup.underline.link
+    - match: '(<)((?:https?|ftp|file)://[^\s>]+)(>)'
+      scope: todo.url
+      captures:
+        1: punctuation.definition.url.begin
+        2: markup.underline.link
+        3: punctuation.definition.url.end

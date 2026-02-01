@@ -1,0 +1,7 @@
+{
+	"patterns": {
+		"TODO": "TODO[\\s]*?:[\\s]*(?P<todo>.*)$",
+		"OPEN": "- \\[ \\] (?P<open>.*)$"
+	},
+	"include_files": ["*.md", "*.txt.md"]
+}
