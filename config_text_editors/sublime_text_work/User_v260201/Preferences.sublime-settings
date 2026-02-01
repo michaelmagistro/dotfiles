@@ -105,5 +105,5 @@
 	"stamp_format":		"%YYYY%m%d%H%M%S",
 	"index_files": true,
 	"enable_tab_scrolling" : false,
-	"color_scheme": "Packages/3024 Color Scheme/3024 Night.tmTheme",
+	"color_scheme": "plaintext_.sublime-color-scheme",
 }

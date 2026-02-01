@@ -289,5 +289,35 @@
       "background": "#805800",
       "font_style": "bold"
     },
+    {
+      "name": "Completed - Text",
+      "scope": "text.todo meta.item.todo.completed comment.line.completed.todo",
+      "foreground": "#8e9999",
+    },
+    {
+      "name": "Completed - Tags and DateTimeTag",
+      "scope": "text.todo meta.item.todo.completed meta.tag.todo.completed",
+      "foreground": "#555555",
+    },
+    {
+      "name": "Completed - Bullet",
+      "scope": "text.todo meta.item.todo.completed punctuation.definition.bullet.completed.todo",
+      "foreground": "#009911",
+    },
+    {
+      "name": "Cancelled - Text",
+      "scope": "text.todo meta.item.todo.cancelled text.cancelled.todo",
+      "foreground": "#838383",
+    },
+    {
+      "name": "Cancelled - Tags and DateTimeTag",
+      "scope": "text.todo meta.item.todo.cancelled meta.tag.todo.cancelled",
+      "foreground": "#555555",
+    },
+    {
+      "name": "Cancelled - Bullet",
+      "scope": "text.todo meta.item.todo.cancelled punctuation.definition.bullet.cancelled.todo",
+      "foreground": "#e90101",
+    },
 	]
 }
