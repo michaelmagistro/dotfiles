@@ -109,7 +109,8 @@
 		{
 			"name": "PlainTasks Header",
 			"scope": "text.todo keyword.control.header.todo",
-			"foreground": "#cece00"
+			"foreground": "#cece00",
+			"font_style": "bold underline",
 		},
 		{
 			"name": "Pending Items",
@@ -178,13 +179,15 @@
 		{
 			"name": "Italic2",
 			"scope": "text.todo notes.todo todo.italic, text.todo notes.todo todo.italic punctuation.definition.italic, text.todo meta.item.todo.pending todo.italic, text.todo meta.item.todo.pending todo.italic punctuation.definition.italic",
-			"foreground": "#00cccc"
+			"foreground": "#00cccc",
+			"font_style": "italic"
 		},
 		{
 			"name": "Bold",
 			"scope": "text.plaintasks bold, text.todo notes.todo todo.bold, punctuation.definition.bold, text.todo meta.item.todo.pending todo.bold",
 			// "foreground": "#3ce658" // really cool green color. but not what we're looking for.
-			"foreground": "#FF7518"
+			"foreground": "#FF7518",
+			"font_style": "bold"
 		},
 		// {
 		// 	"name": "Completed Text",
