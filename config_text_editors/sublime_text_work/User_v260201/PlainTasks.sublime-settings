@@ -28,7 +28,12 @@
 	  "000-TODOLIST",
 	  "PER-TODO",
 	  "Todolist_archive",
-	  "todo.txt"
+	  "todo.txt",
+	  "tasks.txt",
+	  "tsk.txt",
+	  "td.txt",
+	  "do.txt",
+	  ".t.txt"
 	],
 	"indent_guide_options":
     [
