@@ -1,0 +1,160 @@
+
+{
+	"variables": {},
+	"globals": {
+		"background": "#1c1c1c",
+		"foreground": "#e2e8f0",
+		"caret": "#73b3ff",
+		"line_highlight": "#ffffff18",
+		"selection": "#ffffff30"
+	},
+	"gutterSettings": {
+		"foreground": "#FFFF00",
+		"background": "#2d2d2d"
+	},
+	"rules": [
+		// Muted, subtle style based on plaintext3_
+		{
+			"name": "Task Heading",
+			"scope": "text.todo keyword.control.header.todo, text.todo keyword.control.header.plaintasks, text.plaintasks keyword.control.header.plaintasks",
+			"foreground": "#fffaee",
+			"background": "#1a1a1a",
+			// "font_style": "italic"
+		},
+		{
+			"name": "Due",
+			"scope": "text.todo meta.item.todo.pending meta.tag.todo",
+			"background": "#1a1a1a",
+			// "font_style": "italic"
+		},
+		{
+			"name": "Task Link",
+			"scope": "text.todo meta.item.todo.pending todo.url markup.underline.link, text.todo notes.todo todo.url markup.underline.link, text.plaintasks markup.underline.link.plaintasks",
+			"foreground": "#e6fcff",
+			"font_style": "underline"
+		},
+		{
+			"name": "Task Bold",
+			"scope": "text.plaintasks bold, text.todo notes.todo todo.bold, punctuation.definition.bold, text.todo meta.item.todo.pending todo.bold",
+			"foreground": "#fff0e6"
+		},
+		{
+			"name": "Task Italic",
+			"scope": "text.todo notes.todo todo.italic, text.todo notes.todo todo.italic punctuation.definition.italic, text.todo meta.item.todo.pending todo.italic, text.todo meta.item.todo.pending todo.italic punctuation.definition.italic, markup.italic.markdown, punctuation.definition.italic.begin.markdown, markup.italic.markdown punctuation.definition.italic.end.markdown",
+			"foreground": "#e6ffff",
+			"font_style": "italic"
+		},
+		{
+			"name": "Task Completed",
+			"scope": "text.plaintasks comment.line.number-sign.plaintasks, text.plaintasks meta.item.plaintasks.completed, text.todo meta.item.todo.completed comment.line.completed.todo",
+			"foreground": "#707070",
+			"font_style": "strikethrough"
+		},
+		{
+			"name": "Task Pending",
+			"scope": "text.todo meta.item.todo.pending, text.plaintasks meta.item.plaintasks.pending",
+			"foreground": "#e2e8f0"
+		},
+		{
+			"name": "Task Label",
+			"scope": "text.todo notes.todo todo.label, text.todo meta.item.todo.pending todo.label, todo.label, punctuation.definition.label",
+			"foreground": "#fef0ff"
+		},
+		{
+			"name": "Task Step",
+			"scope": "todo.step, punctuation.definition.step",
+			"foreground": "#fdfff4"
+		},
+		{
+			"name": "Task Miniheader",
+			"scope": "text.todo notes.todo todo.miniheader, todo.miniheader, punctuation.definition.miniheader",
+			"foreground": "#fffff4"
+		},
+		{
+			"name": "Task File Path Windows",
+			"scope": "text.todo notes.todo todo.filepathwin, text.todo meta.item.todo.pending todo.filepathwin, todo.filepathwin",
+			"foreground": "#f4fffc"
+		},
+		{
+			"name": "Task File Path Linux",
+			"scope": "text.todo notes.todo todo.filepathlinux, text.todo meta.item.todo.pending todo.filepathlinux, todo.filepathlinux",
+			"foreground": "#fcfff3"
+		},
+		{
+			"name": "Task Information",
+			"scope": "text.todo todo.information, punctuation.definition.information",
+			"foreground": "#f2f8ff"
+		},
+		{
+			"name": "Task Danger",
+			"scope": "text.todo todo.danger, punctuation.definition.danger",
+			"foreground": "#fff2f2"
+		},
+		{
+			"name": "Task Quoted String",
+			"scope": "text.todo todo.quote, punctuation.definition.quote, string.quoted.markdown, punctuation.definition.quoted-string",
+			"foreground": "#fffcf7"
+		},
+		{
+			"name": "Tags",
+			"scope": "text.todo meta.item.todo.pending meta.tag.todo",
+			"foreground": "#8f8f8f"
+		},
+		{
+			"name": "@critical Tag (General)",
+			"scope": "text.todo meta.item.todo.pending string.other.tag.todo.critical",
+			"foreground": "#fff3f3",
+			"background": "#1a1a1a",
+
+		},
+		{
+			"name": "@high Tag (General)",
+			"scope": "text.todo meta.item.todo.pending string.other.tag.todo.high",
+			"foreground": "#fff3f3",
+			"background": "#1a1a1a",
+		},
+		{
+			"name": "@due Tag",
+			"scope": "text.todo meta.item.todo.pending string.other.tag.todo.due",
+			"foreground": "#1a1a1a",
+			"background": "#1a1a1a",
+		},
+		{
+			"name": "Task Bookmarks",
+			"scope": "bookmarks, bookmark",
+			"foreground": "#ffd700",
+			"background": "#ffd700"
+		},
+		{
+			"name": "Task Regex Quantifier",
+			"scope": "source.regexp meta.mode.basic.regexp keyword.operator.quantifier.regexp",
+			"foreground": "#ff0000"
+		},
+		{
+			"name": "Task Regex Set Brackets",
+			"scope": "source.regexp meta.mode.basic.regexp meta.set.regexp punctuation.definition.set.begin.regexp, source.regexp meta.mode.basic.regexp meta.set.regexp punctuation.definition.set.end.regexp",
+			"foreground": "#ffff00"
+		},
+		{
+			"name": "Task Regex Group Brackets",
+			"scope": "source.regexp meta.group.regexp meta.mode.basic.regexp punctuation.section.group.begin.regexp, source.regexp meta.group.regexp meta.mode.basic.regexp punctuation.section.group.end.regexp",
+			"foreground": "#48bb78"
+		},
+		{
+			"name": "Task Regex Logical Operators and Anchors",
+			"scope": "source.regexp meta.mode.basic.regexp meta.set.regexp keyword.operator.logical.regexp, source.regexp meta.mode.basic.regexp keyword.control.anchor.regexp, source.regexp meta.mode.basic.regexp keyword.operator.alternation.regexp",
+			"foreground": "#00eeee"
+		},
+		{
+			"name": "Task Regex Any Character",
+			"scope": "source.regexp meta.mode.basic.regexp keyword.other.any.regexp, source.regexp meta.group.regexp meta.mode.basic.regexp keyword.other.any.regexp",
+			"foreground": "#ff0000"
+		},
+		{
+		"name": "Completed - Text",
+		"scope": "text.todo meta.item.todo.completed comment.line.completed.todo",
+		"foreground": "#e2e8f0",
+		},
+
+	]
+}
