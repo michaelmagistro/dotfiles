@@ -219,7 +219,7 @@ contexts:
     - match: (?<=\s)\@low|✭low
       scope: string.other.tag.todo.low
   tag:
-    - match: '(?<=\s)\@(?!(high|today|critical|low|completed|done|blocker)[\s\(])[\w\d\.\(\)\-!? :\+]+[ \t]*'
+    - match: '(?<=\s)@(?!(high|today|critical|low|completed|done|blocker)[\s\(])[\w\d\.\-!?:\+]+(?:\([^\)]+\))?'
       scope: meta.tag.todo
   today:
     - match: (?<=\s)\@today|✭ᴛᴏᴅᴀʏ
