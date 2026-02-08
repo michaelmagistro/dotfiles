@@ -42,7 +42,7 @@
     ],
     "draw_indent_guides": true,
 
-    "translate_tabs_to_spaces": false,
+    "translate_tabs_to_spaces": true, // this MUST be set to true. otherwise, unwanted behavior will result; it will insert a tab before the task and also a tab after. it's VERY annoying and hard to trace back to this setting. So, just accept that 4 spaces is how plaintasks is meant to operate.
     // Disables the popup menu while typing
     "auto_complete": false,
 
