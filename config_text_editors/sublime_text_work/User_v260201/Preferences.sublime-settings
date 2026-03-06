@@ -54,7 +54,7 @@
 	"close_windows_when_empty": false,
 	"detect_indentation": false,
 	"draw_white_space": "none",
-	"font_size": 13,
+	"font_size": 12,
 	"highlight_line": true,
 	/*"hot_exit": true,*/
 	"ignored_packages":
@@ -105,5 +105,5 @@
 	"stamp_format":		"%YYYY%m%d%H%M%S",
 	"index_files": true,
 	"enable_tab_scrolling" : false,
-	"color_scheme": "plaintext3_.sublime-color-scheme",
+	"color_scheme": "Packages/3024 Color Scheme/3024 Night.tmTheme",
 }

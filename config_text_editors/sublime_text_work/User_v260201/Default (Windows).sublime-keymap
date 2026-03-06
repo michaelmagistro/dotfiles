@@ -529,5 +529,10 @@
 			{ "key": "selector", "operator": "equal", "operand": "text.todo" },
 			{ "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
 		]
+	},
+	{
+	"keys": ["ctrl+k", "ctrl+1"],
+    "command": "fold_all_except_top_level"
 	}
+
 ]
