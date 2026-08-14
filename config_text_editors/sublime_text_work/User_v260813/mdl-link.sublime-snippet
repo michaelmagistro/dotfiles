@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+[${1}](${2:link})
+]]></content>
+    <tabTrigger>mdl</tabTrigger>
+    <scope>text.todo notes.todo</scope>
+    <description>Markdown Link</description>
+</snippet>
