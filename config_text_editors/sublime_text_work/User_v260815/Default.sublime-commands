@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Selection: EXPAND to Delimiter",
+        "command": "expand_selection_to_delimiter"
+    },
+    {
+        "caption": "Selection: EXPAND to Backticks",
+        "command": "expand_selection_to_backticks"
+    }
+]

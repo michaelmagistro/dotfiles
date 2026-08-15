@@ -1,0 +1,155 @@
+[
+	{ "class": "tab_label","font.size": 13},
+	{ "class": "sidebar_label","font.size": 13},
+	{ "class": "sidebar_heading","font.size": 13},
+	{ "class": "status_bar_label","font.size": 13},
+	{ "class": "quick_panel_label","font.size": 13},
+	{ "class": "quick_panel_path_label","font.size": 13},
+	{ "class": "menu_label","font.size": 13},
+	{ "class": "label_control","font.size": 13},
+	{
+		"class": "status_bar",
+		"layer0.tint": "#2d2d2d",
+		"layer1.tint": "#2d2d2d"
+	},
+	{
+		"class": "menu",
+		"layer0.tint": "#2d2d2d"
+	},
+	{
+		"class": "menu_item",
+		"layer0.tint": "#2d2d2d"
+	},
+	{
+		"class": "overlay_control",
+		"layer0.tint": "#2d2d2d"
+	},
+	{
+		"class": "minimap",
+		"layer0.tint": "#2d2d2d"
+	},
+	{
+		"class": "find_replace_panel",
+		"layer0.tint": "#2d2d2d"
+	},
+	{
+		"class": "sheet_container",
+		"layer0.tint": "#2d2d2d"  // Editor frame/sheet bg
+	},
+	// modify the window bar color to indicate "work" theme. title_bar, tabset_control, tab_control and tab_control
+
+	// ***********************************************************************
+	// TITLEBAR
+	// ***********************************************************************
+	{
+	    "class": "title_bar", // work-specific theme modification
+	    "fg": "#99bbff",      // Title bar text old: 82a8f3
+	    "bg": "#222222",
+	    // "font.size": 16
+	    // "bg": "#281E1E",
+	    // "style": "dark"
+	},
+	// ***********************************************************************
+	// Behind the Tabs
+	// ***********************************************************************
+	{
+	    "class": "tabset_control", // work-specific theme modification
+	    "layer0.tint": "#222222",  // Slightly darker than tabs
+	    "layer0.opacity": 1.0
+	},
+	{
+	    "class": "tab_control", // work-specific theme modification
+	    "layer0.tint": "#1E1E1E",  // Tabs background (neutral gray)
+	    "layer0.opacity": 1.0
+	},
+	{
+	    "class": "tab_control", // work-specific theme modification
+	    "attributes": ["selected"],
+	    "layer0.tint": "#123348"  // Active tab background
+	},
+	// ***********************************************************************
+	// TABS
+	// ***********************************************************************
+	// UI Brightening Overrides for Adaptive (add to end of rules array)
+	{
+		"class": "tab_control",
+		"layer0.tint": "#2d2d2d",
+		"layer1.tint": "#2d2d2d",
+		"layer2.tint": "#2d2d2d"
+	},
+	{
+		"class": "tab_control -active",
+		"layer0.tint": "#99bbff"  // Slightly brighter background for active tab
+	},
+
+	// ── Proper text/foreground colors for labels ──
+
+	// Tabs text
+	{
+		"class": "tab_label",
+		"fg": "#eeeeee", // Inactive tab text
+	},
+	{
+		"class": "tab_label",
+		"attributes": ["selected"],
+		"fg": "#99bbff", // Active/selected tab text – green!
+		"font.size": 13
+	},
+	// Stronger override for active tab text (usually fixes stubborn cases)
+	{
+		"class": "tab_label",
+		"parents": [{"class": "tab_control", "attributes": ["selected"]}],
+		"fg": "#99bbff",
+		"font.size": 13
+	},
+
+	// ***********************************************************************
+	// SIDEBAR
+	// ***********************************************************************
+	{
+		"class": "sidebar_container",
+		"layer0.tint": "#2d2d2d",
+		// "layer1.tint": "#2d2d2d",
+	},
+	{
+		"class": "sidebar_tree_row",
+		"layer0.tint": "#2d2d2d",
+		"row_padding": [8, 4]
+	},
+	// ***********************************************************************
+	// SIDEBAR TEXT
+	// ***********************************************************************
+	{
+		"class": "sidebar_label",
+		"fg": "#99bbff",              // Normal file/folder names
+        "font.size": 14
+	},
+	{
+		"class": "sidebar_label",
+		"attributes": ["selected"],
+		"fg": "#FFFFFF"              // Selected item
+	},
+	{
+		"class": "sidebar_heading",
+		"fg": "#8C8C8C"              // Section headers
+	},
+
+	// Status bar text
+	{
+		"class": "status_bar_label",
+		"fg": "#C8C8C8"
+	},
+
+	// Optional: Menu text
+	{
+		"class": "menu_label",
+		"fg": "#DCDCDC"
+	},
+	{
+	    "class": "icon_bookmark",
+	    "layer0.tint": [255, 255, 0],  // or whatever color you want
+	    "layer0.opacity": 1.0,
+	    "content_margin": [8, 8]
+	}
+	
+]

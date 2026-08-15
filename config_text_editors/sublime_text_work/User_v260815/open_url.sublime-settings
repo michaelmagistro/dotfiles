@@ -1,0 +1,24 @@
+{
+  // Make "reveal" the first (default) choice for folders
+  "folder_custom_commands": [
+    { "label": "reveal", "os": "windows", "commands": ["explorer"] },
+    { "label": "new window", "commands": "open_in_new_window" },
+    { "label": "add to project", "commands": "add_to_project" }
+  ],
+
+  // Optional but nice: always auto-reveal folders (no menu at all)
+  "autoactions": [
+    // keep the package’s existing file autoactions if you want them
+    { "os": "windows", "endswith": [".exe", ".com"], "label": "system open", "action": "auto" },
+    { "os": "windows", "endswith": [".bat", ".cmd"], "label": "system open", "action": "menu" },
+    { "endswith": [".sublime-project"], "label": "edit", "action": "auto" },
+    { "endswith": [".txt", ".md", ".log", ".config", ".sublime-settings"], "label": "edit", "action": "auto" },
+
+    // folders → reveal immediately
+    {
+      "pattern": "[\\\\/]$|^(?:[A-Za-z]:)?[\\\\/].*[\\\\/][^\\\\/.]+$",
+      "label": "reveal",
+      "action": "auto"
+    }
+  ]
+}
