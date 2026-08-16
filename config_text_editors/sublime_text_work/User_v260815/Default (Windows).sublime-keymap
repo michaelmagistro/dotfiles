@@ -15,7 +15,6 @@
 	//     },
 	//   ]
 	// },
-	// expand selection v2
 	{ "keys": ["ctrl+shift+h"], "command": "goto_markdown_symbol" },
 	{ "keys": ["ctrl+shift+g"], "command": "goto_markdown_symbol_pure" },
 	{
@@ -23,6 +22,7 @@
 	    "command": "goto_symbol_switch_to_filename",
 	    "context": [{ "key": "overlay_visible", "operator": "equal", "operand": true }]
 	},
+	// expand selection v2
 	{
 	  "keys": ["ctrl+shift+space"],
 	  "command": "expand_selection_to_backticks",
